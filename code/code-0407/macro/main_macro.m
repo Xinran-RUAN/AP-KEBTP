@@ -24,7 +24,7 @@ n = 1e3*ones(size(x));
 
 %% Time Evolution 
 dt = 1e-2; 
-T = 0; Tn = 10;
+T = 0; Tn = 50;
 NT = Tn / dt;
 T_plot = 1:Tn;
 x_mass = zeros(size(T_plot));

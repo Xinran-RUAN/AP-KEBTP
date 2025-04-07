@@ -151,8 +151,8 @@ G_CurrentStep = tG + a * ( ...
 
 
 %% 测试
-% figure(1); plot(rho);
-figure(2); plot(integration_v_meshgrid(G_CurrentStep, dv));
+Pi_G = integration_v_meshgrid(G_CurrentStep, dv);
+figure(1); plot(Pi_G);
 
 %% update c
 % zeta * \p_t c = Dc * \Delta c + beta * rho - alpha * c

@@ -6,8 +6,7 @@
 clc; clear;
 mypara.chi_c = 1/2; 
 mypara.chi_n = 1.1; 
-mypara.eps = 1e-5; 
-% mypara.eps = 0; 
+mypara.eps = 1e-2; 
 %% functions
 % Please check int_v psi(v) dv = 1 and D = 1 
 % !! Unlike the macro model: D is determined here
@@ -45,8 +44,7 @@ G = zeros(Nv, Nx + 1); % 1/2, ..., N+1/2
 %% Time Evolution 
 dt = 1e-2; 
 T = 0; 
-% Tn = 50; % ending time
-Tn = 10 * dt;
+Tn = 1;
 NT = Tn / dt;
 T_plot = 1:Tn;
 
