@@ -131,6 +131,11 @@ rhs = rho' / dt - int_vdGdx_dv' ...
 % update rho
 Rho_CurrentStep = (MAT_Rho \ rhs)'; % 1, ..., N
 
+if min(rhs)<0
+    pause;
+    % figure(2); plot(integration_v_meshgrid(G_CurrentStep, dv));
+end
+
 %% update G
 Rho_ex = [Rho_CurrentStep(1), Rho_CurrentStep, Rho_CurrentStep(end)];  % 0,1, 2, ..., N, N+1
 dRho_dx = diff(Rho_ex) / dx;         % 1/2, ..., N+1/2
@@ -151,9 +156,10 @@ G_CurrentStep = tG + a * ( ...
 
 
 %% 测试
-Pi_G = integration_v_meshgrid(G_CurrentStep, dv);
-figure(1); plot(Pi_G);
-
+if max(Rho_CurrentStep)>1.2
+    figure(1); plot(Rho_CurrentStep);
+    % figure(2); plot(integration_v_meshgrid(G_CurrentStep, dv));
+end
 %% update c
 % zeta * \p_t c = Dc * \Delta c + beta * rho - alpha * c
 % zeta is small since the chemoattractant diffuses faster...

@@ -131,6 +131,11 @@ rhs = rho' / dt - int_vdGdx_dv' ...
 % update rho
 Rho_CurrentStep = (MAT_Rho \ rhs)'; % 1, ..., N
 
+if min(rhs)<-0.1
+    pause(0.1);
+    % figure(2); plot(integration_v_meshgrid(G_CurrentStep, dv));
+end
+
 %% update G
 Rho_ex = [Rho_CurrentStep(1), Rho_CurrentStep, Rho_CurrentStep(end)];  % 0,1, 2, ..., N, N+1
 dRho_dx = diff(Rho_ex) / dx;         % 1/2, ..., N+1/2
@@ -151,8 +156,17 @@ G_CurrentStep = tG + a * ( ...
 
 
 %% 测试
-% figure(1); plot(rho);
-figure(2); plot(integration_v_meshgrid(G_CurrentStep, dv));
+if max(Rho_CurrentStep)>1.2
+    figure(1); plot(Rho_CurrentStep);
+    % figure(2); plot(integration_v_meshgrid(G_CurrentStep, dv));
+end
+
+%% 后处理
+F = max(Psi * Rho_CurrentStep + eps * 0.5 * (G_CurrentStep(:,1:end-1) + G_CurrentStep(:,2:end)), 0);
+Rho_CurrentStep = integration_v_meshgrid(F, dv);
+G_CurrentStep_h = (F - Psi * Rho_CurrentStep) / eps;
+G_CurrentStep_h_ex = [G_CurrentStep_h(:,1), G_CurrentStep_h, G_CurrentStep_h(:,end)];
+G_CurrentStep = 0.5 * (G_CurrentStep_h_ex(:,1:end-1) + G_CurrentStep_h_ex(:,2:end));
 
 %% update c
 % zeta * \p_t c = Dc * \Delta c + beta * rho - alpha * c

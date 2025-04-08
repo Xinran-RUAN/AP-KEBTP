@@ -42,9 +42,9 @@ c = zeros(1, Nx);
 n = 1e3*ones(1, Nx); 
 G = zeros(Nv, Nx + 1); % 1/2, ..., N+1/2 
 %% Time Evolution 
-dt = 1e-2; 
+dt = 1e-3; 
 T = 0; 
-Tn = 1;
+Tn = 50;
 NT = Tn / dt;
 T_plot = 1:Tn;
 
