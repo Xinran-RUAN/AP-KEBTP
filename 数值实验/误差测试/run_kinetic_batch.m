@@ -41,10 +41,13 @@ for i = 1:length(eps_list)
     G = zeros(Nv, Nx + 1); 
 
     % 时间推进设置
-    dt = 1e-3; 
+    dt = 1e-2; 
     T = 0; 
     Tn = 50;
     NT = Tn / dt;
+
+    % 初始化质心位置数组
+    centroid_positions = zeros(1, NT); 
 
     % 保存这些时间点的解
     T_target = T_list; 
@@ -61,16 +64,31 @@ for i = 1:length(eps_list)
         G = G_temp;
         T = T + dt;
 
+        % 计算质心位置
+        numerator = sum(domain.x .* rho) * domain.dx;  % x * rho(x) 的积分
+        denominator = sum(rho) * domain.dx;  % rho(x) 的积分
+        centroid_position = numerator / denominator;  % 计算质心位置
+        centroid_positions(kT) = centroid_position;
+
         % 保存目标时间点
         if save_index <= length(T_target) && abs(T - T_target(save_index)) < dt / 2
             rho_save(save_index, :) = rho;
             save_index = save_index + 1;
         end
     end
+    % 计算travelling speed并输出为csv文件
+    travel_speed = (centroid_positions(2:end) - centroid_positions(1:end-1)) / dt;
+    T_values = (2:NT) * dt; % 时间点
+    speed_with_time = [T_values; travel_speed]'; % 将时间与速度结合
+    % 保存为带时间戳的 CSV 文件
+    writematrix(speed_with_time, sprintf('travel_speed_with_time_eps_%.0e_T_%.0f.csv', eps_val, Tn));
+
+    % 保存最终时刻的所有数据
+    save(sprintf('rho_eps_%.0e_T_%.0f_all.mat', eps_val, Tn), '-v7.3');
 
     % 保存数据
     for j = 1:length(T_target)
         rho = rho_save(j, :); % 需要先赋值再保存
-        save(sprintf('rho_eps_%.0e_T_%.0f.mat', eps_val, T_target(j)), '-v7.3');
+        save(sprintf('rho_eps_%.0e_T_%.0f.mat', eps_val, T_target(j)), 'rho', 'domain', '-v7.3');
     end
 end
