@@ -1,16 +1,13 @@
 %%
 clc; clear;
 mypara.chi_c = 1/2; 
-mypara.chi_n = 1.1; 
-% mypara.chi_c = 1; 
-% mypara.chi_n = 1; 
+mypara.chi_n = 1.1; % chi_c=chi_n时不会形成偏移
 
 %% Initialization
 % Define x: [0,100]
-% domain.dx = 5e-3;
 domain.dx = 1e-1;
 domain.x_min = 0 + domain.dx / 2;
-domain.x_max = 5e2 - domain.dx / 2; 
+domain.x_max = 1e2 - domain.dx / 2; 
 domain.Nx = round((domain.x_max - domain.x_min )/ domain.dx) + 1; 
 domain.x = linspace(domain.x_min, domain.x_max, domain.Nx);
 
@@ -19,7 +16,6 @@ domain.x = linspace(domain.x_min, domain.x_max, domain.Nx);
 x = domain.x; 
 rho = exp(-abs(x));  % 初值聚集在左侧
 c = zeros(size(x));      % IN PAPER OF HAL, PAGE 11
-% n = 10000*ones(size(x));
 n = 1e3*ones(size(x));
 
 %% Time Evolution 
