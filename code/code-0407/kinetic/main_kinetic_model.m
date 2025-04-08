@@ -36,7 +36,6 @@ x = domain.x; % x(j) = (j - 1/2) * dx
 v = domain.v;
 Nx = length(x); 
 Nv = length(v);
-% rho = 3 * exp(-(x+0.5));  % To make rho(1) = 3*exp(-1) to match the initial condition in 'travelling_wave_Gissell.m'
 rho = exp(-abs(x));
 c = zeros(1, Nx);     
 n = 1e3*ones(1, Nx); 
@@ -62,6 +61,6 @@ for kT = 1:NT
     % save data and plot data   
     if min(abs(T - T_plot)) < dt / 2  
         PLOT_DATA;
-        % SAVE_DATA;
+        SAVE_DATA;
     end
 end
