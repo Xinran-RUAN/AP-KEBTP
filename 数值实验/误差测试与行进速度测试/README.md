@@ -1,3 +1,5 @@
+# 行进速度测试
+
 展示不同$\varepsilon$与在不同时刻$T$下，PDE与kinetic方程解的行进速度比较：
 
 |   | $T=1$ |$T=10$|$T=20$|$T=30$|$T=40$|$T=50$|
@@ -8,9 +10,10 @@
 | Kinetic $\varepsilon=10^{-2}$ | 0.747591452 |0.616041174  |  0.729054516|  0.734959884|0.72684429|0.724830459
 | Kinetic $\varepsilon=10^{-3}$ | 0.816131653 | 0.60631475 | 0.727427547 |  0.733612479|0.725641466|0.723017182
 
-该测试中的程序与误差测试中的程序完全相同
+### 数据获得方式
+该测试需运行“run\_macro\_batch.m”和"run\_kinetic\_batch.m"，会自动生成对应数据“travel\_speed\_with\_time\_macro\_T\_50.csv”与“travel\_speed\_with\_time\_eps\_1e-01\_T\_50.csv”等。
 
-以下是相关代码设置：
+以下是计算与记录行进速度的相关代码设置：
 ##Marker方法
 
 ```
@@ -67,3 +70,17 @@ writematrix(speed_with_time, sprintf('travel_speed_with_time_macro_T_%.0f.csv', 
 % 保存为带时间戳的 CSV 文件
 writematrix(speed_with_time, sprintf('travel_speed_with_time_eps_%.0e_T_%.0f.csv', eps_val, Tn));
 ```
+
+# 误差测试
+展示不同$\varepsilon$与在不同时刻$T$下，PDE与kinetic方程解之间的差别$\|\rho-\rho_\varepsilon\|$：
+
+|   | $\varepsilon= 1$ | $\varepsilon=10^{-1}$ | $\varepsilon=0.05$ |$\varepsilon=10^{-2}$|$\varepsilon=10^{-3}$|
+|-------|-------|-------|-------|-------|-------|
+| T = 1 |  0.457387598| 0.195572754	|0.063367709|0.005665137	| 0.004720726 
+| T = 5 |  1.170938306	|0.166912175	|0.048322629|0.004832707	|0.002355114
+| T = 10 |  1.802961097	 | 0.143816224	|0.040773215|0.003372185	|0.00141042
+| T = 20 | 2.858996388	|0.143795041	|0.040367427	|0.00313379|	0.000241319
+| T = 50 |  6.209264324	 |0.139749525 |0.038962193|	0.003058151	|0.000246702
+
+### 数据获得方式
+在运行“run\_macro\_batch.m”和"run\_kinetic\_batch.m"完成后，运行“run\_compute\_error.m”生成“error\_table.csv”
