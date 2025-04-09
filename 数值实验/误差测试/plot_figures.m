@@ -1,7 +1,7 @@
 % 设置文件信息
 Ts = [1, 10, 20, 50];
 % epsilons = [1, 1e-1, 1e-2, 1e-3];
-epsilons = [1e-1, 1e-2, 1e-3];
+epsilons = [1e-1, 5e-2, 1e-2];
 N_eps = length(epsilons);
 colors = lines(N_eps+1); % 自动分配颜色
 

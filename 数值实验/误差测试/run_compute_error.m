@@ -1,5 +1,5 @@
-epsilons = [1, 1e-1, 5e-2, 1e-2, 1e-3];
-T_list = [1, 5, 10, 50];
+eps_list = [1, 1e-1, 5e-2, 1e-2, 1e-3];
+T_list = [1, 5, 10, 20, 50];
 %% 记录误差
 error_table = zeros(length(T_list), length(eps_list));
 
