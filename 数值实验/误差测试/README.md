@@ -7,5 +7,5 @@
 | T = 10 |  |  |  |
 | T = 50 |  |  |  |
 
-先运行“run\_macro\_batch.m”和"run\_kinetic\_batch.m"，再运行“compute\_error.m”
+先运行“run\_macro\_batch.m”和"run\_kinetic\_batch.m"，再运行“run\_compute\_error.m”
 

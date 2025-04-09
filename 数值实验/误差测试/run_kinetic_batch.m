@@ -41,7 +41,7 @@ for i = 1:length(eps_list)
     G = zeros(Nv, Nx + 1); 
 
     % 时间推进设置
-    dt = 1e-2; 
+    dt = 1e-3; 
     T = 0; 
     Tn = 50;
     NT = Tn / dt;
@@ -72,6 +72,7 @@ for i = 1:length(eps_list)
 
         % 保存目标时间点
         if save_index <= length(T_target) && abs(T - T_target(save_index)) < dt / 2
+            fprintf('Complete: eps = %.0e, T = %.0f\n', eps_val, T_target(save_index));
             rho_save(save_index, :) = rho;
             save_index = save_index + 1;
         end
