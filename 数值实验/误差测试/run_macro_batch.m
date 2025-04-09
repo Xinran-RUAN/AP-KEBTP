@@ -24,7 +24,7 @@ NT = Tn / dt;
 centroid_positions = zeros(1, NT); 
 
 % 目标保存时间
-T_target = [1, 5, 10, 50];
+T_target = [1, 5, 10:10:50];
 save_index = 1;
 rho_save = zeros(length(T_target), domain.Nx);
 

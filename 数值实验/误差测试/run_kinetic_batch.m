@@ -1,7 +1,8 @@
 clc; clear;
 
-eps_list = [1, 1e-1, 1e-2, 1e-3];
-T_list = [1, 5, 10, 50];
+% eps_list = [1, 1e-1, 1e-2, 1e-3];
+eps_list = 5e-2;
+T_list = [1, 5, 10:10:50];
 
 for i = 1:length(eps_list)
     eps_val = eps_list(i);
