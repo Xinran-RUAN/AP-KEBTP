@@ -8,14 +8,7 @@ colors = lines(N_eps+1); % 自动分配颜色
 for i = 1:length(Ts)
     T = Ts(i);
     figure; hold on;
-    % 加载宏观模型数据
-    filename = sprintf('rho_macro_T_%d.mat', T);
-    data = load(filename);
-    rho = data.rho;
-    x = data.domain.x;
-    % 绘图
-    plot(x, rho, '-', 'DisplayName', 'macro', ...
-             'LineWidth', 2, 'Color', colors(N_eps+1, :));
+
     for j = 1:length(epsilons)
         eps = epsilons(j);
         % 构造文件名，例如 rho_eps_1e-03_T_1.mat
@@ -33,6 +26,15 @@ for i = 1:length(Ts)
         plot(x, rho, 'DisplayName', ['\epsilon = ', eps_str], ...
              'LineWidth', 2, 'Color', colors(j, :));
     end
+
+    % 加载宏观模型数据
+    filename = sprintf('rho_macro_T_%d.mat', T);
+    data = load(filename);
+    rho = data.rho;
+    x = data.domain.x;
+    % 绘图
+    plot(x, rho, '--', 'DisplayName', 'macro', ...
+             'LineWidth', 2, 'Color', colors(N_eps+1, :));
     
     % 图像设置
     title(['T = ', num2str(T)]);
