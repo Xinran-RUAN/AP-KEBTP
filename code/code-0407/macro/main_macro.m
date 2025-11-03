@@ -1,13 +1,13 @@
 %%
-clc; clear;
-mypara.chi_c = 1/2; 
-mypara.chi_n = 1.1; % chi_c=chi_n时不会形成偏移
+% clc; clear;
+% mypara.chi_c = 0; 
+% mypara.chi_n = 1.4; % chi_c=chi_n时不会形成偏移
 
 %% Initialization
 % Define x: [0,100]
 domain.dx = 1e-1;
 domain.x_min = 0 + domain.dx / 2;
-domain.x_max = 1e2 - domain.dx / 2; 
+domain.x_max = 3e2 - domain.dx / 2; 
 domain.Nx = round((domain.x_max - domain.x_min )/ domain.dx) + 1; 
 domain.x = linspace(domain.x_min, domain.x_max, domain.Nx);
 
@@ -20,7 +20,7 @@ n = 1e3*ones(size(x));
 
 %% Time Evolution 
 dt = 1e-2; 
-T = 0; Tn = 50;
+T = 0; Tn = 100;
 NT = Tn / dt;
 T_plot = 1:Tn;
 x_mass = zeros(size(T_plot));
@@ -39,7 +39,8 @@ for kT = 1:NT
     
     % save data and plot data   
     if min(abs(T - T_plot)) < dt / 2  
-        PLOT_DATA;
+        % PLOT_DATA;
+     
 
         % 计算质心位置
         x_mass(mass_index) = sum(x .* rho) / sum(rho);
@@ -47,18 +48,19 @@ for kT = 1:NT
     end
 end
 
-%% 
+%% 计算数值速度
 dt_step = 1; % 两次计算的时间间隔为1
 travelling_speed = diff(x_mass);
 speed_numer_case = mean(travelling_speed(end-9:end));
-% 计算speed_anal_case
-% 确保 Ds = 2; alpha = 0.05;
-Ds = 2; alpha = 0.05;
-chi_N = mypara.chi_n;
-chi_S = mypara.chi_c;
-my_equation = @(x) chi_N - x - chi_S * x / sqrt(4 * Ds * alpha + x^2); 
-x0 = 1; % 初始猜测值
-speed_anal_case = fzero(my_equation, x0);
-% 保存数据
-file_name = strcat('data_chiN_', num2str(chi_N), '_chiS_', num2str(chi_S),'.mat');
+fprintf("chi_S = %.2f, chi_N = %.2f, speed = %.2f \n", mypara.chi_c, mypara.chi_n,speed_numer_case);
+%% 计算speed_anal_case
+% % 确保 Ds = 2; alpha = 0.05;
+% Ds = 2; alpha = 0.05;
+% chi_N = mypara.chi_n;
+% chi_S = mypara.chi_c;
+% my_equation = @(x) chi_N - x - chi_S * x / sqrt(4 * Ds * alpha + x^2); 
+% x0 = 1; % 初始猜测值
+% speed_anal_case = fzero(my_equation, x0);
+%% 保存数据
+file_name = strcat('data_chiN_', num2str(mypara.chi_n), '_chiS_', num2str(mypara.chi_c),'.mat');
 save(file_name);

@@ -3,9 +3,9 @@
 %   Psi_1 = chi_C * Phi * sign(dx_C) + chi_N * Phi * sign(dx_N)
 
 %%
-clc; clear;
-mypara.chi_c = 1/2; 
-mypara.chi_n = 1.1; 
+% clc; clear;
+% mypara.chi_c = 1/2; 
+% mypara.chi_n = 1.1; 
 mypara.eps = 1e-2; 
 %% functions
 % Please check int_v psi(v) dv = 1 and D = 1 
