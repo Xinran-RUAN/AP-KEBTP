@@ -1,7 +1,7 @@
 %%
 % clc; clear;
-% mypara.chi_c = 0; 
-% mypara.chi_n = 1.4; % chi_c=chi_n时不会形成偏移
+% mypara.chi_c = 0.5; 
+% mypara.chi_n = 1.1; % chi_c=chi_n时不会形成偏移
 
 %% Initialization
 % Define x: [0,100]
@@ -62,5 +62,11 @@ fprintf("chi_S = %.2f, chi_N = %.2f, speed = %.2f \n", mypara.chi_c, mypara.chi_
 % x0 = 1; % 初始猜测值
 % speed_anal_case = fzero(my_equation, x0);
 %% 保存数据
+dir_name = 'data_macro';
+if ~exist(dir_name,'dir')
+    mkdir(dir_name);
+end
+cd(dir_name);
 file_name = strcat('data_chiN_', num2str(mypara.chi_n), '_chiS_', num2str(mypara.chi_c),'.mat');
 save(file_name);
+cd ..;

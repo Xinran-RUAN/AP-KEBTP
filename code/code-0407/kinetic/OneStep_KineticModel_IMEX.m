@@ -136,6 +136,8 @@ if min(rhs)<-0.1
     % figure(2); plot(integration_v_meshgrid(G_CurrentStep, dv));
 end
 
+total_mass = sum(Rho_CurrentStep) * dx;
+
 %% update G
 Rho_ex = [Rho_CurrentStep(1), Rho_CurrentStep, Rho_CurrentStep(end)];  % 0,1, 2, ..., N, N+1
 dRho_dx = diff(Rho_ex) / dx;         % 1/2, ..., N+1/2
@@ -156,14 +158,16 @@ G_CurrentStep = tG + a * ( ...
 
 
 %% 测试
-if max(Rho_CurrentStep)>1.2
-    figure(1); plot(Rho_CurrentStep);
-    % figure(2); plot(integration_v_meshgrid(G_CurrentStep, dv));
-end
+% if max(Rho_CurrentStep)>1.2
+%     figure(1); plot(Rho_CurrentStep);
+%     % figure(2); plot(integration_v_meshgrid(G_CurrentStep, dv));
+% end
 
 %% 后处理
+% 确保 f = rho * psi_0 + eps * G >=0
 F = max(Psi * Rho_CurrentStep + eps * 0.5 * (G_CurrentStep(:,1:end-1) + G_CurrentStep(:,2:end)), 0);
 Rho_CurrentStep = integration_v_meshgrid(F, dv);
+Rho_CurrentStep = Rho_CurrentStep / (sum(Rho_CurrentStep) * dx) * total_mass; % 人为保证质量守恒
 G_CurrentStep_h = (F - Psi * Rho_CurrentStep) / eps;
 G_CurrentStep_h_ex = [G_CurrentStep_h(:,1), G_CurrentStep_h, G_CurrentStep_h(:,end)];
 G_CurrentStep = 0.5 * (G_CurrentStep_h_ex(:,1:end-1) + G_CurrentStep_h_ex(:,2:end));

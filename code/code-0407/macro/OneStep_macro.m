@@ -15,7 +15,8 @@ x = domain.x;
 chi_c = mypara.chi_c; 
 chi_n = mypara.chi_n;
 %% update rho - implicit
-D_rho = 1;
+D_rho = 2/3;
+% D_rho = 1;
 Matrix_div_urho;    % get Mc, Mn
 % construct matrix MD
 a0 =  2 * ones(size(x)); 
