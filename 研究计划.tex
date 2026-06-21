@@ -1,0 +1,289 @@
+\section*{数值实验运行说明}
+
+本文档用于记录 AP bacteria travelling wave 项目的数值实验运行流程，以及论文第 6 章后续需要修改的内容。
+
+\subsection*{1. 代码结构}
+
+MATLAB 代码目录结构如下：
+\[
+\begin{array}{ll}
+\texttt{+model} & \text{模型参数与相关函数},\\
+\texttt{+src} & \text{主求解器，包括 macro 模型和 kinetic micro-macro AP 格式},\\
+\texttt{+utils} & \text{工具函数，包括差分算子、速度积分、诊断函数等},\\
+\texttt{+runs} & \text{数值实验入口脚本},\\
+\texttt{+post} & \text{后处理与画图},\\
+\texttt{data} & \text{保存数值结果},\\
+\texttt{startup\_AP\_bacteria.m} & \text{初始化路径脚本}.
+\end{array}
+\]
+
+\subsection*{2. 初始化}
+
+进入代码目录后，在 MATLAB 中运行
+\[
+\texttt{startup\_AP\_bacteria}
+\]
+若没有报错，则说明路径设置成功。
+
+\subsection*{3. 单算例测试}
+
+首先运行
+\[
+\texttt{runs.run\_single\_case}
+\]
+该算例用于检查修改后的格式是否可以正常运行。需要观察以下几点：
+\[
+\begin{array}{l}
+\text{程序是否报错},\\
+\rho,S,N \text{ 是否保持有界},\\
+\rho \text{ 是否出现明显负值},\\
+\text{密度是否形成向右传播的 pulse},\\
+\text{质量是否基本守恒}.
+\end{array}
+\]
+如果该算例不稳定，则暂时不要继续后续实验。
+
+\subsection*{4. AP 收敛测试}
+
+运行
+\[
+\texttt{runs.run\_AP\_profiles}.
+\]
+建议测试
+\[
+\varepsilon=10^{-1},\quad 5\times 10^{-2},\quad 10^{-2},
+\]
+若计算稳定，可以进一步加入
+\[
+\varepsilon=10^{-3}.
+\]
+该实验用于验证当 \(\varepsilon\to0\) 时，kinetic 解 \(\rho^\varepsilon\) 收敛到 macroscopic 解 \(\rho\)。
+
+建议保存以下结果：
+\[
+\begin{array}{l}
+\text{不同时间的 density profiles},\\
+\text{不同 } \varepsilon \text{ 下 } \rho^\varepsilon \text{ 与 } \rho \text{ 的对比图},\\
+\|\rho^\varepsilon-\rho\|_2 \text{ 随时间或 } \varepsilon \text{ 的变化}.
+\end{array}
+\]
+这是本文最重要的数值实验。
+
+\subsection*{5. 传播速度测试}
+
+运行
+\[
+\texttt{runs.run\_speed\_test}.
+\]
+该实验用于估计 travelling wave 的传播速度。可使用质心位置
+\[
+x_{\rm mass}(t)
+\]
+或峰值位置
+\[
+x_{\rm peak}(t)
+\]
+进行差分估计。若 travelling wave 已形成，则后期 \(x_{\rm mass}(t)\) 或 \(x_{\rm peak}(t)\) 应近似线性增长。
+
+\subsection*{6. 参数扫描}
+
+若前面实验稳定，可以进一步扫描
+\[
+\chi_S\in[0,2],\qquad \chi_N\in[0,2].
+\]
+比较以下三类速度：
+\[
+\begin{array}{l}
+\text{理论 travelling speed},\\
+\text{macroscopic numerical speed},\\
+\text{kinetic numerical speed}.
+\end{array}
+\]
+预期结果是：当 \(\chi_N>\chi_S\) 时出现 travelling wave；当 \(\chi_S>\chi_N\) 时不出现明显传播波，或速度趋近于零。
+
+\subsection*{7. Calvez 双波速实验}
+
+Calvez 等人的双波速实验暂时不作为本文主线实验。该实验需要特殊离散速度集、精心构造的 travelling-wave 初值以及较细网格，工作量较大。当前文章的重点是 AP micro-macro 格式，因此建议只在正文中将双波速现象作为相关背景或 future work 简要提及。
+
+\subsection*{8. 论文中建议保留的图}
+
+最终论文建议保留以下几类图：
+
+\[
+\begin{array}{ll}
+\text{Figure 1} & \text{macroscopic travelling wave 在不同时间的 profiles},\\
+\text{Figure 2} & \text{理论速度、macro 数值速度和 kinetic 数值速度的对比},\\
+\text{Figure 3} & \text{不同 } \varepsilon \text{ 下 kinetic 解与 macro 解的 profile 对比},\\
+\text{Figure 4} & \text{AP 误差和 travelling speed 随时间的变化}.
+\end{array}
+\]
+
+\section*{第 6 章后续需要修改的内容}
+
+\subsection*{1. 修改 turning kernel 的描述}
+
+当前第 6 章仍然保留旧的写法，即直接令
+\[
+\psi_1=\phi_1+\phi_2.
+\]
+这与修改后的 micro-macro 格式不一致。应改为 centered response：
+\[
+\psi_S
+=
+\chi_S\left[
+\phi(D_t^v S)
+-
+\frac{1}{|V|}\int_V \phi(D_t^w S)\,dw
+\right],
+\]
+\[
+\psi_N
+=
+\chi_N\left[
+\phi(D_t^v N)
+-
+\frac{1}{|V|}\int_V \phi(D_t^w N)\,dw
+\right],
+\]
+并定义
+\[
+\psi=\psi_S+\psi_N.
+\]
+这样有
+\[
+\int_V \psi\,dv=0,
+\]
+从而
+\[
+T_\varepsilon=1+\varepsilon\psi
+\]
+满足正确的归一化条件。
+
+\subsection*{2. 统一 \(f\) 的分解}
+
+第 6 章中若写
+\[
+f=\rho\psi_0+\varepsilon g,
+\]
+则必须明确
+\[
+\psi_0=\frac{1}{|V|}.
+\]
+为了和第 4、5 章保持一致，建议统一写为
+\[
+f=\frac{\rho}{|V|}+\varepsilon g.
+\]
+
+\subsection*{3. 统一 material derivative 的离散描述}
+
+需要明确
+\[
+D_t^v S=\partial_t S+v\partial_xS,
+\qquad
+D_t^v N=\partial_t N+v\partial_xN.
+\]
+在数值格式中，\(\partial_t S\) 和 \(\partial_t N\) 由其 PDE 在第 \(n\) 层显式近似：
+\[
+\partial_t S
+\approx
+\widetilde D_S\partial_{xx}S^n-\widetilde\alpha S^n+\widetilde\beta\rho^n,
+\]
+\[
+\partial_t N
+\approx
+\widetilde D_N\partial_{xx}N^n-\widetilde\gamma\rho^nN^n.
+\]
+
+\subsection*{4. 删除旧的 sign-upwind 表述}
+
+当前第 6 章和附录中仍有类似
+\[
+\sign\left(\frac{S_{j+1}-S_j}{\Delta x}\right)
+\]
+以及 \(a_j[S]\)、\(a_j[N]\) 的旧写法。修改后应使用两个有效速度：
+\[
+u_{S,j}^n
+=
+-\frac{\langle v_k\psi_{S,j,k}^n\rangle_h}{|V|_h},
+\qquad
+u_{N,j}^n
+=
+-\frac{\langle v_k\psi_{N,j,k}^n\rangle_h}{|V|_h}.
+\]
+上风值分别按照 \(u_S\) 和 \(u_N\) 的符号选取。
+
+\subsection*{5. 重写数值实验设置}
+
+第 6 章需要明确列出：
+\[
+\begin{array}{l}
+\text{计算区域},\\
+\Delta x,\ \Delta t,\\
+\text{速度网格},\\
+\varepsilon \text{ 的取值},\\
+\text{初值},\\
+\text{边界条件},\\
+D_\rho,\ D_S,\ D_N,\ \alpha,\ \beta,\ \gamma,\ \chi_S,\ \chi_N,\\
+\text{是否使用 positivity limiter}.
+\end{array}
+\]
+
+\subsection*{6. 删除内部批注}
+
+所有内部批注都需要删除，例如
+\[
+\texttt{GER:},\qquad
+\texttt{PLS MAKE THE TITLE...},\qquad
+\texttt{not sure if this is necessary},\qquad
+\texttt{??}.
+\]
+
+\subsection*{7. 重写图注}
+
+每个图注需要清楚说明：
+\[
+\begin{array}{l}
+\text{求解的是 macro 模型还是 kinetic 模型},\\
+\varepsilon \text{ 的取值},\\
+\text{主要参数},\\
+\text{每条曲线或每个子图的含义}.
+\end{array}
+\]
+
+\subsection*{8. 修改或删除 Appendix A}
+
+当前 Appendix A 描述的是旧的 PDE upwind 格式，与现在第 4、5 章不一致。建议删除 Appendix A，或者改写为当前极限格式：
+\[
+\partial_t\rho
+=
+D_\rho\partial_{xx}\rho
+-
+\partial_x(\rho u_S+\rho u_N).
+\]
+
+\subsection*{9. 修改 Appendix C}
+
+positivity post-processing 部分需要统一使用
+\[
+f=\frac{\rho}{|V|}+\varepsilon g.
+\]
+同时修正所有未定义引用，例如
+\[
+\texttt{scheme (??)}.
+\]
+
+\section*{推荐工作顺序}
+
+建议按以下顺序推进：
+\[
+\begin{array}{ll}
+\text{Step 1} & \text{运行单算例 } \texttt{runs.run\_single\_case},\\
+\text{Step 2} & \text{运行 AP profile 测试 } \texttt{runs.run\_AP\_profiles},\\
+\text{Step 3} & \text{运行速度测试 } \texttt{runs.run\_speed\_test},\\
+\text{Step 4} & \text{更新 Figure 3 和 Figure 4},\\
+\text{Step 5} & \text{按照上述内容重写第 6 章},\\
+\text{Step 6} & \text{若时间允许，再做 } (\chi_S,\chi_N) \text{ 参数扫描}.
+\end{array}
+\]
+
+总体目标是先跑通 AP 收敛和 travelling wave 实验，再统一第 6 章与第 4、5 章的模型和格式。

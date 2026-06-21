@@ -1,0 +1,359 @@
+\documentclass[11pt]{ctexart}
+
+\usepackage{amsmath,amssymb}
+\usepackage{enumitem}
+\usepackage[a4paper,margin=2.6cm]{geometry}
+
+\title{AP 细菌行波模型论文阶段性工作总结}
+\author{Xinran Ruan}
+\date{2026年5月}
+
+\begin{document}
+
+\maketitle
+
+\section*{一、本周工作的总体目标}
+
+本周主要围绕细菌趋化 kinetic model 的 AP 数值格式论文展开。工作的核心目标不是继续扩展模型本身，而是梳理已有推导、完善数值实验、检查文章主线是否清晰，并判断是否需要将 Calvez--Gosse--Twarogowska 文献中的 kinetic 双波速现象纳入本文。
+
+经过这一周的整理，目前可以认为本文的主要方向已经基本明确。文章应当聚焦于 micro-macro AP 格式及其在扩散极限下对 travelling pulse 的捕捉能力，而不宜将 kinetic 层面的 bistability 或 double-speed phenomenon 作为正文主要数值目标。
+
+\section*{二、已经完成或基本完成的工作}
+
+\subsection*{1. 明确了本文的主线}
+
+目前文章的合理主线应为
+\[
+\text{kinetic model}
+\quad\Longrightarrow\quad
+\text{diffusive scaling}
+\quad\Longrightarrow\quad
+\text{micro-macro decomposition}
+\quad\Longrightarrow\quad
+\text{AP finite difference scheme}
+\quad\Longrightarrow\quad
+\text{numerical verification}.
+\]
+
+其中 travelling pulse 主要作为检验 AP 格式的 benchmark，而不是作为独立的 kinetic travelling-wave 分支问题来研究。
+
+这一区分很重要。若文章正文重点讨论 Calvez 类型的 kinetic travelling waves 和非唯一波速，则后续必须给出相应的 well-balanced travelling-wave 初值构造和双波速数值复现。当前文章的格式设计和数值实验并不是为了完成这一目标。
+
+\subsection*{2. 整理了 micro-macro AP 格式的模型基础}
+
+当前使用的是一阶近似后的 turning kernel
+\[
+T_\varepsilon(t,x,v)
+=
+1+\varepsilon \psi_1(t,x,v),
+\qquad
+\langle \psi_1\rangle=0.
+\]
+为保证归一化条件，需要对原始响应函数进行中心化处理。也就是说，若
+\[
+\widetilde{\psi}_1(t,x,v)
+=
+\chi_S\phi\left(D_t^v S\right)
++
+\chi_N\phi\left(D_t^v N\right),
+\]
+一般有
+\[
+\langle \widetilde{\psi}_1\rangle\neq 0.
+\]
+因此需要定义
+\[
+\psi_1
+=
+\widetilde{\psi}_1
+-
+\frac{1}{|V|}\int_V \widetilde{\psi}_1(t,x,w)\,dw.
+\]
+这样可以保证
+\[
+\int_V \psi_1(t,x,v)\,dv=0.
+\]
+
+在此基础上，采用
+\[
+f^\varepsilon(t,x,v)
+=
+\frac{\rho^\varepsilon(t,x)}{|V|}
++
+\varepsilon g^\varepsilon(t,x,v),
+\qquad
+\int_V g^\varepsilon(t,x,v)\,dv=0,
+\]
+得到 normalized micro-macro system。该部分目前已经形成了比较清晰的推导框架。
+
+\subsection*{3. 梳理并完善了 AP 数值格式}
+
+当前格式的基本思想是将 stiff relaxation 部分隐式处理，将 transport 和 response 相关项适当显式或半隐式处理，从而得到一个可解耦的 AP 格式。
+
+格式的关键点包括
+\[
+\partial_t \rho^\varepsilon
++
+\partial_x\langle v g^\varepsilon\rangle
+=0,
+\]
+以及
+\[
+g^{n+1}
+=
+\widetilde g^{n+1}
++
+\lambda_\varepsilon
+\left(
+K^{n,n+1}
+-
+\widetilde K^n
+\right),
+\qquad
+\lambda_\varepsilon
+=
+\frac{\Delta t}{\varepsilon^2+\Delta t}.
+\]
+将其代入密度方程后，可以得到只关于
+\[
+\rho^{n+1}
+\]
+的线性系统。这样每一步只需要求解 scalar tridiagonal system，然后再显式恢复
+\[
+g^{n+1}.
+\]
+
+这一点是本文数值格式的重要优点。它说明格式虽然来自 kinetic micro-macro formulation，但最终实现并不复杂。
+
+\subsection*{4. 明确了 AP 性质的证明思路}
+
+当
+\[
+\varepsilon\to0
+\]
+且
+\[
+\Delta t,\quad \Delta x
+\]
+固定时，有
+\[
+\lambda_\varepsilon\to1.
+\]
+同时
+\[
+\widetilde g^{n+1}\to \widetilde K^n.
+\]
+因此密度方程在极限下收敛到 macroscopic drift-diffusion equation 的隐式上风离散格式。该结论说明数值格式在固定网格下具有 formal AP property。
+
+这一部分目前已经可以作为文章的核心理论说明。后续只需要检查符号一致性，以及确保 \(u_S,u_N\)、\(b_S,b_N\) 的符号约定和数值程序完全一致。
+
+\section*{三、数值实验部分的进展}
+
+\subsection*{1. 宏观 travelling pulse 的验证}
+
+已经完成了 macroscopic model 的 travelling pulse 数值实验，并将数值解与解析 travelling profile 进行比较。解析 profile 采用
+\[
+\rho_{\rm tw}(x)
+=
+\rho_p
+\exp\left(
+\lambda_L z_-
++
+\lambda_R z_+
+\right),
+\]
+其中
+\[
+\lambda_L
+=
+\frac{\chi_S+\chi_N-\sigma}{D_{\rho,h}},
+\qquad
+\lambda_R
+=
+\frac{\chi_N-\chi_S-\sigma}{D_{\rho,h}}.
+\]
+幅值 \(\rho_p\) 通过质量匹配确定。
+
+目前的结论是，macroscopic numerical solution 与 analytic travelling profile 能较好匹配。该实验可以作为后续 kinetic-to-macroscopic AP convergence test 的 macroscopic reference。
+
+\subsection*{2. travelling speed 的参数依赖}
+
+已经整理了 travelling speed 关于 \(\chi_S\) 和 \(\chi_N\) 的数值扫描。理论预测速度由隐式公式确定
+\[
+\chi_N-\sigma
+=
+\chi_S
+\frac{\sigma}{\sqrt{4D_S\alpha+\sigma^2}}.
+\]
+数值速度通过 density center of mass 估计，即
+\[
+X_\rho(t_n)
+=
+\frac{
+\Delta x\sum_j x_{j+\frac12}\rho_{j+\frac12}^n
+}{
+\Delta x\sum_j \rho_{j+\frac12}^n
+}.
+\]
+之后根据 \(X_\rho(t)\) 的斜率估计传播速度。
+
+目前的结果表明，在 travelling pulse 已经形成的区域，数值速度与理论预测较为一致。在过渡区域可能存在有限时间效应，因此速度估计会偏小。这一点在论文中可以作为合理解释。
+
+\subsection*{3. kinetic 与 macroscopic 的 AP 收敛测试}
+
+已经完成并整理了不同
+\[
+\varepsilon=0.1,\quad 0.05,\quad 0.01
+\]
+下 kinetic AP solution 与 limiting macroscopic solution 的比较。
+
+目前数值实验主要包括三类结果。
+
+第一，density profiles 的比较。结果显示随着 \(\varepsilon\) 变小，kinetic solution 逐渐靠近 macroscopic solution。
+
+第二，final-time density error 的比较。误差定义为
+\[
+\operatorname{err}_{\rho,\varepsilon}(t)
+=
+\left(
+\Delta x\sum_j
+\left|
+\rho_{j+\frac12}^{\varepsilon}(t)
+-
+\rho_{j+\frac12}(t)
+\right|^2
+\right)^{1/2}.
+\]
+目前结果显示误差随 \(\varepsilon\) 减小而下降，符合 AP 收敛预期。
+
+第三，travelling speed 的比较。速度从 center-of-mass trajectory 中估计。结果显示经过短暂过渡后，不同 \(\varepsilon\) 下的 kinetic speed 接近 macroscopic speed，且 \(\varepsilon\) 越小越接近宏观速度。
+
+\subsection*{4. 图形和后处理方面的调整}
+
+本周对 profiles、误差图和速度图的绘制逻辑进行了多次调整。尤其注意了以下几点。
+
+\begin{itemize}[leftmargin=2em]
+    \item 尽量直接从 snapshot 数据出发画 profiles 和误差，避免中间 merge 数据带来的不直观问题。
+    \item travelling speed 不再只依赖粗略的中心点移动，而是尽量从 snapshot 或 center-of-mass trajectory 中直接提取。
+    \item 对速度图中的水平预测线进行了调整，避免虚线从图最左端开始，使图形更适合论文展示。
+    \item 对放大图和局部速度震荡进行了检查，目前判断部分不光滑现象可能来自数据本身、网格分辨率和速度差分放大误差。
+\end{itemize}
+
+\section*{四、关于 Calvez double-speed phenomenon 的判断}
+
+本周专门检查了当前文章是否需要复现 Calvez--Gosse--Twarogowska 文献中的 double-speed 或 bistability phenomenon。
+
+当前判断是不建议将其作为本文正文主要内容。理由如下。
+
+\subsection*{1. 该现象与本文 AP 主线不完全一致}
+
+Calvez 的 double-speed phenomenon 是 kinetic discrete-velocity model 中的非唯一 travelling-wave 现象。它强调的是同一组参数下可能存在不同稳定传播速度。本文当前的主要目标是构造并验证 AP scheme，说明当
+\[
+\varepsilon\to0
+\]
+时 kinetic AP solution 收敛到 macroscopic drift-diffusion limit。
+
+因此，本文关注的是 kinetic-to-macroscopic convergence，而不是 kinetic travelling-wave multiplicity。
+
+\subsection*{2. 复现 double speed 需要额外工作}
+
+仅仅采用四速度
+\[
+V=\{-1,-0.5,0.5,1\}
+\]
+并不能复现 double speed。严格复现需要至少完成以下工作。
+
+\begin{itemize}[leftmargin=2em]
+    \item 构造给定速度 \(c\) 的 moving-frame kinetic travelling-wave initial profile。
+    \item 使用 well-balanced 或近似 well-balanced 的处理保持 stationary travelling profiles。
+    \item 对 fast branch 使用足够细的空间网格。
+    \item 检查当前 AP scaling 中的 \(\varepsilon\) 是否会将模型推向 macroscopic limit，从而抹掉 kinetic-level bistability。
+\end{itemize}
+
+这些工作已经超出当前文章的主要范围，可能形成一个单独的数值研究。
+
+\subsection*{3. 当前稿子的前文需要收束}
+
+目前稿子前几章和 Appendix A 中包含了较详细的 kinetic travelling-wave existence、moving-frame tumbling-rate 分区和 Calvez non-uniqueness 讨论。这会让读者期待后文复现或研究 double-speed phenomenon。
+
+如果后文不做这一实验，则建议将相关内容大幅压缩。更合理的处理方式是保留 macroscopic travelling-pulse formula 作为 benchmark，将 Calvez bistability 作为 related work 或 future work 简短提及。
+
+\section*{五、建议的文章结构调整}
+
+建议后续将文章结构调整为如下形式。
+
+\begin{enumerate}[leftmargin=2em]
+    \item Introduction
+    \item Kinetic model and macroscopic limit
+    \item Micro-macro decomposition
+    \item AP finite difference scheme
+    \item Asymptotic preserving property and limiting scheme
+    \item Numerical experiments
+    \item Conclusion
+    \item Appendix on positivity-preserving post-processing
+\end{enumerate}
+
+其中原稿中关于 kinetic travelling-wave existence 的独立章节建议删除或显著缩短。Appendix A 中关于 moving-frame 四个 tumbling-rate regions 的内容也建议删除，除非后文确实要研究 kinetic bistability。
+
+更推荐的写法是只在 introduction 或 conclusion 中加入一句简短说明，指出 kinetic discrete-velocity models may exhibit richer travelling-wave behavior, including possible non-uniqueness of wave speeds, but this issue is beyond the scope of the present AP study.
+
+\section*{六、目前可得出的阶段性结论}
+
+本周工作后，可以得到以下阶段性结论。
+
+\begin{itemize}[leftmargin=2em]
+    \item 本文的数值格式部分和 AP 数值实验部分已经基本成型。
+    \item 当前结果可以支持文章聚焦于 AP scheme and diffusive limit。
+    \item Macroscopic travelling pulse 可以作为有效 benchmark。
+    \item Kinetic solution 随 \(\varepsilon\) 减小趋近 macroscopic solution 的数值证据已经比较完整。
+    \item Travelling speed 的比较结果可以作为 AP 性质的辅助验证。
+    \item Calvez double-speed phenomenon 不宜作为本文必须完成的数值实验。
+    \item 稿件前文关于 kinetic travelling waves 的叙述需要与后文数值实验范围对齐。
+\end{itemize}
+
+\section*{七、后续工作展望}
+
+\subsection*{1. 需要自己继续完成的收尾工作}
+
+后续自己这边主要完成以下收尾事项。
+
+\begin{itemize}[leftmargin=2em]
+    \item 检查所有数值图的格式、坐标范围、图例和 caption。
+    \item 统一 \(\sigma\)、\(c\)、\(\varepsilon\)、\(\epsilon\)、\(D_{\rho,h}\)、\(|V|_h\) 等符号。
+    \item 检查程序中 velocity quadrature、normalization factor 和论文公式是否一致。
+    \item 整理 numerical experiments 的文字说明，避免过度承诺 kinetic travelling-wave 现象。
+    \item 保留必要的 snapshot-based 后处理程序，删除或降级 exploratory bistability probe。
+\end{itemize}
+
+\subsection*{2. 需要合作者确认的部分}
+
+模型和文章范围方面需要合作者共同确认。
+
+\begin{itemize}[leftmargin=2em]
+    \item Turning kernel 的原始定义和一阶近似写法是否最终采用当前版本。
+    \item \(\psi_1\) 的中心化处理是否作为正式模型设定写入论文。
+    \item Macroscopic limit 的推导是否需要进一步精简。
+    \item Kinetic travelling-wave existence 部分是否删除或保留为短 remark。
+    \item Appendix A 是否删除。
+    \item Calvez bistability 是否只作为 future work。
+\end{itemize}
+
+\subsection*{3. 不建议继续扩展的方向}
+
+目前不建议继续投入大量时间做 Calvez double-speed 复现。该方向技术上有意义，但需要额外构造 travelling-wave initial data 和 well-balanced treatment，容易偏离本文 AP scheme 的主线。
+
+如果后续合作者坚持保留这部分，则需要重新评估文章定位，并单独设计一组数值实验。否则，建议明确将其放入 future work。
+
+\section*{八、给以后重新接手时的提醒}
+
+若后续一段时间后重新回到这个工作，建议先检查以下三件事。
+
+\begin{enumerate}[leftmargin=2em]
+    \item 先看数值实验部分是否已经形成闭环，即 profiles、errors、speeds 是否都支持 AP convergence。
+    \item 再看前文是否仍然过多铺垫 Calvez kinetic travelling-wave non-uniqueness。如果仍然存在，需要继续删减或改为 future work。
+    \item 最后检查模型定义和程序实现是否一致，尤其是 centered response、velocity normalization、kinetic initial data 和 positivity limiter。
+\end{enumerate}
+
+当前最合理的工作定位是，数值格式和实验主干已经基本完成，接下来进入 manuscript alignment and final polishing 阶段。模型叙述和 Calvez 相关内容需要与合作者进一步确认，不宜再单方面扩展新的大规模数值任务。
+
+\end{document}

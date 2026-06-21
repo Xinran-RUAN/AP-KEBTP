@@ -164,13 +164,93 @@ G_CurrentStep = tG + a * ( ...
 % end
 
 %% 后处理
-% 确保 f = rho * psi_0 + eps * G >=0
-F = max(Psi * Rho_CurrentStep + eps * 0.5 * (G_CurrentStep(:,1:end-1) + G_CurrentStep(:,2:end)), 0);
-Rho_CurrentStep = integration_v_meshgrid(F, dv);
-Rho_CurrentStep = Rho_CurrentStep / (sum(Rho_CurrentStep) * dx) * total_mass; % 人为保证质量守恒
-G_CurrentStep_h = (F - Psi * Rho_CurrentStep) / eps;
-G_CurrentStep_h_ex = [G_CurrentStep_h(:,1), G_CurrentStep_h, G_CurrentStep_h(:,end)];
-G_CurrentStep = 0.5 * (G_CurrentStep_h_ex(:,1:end-1) + G_CurrentStep_h_ex(:,2:end));
+% % 确保 f = rho * psi_0 + eps * G >=0
+% F = max(Psi * Rho_CurrentStep + eps * 0.5 * (G_CurrentStep(:,1:end-1) + G_CurrentStep(:,2:end)), 0);
+% Rho_CurrentStep = integration_v_meshgrid(F, dv);
+% Rho_CurrentStep = Rho_CurrentStep / (sum(Rho_CurrentStep) * dx) * total_mass; % 人为保证质量守恒
+% G_CurrentStep_h = (F - Psi * Rho_CurrentStep) / eps;
+% G_CurrentStep_h_ex = [G_CurrentStep_h(:,1), G_CurrentStep_h, G_CurrentStep_h(:,end)];
+% G_CurrentStep = 0.5 * (G_CurrentStep_h_ex(:,1:end-1) + G_CurrentStep_h_ex(:,2:end));
+
+%% 后处理：Zhang–Shu 型保正 + 质量守恒 limiter
+% 目标：构造 F_new(k,j) 使得
+%   1) F_new >= 0,
+%   2) 全局质量 sum_j rho_j * dx 不变,
+%   3) g 的 cell 平均仍为 0（在 f 层面实现）。
+
+% === Step 0: 一些基本量 ===
+Nv = size(G_CurrentStep, 1);
+Nx = length(Rho_CurrentStep);  % = domain.Nx
+
+% 原始总质量（由 rho 计算）
+mass_original = sum(Rho_CurrentStep) * dx;
+
+% === Step 1: 在 cell 中心构造 provisional f ===
+% 先把半点的 G 平均到中心：G_center 大小 Nv x Nx
+G_center = 0.5 * (G_CurrentStep(:,1:end-1) + G_CurrentStep(:,2:end));  % k x j
+
+% provisional f: F_tilde(k,j) = psi0(v_k) * rho_j + eps * g_{j,k}
+% Psi: Nv x 1, Rho_CurrentStep: 1 x Nx  -> Nv x Nx
+F_tilde = Psi * Rho_CurrentStep + eps * G_center;
+
+% 对 F_tilde 在 v 上积分得到 cell 平均（理论上应等于 Rho_CurrentStep）
+rho_bar = integration_v_meshgrid(F_tilde, dv);    % 1 x Nx
+
+% === Step 2: cellwise Zhang–Shu scaling limiter（逐格保平均、去负值） ===
+F_star = F_tilde;   % 初始化
+
+for j = 1:Nx
+    Fj = F_tilde(:, j);        % Nv x 1
+    rho_j = rho_bar(j);        % 该格平均
+    m_j = min(Fj);             % 该格点值最小值
+
+    if (rho_j > 0) && (m_j < 0)
+        % 缩放因子
+        theta_j = min(1.0, rho_j / (rho_j - m_j));
+        % 平衡部分（在速度上常数）
+        F_eq = rho_j * Psi;    % Nv x 1
+        % Zhang–Shu 缩放：绕 cell 平均缩放扰动
+        F_star(:, j) = rho_j + theta_j * (Fj - rho_j);
+
+        % 数值安全：消掉极小的负数
+        F_star(:, j) = max(F_star(:, j), 0.0);
+
+    elseif rho_j <= 0
+        % 平均已经是非物理的负数：本格整体清零
+        F_star(:, j) = 0.0;
+
+    else
+        % 已经非负，无需修改
+        F_star(:, j) = Fj;
+    end
+end
+
+% === Step 3: 全局质量重标定（保持 F >= 0 前提下恢复原总质量） ===
+rho_star = integration_v_meshgrid(F_star, dv);    % 1 x Nx
+mass_star = sum(rho_star) * dx;
+
+if mass_star > 0
+    alpha = mass_original / mass_star;
+else
+    alpha = 1.0;   % 完全空的极端情况，防止除零
+end
+
+F_new = alpha * F_star;  % 非负 + 全局质量 = mass_original
+
+% === Step 4: 从 F_new 回算 rho, g，并插值回半点网格 ===
+% 新的中心 rho：
+Rho_CurrentStep = integration_v_meshgrid(F_new, dv);   % 1 x Nx
+
+% 按定义回算中心 g：
+G_center_new = (F_new - Psi * Rho_CurrentStep) / eps;  % Nv x Nx
+
+% 将中心 g 插值到半点：
+% 先在两端做 Neumann 型延拓，再取相邻中心的平均
+G_center_ext = [G_center_new(:,1), G_center_new, G_center_new(:,end)];  % Nv x (Nx+2)
+G_CurrentStep = 0.5 * (G_center_ext(:,1:end-1) + G_center_ext(:,2:end)); % Nv x (Nx+1)
+
+% （可选）检查：rho >= 0, F >= 0
+% fprintf('min rho = %e, min F = %e\n', min(Rho_CurrentStep), min(F_new(:)));
 
 %% update c
 % zeta * \p_t c = Dc * \Delta c + beta * rho - alpha * c

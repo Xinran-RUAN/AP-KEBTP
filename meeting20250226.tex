@@ -1,0 +1,126 @@
+% ===================== meeting_notes_kinetic_wave.tex =====================
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\newcommand{\dd}{\,\mathrm{d}}
+\newcommand{\Dt}{\Delta t}
+\newcommand{\Dx}{\Delta x}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\avg}[1]{\left\langle #1 \right\rangle}
+
+\title{Discussion Notes: Kinetic Travelling Waves --- Model Consistency and Numerical Protocol}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\vspace{-1em}
+\section*{Goal of the discussion (what I need to confirm)}
+\begin{itemize}[leftmargin=1.4em]
+\item \textbf{Model consistency:} Are we implementing the same sensing/tumbling mechanism as in the reference model (material derivative $D/Dt$), or a simplified one (spatial derivative $\partial_x$)?
+\item \textbf{Numerical protocol:} Which experiment is the priority to reproduce first, and what is the agreed initialization + wave-speed measurement method?
+\item \textbf{Decision outcome:} After the meeting, we should have a clear choice of model and a concrete, reproducible numerical recipe.
+\end{itemize}
+
+\section*{(A) Model: the key issue}
+In the reference model, the tumbling/sensing function $\phi$ is chosen to depend on the \emph{material derivative}
+\begin{equation}\label{eq:material}
+\frac{D}{Dt} = \partial_t + v\,\partial_x,
+\end{equation}
+so that the sensing mechanism is \emph{velocity dependent}. In our current implementation, $\phi$ is effectively taken to depend only on $\partial_x$ (or the sign of spatial gradients), hence it is \emph{not velocity dependent}.
+
+\subsection*{Why this matters}
+If $\phi$ depends on $D/Dt$, then for the same $(M,N)$ field, different velocities $v$ may experience different signs/magnitudes:
+\begin{equation}\label{eq:sense}
+\frac{DM}{Dt} = \partial_t M + v\,\partial_x M,
+\qquad
+\frac{DN}{Dt} = \partial_t N + v\,\partial_x N.
+\end{equation}
+This may change the wave selection mechanism (and potentially the existence of multiple admissible speeds).
+
+\subsection*{Numerical cost / structure implication}
+Using $D/Dt$ typically makes the drift/choice term velocity dependent, which may prevent the same level of decoupling we currently use (e.g., ``solve $\rho$ first, then solve $M,N$'') unless we adopt an explicit/lagged approximation in time.
+
+\subsection*{The decision question (to agree on)}
+\begin{itemize}[leftmargin=1.4em]
+\item \textbf{Decision:} Do we want to strictly follow the $D/Dt$ dependence in \eqref{eq:material}, or is a $\partial_x$-based simplification acceptable for our goal (e.g., reproducing bistable wave speeds)?
+\end{itemize}
+
+\section*{(B) Numerical experiments: what we need to agree on}
+Even if the discretization is correct, reproducing travelling waves (especially bistability) is highly sensitive to:
+\begin{itemize}[leftmargin=1.4em]
+\item \textbf{Initialization:} how $\rho, M, N$ are prepared;
+\item \textbf{Transient horizon:} how long we run before measuring speed;
+\item \textbf{Speed measurement:} which definition is used (COM, level-set, correlation shift);
+\item \textbf{Discretization recipe:} domain, BC, $\Dx,\Dt$, velocity set/weights, and $\eps$.
+\end{itemize}
+
+\subsection*{B1. Which figure/phenomenon to reproduce first?}
+\begin{itemize}[leftmargin=1.4em]
+\item Option (i): \textbf{Bistability} (two admissible speeds at the same parameter set).
+\item Option (ii): \textbf{Speed--parameter curve} (e.g., S-shaped / multi-root structure).
+\end{itemize}
+\textbf{Question:} Which one is the priority target for the next milestone?
+
+\subsection*{B2. Initialization protocol (critical)}
+In my current tests, generic localized initial data may not produce a clean travelling wave on practical time scales. Hence we should confirm one of the following:
+\begin{itemize}[leftmargin=1.4em]
+\item \textbf{Protocol P1 (constructed TW-like):} initialize $\rho$ using a travelling-wave-like profile (e.g., exponential tails with rates $\lambda_\pm$), then initialize $M$ by solving its elliptic/steady equation with that $\rho$, and choose $N$ accordingly.
+\item \textbf{Protocol P2 (generic transient):} start from a simple localized bump and rely on transient selection; specify required run time and the acceptance criterion.
+\end{itemize}
+\textbf{Question:} Which initialization protocol was used (or intended) for the reference plots?
+
+\subsection*{B3. How to measure the travelling speed $c$?}
+We need one agreed definition, e.g.
+\begin{enumerate}[leftmargin=1.8em]
+\item \textbf{Center-of-mass (COM):}
+\begin{equation}\label{eq:com}
+x_{\rm cm}(t) = \frac{\int x\,\rho(t,x)\dd x}{\int \rho(t,x)\dd x},
+\qquad
+c \approx \frac{x_{\rm cm}(t_2)-x_{\rm cm}(t_1)}{t_2-t_1}.
+\end{equation}
+\item \textbf{Level-set tracking:} pick a level $\rho_* \in (0,\max \rho)$ and track $x(t)$ such that $\rho(t,x(t))=\rho_*$:
+\begin{equation}\label{eq:levelset}
+c \approx \frac{x(t_2)-x(t_1)}{t_2-t_1}.
+\end{equation}
+\item \textbf{Correlation/shift between snapshots:} choose $\delta$ maximizing correlation of $\rho(t,\cdot)$ and $\rho(t+\Delta T,\cdot)$, then
+$c \approx \delta/\Delta T$.
+\end{enumerate}
+\textbf{Question:} Which speed measurement method should we adopt for reporting/reproducing the figures?
+
+\subsection*{B4. Minimal reproducible recipe (parameters + discretization)}
+To make results comparable, please confirm:
+\begin{itemize}[leftmargin=1.4em]
+\item Domain $[x_{\min},x_{\max}]$, boundary conditions for $(\rho,M,N,f)$.
+\item Spatial step $\Dx$ and time step $\Dt$; total time horizon $T_{\rm end}$.
+\item Velocity discretization: discrete set $V=\{v_k\}_{k=1}^{N_v}$ and weights $\{w_k\}$ (e.g.\ 4 velocities with uniform weights).
+\item Choice of $\eps$ (if present in our formulation) and how it relates to the reference model scaling.
+\end{itemize}
+
+\section*{(C) Proposed baseline protocol (for agreement)}
+If we need a concrete baseline to start from, I propose:
+\begin{enumerate}[leftmargin=1.8em]
+\item Use the discrete 4-velocity set (uniform weights).
+\item Construct a TW-like initial $\rho$ with exponential tails (rates $\lambda_\pm$) near a chosen interface location.
+\item Initialize $M$ by solving its elliptic/steady equation with the initial $\rho$; initialize $N$ according to the model.
+\item Run until the wave profile stabilizes (checked by snapshot shift/correlation), then measure speed using a pre-agreed method (level-set or correlation preferred).
+\end{enumerate}
+
+\section*{(D) What I need as meeting outputs}
+\begin{itemize}[leftmargin=1.4em]
+\item \textbf{Model decision:} strict $D/Dt$ vs simplified $\partial_x$ dependence in $\phi$.
+\item \textbf{Experiment target:} which phenomenon/figure to reproduce first.
+\item \textbf{Protocol:} initialization + speed measurement method.
+\item \textbf{Reference setup:} domain/BC, $(\Dx,\Dt,T_{\rm end})$, velocity set/weights, key parameters.
+\end{itemize}
+
+\vspace{0.5em}
+\noindent\textbf{Short closing sentence (optional):}  
+Once these points are fixed, I can proceed with implementation and produce results that are directly comparable.
+
+\end{document}
+% ===================== end of file =====================

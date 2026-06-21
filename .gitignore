@@ -10,6 +10,9 @@ outputs/
 tmp/
 temp/
 
+*.png
+*.eps
+*.pdf
 *.mat
 *.h5
 *.hdf5
@@ -21,7 +24,6 @@ temp/
 *.mp4
 *.mov
 *.gif
-
 
 # =========================
 # MATLAB temporary files

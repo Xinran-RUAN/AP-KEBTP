@@ -3,9 +3,9 @@
 %   Psi_1 = chi_C * Phi * sign(dx_C) + chi_N * Phi * sign(dx_N)
 
 %%
-% clc; clear;
-% mypara.chi_c = 1/2; 
-% mypara.chi_n = 1.1; 
+clc; clear;
+mypara.chi_c = 1/2; 
+mypara.chi_n = 1.1; 
 mypara.eps = 1e-2; 
 %% functions
 % Please check int_v psi(v) dv = 1 and D = int v^2 * psi dv 
@@ -69,7 +69,7 @@ for kT = 1:NT
     
     % save data and plot data   
     if min(abs(T - T_plot)) < dt / 2  
-        % PLOT_DATA;
+        PLOT_DATA;
         % SAVE_DATA;
         x_mass(mass_index) = sum(x .* rho) / sum(rho);
         mass_index = mass_index + 1;
