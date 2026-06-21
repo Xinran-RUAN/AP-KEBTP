@@ -1,0 +1,107 @@
+# =========================
+# Numerical data / results
+# =========================
+
+data/
+results/
+snapshots/
+output/
+outputs/
+tmp/
+temp/
+
+*.mat
+*.h5
+*.hdf5
+*.nc
+
+# MATLAB figure / video outputs
+*.fig
+*.avi
+*.mp4
+*.mov
+*.gif
+
+
+# =========================
+# MATLAB temporary files
+# =========================
+
+*.asv
+*.m~
+*.mlx.autosave
+slprj/
+sccprj/
+codegen/
+*.mex*
+*.p
+
+
+# =========================
+# LaTeX temporary files
+# =========================
+
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.upa
+*.upb
+*.brf
+
+# 如果不想上传编译生成的 PDF，就打开下一行
+# *.pdf
+
+
+# =========================
+# Python / Jupyter, if any
+# =========================
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+
+# =========================
+# macOS / editor files
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+*.swp
+*.swo
+.vscode/
+.idea/
+
+
+# =========================
+# Archives / backups
+# =========================
+
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+*_old.*
+*_backup.*
+*_bak.*
+*_copy.*
