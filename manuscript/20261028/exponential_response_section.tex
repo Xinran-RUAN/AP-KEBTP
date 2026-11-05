@@ -1,0 +1,65 @@
+\begin{revisionblock}
+\subsection{Exponential modulation and two numerical limits}\label{sec:exponential-response}
+
+To test a response beyond the sign benchmark, we use
+\begin{equation}\label{eq:exponential-response}
+\phi_{\alpha_{\rm r}}(s)=-\operatorname{sign}(s)e^{-\alpha_{\rm r}|s|},
+\qquad \alpha_{\rm r}\ge0,\qquad \operatorname{sign}(0)=0.
+\end{equation}
+Here $\alpha_{\rm r}$ is a response parameter, distinct from the chemical degradation rate, which remains fixed at $\widetilde\alpha=0.05$.
+For each finite $s$, this family recovers $-\operatorname{sign}(s)$ as $\alpha_{\rm r}\to0$. It retains a jump at $s=0$ for positive $\alpha_{\rm r}$ and is therefore not a smooth regularization of the sign response.
+The initial data, computational domain, quadrature, response-amplitude factor $s_h$, time step, boundary closure and both post-processing stages are the same as in Section~5.3.
+We take $\alpha_{\rm r}=10^{-3},10^{-4},10^{-5}$ and, for each value, $\varepsilon=0.1,0.05,0.01,0.001$, together with a separate macroscopic run, up to $T=50$.
+
+For fixed $\alpha_{\rm r}>0$, the macroscopic reference must use the same response, evaluated with zero coefficient on the time derivative.
+With the present symmetric quadrature and amplitude normalization, its drift due to $q=S,N$ is
+\begin{equation}\label{eq:exponential-macro-drift}
+u_{q,h}^{\alpha_{\rm r}}=\chi_q\operatorname{sign}(\delta_xq)F_h(\alpha_{\rm r}|\delta_xq|),
+\qquad
+F_h(A)=\frac{\langle |v|e^{-A|v|}\rangle_h}{\langle |v|\rangle_h}.
+\end{equation}
+Thus $F_h(0)=1$, while the gradient-dependent factor is retained for positive $\alpha_{\rm r}$.
+The implementation evaluates these velocity moments directly; the sign-response analytical profile and speed are not used as exact references for positive $\alpha_{\rm r}$.
+
+We distinguish the two tests by defining, at $T=50$,
+\begin{align}
+E_\varepsilon(\alpha_{\rm r})
+&=\|\rho_{\alpha_{\rm r},\varepsilon}(T)-\rho_{\alpha_{\rm r},0}(T)\|_{2,h},\label{eq:exponential-epsilon-error}\\
+E_\alpha(\alpha_{\rm r};\varepsilon)
+&=\|\rho_{\alpha_{\rm r},\varepsilon}(T)-\rho_{0,\varepsilon}(T)\|_{2,h}.\label{eq:exponential-alpha-error}
+\end{align}
+Here $\|r\|_{2,h}=(\Delta x\sum_j|r_{j+1/2}|^2)^{1/2}$.
+The index $0$ in the second parameter denotes the numerical macroscopic solution, while $\alpha_{\rm r}=0$ denotes the corrected sign-response benchmark.
+These errors use the original physical coordinates and densities, without translation, mass normalization or amplitude rescaling.
+
+Figure~\ref{fig:exponential-profiles} illustrates the pulse evolution for fixed $\alpha_{\rm r}=10^{-3}$.
+The late-time velocities vary little between the windows $[30,40]$ and $[40,50]$, and the translated profiles display a persistent propagating pulse.
+The fitted velocities on $[40,50]$ are $0.693595$ for $\varepsilon=0.001$ and $0.693580$ for its macroscopic reference, compared with $0.722529$ for the sign-response macroscopic benchmark.
+The relative changes between the translated profiles at $t=40$ and $t=50$ are $5.92\%$ and $5.94\%$, respectively.
+Translation is used only for this shape diagnostic, not for either error above; these finite-time measurements do not establish long-time stability.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{exp_response_profiles.eps}
+\caption{\st{Exponential response with fixed $\alpha_{\rm r}=10^{-3}$: (a) final densities on the complete computational domain; (b) the same profiles restricted to $0\le x\le55$ for detail; (c) center-of-mass velocities, using the estimator of Figure~\ref{fig:conv_speed}; (d) translated profile detail at $t=30,40,50$, with solid lines for $\varepsilon=0.001$ and dashed lines for the corresponding macroscopic solution. The displayed densities have not been renormalized.}}
+\label{fig:exponential-profiles}
+\end{figure}
+
+Figure~\ref{fig:exponential-limits}(a) tests $\varepsilon\to0$ while holding the response parameter fixed.
+The four errors decrease as $\varepsilon$ decreases at each of the three fixed response parameters.
+For $\alpha_{\rm r}=10^{-3}$, the errors at $\varepsilon=0.1,0.05,0.01,0.001$ are $3.32\times10^{-2},\ 1.18\times10^{-2},\ 1.80\times10^{-3},\ 1.45\times10^{-4}$, respectively.
+Figure~\ref{fig:exponential-limits}(b)--(d) separately tests recovery of the sign response as $\alpha_{\rm r}\to0$.
+The errors decrease as $\alpha_{\rm r}$ decreases for each fixed $\varepsilon$ tested, including the macroscopic case.
+At fixed $\varepsilon=0.01$, the errors against its sign-response counterpart are $1.06\times10^{-1},\ 1.82\times10^{-2},\ 1.60\times10^{-3}$ for $\alpha_{\rm r}=10^{-3},10^{-4},10^{-5}$, respectively.
+The sign data are the complete corrected trajectories used in Section~5.3; the new branch at $\alpha_{\rm r}=0$ agrees exactly with the sign response, including in complete-step checks.
+The two scans isolate distinct parameters and do not prove that the two limits can be interchanged or that a uniform convergence rate holds.
+Across all fifteen new runs, the maximum recorded relative mass drift is $1.12\times10^{-11}$, with the same initial mass as the sign benchmark. Kinetic output distributions are checked every time step; the additional interface factor $\eta$ is inactive throughout these runs.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{exp_response_two_limits.eps}
+\caption{\st{Two separate numerical limits at $T=50$. (a) Kinetic-to-macroscopic errors $E_\varepsilon$ at each fixed positive $\alpha_{\rm r}$. (b) Full-domain densities at fixed $\varepsilon=0.01$ for the three response parameters and the sign benchmark. (c) Errors $E_\alpha$ against the sign solution at the same $\varepsilon$, including the macroscopic case. (d) Fitted velocities on $[40,50]$ for the macroscopic and $\varepsilon=0.01$ solutions; dashed horizontal lines are their numerical sign-response baselines. No positive-$\alpha_{\rm r}$ analytical wave speed is assumed.}}
+\label{fig:exponential-limits}
+\end{figure}
+\FloatBarrier
+\end{revisionblock}

@@ -1,0 +1,1970 @@
+{
+  "file": "part-006.tar.gz",
+  "sha256": "c4e7bbe0c3d502dbd3f49b526a041079d33dc26c717bb2a8c8855fe5b954678a",
+  "bytes": 60056825,
+  "files": [
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/compare_profile_data.csv",
+      "size": 102771,
+      "sha256": "918bd75a5de867f33e4240cb876df16bb5c697d7beae6a8d44b90774fdc5f032",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/macro_travelling_wave.mat",
+      "size": 4132294,
+      "sha256": "97a5888bb158012f8d3e0a9afc3d428cd1a307bc830d1cfc09aa1b0e99ed5526",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_000p000.mat",
+      "size": 84631,
+      "sha256": "1391fbc3cdcb63bb75dce11f1f159ce1dc9d0d111945ef5240c4443b59aea6d2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_001p000.mat",
+      "size": 134566,
+      "sha256": "922cb99c7a1f1ca91e71c5c5e36c24113100aa0d6ccd9487fab682259f4b47a0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_002p000.mat",
+      "size": 134958,
+      "sha256": "e4d05edcccf0e1ea681706325353ca372e0fd541cd4d8fde8fa0172dcabd5ab2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_003p000.mat",
+      "size": 135321,
+      "sha256": "7736dc623948d42f408c046fb47d1de291c2ef0f9898dc920f042dc01c5b91d2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_004p000.mat",
+      "size": 135720,
+      "sha256": "c2837f23da4e9984a09bfe7f99c8b2ed8294386832c1d9b2f995bf374dcbdd51",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_005p000.mat",
+      "size": 136028,
+      "sha256": "8211cfe9240767258d286b03ea83f1a1c341953707fb2f4905da2983a680956f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_006p000.mat",
+      "size": 136390,
+      "sha256": "30989c558873c4c572bf709a51868fa834becac7b0c9a9ea5b27652384c5c2e6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_007p000.mat",
+      "size": 136801,
+      "sha256": "1ca80f7de07fd7d9377d82ce842b292b3ced1ad58a3fb82b0dc6c7aec07bf75d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_008p000.mat",
+      "size": 137139,
+      "sha256": "73236806b0b5c45b6626a7b3c1dc4917e4ca13fffcc697894a8d8cdb77ae9076",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_009p000.mat",
+      "size": 137421,
+      "sha256": "291fdaf237feaec2b7f53838f0ecd8848d8347c09f74b854b9999c843d3eed23",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_010p000.mat",
+      "size": 137737,
+      "sha256": "562b2e01763fcfb57c72f1c9c2bc1dc2c671d7a9d302553d296f78e07164ff3e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_011p000.mat",
+      "size": 137981,
+      "sha256": "57faf2b5e7bc0ff4644ed46b05626cb1b01d122bad5ab7e7832f3396fd86d6bc",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_012p000.mat",
+      "size": 138249,
+      "sha256": "b7c3525418fa63348204a1098fc06a00d9fb53de237565bb73f5960bb1d25e85",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_013p000.mat",
+      "size": 138554,
+      "sha256": "d5542c9a776c104b18de369a53fe31b3bc8346991a0395d8b8ba9211b6a89925",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_014p000.mat",
+      "size": 138825,
+      "sha256": "7b3617a8b10bffba20c9dfab7f89375952c18b3bfd8a5fa1bd8bf45424f306ca",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_015p000.mat",
+      "size": 139104,
+      "sha256": "04555ed91b7773c7072426fafcf56709f61aff67488949b33a20d03e9364bccc",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_016p000.mat",
+      "size": 139345,
+      "sha256": "06519ecb98fd78bfe32ac7cc5c60faf29bde6c23c25864d59f7f558205f98b6e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_017p000.mat",
+      "size": 139552,
+      "sha256": "8bb4cbfb164fd5e646daf84838b3c7d6551821f6fc0806cb2bfa8eadeba2ce95",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_018p000.mat",
+      "size": 139734,
+      "sha256": "316384f612d259e2d817cb5458cd6f38abf4d237ff9165ef24fa5e6bedf45c08",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_019p000.mat",
+      "size": 139982,
+      "sha256": "1ddad189c2ac6eedf83dedd1a046734e078d134fe245a186dbab2e1b36ffeafb",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_020p000.mat",
+      "size": 140295,
+      "sha256": "0453c2a4e92f7a5b5a416f89fd735a4a28d883a71685d61059e7752fd04f5998",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_021p000.mat",
+      "size": 140602,
+      "sha256": "cf999c0d298e13c29836ea09d7211a1c5d96d81f4eadce25dcbdec1eb6ea8ed9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_022p000.mat",
+      "size": 140830,
+      "sha256": "211a94f3425ee93449bb60717e8c94c343b6ee45d28b5fe63afbe15fcdcd22d6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_023p000.mat",
+      "size": 141105,
+      "sha256": "40daaf6bb0e907977cae55cca2f0da1359146af8ea4f7fec955f8292e7ffed30",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_024p000.mat",
+      "size": 141329,
+      "sha256": "0a363b44da26f8cf1df6dacc34b7fd2bd3dd3a160829ad6e768c556194f2df5f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_025p000.mat",
+      "size": 141511,
+      "sha256": "4f52fa0c7fc4ac14980e31640958c37aa21d3f61a9e670fd5e6aee5c33aab58e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_026p000.mat",
+      "size": 141688,
+      "sha256": "e66ceb98b570a465ade78909c4c579bcbfdc43965533131e429182215b921626",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_027p000.mat",
+      "size": 141857,
+      "sha256": "1f4dd0cbd935e8bc0db0867f01bd6a9f57d7cc245428d8831bccd0d7ff57d385",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_028p000.mat",
+      "size": 142053,
+      "sha256": "c52c81f9ed829a8fd80a3a6a3b3bd6795c76e5997530b8465918257ba6467833",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_029p000.mat",
+      "size": 142310,
+      "sha256": "91f1ac6a937c07f6f5ab8a7eaa63edad17d705b8d009055c6e607af1c0f143b4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_030p000.mat",
+      "size": 142553,
+      "sha256": "1798aa15b5e620c2ef2d32b93a19fe336a702c062a48d231bce344d3b69357b5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_031p000.mat",
+      "size": 142696,
+      "sha256": "519158ec1496ab18556f645da09c64f60abccf22dc5892b1de087017ec36878f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_032p000.mat",
+      "size": 142871,
+      "sha256": "d0e6ad62fc8dc3ab6185a3cbd91a80e59e2bb6992786d2424ed892faf6df988a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_033p000.mat",
+      "size": 142976,
+      "sha256": "743223957224c48088976566977340fc834b8116a0e1f7c36fc53693abd1a865",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_034p000.mat",
+      "size": 143012,
+      "sha256": "4172513f4dc0cdf135a76b8e9ff09d238ed3dfc13c1dfc8de501d3dc165ac11a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_035p000.mat",
+      "size": 143230,
+      "sha256": "5e0ff2f2bb79ec0f65689cd347ac9d8ea6955a4845cf140c57217ea0e37be4c4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_036p000.mat",
+      "size": 143289,
+      "sha256": "fc36ca43c7d53c35311f24b0f7c6cfe6614d82e6439fe87f361c746c107ca0a2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_037p000.mat",
+      "size": 143461,
+      "sha256": "f1c3e5e73e16ee6b7873fb5ea08c1a3c1d8e3c38ada812e2007a1f2f23312526",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_038p000.mat",
+      "size": 143524,
+      "sha256": "951922b2347edae97d0a405a2618e356da7a0c62a3978d85b0bafcf76950da89",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_039p000.mat",
+      "size": 143593,
+      "sha256": "a7d1efbcda7c3063d38f59c8a655f42be6f894fdb9b4dab01b729b8f162c3bf0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_040p000.mat",
+      "size": 143791,
+      "sha256": "36244f415d923655d1f8efc526d9dac4a0902a018c2b8a4e2474bd5572355be6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_041p000.mat",
+      "size": 143811,
+      "sha256": "412dd647a0d6325d6d631b7bf3c113f4720013ac603e5ca84b13e99ffa67f987",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_042p000.mat",
+      "size": 144034,
+      "sha256": "22ec1c3cf73ea35ee798310bba42146a2faf9ed007cdbc101880ee82f1a78fc3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_043p000.mat",
+      "size": 144258,
+      "sha256": "a7a1e50827a28158c333cdabb8e31207ac94063e8750c962b3c2ecc9daea4034",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_044p000.mat",
+      "size": 144341,
+      "sha256": "bd80bf01bfc31a52f82c1a7d04f9b6e09193a86f3edf72d0f13e65d6ce6360e2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_045p000.mat",
+      "size": 144400,
+      "sha256": "4043fcf9c0fa169b5c88886d293584e614b7f01859456263deedeb6a290ad8d3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_046p000.mat",
+      "size": 144680,
+      "sha256": "34587264236b743109d3c9e61718743fb6282c5eea0195e8154c86d83e163b19",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_047p000.mat",
+      "size": 144627,
+      "sha256": "f52f1266d17ff432664486a805ff603f63db0c61a01991e5bd7419d1389dbbef",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_048p000.mat",
+      "size": 144842,
+      "sha256": "3e490c364e89750acc5af385fb0d2f9abff0921a1696112432f2a8c9b466baa1",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_049p000.mat",
+      "size": 145067,
+      "sha256": "aceea922e4e43a6900db21a8da467fb7f16bc2add60e6fd2d538751d250d449d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_050p000.mat",
+      "size": 145234,
+      "sha256": "61c170c260277787b73fd0bf13ceca7ef43ed1a33518ed3f731fe86da69ab172",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_051p000.mat",
+      "size": 145450,
+      "sha256": "ddfbb3f1fd4281f7a9b0c32aff731840b9299ff41cde490c6c41572755487fb0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_052p000.mat",
+      "size": 145557,
+      "sha256": "0d98fe3a1fce16e81cab4740861f3375a119cc79677053805b7b8b08acea5b7a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_053p000.mat",
+      "size": 145743,
+      "sha256": "1aae2e35d53d0bf32f689522304762317b6e58917fce9d3d3a389482e22edc8e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_054p000.mat",
+      "size": 145910,
+      "sha256": "3723eaf1a296d747cf8a7abe22e80bd820d5da5282f4706ec10a4b7a433fec60",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_055p000.mat",
+      "size": 146075,
+      "sha256": "6c89b92246e7126260d4e440abb8fc3f30eb4b206387bb40ca7976811ba1c4ee",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_056p000.mat",
+      "size": 146212,
+      "sha256": "ef37e955ce1bfaf36021b7c63dbe8ef15f2f869657bcb450649d1d95557427f3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_057p000.mat",
+      "size": 146356,
+      "sha256": "b308db78dc739878b8ca9378ca5ac2f0918f8120d1ad51eebabcee9474d9b260",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_058p000.mat",
+      "size": 146400,
+      "sha256": "99bbd1db9035b6747eb0bec8eb0e00e2c809ca51a502e1b1bd8a33084b98359e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_059p000.mat",
+      "size": 39494,
+      "sha256": "afe476671d1fe8131662717cecb38de0ff0bde21a33ccfef46f83b56ed48b401",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_060p000.mat",
+      "size": 39507,
+      "sha256": "821311a067e6027d8d77a61ed3be10144c301a417ada8577e91bf4af5a1af93b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_061p000.mat",
+      "size": 39476,
+      "sha256": "8de0b1618e219caacc7eb82ef3e9ff38d4a8cda06d3d54d275e122638f21edba",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_062p000.mat",
+      "size": 39602,
+      "sha256": "6e1ecf52d9be2bb45becfce285ba28eccaccaeb46d566bb83f8326df4521c2de",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_063p000.mat",
+      "size": 39586,
+      "sha256": "459e9ddcb4ccd093cd9bc67963b22b78d632e156a733588299154af8bca9873d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_064p000.mat",
+      "size": 39698,
+      "sha256": "e3d6441a20e61dd36eb3dcce9a00d24a419e13b7d6bedcc38beb811554596be6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_065p000.mat",
+      "size": 39770,
+      "sha256": "d1a2392b40bf12b82a95ddfa51adbad71e231b82be44cc0b2aec5e01afd28f86",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_066p000.mat",
+      "size": 39781,
+      "sha256": "37a8bb8b6b77d6903fa358654759296b2dac3f117f4b2718f0e0b2c56b3902c2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_067p000.mat",
+      "size": 39766,
+      "sha256": "2f6085490a4f5961519f974cf46fce01b689904f4f074d7f69958d93f38e1597",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_068p000.mat",
+      "size": 39851,
+      "sha256": "2cb9ecf280669ab6dcfe0e49903d240e52645655236238aca73136f8d6a8bc10",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_069p000.mat",
+      "size": 39842,
+      "sha256": "ed6a05b32c68e15e4232652e57a4ec9f77f7765912c891d7ed4d4ca1a29faf83",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_070p000.mat",
+      "size": 39975,
+      "sha256": "a6cb1ce00f2466aeeabc15a84bebec0cafeb15475a4ac997a859fadebdd5a2b8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_071p000.mat",
+      "size": 39952,
+      "sha256": "0c283626572170c82437a5a11a108d6389b754c3c71ae86cd24903266fb2cae4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_072p000.mat",
+      "size": 39933,
+      "sha256": "f84874143e7e016be120f3414fb6ecdd6f183f0687890e45da88a4f8247c09ad",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_073p000.mat",
+      "size": 39986,
+      "sha256": "9d175f4afc3399926f97bbf2d4da5048b384075b60bfa74345c0bb2a5e9e2e4f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_074p000.mat",
+      "size": 39983,
+      "sha256": "c83c17814cce33c83992cbac54733a05ace6d68836ea2695ee8c7b64046e798e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_075p000.mat",
+      "size": 40043,
+      "sha256": "f5e80966eb128a0fbd94f3759d899aa1155b25651830dc65a8acdde8cf4583a4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_076p000.mat",
+      "size": 40021,
+      "sha256": "b790b627a5b22e8b8652a12b8b9a30791de1bda4f63b6ba446bdf9441dc9f88a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_077p000.mat",
+      "size": 40079,
+      "sha256": "be9fe358cc0a1f834bd880038a69193673e4841d7876adccfef427a647ec7c5c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_078p000.mat",
+      "size": 40173,
+      "sha256": "07963dccbc28624afb2a9442ab1b2c6a10e48d0b074107f467a9f6bddc85c9b5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_079p000.mat",
+      "size": 40196,
+      "sha256": "21b039af6623d9c1e15242fa55087881fbc9653b29eec283a6b1300f7b09baf7",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_080p000.mat",
+      "size": 40230,
+      "sha256": "f0b8af5e25d97ca9e3d10a3f230c49c503c2415429c788e6a7a82ccefb76bd31",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_081p000.mat",
+      "size": 40338,
+      "sha256": "1b07200b57f4279ca9ff7639819547e4bd5f77ef4f3c193c57551d6d1bb4ec18",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_082p000.mat",
+      "size": 40342,
+      "sha256": "d112178feaab8e23416b4eff942b177df2df4ad4d8971e56ca579e548b5a6399",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_083p000.mat",
+      "size": 40369,
+      "sha256": "510e556a68940c27895de077511f7d5eb0301482c97bd54cf42e5a06a2aba93e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_084p000.mat",
+      "size": 40357,
+      "sha256": "17ad69553080a26ec4aaf3ab7690bbe00c94a4d47523f4853fb277b8a2134103",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_085p000.mat",
+      "size": 40394,
+      "sha256": "f470924de9d4b80cfea0c2505a34a6bc2b7cb6880eb026f01445f437f983554b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_086p000.mat",
+      "size": 40393,
+      "sha256": "97ad572c1fdaab13bf4b32eb11ca21be223cc02a861e9a3ab2733b32c1ed4224",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_087p000.mat",
+      "size": 40407,
+      "sha256": "177ca2def790b8718abbe7f4df9f92c202e431a56f7a2bfafedee21b093ab50e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_088p000.mat",
+      "size": 40555,
+      "sha256": "8ce932db133221a3d611043245f8ddbadcc23ddc0f38b16ed3b0b260023d4186",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_089p000.mat",
+      "size": 40628,
+      "sha256": "845fd536b6d8ac26ad8b97305e56467e46ba7d5dea833e2a17d3f0000e8d9542",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_090p000.mat",
+      "size": 40567,
+      "sha256": "dce30bceb612adbeeac161cee641d0ea9d4de3d724cd2fa78cd70f3aff9b92a0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_091p000.mat",
+      "size": 40584,
+      "sha256": "5b9298e35add9ef7f2b67f41905c33b3a615216e02728c0c353d6bba3d043f03",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_092p000.mat",
+      "size": 40558,
+      "sha256": "e220ca06264e7ed09a479aede119491af545153f898e5f54955504ab3a4156e9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_093p000.mat",
+      "size": 40645,
+      "sha256": "7cf2b4f15ee6db41876961c5e1ab3b836320b3768c32619454ebf022c7c3011a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_094p000.mat",
+      "size": 40694,
+      "sha256": "78e22362a557284a88dbc4775aea2d0ff45308863fc7d015b94bb13fac16387f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_095p000.mat",
+      "size": 40732,
+      "sha256": "d84a9a58045fdc913acc312975d2ce76b6ebb9f574a851ad80d1646d43022a01",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_096p000.mat",
+      "size": 40685,
+      "sha256": "314e95b07deab7642eae9e433f5c6fcebf8592435d7ed8e7851f77a408d35a5d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_097p000.mat",
+      "size": 40705,
+      "sha256": "703885714431e4082653c9cae04803dd62d01ca8de95ce7bcae5e64d4a5e9a86",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_098p000.mat",
+      "size": 40808,
+      "sha256": "7a02b08cbe588b0f9649b2436be743d24f4b64fb61a331896497ea4e5ec50b26",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_099p000.mat",
+      "size": 40718,
+      "sha256": "4b50e7234537ed45b9ca99da1153059e3957b2f3ce193d347c75a5a84b34d6ec",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_100p000.mat",
+      "size": 40827,
+      "sha256": "cdaae954bc80ff5623b42cb015aad166e44bc1f64e6809452220d7fb3a154a14",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/compare_profile_data.csv",
+      "size": 102771,
+      "sha256": "918bd75a5de867f33e4240cb876df16bb5c697d7beae6a8d44b90774fdc5f032",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/macro_travelling_wave.mat",
+      "size": 4132294,
+      "sha256": "97a5888bb158012f8d3e0a9afc3d428cd1a307bc830d1cfc09aa1b0e99ed5526",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_000p000.mat",
+      "size": 225403,
+      "sha256": "5fd454a4b75e0c53c490ac21257d9800760e0986c4eed26743a7cf5a8690df9b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_001p000.mat",
+      "size": 348318,
+      "sha256": "c04002ae167d40db797e88d25ac13a1df680ba72655fa75dde699927d2e37b18",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_002p000.mat",
+      "size": 349168,
+      "sha256": "bf9f0a01f40fb11a6a54780666a11e608685c946012f219e92feb1c08596738d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_003p000.mat",
+      "size": 36256,
+      "sha256": "352eb4eda33a2386aa84a8412baade7c72ad5ca76240238cf5d21c7335c42ecb",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_004p000.mat",
+      "size": 36363,
+      "sha256": "f1111bd4c3e0a05f009ec50c4699d4508e9b8793587e2a9f164e76c1c8c32575",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_005p000.mat",
+      "size": 36477,
+      "sha256": "f741ee05fd7575d7da334b2ea113cc76bc1b498da3fc016b2a5c33e06a9a6210",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_006p000.mat",
+      "size": 36604,
+      "sha256": "1671b692c89fa30ca0eb74c506bc11d28b711517f04010ece057ad6ef96f37b4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_007p000.mat",
+      "size": 36689,
+      "sha256": "795364cd0415182d6ff623c4bf31beb4031415d58efdd640742c091ed1114e3f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_008p000.mat",
+      "size": 36784,
+      "sha256": "0b0decc0626ee72137a1e6b0a7908e7e608d05675361789e29c0ef8ba31fab39",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_009p000.mat",
+      "size": 36859,
+      "sha256": "9ce159e047c8372b3d4d01d8c8d4f5a9a2b915e7c91b619be2dec6b72109c49c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_010p000.mat",
+      "size": 36940,
+      "sha256": "adf2b0e0e29893c7a372332d791ec59fb07d7e2027c6a4852bedbb4906f5b128",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_011p000.mat",
+      "size": 37057,
+      "sha256": "c45147a96b5450d9f187a455d92fd11000d36908bdc1d2bccd9defaf69917e3b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_012p000.mat",
+      "size": 37139,
+      "sha256": "aa3476023850cf23dee150ed039c739c30f8a2191b5fcbca399dc43f7a66126a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_013p000.mat",
+      "size": 37211,
+      "sha256": "61cdf338115f5bc4d9b0a21859c901b62b27ad3b49d018c797d41b837174414f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_014p000.mat",
+      "size": 37319,
+      "sha256": "bc5a86993ebb9f47e241edd729294c03da881a1f7013c1f7903abec3dfc5f597",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_015p000.mat",
+      "size": 37373,
+      "sha256": "c9ed60551b349f3990da276222bc1e2475ec4ea763fcd5c58b6c87b39136f71e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_016p000.mat",
+      "size": 37453,
+      "sha256": "e21582ec2fcf0572e125778e88fa7190c3815b076f990a1805bff48d5ab1277a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_017p000.mat",
+      "size": 37518,
+      "sha256": "faa3ad41379f2a2224dcb13e32e47bf034052966b94728b44d27088ebc6fcaee",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_018p000.mat",
+      "size": 37588,
+      "sha256": "b4973223f5e31c5eeee5dc8ec66af2824db259a8d57aab91597f3991a36faa1d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_019p000.mat",
+      "size": 37661,
+      "sha256": "ed28939715fd1a43fda4b213a8a10e970ad12665fff9960ea4e5efd8930ea7ea",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_020p000.mat",
+      "size": 37733,
+      "sha256": "1a48e7e31aeed5aa0072e70c0c2cbec24bd13b7fdcce33113c18660b911ea27e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_021p000.mat",
+      "size": 37815,
+      "sha256": "7c7168b30bcfa96ff1236d108a9afd0cf6d61eb3bc51900f5803c0a914459897",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_022p000.mat",
+      "size": 37861,
+      "sha256": "525329912d1540a14fd4fad1d571934078864486fd035c1e6e6294ffc7450497",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_023p000.mat",
+      "size": 37928,
+      "sha256": "3165ff79f76fe8457619ff488043cff8b2a87179199ab15c2293dc9ddc3abe91",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_024p000.mat",
+      "size": 37982,
+      "sha256": "58ab6c5ede64ad5afd1996205304f6197e3c1fa4e7a51f8cc56c2a2642a76a79",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_025p000.mat",
+      "size": 38047,
+      "sha256": "b1f48e4067ea78ad4d4c436a3e348b4043a0127352b60a44bfcfa5d688acee7a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_026p000.mat",
+      "size": 38112,
+      "sha256": "e53645c509c95410e990ff18cd7bbec41a13f4f683303b071bc7425b6227597c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_027p000.mat",
+      "size": 38165,
+      "sha256": "d059ea8af9a7e93fda2d20bb22b990ab672d2cba9bc0d65f163af0f63f7d0032",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_028p000.mat",
+      "size": 38213,
+      "sha256": "343ecfb7e5fadd2b5406f27740951b43d7d4544f52876c09e6d95d6ed282daad",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_029p000.mat",
+      "size": 38271,
+      "sha256": "7b252089219cf489e7ea469d1ee2bed616c7270798d1418eb8eeed0cd0a24993",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_030p000.mat",
+      "size": 38341,
+      "sha256": "04e088b24ff48e35c0e4d1f5b62eb6808964c90eb1af35532f64c30254e92f6d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_031p000.mat",
+      "size": 38373,
+      "sha256": "02c1c2e3a7b297fb239842baa242e75148efe6ef50be8e92ec53bdd7e632a724",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_032p000.mat",
+      "size": 38427,
+      "sha256": "d17088d9aaa60a9d736cab6ac679afc01bd18ecf49a110674427f0d7c6779f75",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_033p000.mat",
+      "size": 38464,
+      "sha256": "ee34bed740ab8bcf2ff0f0d4819c557ca7b080cb687eb914c22d7a409be97335",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_034p000.mat",
+      "size": 38515,
+      "sha256": "433f1cae3c618eb7d5849b690b94976ce89366d8a5d746ca42372f64b27b8e44",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_035p000.mat",
+      "size": 38554,
+      "sha256": "7b93f223bbf7d1bb26f6a9d05871cc03740b35bd6df32cbdeb635ac0c3cbb12b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_036p000.mat",
+      "size": 38614,
+      "sha256": "cf8cf55db5f8b9e4db6d012d62b52413ee03293414ebe0bf48442a6936a4b58c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_037p000.mat",
+      "size": 38671,
+      "sha256": "31b2387d7ec8f79aa869c69e9090070987c98e8152841680f1efa6290def4894",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_038p000.mat",
+      "size": 38686,
+      "sha256": "6083e2f859b5ad21455b62dd39cb63e089126fe86cf70f2ab502defb972c25d7",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_039p000.mat",
+      "size": 38733,
+      "sha256": "e094e06f25f58fd3245af5b7f375b79f5f07675054a8b1f7217bcc556f05bffd",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_040p000.mat",
+      "size": 38761,
+      "sha256": "b10f271c439e67bbba07a312ed3282062ebaf4e527cb2aec4f95fa0e3597aa6b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_041p000.mat",
+      "size": 38806,
+      "sha256": "4a4d6530bdfb517170345214ab86f1a67a237bf5d70e985b4469ee0ca6a4b4c0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_042p000.mat",
+      "size": 38826,
+      "sha256": "ec98542ece44ba70002829664d8bdf4a35483896799a4e3094affb73fb824a0d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_043p000.mat",
+      "size": 38827,
+      "sha256": "f195e7e10ac64f7a9f166e498d11861d7a4a0d9d3dcc7a571ee8dee864d1e6a9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_044p000.mat",
+      "size": 38912,
+      "sha256": "7a8f0dc6da70d5ec73000655d700f30cd973fef808517bcab6e26d16bc93a677",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_045p000.mat",
+      "size": 38957,
+      "sha256": "11d2909893a5f2ba83cff28c6967ae21717217bd4a209ba725337b233c21752f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_046p000.mat",
+      "size": 38987,
+      "sha256": "57c3f42ccb5d5071c354ce5bcb09baa19e351316c067d33c343006f050dec42e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_047p000.mat",
+      "size": 38971,
+      "sha256": "2f83255a7bb4dfdf31d085d37378dc403e6da565a14af7c758cc48f4e04ce100",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_048p000.mat",
+      "size": 39106,
+      "sha256": "be73f0ae41f4c50a408e147412021f9bbd00d374080727112a58f1a0165a9d91",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_049p000.mat",
+      "size": 39149,
+      "sha256": "17af5b208432513ff0337c79cb888e1e1a1cf4362ad50da77fc0b872821005c8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_050p000.mat",
+      "size": 39211,
+      "sha256": "3f3d13c961870af7b355e17b72427203d7c6161741aa0d41dc933edcc02d7250",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_051p000.mat",
+      "size": 39215,
+      "sha256": "d09a5cd42845164a4395a82fceb2331ed223bc14a20e302d3708210eac084900",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_052p000.mat",
+      "size": 39254,
+      "sha256": "6962527920760efc15544d086134e56b40c5cd6477845148b7e050c766a21b93",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_053p000.mat",
+      "size": 39355,
+      "sha256": "a826c833e54d82fa37ca98636c08cdf3bf760a1ef0b93657ce32e26d1a31da49",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_054p000.mat",
+      "size": 39349,
+      "sha256": "dfc3c95787b213618a21ca35b211f4c3aaca8f74326d2a02ec08e0f6ea3f3024",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_055p000.mat",
+      "size": 39428,
+      "sha256": "0e5a58ea66f731d5f73e26c0a3a19f9114bd5e3a98def02e28a10264fc67cbb3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_056p000.mat",
+      "size": 39378,
+      "sha256": "d086742147f1789fe1003e6d2501d2b67a06d152b305a18e2a4532fd70dd1009",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_057p000.mat",
+      "size": 39469,
+      "sha256": "ff6ff24e0c9c621896983c37f41f015a0c7c0c3361f8bf407777c2ffc6c9c97f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_058p000.mat",
+      "size": 39452,
+      "sha256": "c637807645a65d4de45e4e6b7e3070cd5d9fe043ec8d3421448267c86ac3baef",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_059p000.mat",
+      "size": 39494,
+      "sha256": "afe476671d1fe8131662717cecb38de0ff0bde21a33ccfef46f83b56ed48b401",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_060p000.mat",
+      "size": 39507,
+      "sha256": "821311a067e6027d8d77a61ed3be10144c301a417ada8577e91bf4af5a1af93b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_061p000.mat",
+      "size": 39476,
+      "sha256": "8de0b1618e219caacc7eb82ef3e9ff38d4a8cda06d3d54d275e122638f21edba",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_062p000.mat",
+      "size": 39602,
+      "sha256": "6e1ecf52d9be2bb45becfce285ba28eccaccaeb46d566bb83f8326df4521c2de",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_063p000.mat",
+      "size": 39586,
+      "sha256": "459e9ddcb4ccd093cd9bc67963b22b78d632e156a733588299154af8bca9873d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_064p000.mat",
+      "size": 39698,
+      "sha256": "e3d6441a20e61dd36eb3dcce9a00d24a419e13b7d6bedcc38beb811554596be6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_065p000.mat",
+      "size": 39770,
+      "sha256": "d1a2392b40bf12b82a95ddfa51adbad71e231b82be44cc0b2aec5e01afd28f86",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_066p000.mat",
+      "size": 39781,
+      "sha256": "37a8bb8b6b77d6903fa358654759296b2dac3f117f4b2718f0e0b2c56b3902c2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_067p000.mat",
+      "size": 39766,
+      "sha256": "2f6085490a4f5961519f974cf46fce01b689904f4f074d7f69958d93f38e1597",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_068p000.mat",
+      "size": 39851,
+      "sha256": "2cb9ecf280669ab6dcfe0e49903d240e52645655236238aca73136f8d6a8bc10",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_069p000.mat",
+      "size": 39842,
+      "sha256": "ed6a05b32c68e15e4232652e57a4ec9f77f7765912c891d7ed4d4ca1a29faf83",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_070p000.mat",
+      "size": 39975,
+      "sha256": "a6cb1ce00f2466aeeabc15a84bebec0cafeb15475a4ac997a859fadebdd5a2b8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_071p000.mat",
+      "size": 39952,
+      "sha256": "0c283626572170c82437a5a11a108d6389b754c3c71ae86cd24903266fb2cae4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_072p000.mat",
+      "size": 39933,
+      "sha256": "f84874143e7e016be120f3414fb6ecdd6f183f0687890e45da88a4f8247c09ad",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_073p000.mat",
+      "size": 39986,
+      "sha256": "9d175f4afc3399926f97bbf2d4da5048b384075b60bfa74345c0bb2a5e9e2e4f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_074p000.mat",
+      "size": 39983,
+      "sha256": "c83c17814cce33c83992cbac54733a05ace6d68836ea2695ee8c7b64046e798e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_075p000.mat",
+      "size": 40043,
+      "sha256": "f5e80966eb128a0fbd94f3759d899aa1155b25651830dc65a8acdde8cf4583a4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_076p000.mat",
+      "size": 40021,
+      "sha256": "b790b627a5b22e8b8652a12b8b9a30791de1bda4f63b6ba446bdf9441dc9f88a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_077p000.mat",
+      "size": 40079,
+      "sha256": "be9fe358cc0a1f834bd880038a69193673e4841d7876adccfef427a647ec7c5c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_078p000.mat",
+      "size": 40173,
+      "sha256": "07963dccbc28624afb2a9442ab1b2c6a10e48d0b074107f467a9f6bddc85c9b5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_079p000.mat",
+      "size": 40196,
+      "sha256": "21b039af6623d9c1e15242fa55087881fbc9653b29eec283a6b1300f7b09baf7",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_080p000.mat",
+      "size": 40230,
+      "sha256": "f0b8af5e25d97ca9e3d10a3f230c49c503c2415429c788e6a7a82ccefb76bd31",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_081p000.mat",
+      "size": 40338,
+      "sha256": "1b07200b57f4279ca9ff7639819547e4bd5f77ef4f3c193c57551d6d1bb4ec18",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_082p000.mat",
+      "size": 40342,
+      "sha256": "d112178feaab8e23416b4eff942b177df2df4ad4d8971e56ca579e548b5a6399",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_083p000.mat",
+      "size": 40369,
+      "sha256": "510e556a68940c27895de077511f7d5eb0301482c97bd54cf42e5a06a2aba93e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_084p000.mat",
+      "size": 40357,
+      "sha256": "17ad69553080a26ec4aaf3ab7690bbe00c94a4d47523f4853fb277b8a2134103",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_085p000.mat",
+      "size": 40394,
+      "sha256": "f470924de9d4b80cfea0c2505a34a6bc2b7cb6880eb026f01445f437f983554b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_086p000.mat",
+      "size": 40393,
+      "sha256": "97ad572c1fdaab13bf4b32eb11ca21be223cc02a861e9a3ab2733b32c1ed4224",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_087p000.mat",
+      "size": 40407,
+      "sha256": "177ca2def790b8718abbe7f4df9f92c202e431a56f7a2bfafedee21b093ab50e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_088p000.mat",
+      "size": 40555,
+      "sha256": "8ce932db133221a3d611043245f8ddbadcc23ddc0f38b16ed3b0b260023d4186",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_089p000.mat",
+      "size": 40628,
+      "sha256": "845fd536b6d8ac26ad8b97305e56467e46ba7d5dea833e2a17d3f0000e8d9542",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_090p000.mat",
+      "size": 40567,
+      "sha256": "dce30bceb612adbeeac161cee641d0ea9d4de3d724cd2fa78cd70f3aff9b92a0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_091p000.mat",
+      "size": 40584,
+      "sha256": "5b9298e35add9ef7f2b67f41905c33b3a615216e02728c0c353d6bba3d043f03",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_092p000.mat",
+      "size": 40558,
+      "sha256": "e220ca06264e7ed09a479aede119491af545153f898e5f54955504ab3a4156e9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_093p000.mat",
+      "size": 40645,
+      "sha256": "7cf2b4f15ee6db41876961c5e1ab3b836320b3768c32619454ebf022c7c3011a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_094p000.mat",
+      "size": 40694,
+      "sha256": "78e22362a557284a88dbc4775aea2d0ff45308863fc7d015b94bb13fac16387f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_095p000.mat",
+      "size": 40732,
+      "sha256": "d84a9a58045fdc913acc312975d2ce76b6ebb9f574a851ad80d1646d43022a01",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_096p000.mat",
+      "size": 40685,
+      "sha256": "314e95b07deab7642eae9e433f5c6fcebf8592435d7ed8e7851f77a408d35a5d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_097p000.mat",
+      "size": 40705,
+      "sha256": "703885714431e4082653c9cae04803dd62d01ca8de95ce7bcae5e64d4a5e9a86",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_098p000.mat",
+      "size": 40808,
+      "sha256": "7a02b08cbe588b0f9649b2436be743d24f4b64fb61a331896497ea4e5ec50b26",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_099p000.mat",
+      "size": 40718,
+      "sha256": "4b50e7234537ed45b9ca99da1153059e3957b2f3ce193d347c75a5a84b34d6ec",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/macro_travelling_wave-粗网格/snapshots/macro_t_100p000.mat",
+      "size": 40827,
+      "sha256": "cdaae954bc80ff5623b42cb015aad166e44bc1f64e6809452220d7fb3a154a14",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/.DS_Store",
+      "size": 8196,
+      "sha256": "a45c688a3aab505495bba8689338f8c42412964e43d059200a31d8d85b8bf4d2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/1.fig",
+      "size": 1048965,
+      "sha256": "185747476e177fbbd96771193371c4b436fc5354a334201b6deafeb6377edeab",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/2.fig",
+      "size": 1052575,
+      "sha256": "d6faa11805aa6a484e652e4e11c1469b0d8d2926c57fc05871c13791ba8df507",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_T30_direct.eps",
+      "size": 81325,
+      "sha256": "7eb00b1baa0b3c1d31dee70c4ba44dc9f267c83a21b9a94ca59c1f03bbabe533",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_T30_direct.fig",
+      "size": 33150,
+      "sha256": "bb19d38b1913707b0d20c020f0a69aeaf953b8db6ec6230c6af413320031f3a9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_T30_direct.pdf",
+      "size": 24294,
+      "sha256": "aab8694a820a9e0afa3b3b0962d081e578e7cc1c5b076505c5bd9838be37a976",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_T30_direct.png",
+      "size": 123058,
+      "sha256": "e809e31e221803fea26a240c62b4290d91f99b5978ef7bd21943309eb0869e7f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_T40_50.fig",
+      "size": 33035,
+      "sha256": "f921df6168f09e68ccc8d9ad4cc9c298c022bbb07e566a827dc195d1d995fd02",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_T40_50.pdf",
+      "size": 20861,
+      "sha256": "775b465fc4c4a316abc89d3cc324a70f21ea0bc505019269ff57fdc001a7293c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_T40_50.png",
+      "size": 106636,
+      "sha256": "7af0452901f9a6442130ab5ace90f512179209cb3307dfa17c26831a810cf056",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_T50.eps",
+      "size": 80704,
+      "sha256": "017566681e316f92f4c55bc4b54633914bd5833883e9e5f1e32f8579912bff70",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_T50.fig",
+      "size": 33016,
+      "sha256": "09124a1af5309f05e8942e7bbbcad676d291924d0d999c44487771f47669b5f9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_T50.pdf",
+      "size": 24264,
+      "sha256": "e78cb271491537222c35c7e68a8b8fb7b2c5ac4a1725c84bbafee07115d45479",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_T50.png",
+      "size": 123174,
+      "sha256": "349d228f37a879c137122a73761b531ba807f35b591ccd777eeeea33547a58a5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_T50_direct.eps",
+      "size": 95500,
+      "sha256": "938b25d3001b3fe77de5922a6dbbe019343011b4c8814e2e2e43ceb418d141e9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_T50_direct.fig",
+      "size": 34542,
+      "sha256": "34241e5359ca6ba7109f7387f15ffebd52bd8f2ed7b7fcd485d1fd709fa264d7",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_T50_direct.pdf",
+      "size": 29247,
+      "sha256": "ea61183ffbcbe1aeaad856962133e75cc87f06c55967fdfadc28d9b597d06a3d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_T50_direct.png",
+      "size": 155039,
+      "sha256": "f5daaad369115058f7da275aea2f6e0fcb0f0eca6762085567e1864938d19836",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_by_time.png",
+      "size": 128825,
+      "sha256": "673e7791d244e58d05b8383c243da8948f3d61ae167086943ce8b2ef420b6dd2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_final.png",
+      "size": 25744,
+      "sha256": "5985a4f0e4acde07567eaf7153046e01781740a6a230824f5894ea044d49b907",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_paper.fig",
+      "size": 62029,
+      "sha256": "0fd512b3aaf0a1f8fb4e2d673d078f7b4a24936249740505cdc15778aafc4449",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_paper.pdf",
+      "size": 20144,
+      "sha256": "560c3251d196080c5134108fb65b8342efe2d64d5b98c30d9e2fbe0fa55633c2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_error_paper.png",
+      "size": 148651,
+      "sha256": "a0b43f42fc510e526679f9933ec4daa984e9ca4cb87df06a70d0ab68a7ac7ef6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles.eps",
+      "size": 223436,
+      "sha256": "d484bc01a9250a396844a4fe27f9afe8ac7ff08320b73f2c6696b50d01287c57",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles.fig",
+      "size": 877543,
+      "sha256": "5b54f80fc71c43d2fea9b372b687a421fa44836372bb097dbfc6cd202f7e92dc",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles.pdf",
+      "size": 70228,
+      "sha256": "b0aea8231de7e10a18652a8bd8787ac62a79645bf8af5ffc9362600cb1841d87",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles.png",
+      "size": 216022,
+      "sha256": "cb3a52114e4da5e6625cd9da41326a1a10f260e8496987b04830ddb2463fb323",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles_direct.eps",
+      "size": 118596,
+      "sha256": "f27ea2de31c9eb0c22c466eca865d83a906882d26803572498a96bbd4f55276c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles_direct.fig",
+      "size": 366167,
+      "sha256": "6dd81a4ca0f6882af87c239eb2d2cc9caac8550132de8dcb9ade953dbddb72db",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles_direct.pdf",
+      "size": 29906,
+      "sha256": "fe828cf89689f0b1825cef812d65712f32367fdf2c706e789bc5c8c8873719f9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles_direct.png",
+      "size": 178298,
+      "sha256": "35f9df1a5ba3b71a613b7cc6da06f91737cdb03b2378179af0ad2475efde4620",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles_early_paper.fig",
+      "size": 1046845,
+      "sha256": "5dab2dde9d6fdc9e2681363f900ddb12a55fde6bc261a5ca682f4c90464adf2f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles_early_paper.pdf",
+      "size": 77907,
+      "sha256": "5716b52440884737ae1b995bb938d580ce2bd50fd89d1d05ad8c71cb4517b76d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles_early_paper.png",
+      "size": 194018,
+      "sha256": "7dc8d742fa45d6695dc1d645e3cb9ac481877f528916edbde694c0ecb83aeb6e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles_final.png",
+      "size": 30275,
+      "sha256": "b94fa67b1158b4a5d35adc107188c2dfd6e41c671d66aee58ca65bbfbae7803e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles_late_paper.fig",
+      "size": 536429,
+      "sha256": "fee188f16bde84ab7f3994fb10e3151dab7fbe6dc76bfb6d77ccf8350943478b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles_late_paper.pdf",
+      "size": 54352,
+      "sha256": "34225852c1e4c0b8f18054a6b50e4a909735bc69acb16d345bf6f7cb099ff2be",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles_late_paper.png",
+      "size": 170716,
+      "sha256": "90704202ab9dc1c8442814ce03762b31e42bfee9640860e551f8160b359499d6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles_paper.pdf",
+      "size": 75277,
+      "sha256": "7c3a2cf5d0fcec8a418574ef571fa5772d256a237798f3cf02134de2284199ed",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles_paper.png",
+      "size": 168405,
+      "sha256": "a6d58ac24b88a92fa77c96e49f9d6ddb9467ed88a24ba97525cb0f43414863cb",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_profiles_snapshots.png",
+      "size": 58682,
+      "sha256": "5622ce952d52d32982b16172ae965035f4bcdc511d09443b5d4437b279931792",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_comparison.eps",
+      "size": 128633,
+      "sha256": "148290ad96dc97b6390e106e748cdf25a6edb9982a087d01963f55650c894e28",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_comparison.fig",
+      "size": 88730,
+      "sha256": "6e6119e80f981176305e7216af74486fbc82cc8cae5b06c5fafcf9f119c222f3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_comparison.pdf",
+      "size": 37280,
+      "sha256": "1bdd13cd415292b1be29e6efb753ff44d3979367b8aeb3097646ca72f6fce213",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_comparison.png",
+      "size": 149215,
+      "sha256": "145c5eb679d64751786206234b9d782c18af42fd26ea604a8ffc35468953e03d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_direct.eps",
+      "size": 132612,
+      "sha256": "3c3b4dac7050f3cc33f04fbd7dcf2cab23e3439c7aaca16e787d12bdc68162a5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_direct.fig",
+      "size": 73096,
+      "sha256": "7afc9215b869cabb30eb17af39ddff055e740b8ed5207be17933f92cb6eb832f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_direct.pdf",
+      "size": 36006,
+      "sha256": "c0b47eb411ad6ad874173e196dad13eb56135f45abe5b1d00f05192056b3bebe",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_direct.png",
+      "size": 144986,
+      "sha256": "8e1a9ee7b855c5bed0a0dab100e333173d86794caac228230512ae7ea2b595f8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_error_T40_50.fig",
+      "size": 33274,
+      "sha256": "dcae16dd16a1ef91841f5998278210c447a7417c7c30f4c3c64cfa00a4961e2a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_error_T40_50.pdf",
+      "size": 28638,
+      "sha256": "c6fcdec015993f5190b4c46ef3d0c7264ddff03174409057c8a7643c11bf0e55",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_error_T40_50.png",
+      "size": 111817,
+      "sha256": "759ca843ea4555526161f19a8e94d314ece838d30bb6bad1e4e795a4d5035ba6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_error_T50.fig",
+      "size": 32451,
+      "sha256": "ef0201f29dcfc15cf376659c1f213424e6650a8eb70c3d4d2418daa55713257a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_error_T50.pdf",
+      "size": 21971,
+      "sha256": "70ab957558bef1324ddc73b5204b7c093c7b8ef1fe1ac8bbffcf2f4c4501a3e9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_error_T50.png",
+      "size": 79138,
+      "sha256": "1394d1db73c27a01776d406c589e6a3176eb2961ed765d5d26fa3a827a942fb0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_paper.fig",
+      "size": 38356,
+      "sha256": "a6850b6977db8b6aa9550628f6a0f35b00513d4780487c48b7c014bce10dfd40",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_paper.pdf",
+      "size": 17314,
+      "sha256": "0e0d64aa2ea3b53ee64827361412f72c9f30760cee3737624a11b249b5cf0400",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_paper.png",
+      "size": 115903,
+      "sha256": "e454d6012c319c1f60b56a1d589ca31fd19ce852c570803b7cd24941b45092fd",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/AP_speed_time.png",
+      "size": 54849,
+      "sha256": "45e3a5e953602fd938f29e30eaa7c5373b74ac4d88f82003a1b1798335755ef9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/T_1.eps",
+      "size": 120518,
+      "sha256": "d301b9fdf848060a8d64ac76626a0dd54adc474bbaa49b3711b40d9996437a0a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/T_10.eps",
+      "size": 124127,
+      "sha256": "52f8744ff525dd31b6fc6d52815d825b3e92588f9fd95c6f1ef275d593f27d8c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/T_20.eps",
+      "size": 124707,
+      "sha256": "2d0fa32b61c7d2cb15cc02b381631b92bf85f7bdbde932a3677cbce732cd0a69",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/T_50.eps",
+      "size": 129296,
+      "sha256": "095f7c0f62a791cc42dcb72117b1e1fb7d36101ea4b421293899b88faa62fb98",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/compare_profile.eps",
+      "size": 46112,
+      "sha256": "c1645f11f7f4677d102995609bcd2cf888262f17bcc9569be7b2bb0dcec98bb5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/compare_profile.png",
+      "size": 33854,
+      "sha256": "d02a8285b3d165f790deb4a65f0cc46933282187a43f22dbdffe948890eef941",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/macro_compare_t_030p000.eps",
+      "size": 75925,
+      "sha256": "c0271923b4a75c152cc74683015d7b551a91e975c0d62ee38f918c724095bd7c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/macro_compare_t_030p000.fig",
+      "size": 281741,
+      "sha256": "3b5609baf8713ae1674cc0c3745e7330b5212b77d648100602f24d9d7998400a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/macro_compare_t_030p000.pdf",
+      "size": 34461,
+      "sha256": "22f11506b77a03b3c0f45ef3946fd7c97b3e56d1214ff2fb00c00fbe64e40d34",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/macro_compare_t_030p000.png",
+      "size": 108557,
+      "sha256": "083cb83374f4b83e6f50d50a852b4d79cbd5c2f8378d0304b04b390bcd794507",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/macro_compare_t_050p000.eps",
+      "size": 74297,
+      "sha256": "91cbfcafc3e89a9b2bb43938ed72fdcf70d224a59460bc6e6add7ebf13eeef83",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/macro_compare_t_050p000.fig",
+      "size": 281478,
+      "sha256": "e77fb11cd84ce801cabced3a997159ccebe7bbf16266143894b2db9074a74ae6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/macro_compare_t_050p000.pdf",
+      "size": 40046,
+      "sha256": "a9de18f98a828f46a3a0d64e8832e607c4fca0f8368ff06f0d656398305c3d39",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/macro_compare_t_050p000.png",
+      "size": 109177,
+      "sha256": "fb9989fad2d0814eb41982d12a955c94d65140246c73fbc8bb6bbca2c52e6429",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/profiles.eps",
+      "size": 96033,
+      "sha256": "5c314613f6ef3e852e82ac2b7f9249291d98b66ba3714972d1dbb426162392f6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/figures/profiles.png",
+      "size": 33268,
+      "sha256": "cb4e77cf0c400e642373a2e96a1369106483491a76a5769cd4c4813d6567ce1d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/plot_AP_from_snapshots_direct.m",
+      "size": 28534,
+      "sha256": "b86195e7e089e71d066f45969bc17fc7f9a91ebb5628c33434d232e3ec76e971",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/plot_AP_profiles_paper.m",
+      "size": 27537,
+      "sha256": "1a919f2375cf2915a36954bb8052cd5626b4a34be0d106d4fab8d63b3494886d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/plot_macro_compare_time.m",
+      "size": 9601,
+      "sha256": "1f9beb93e6095c4a85119232fb47dfea78f6a44d80d3f221ccd4f2a1a6d8a5cd",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/post/plot_speed_from_snapshots_direct.m",
+      "size": 16137,
+      "sha256": "fd886404dcdc2131f6569cec53d57a981ee694cccdc0172fc7ae138ba5c7c3fb",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/runs/rebuild_AP_profiles_from_flat_snapshots.m",
+      "size": 16593,
+      "sha256": "b79ecf52cba76798e9ba9850244c877868c3461e497c2c55bbfb8bd5e3340089",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/runs/run_AP_profiles.m",
+      "size": 5663,
+      "sha256": "32b15762b6d928016bf9dfab9f24476e666dd167337505bf5ea15ab0a6abe493",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/runs/run_calvez_bistability_probe.m",
+      "size": 1656,
+      "sha256": "d67cc739c0bd964766d5aa1c8b53b8e60b27f0df305490b0370dbfe4a34ccf7e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/runs/run_macro_travelling_wave.m",
+      "size": 2681,
+      "sha256": "7cd11065fc8cfa922faa3a83542766087b0ee9a643c30a51dec568b9fffaff46",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/runs/run_single_case.m",
+      "size": 1644,
+      "sha256": "a257cea32635ed88afdb901a10f63f238f3bcab389beb77dc644bc256e8885c8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/runs/run_speed_scan_light.m",
+      "size": 2829,
+      "sha256": "b2359d243fbe7c69d7d3302bf53aee7e13f28e2f00fb3999e51596629b115f9c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/startup_AP_bacteria.m",
+      "size": 222,
+      "sha256": "c4bb8ad4741794535500ecebd045155ea263c3571b7aa071d07e5192b2545b53",
+      "symlink": null
+    },
+    {
+      "path": "code/.DS_Store",
+      "size": 6148,
+      "sha256": "58773a88a7a7f2e328da5cddbed71914abf2b2273d656b922c49f551f10cf4fb",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/.DS_Store",
+      "size": 10244,
+      "sha256": "7177a41624c4c0c4baee45ce4f06e33e130ff9858d5ae96e650852ad252ccba8",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/.DS_Store",
+      "size": 8196,
+      "sha256": "5e97f271d7f33634d9734d69c2c4396742ad6eb9c5101a9e74e2ea5cfde18063",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/Compute_G_Flux_res.m",
+      "size": 1261,
+      "sha256": "7ff8e41f72faeda6e9ee0e3550ef666ff5c5b49ef72ac0b3a179a1b2597b65cc",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/OneStep_KineticModel_IMEX.m",
+      "size": 9994,
+      "sha256": "3476971bc081ab3ff1eca627d61f3e8b64b567bd9b07c225a5b65f199095c12c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/PLOT_DATA.m",
+      "size": 439,
+      "sha256": "5ffc1ced328cc73683f5c5a283bd902525bbe213511482d4f466ca11fc504e69",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/SAVE_DATA.m",
+      "size": 566,
+      "sha256": "d254d3c8eb9b29fd10d6cda88981a07f5f8203d7df1f81b69b37e447ee94f1e1",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/accuracy_test.m",
+      "size": 1685,
+      "sha256": "659109a63afe46ade01f5ca6eebd6ba82ec093bc0ee8311765878089ebdbb65e",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_0.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1184523,
+      "sha256": "e89f93ec4e2792d526ee50d947b45a79da14a3729609f5fbd64025d944313020",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_0.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1191384,
+      "sha256": "93da1743b153b0be4dd5e21ddac13194dfaf946f8555cf28202f7e5a50fc859b",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_0.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1192971,
+      "sha256": "8ce7080561e4df0ecee1992b80ed291a207839b3e7fede2255179d72e3456ca4",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_0.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1193535,
+      "sha256": "868e2138e188fd30ce9d861285b383b620d76ff79e2c1d7e88323c9665211348",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_0.5_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1194040,
+      "sha256": "d6a20dd97bea665cb2cff665357472c9956145445aa7f7d4c28ea382c091e8e0",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_0.6_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1194067,
+      "sha256": "b02f04be69b6e748acf70515bcedfb2778bedc187b5a53686a329d640eed2e34",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_0.7_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1194100,
+      "sha256": "a47d30fe0811273047f4467a124bf29a90be8f258d9e27be677b5d08d0557247",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_0.8_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1193687,
+      "sha256": "0e8a3cda8feb6081b116f5c15c817700bf8a166e2a2b648aea7b6a518ace37de",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_0.9_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1194225,
+      "sha256": "f006093d972342bfb7a0808bc9fdbedd482be653d7042ab4f2e009c9fab740dd",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_0_eps_1e-02_T_50_dt_1e-03.mat",
+      "size": 670011,
+      "sha256": "232ba5fe99589df0335e5ecc0c21cdfd210c01793f8e2a475d2bfaef223452ce",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_0_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1194331,
+      "sha256": "f16047c63b3df5a2226df1a2156e98d9f054b3f87132253c2926307702274d54",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_1.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1194040,
+      "sha256": "696fa9c2a40f91c968f246c89fd8a8fa84f5b2e64dd72cc79ffccb18af7681fb",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_1.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1194557,
+      "sha256": "d117c1100c83277e08557afc9d5c2fede2fe519da51c781847683a901b13fedc",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_1.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1194294,
+      "sha256": "78be9efcddb4e5d56516a6f09dbd5ae2b12066c19fc98fb6a11eec59201301c1",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_1.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1192363,
+      "sha256": "5c6f6860afb54e96f354f3a98158b9703547a22ab6783148c8e31457b98fb548",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_1.5_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1191919,
+      "sha256": "29d17a39dc3d5b393bc52cb5e6ef163a6d40e63cc3ff33b6da5169a1cd4ced30",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_1.6_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1192298,
+      "sha256": "b97a83ffe5d3862a84dc1d0a1e975f0c2e7e6d089ae5903ce9389584abd901a1",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_1.7_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1192154,
+      "sha256": "cc9be403b92d1410661a7df22498aace05d5171a88c07bed44588db19a88ee12",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_1.8_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1191900,
+      "sha256": "a995e29832dcb2d9550025283bc67f8001cb6d36185b27949a31b44627e23283",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_1.9_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1191326,
+      "sha256": "b3c83c0f5d076d245d117b89528c9274afde6d74d891000dd7038f137ad8662a",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1194794,
+      "sha256": "97973d2ade9fbcb61c072199da0c1c07421f3145f16ea140338a113580edd3c8",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.1_ChiN_2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1189429,
+      "sha256": "7d0a8eced24a2ac94c80649d9bf44eb4123444dbe82c184645c63ec3d8096844",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.2_ChiN_0.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1195339,
+      "sha256": "87be186ea1d06c81a46b4c3cc7fa038ca3b1eefe76ea6c94a790c1cdbd8ca7ab",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.2_ChiN_0.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1185634,
+      "sha256": "6501a51de8bc4745bad954c726a1c718bd0e481d261d20b8a1f263dcb661acbf",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.2_ChiN_0.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1193550,
+      "sha256": "ca188b21dbb77183512afb7da042ffcb29e4f0d26397d9dbbfdb6d0313985f23",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.2_ChiN_0.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1195147,
+      "sha256": "47e8c8e4ca941cd9d067323ad02fb360751d180450efbe3de1659b081a16ccee",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_0.2_ChiN_0.5_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1196215,
+      "sha256": "2b90d5a7a316e70dd208d21e7a8e4f26fbc2380caaee264a1b91c6c14982ae25",
+      "symlink": null
+    }
+  ],
+  "verified_before_removal": true
+}

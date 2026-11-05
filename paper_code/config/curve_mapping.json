@@ -1,0 +1,395 @@
+[
+  {
+    "name": "AP_profiles",
+    "mapping": [
+      {
+        "panel": 1,
+        "line": 1,
+        "display_name": "macro",
+        "case_id": "sign_macro",
+        "time": 50,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 2,
+        "display_name": "$\\varepsilon=0.01$",
+        "case_id": "sign_kinetic_e0p01",
+        "time": 50,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 3,
+        "display_name": "$\\varepsilon=0.05$",
+        "case_id": "sign_kinetic_e0p05",
+        "time": 50,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 4,
+        "display_name": "$\\varepsilon=0.1$",
+        "case_id": "sign_kinetic_e0p1",
+        "time": 50,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 5,
+        "display_name": "macro",
+        "case_id": "sign_macro",
+        "time": 40,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 6,
+        "display_name": "$\\varepsilon=0.01$",
+        "case_id": "sign_kinetic_e0p01",
+        "time": 40,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 7,
+        "display_name": "$\\varepsilon=0.05$",
+        "case_id": "sign_kinetic_e0p05",
+        "time": 40,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 8,
+        "display_name": "$\\varepsilon=0.1$",
+        "case_id": "sign_kinetic_e0p1",
+        "time": 40,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 9,
+        "display_name": "macro",
+        "case_id": "sign_macro",
+        "time": 30,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 10,
+        "display_name": "$\\varepsilon=0.01$",
+        "case_id": "sign_kinetic_e0p01",
+        "time": 30,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 11,
+        "display_name": "$\\varepsilon=0.05$",
+        "case_id": "sign_kinetic_e0p05",
+        "time": 30,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 12,
+        "display_name": "$\\varepsilon=0.1$",
+        "case_id": "sign_kinetic_e0p1",
+        "time": 30,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 13,
+        "display_name": "macro",
+        "case_id": "sign_macro",
+        "time": 20,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 14,
+        "display_name": "$\\varepsilon=0.01$",
+        "case_id": "sign_kinetic_e0p01",
+        "time": 20,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 15,
+        "display_name": "$\\varepsilon=0.05$",
+        "case_id": "sign_kinetic_e0p05",
+        "time": 20,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 16,
+        "display_name": "$\\varepsilon=0.1$",
+        "case_id": "sign_kinetic_e0p1",
+        "time": 20,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 17,
+        "display_name": "macro",
+        "case_id": "sign_macro",
+        "time": 10,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 18,
+        "display_name": "$\\varepsilon=0.01$",
+        "case_id": "sign_kinetic_e0p01",
+        "time": 10,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 19,
+        "display_name": "$\\varepsilon=0.05$",
+        "case_id": "sign_kinetic_e0p05",
+        "time": 10,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 20,
+        "display_name": "$\\varepsilon=0.1$",
+        "case_id": "sign_kinetic_e0p1",
+        "time": 10,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 21,
+        "display_name": "macro",
+        "case_id": "sign_macro",
+        "time": 1,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 22,
+        "display_name": "$\\varepsilon=0.01$",
+        "case_id": "sign_kinetic_e0p01",
+        "time": 1,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 23,
+        "display_name": "$\\varepsilon=0.05$",
+        "case_id": "sign_kinetic_e0p05",
+        "time": 1,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 24,
+        "display_name": "$\\varepsilon=0.1$",
+        "case_id": "sign_kinetic_e0p1",
+        "time": 1,
+        "points": 6000
+      }
+    ]
+  },
+  {
+    "name": "AP_error_T50",
+    "mapping": [
+      {
+        "panel": 1,
+        "line": 1,
+        "display_name": "$O(\\varepsilon^2)$",
+        "case_id": "reference_Oeps2_original_anchor_rule",
+        "time": 50,
+        "points": 7
+      },
+      {
+        "panel": 1,
+        "line": 2,
+        "display_name": "$O(\\varepsilon)$",
+        "case_id": "reference_Oeps1_original_anchor_rule",
+        "time": 50,
+        "points": 7
+      },
+      {
+        "panel": 1,
+        "line": 3,
+        "display_name": "numerical error",
+        "case_id": "sign_error",
+        "time": 50,
+        "points": 7
+      }
+    ]
+  },
+  {
+    "name": "AP_speed_direct",
+    "mapping": [
+      {
+        "panel": 1,
+        "line": 1,
+        "display_name": "$\\varepsilon=0.01$",
+        "case_id": "sign_kinetic_e0p01",
+        "time": 50,
+        "points": 501
+      },
+      {
+        "panel": 1,
+        "line": 2,
+        "display_name": "$\\varepsilon=0.05$",
+        "case_id": "sign_kinetic_e0p05",
+        "time": 50,
+        "points": 501
+      },
+      {
+        "panel": 1,
+        "line": 3,
+        "display_name": "$\\varepsilon=0.1$",
+        "case_id": "sign_kinetic_e0p1",
+        "time": 50,
+        "points": 501
+      },
+      {
+        "panel": 1,
+        "line": 4,
+        "display_name": "$\\sigma_{\\mathrm{pred}}=0.724$",
+        "case_id": "unchanged_analytical_prediction",
+        "time": 50,
+        "points": 2
+      },
+      {
+        "panel": 1,
+        "line": 5,
+        "display_name": "macro",
+        "case_id": "sign_macro",
+        "time": 50,
+        "points": 501
+      }
+    ]
+  },
+  {
+    "name": "exponential_pulse_evolution",
+    "mapping": [
+      {
+        "panel": 1,
+        "line": 1,
+        "display_name": "$t=50$",
+        "case_id": "exp_a0p001_kinetic_e0p01",
+        "time": 50,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 2,
+        "display_name": "$t=40$",
+        "case_id": "exp_a0p001_kinetic_e0p01",
+        "time": 40,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 3,
+        "display_name": "$t=30$",
+        "case_id": "exp_a0p001_kinetic_e0p01",
+        "time": 30,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 4,
+        "display_name": "$t=20$",
+        "case_id": "exp_a0p001_kinetic_e0p01",
+        "time": 20,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 5,
+        "display_name": "$t=10$",
+        "case_id": "exp_a0p001_kinetic_e0p01",
+        "time": 10,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 6,
+        "display_name": "$t=1$",
+        "case_id": "exp_a0p001_kinetic_e0p01",
+        "time": 1,
+        "points": 6000
+      }
+    ]
+  },
+  {
+    "name": "exponential_two_limits",
+    "mapping": [
+      {
+        "panel": 1,
+        "line": 1,
+        "display_name": "macro",
+        "case_id": "exp_a0p001_macro",
+        "time": 50,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 2,
+        "display_name": "$\\varepsilon=0.01$",
+        "case_id": "exp_a0p001_kinetic_e0p01",
+        "time": 50,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 3,
+        "display_name": "$\\varepsilon=0.05$",
+        "case_id": "exp_a0p001_kinetic_e0p05",
+        "time": 50,
+        "points": 6000
+      },
+      {
+        "panel": 1,
+        "line": 4,
+        "display_name": "$\\varepsilon=0.1$",
+        "case_id": "exp_a0p001_kinetic_e0p1",
+        "time": 50,
+        "points": 6000
+      },
+      {
+        "panel": 2,
+        "line": 1,
+        "display_name": "$a=0$",
+        "case_id": "sign_kinetic_e0p01",
+        "time": 50,
+        "points": 6000
+      },
+      {
+        "panel": 2,
+        "line": 2,
+        "display_name": "$a=0.0001$",
+        "case_id": "exp_a0p0001_kinetic_e0p01",
+        "time": 50,
+        "points": 6000
+      },
+      {
+        "panel": 2,
+        "line": 3,
+        "display_name": "$a=0.0005$",
+        "case_id": "exp_a0p0005_kinetic_e0p01",
+        "time": 50,
+        "points": 6000
+      },
+      {
+        "panel": 2,
+        "line": 4,
+        "display_name": "$a=0.001$",
+        "case_id": "exp_a0p001_kinetic_e0p01",
+        "time": 50,
+        "points": 6000
+      }
+    ]
+  }
+]

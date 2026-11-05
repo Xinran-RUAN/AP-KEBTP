@@ -1,0 +1,36 @@
+2026-11-05 后续图形调整：按作者要求，Figure 7 两个子图纵轴现为 [0,0.12]，刻度间隔仍为0.02；峰顶已完整显示，曲线数据及其他样式不变。本文旧版关于 Figure7 纵向截断的描述不再适用于当前正式图。
+
+保正触发条件修正与 Figure 3–7 重算：简要报告
+
+1. 已完成
+实际生产函数增加严格非负提前返回：有限的 rho_hat、重构 f_hat 均 >=0 时，rho、g 逐元素原样返回。原负值修正算法保持不变；端点反射移至检查前。正值、含零值、负值修正、NaN/Inf 和两步对照测试均通过。正式12组动力学实验各50000步全部提前返回，没有theta或eta修正触发。
+
+2. 实验与质量
+14个唯一算例均完成 T=50；全部采用 Figure1原始坐标核实的 Delta x=0.025、Delta t=0.001、Delta v=0.02，L=150、Nx=6000、Nv=101。两个宏观参考均重新生成。最大相对质量漂移 1.034e-11；全程 rho和最终f非负，最大端点矩1.44e-17，最大速度均值残差3.20e-15。Figure1/2图片未修改；新sign宏观在t=30、50与Figure1原始密度逐元素一致。
+
+3. 主要结果
+sign七点全域L2误差随epsilon下降：0.0471684 -> 0.000222083。指数a=0.001的epsilon=0.1、0.05、0.01误差为0.0439505、0.0147699、0.00245781。固定epsilon=0.01，a趋零时密度误差与波速差均减小；[30,50]拟合速度依次为：
+a=0.001：0.6897390257955008
+a=0.0005：0.7067915077604279
+a=0.0001：0.7201370544043070
+a=0：0.7235314869375372
+论文横排表保留三位小数：0.690、0.707、0.720、0.724，最后一项也是实际计算值。固定a的波形仍有有限时间形状变化；不宣称无限时稳定。总体趋近结论保持。
+
+4. 新旧变化与需要审核的显示冲突
+新细网格峰值较旧粗网格更高、更尖，且本次同时去掉了无需修正时的微观平滑，不能将全部差异归因于单一因素。Figure7旧纵轴上限截到新峰顶，按“范围不变”保留正式输出，另附完整纵轴诊断版。Figure6旧t10白底注记局部遮挡新峰，正式位置保留；另附仅避让该注记的诊断版。旧Figure7 FIG依赖会话默认字体，已显式固定为与旧正式EPS相同的22号字体/刻度，并验证默认MATLAB重开后样式一致。
+
+5. 存储异常与恢复
+磁盘耗尽使a=0.0005、0.0001末尾重复存盘崩溃，均由完整T50检查点恢复；a=0.0001曾从完好t25检查点续算。没有改变数值设置或物理状态。两份原生MAT保留检查点字段，通过read_completed_case.m提供标准out视图；所有501份rho/S/N快照、7份g及轨迹保留。错误日志和恢复收据均存档。没有未完成算例；Figure2(c)旧扫描不属本次验证范围，仍须独立核验。
+
+6. 审核入口
+红标主源：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/manuscript/20261103/main_Gissell.tex
+红标小节：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/manuscript/20261103/exponential_response_section.tex
+编译PDF：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/manuscript/20261103/main_Gissell.pdf
+正式EPS/可编辑FIG：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/analysis/conditional_limiter_finegrid_20261104/figures（论文目录亦已更新同名文件）
+原始数据/参数：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/analysis/conditional_limiter_finegrid_20261104/data、/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/analysis/conditional_limiter_finegrid_20261104/config
+完整精度波速：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/analysis/conditional_limiter_finegrid_20261104/wave_speed_full_precision.csv
+测试：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/analysis/conditional_limiter_finegrid_20261104/validation/results.json
+代码差异：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/analysis/conditional_limiter_finegrid_20261104/production_code.patch
+论文差异：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/analysis/conditional_limiter_finegrid_20261104/paper 中两份 .tex.patch；图像新旧对照：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/analysis/conditional_limiter_finegrid_20261104/diagnostics/comparison
+更完整逐组统计与限制：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/analysis/conditional_limiter_finegrid_20261104/报告.txt
+复现：bash /Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/analysis/conditional_limiter_finegrid_20261104/reproduce.sh（先释放足够磁盘空间；当前磁盘仍极低）

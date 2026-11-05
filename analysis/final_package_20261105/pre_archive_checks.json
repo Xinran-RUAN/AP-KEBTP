@@ -1,0 +1,60 @@
+{
+  "all_checks_passed": true,
+  "raw_cases_unchanged": 14,
+  "numerical_kernels_byte_identical": 25,
+  "manuscript_files_unchanged": 308,
+  "native_figures_verified": 10,
+  "curve_equivalence": [
+    {
+      "name": "macro_compare_t_030p000",
+      "object_count": 2,
+      "max_data_difference": 8.326672684688674e-17
+    },
+    {
+      "name": "macro_compare_t_050p000",
+      "object_count": 2,
+      "max_data_difference": 9.71445146547012e-17
+    },
+    {
+      "name": "travelling_speed_analytic",
+      "object_count": 1,
+      "max_data_difference": 0
+    },
+    {
+      "name": "travelling_speed_numeric_macro",
+      "object_count": 1,
+      "max_data_difference": 0
+    },
+    {
+      "name": "travelling_speed_numeric_kinetic",
+      "object_count": 1,
+      "max_data_difference": 0
+    },
+    {
+      "name": "AP_profiles",
+      "object_count": 24,
+      "max_data_difference": 0
+    },
+    {
+      "name": "AP_error_T50",
+      "object_count": 3,
+      "max_data_difference": 0
+    },
+    {
+      "name": "AP_speed_direct",
+      "object_count": 5,
+      "max_data_difference": 0
+    },
+    {
+      "name": "exponential_pulse_evolution",
+      "object_count": 6,
+      "max_data_difference": 0
+    },
+    {
+      "name": "exponential_two_limits",
+      "object_count": 8,
+      "max_data_difference": 0
+    }
+  ],
+  "wave_table_and_full_summary_identical": true
+}

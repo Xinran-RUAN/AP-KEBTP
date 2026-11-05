@@ -1,0 +1,338 @@
+{
+  "file": "part-012.tar.gz",
+  "sha256": "9d3f4af8f5f911c394c67c384e3e7fc5736122cc1807c26144fe39ba858e2957",
+  "bytes": 65971360,
+  "files": [
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_0.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199372,
+      "sha256": "a6b2ef2e3e8d3d3dea04864d449393def812f7126e5d07c26a9c1bc419a9b52a",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_0.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199441,
+      "sha256": "7eb97550f85d9146a1ec6430827775e368ce07f9cdb45527d010befd59dde46a",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_0.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199613,
+      "sha256": "02ec67dd29924d27f615684355dc4fdaa176f5ab563a2c170ed1ceaadca37944",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_0.5_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199363,
+      "sha256": "c9fdd511a0e4a261e4e5e8684befe288e85b5687805f6e2cd7d1aabb1b327ad1",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_0.6_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199733,
+      "sha256": "e6a8dcc8ad6372e9a4d476f295629affe6ab70c2cb19b869b2db8d1353f028dc",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_0.7_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199533,
+      "sha256": "13d46272554627fd9fd5ef0eb6d662a47ec954ce6fbb9872684ee1180543999d",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_0.8_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199538,
+      "sha256": "f607429d0856087d699f1cfc68f1adb5834661292106e8d29025e61f80b87553",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_0.9_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199729,
+      "sha256": "b08d701d4d3083c48607187e1312259feddf4ce89364216918e37a8bc1c534a9",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_0_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199299,
+      "sha256": "022227d73f5b32f87508d6916c47e3581980415b55e6f3afa75c23933faf975b",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_1.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199473,
+      "sha256": "d6b71c659dceca78a801efc08ee3172d5b0a84fbe72a69a9fc821b22618533e1",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_1.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199199,
+      "sha256": "f6f1b08c817f5d1359fa43276c52db427f5b401ab64472a6b31b8df431bf1a53",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_1.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1198216,
+      "sha256": "b085ce3ec6f5034414248087f22c0ae7a9da535fb70a270bca42a2d98ec64e90",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_1.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1195747,
+      "sha256": "89f856839da38de89c23b1753f418862e65e439c4d9e22d3b560cee11dacbf21",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_1.5_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1191143,
+      "sha256": "7a2843cf5d751c2b5fa2b7b25421a21b1e9b2349bdeccdf901b475fc5482355e",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_1.6_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1198784,
+      "sha256": "017f57e6765ce11e9b17e156aa06772c4732dbe03898f8a464d69e50ec5c97fd",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_1.7_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200926,
+      "sha256": "bec75b8e99e828b6cdc04b5c49443066c51fa34b4a57449676a3f4589d8ddee8",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_1.8_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201367,
+      "sha256": "ddca74c803b3869f2965e41fe0d1e96a2fb424a25ec74adcaf19cf12baeba505",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_1.9_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1202308,
+      "sha256": "69cf752079c39e04d24f52a90791bed448b295fb93cde4fdbe19c59b378f2d89",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199574,
+      "sha256": "d3729a4a0878cebb48ddd1f7966d3145da10f60278f1523813a84aaf99255ac1",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1202087,
+      "sha256": "e3b4718ebba5712f139b97c4cf42569304a3cd5afcb8d944022307c8d7f716f6",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_0.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199677,
+      "sha256": "0f83c731afa7de431cd1438ed032fa973a879d7b6045c0a431750a592223d30c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_0.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199733,
+      "sha256": "ef8f7205cd4e98e20aa5fff4b9f0eaa898c1b1abc27ff411ef64553a2d131a94",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_0.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199750,
+      "sha256": "fdf88d62806a81a385635f2efb7348fdd55795ce77a6b66e4f8cae5da0d64875",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_0.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199707,
+      "sha256": "c0c70140dad80d551857a5223954aa34c7e480153cadca4aacb2f5be848c97d2",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_0.5_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199918,
+      "sha256": "26646b7745f97a48269edeae9ced3aa06017e4061928ee6a284193a1b565fd52",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_0.6_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199782,
+      "sha256": "ec01830773db8a55b97c65c133d8fda5f0110beb866f8ed1b40d23e497f712ae",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_0.7_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199629,
+      "sha256": "48a4f36f6a857c0d9ed16504de32171d4e4a8948db6c78978511e6faa9e6d24d",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_0.8_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199892,
+      "sha256": "c176e87adc572334c70ff0b0470b3f60f0335c1c5f7fc1a73054fc669a48606f",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_0.9_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199788,
+      "sha256": "f42fb0a68958196eeecc74fe5404c2feaa32156032e81a2e6ac6a4fde44ce61f",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_0_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199804,
+      "sha256": "4ba4768792cf33b21bf2bd86d208c9efcd0f68537928f07ee53ad8fb839a4297",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_1.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199749,
+      "sha256": "eba4dac5dae4f0586f9b2f894b3721dac10e84af32b9db39a0bc08f7a38a1c06",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_1.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199747,
+      "sha256": "996274b192655518c1ff5861236a5c1902f2412cdcd186e5e60df4ae3eb295ff",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_1.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199266,
+      "sha256": "e75560a2934683600f0f54721007e1a9ef8218e19e15dd017c2fb2dc64fbb958",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_1.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1198359,
+      "sha256": "db80edf064f6c55786977824f6c7bdc7130f221ec4c2964a202b5f714d8b5848",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_1.5_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1195677,
+      "sha256": "e96efb2f5e2d9b85c836bb2bfa3b756f9c595700d66f08170cdd6955bd3858d0",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_1.6_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1191458,
+      "sha256": "df77bd945944fb84141b603fd99117c3e4307fedaca75dff5a74623974facd62",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_1.7_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199126,
+      "sha256": "93ea53ec34d21353c72261f332f1f66913317e8a160c494ecb06de0516132f2c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_1.8_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201345,
+      "sha256": "5a6ce32a5e9e81de8bf4153bc0004c0034c789dca68c8aeda7f21ffcde1afaf3",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_1.9_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201991,
+      "sha256": "dd71a7fca856fec3ea53a330a5d99e76f875ae8a5a788b1a7f8bbc7f4c913375",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199738,
+      "sha256": "43f5fda89dc338038399e6cc847b40388bbfec9dd51c5601e9c86bc631ba40e4",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.6_ChiN_2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1202298,
+      "sha256": "e9acd8066168502fe752b524ffdd82bc9b6c4d05df4b7c080ba8cae4d59efba9",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.7_ChiN_0.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199672,
+      "sha256": "bfb5811fa996e7725409269cc0f02a002e61767e6d46d21c0db59d0e87830326",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.7_ChiN_0.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199626,
+      "sha256": "9418a8ae0ca6092a0d2efd0cfe70cc44a6edf00c7feb79e66feddfe8564861c0",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.7_ChiN_0.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199887,
+      "sha256": "cf99da3431656038e1a5aa8bda6f91f56eb4b2c4daa99ed7e4410ffa46eea80c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.7_ChiN_0.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199678,
+      "sha256": "5cf35bb64c14a3dbcf71a9430eab246be89893466e000346581b09096e90d982",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.7_ChiN_0.5_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199952,
+      "sha256": "8ce9a8630313bc95fa3abcd928dfb0ef56ce7436a1efea33b3b7c229ed089d50",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.7_ChiN_0.6_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199773,
+      "sha256": "9266202211b5d5eaef766585857bd38439ef040d1201dbb51d29b11b9bf55d30",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.7_ChiN_0.7_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199692,
+      "sha256": "eeef7385ea127a744a1411ba0c5756a1598dfb57c4a9f8fabe707b8e391269d7",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.7_ChiN_0.8_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199914,
+      "sha256": "a1b7ce55510e880aa35b61667fcc746a0666a6fbf663dee88fca8d08a0fe4172",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.7_ChiN_0.9_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199656,
+      "sha256": "737935bc615255ef92c84d5e40015f334b82e49c6cc632a92833e5183b2bb994",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.7_ChiN_0_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199534,
+      "sha256": "550badb03a60b754dede32745677f92b3c4ac83ce60f26f82bb4b708ce6a9605",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.7_ChiN_1.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199769,
+      "sha256": "aab75135e363df805a9ad7fa43ebcb99d53baa855ae7770f515592fda94dd4a8",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.7_ChiN_1.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199793,
+      "sha256": "2b0f42d4ad473c7a2ca1977e2cd813eafd7381e16fb4e3680c448617b377664c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.7_ChiN_1.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199645,
+      "sha256": "42c2ada0c52fc2323af5ab112b66e0860af7791cad3c28b20b69734e502c8c4b",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.7_ChiN_1.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199175,
+      "sha256": "bffef7176e55ec8808f794bbad7b2983b54010cdb58010d0c59984a8fe77efa3",
+      "symlink": null
+    }
+  ],
+  "verified_before_removal": true
+}

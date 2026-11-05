@@ -1,0 +1,92 @@
+[
+  {
+    "name": "macro_compare_t_030p000",
+    "native_visible_editable_fig": true,
+    "exact_saved_curve_data": true,
+    "style_preserved": true,
+    "axes_count": 1,
+    "line_count": 2,
+    "surface_count": 0
+  },
+  {
+    "name": "macro_compare_t_050p000",
+    "native_visible_editable_fig": true,
+    "exact_saved_curve_data": true,
+    "style_preserved": true,
+    "axes_count": 1,
+    "line_count": 2,
+    "surface_count": 0
+  },
+  {
+    "name": "travelling_speed_analytic",
+    "native_visible_editable_fig": true,
+    "exact_saved_curve_data": true,
+    "style_preserved": true,
+    "axes_count": 1,
+    "line_count": 0,
+    "surface_count": 1
+  },
+  {
+    "name": "travelling_speed_numeric_macro",
+    "native_visible_editable_fig": true,
+    "exact_saved_curve_data": true,
+    "style_preserved": true,
+    "axes_count": 1,
+    "line_count": 0,
+    "surface_count": 1
+  },
+  {
+    "name": "travelling_speed_numeric_kinetic",
+    "native_visible_editable_fig": true,
+    "exact_saved_curve_data": true,
+    "style_preserved": true,
+    "axes_count": 1,
+    "line_count": 0,
+    "surface_count": 1
+  },
+  {
+    "name": "AP_profiles",
+    "native_visible_editable_fig": true,
+    "exact_saved_curve_data": true,
+    "style_preserved": true,
+    "axes_count": 1,
+    "line_count": 24,
+    "surface_count": 0
+  },
+  {
+    "name": "AP_error_T50",
+    "native_visible_editable_fig": true,
+    "exact_saved_curve_data": true,
+    "style_preserved": true,
+    "axes_count": 1,
+    "line_count": 3,
+    "surface_count": 0
+  },
+  {
+    "name": "AP_speed_direct",
+    "native_visible_editable_fig": true,
+    "exact_saved_curve_data": true,
+    "style_preserved": true,
+    "axes_count": 1,
+    "line_count": 5,
+    "surface_count": 0
+  },
+  {
+    "name": "exponential_pulse_evolution",
+    "native_visible_editable_fig": true,
+    "exact_saved_curve_data": true,
+    "style_preserved": true,
+    "axes_count": 1,
+    "line_count": 6,
+    "surface_count": 0
+  },
+  {
+    "name": "exponential_two_limits",
+    "native_visible_editable_fig": true,
+    "exact_saved_curve_data": true,
+    "style_preserved": true,
+    "axes_count": 2,
+    "line_count": 8,
+    "surface_count": 0
+  }
+]

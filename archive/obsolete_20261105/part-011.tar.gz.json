@@ -1,0 +1,344 @@
+{
+  "file": "part-011.tar.gz",
+  "sha256": "23215cdad7738c6deaf19457ec9b3bea90ba0fe1c7a8ebe4c068c1b31486fdb2",
+  "bytes": 66008617,
+  "files": [
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.2_ChiN_1.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1196052,
+      "sha256": "43811cbb62aabfda97d57bafc68c7383db781eadaf6d09306b9be4a3c95e339f",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.2_ChiN_1.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1190796,
+      "sha256": "700de768e77d89a5b5781da17b0d1fa74912802a1ae30e1f3177484c5b6d00b7",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.2_ChiN_1.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1197977,
+      "sha256": "cea0c35693424bb2bc0068271153603cf642a5ce037b20d28582785aa19a9f30",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.2_ChiN_1.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199991,
+      "sha256": "7b0263742150c807bc812d6fa1686c59e6f2aef8a1661bad99068c478107ba9c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.2_ChiN_1.5_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201253,
+      "sha256": "2b64b23a64b2738760b0b1e01710766b511fc68333a8632359e93135e6ae3187",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.2_ChiN_1.6_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201361,
+      "sha256": "dd282de3d55782a43070a9a0a4ea7aa508119341e9c5c7e98ae98ce77f2ecf37",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.2_ChiN_1.7_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201884,
+      "sha256": "40fd6d5d361d1045555f800ab619fe518cb884831c56df316c2da05621f77fc6",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.2_ChiN_1.8_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201512,
+      "sha256": "b1e8586fac763b1b66807e9686b21a850967318e7700f46af35872cc038cb147",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.2_ChiN_1.9_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1202389,
+      "sha256": "a06b11a5bfb78f10a2f6d3e56cc22c2ec75e276c1b73da52bdab83a59539a5b4",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.2_ChiN_1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1198286,
+      "sha256": "a000e1335a9b0cf759f7094fedb1f0a9e706718db42bf03b33209601346dc9f4",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.2_ChiN_2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201378,
+      "sha256": "37410323266989050a439176a2f48ac66166649027a4ed1a5ef30c82f6f83b2e",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_0.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199074,
+      "sha256": "7c59f31609dd1dc11008888343f94488606123f5a48c4db563d93ba6e879fca6",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_0.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199329,
+      "sha256": "4547c3d53efeea5f1c7b3a6887c8e20dd51f35b4c8ae14cfe10a5b5437a405a0",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_0.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199112,
+      "sha256": "242e095851678339b454fc4f859f33307a7acec344564481d66cec073e8e5b69",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_0.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199213,
+      "sha256": "d4f2ed487339c3290d848d523d44979f8e704222a7cd6d0f93528ed9a3e089c5",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_0.5_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199307,
+      "sha256": "6920b2af9cdc310c7284b220e727504a8fc1086cc33362a8dcb667087292269d",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_0.6_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199097,
+      "sha256": "4d861990bc6b3e4a09cfd538262d8fc5e9d4ae2cb9db84fdabff327ee10806a1",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_0.7_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199219,
+      "sha256": "284177f9bff9d9adb82c890a4642c9a3d6b7ee09c1e08260f352122314f739aa",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_0.8_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199291,
+      "sha256": "8b3233a97c4abec78c96a564c1e741392aa33c7d3011b49c29adac3504b61b64",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_0.9_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199339,
+      "sha256": "1b2d919db6ac53545748ccfbe9a51e77b0f8255cdc9478430cb7ae2cc886a4c8",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_0_eps_1e-02_T_50_dt_1e-03.mat",
+      "size": 625777,
+      "sha256": "8c49855f39a371ffb0ea40e4b4c90e84a3ccb136d1ce6c0dc74d6ad1aeeb8a1e",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_0_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199063,
+      "sha256": "c20b02992408bf1ae634f18d43df9583086c6ee7d0045237d5eccad81483e97c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_1.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1198289,
+      "sha256": "95c159d4120e3b8ce393f5b53b95fd022d14f72a7ec732acb3108672bfb24ada",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_1.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1196089,
+      "sha256": "76674db874cbb6d6a8036f010d79110d30d88d32af2ac68161c1e7be6e1c3603",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_1.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1190472,
+      "sha256": "37707de3aec37a3894f7b53adf3cd96962051f5e6b0ed11dab2f50b204acaffb",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_1.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1198359,
+      "sha256": "c66849ff6f74652df4c8f263015a03823832b20d7a0aee1a4e5f030cc0e4e07e",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_1.5_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200319,
+      "sha256": "220c76dd21b1e666a93de55551034b5a0c4ff86cd2f97f546dad6d2607ee2acc",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_1.6_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200932,
+      "sha256": "2212169a88e7f28603ab4af5145ac9ec4a95549c94d3d45de35d605d53992dca",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_1.7_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1202083,
+      "sha256": "6659664f6bfb1d63cb10d75b08697f74548d5beebfd6f90ba95d57b4ef020f20",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_1.8_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201687,
+      "sha256": "665ff0e6e7e40b136e34b8f2d95d318bd955d79dc5be917490d51de05fff1e9e",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_1.9_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201344,
+      "sha256": "18fe8f2d25ab9f6401f3b417ad2227d8f8ed1cd4c1433a221fb6696801d426d7",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1198951,
+      "sha256": "8479ba6283e9abe7f82775420f429a5c6dff090a5c87b8c5835b6463dd7b38c1",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.3_ChiN_2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1202088,
+      "sha256": "948abc436b9af76d60f5981646c7bb8060e3b2dc153c6d12becfb67dde1bc972",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_0.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199377,
+      "sha256": "79038bb0e14ad00945b8029e8101429bfbd232480de00080835fd25c022d4fc5",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_0.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199313,
+      "sha256": "4c2cc7488754334308868bd85ec2feab5420d6c3f1789b282fe2848e8885a788",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_0.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199399,
+      "sha256": "305d63c2f709ff92198a78067ef38801871c967e5c0f25d034f1e308955f98fd",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_0.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199500,
+      "sha256": "51793795271e81a9ddb3abb0e1ed2472e2f5d0a662bdffbc2951bc712a8d4719",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_0.5_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199388,
+      "sha256": "4845d4c27822d7d845ec68fd368359e1606f6ee473e5c9d864a9bb245ea19464",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_0.6_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199485,
+      "sha256": "cdd0e0bd320dd9f7e9d6ba16261e476443ecb948b59c363cbaa57736bc4f450d",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_0.7_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199462,
+      "sha256": "a6db07048b68a5ec079ee92534f63325cb47b822efb185625a23ab648b401d7c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_0.8_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199473,
+      "sha256": "9c0bcfabd755102f149d77ffbabfc29f8ed4a543fc36c6be306a48147b01849a",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_0.9_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199476,
+      "sha256": "0a25d2f481db8687747a3e5f809816d8063e86b97d9c1e280439122379117a62",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_0_eps_1e-02_T_50_dt_1e-03.mat",
+      "size": 618140,
+      "sha256": "d80168930327f41aa17cd2b81254137d917119a968e7f8725a8179c4535c7bd0",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_0_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199274,
+      "sha256": "22a6a39a7e57cbf39c066c2b641c1d59f809d8b09cb1c68a27b495d7ed9641b4",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_1.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199079,
+      "sha256": "98e65135634b672e2f462111ef1c67d7bfdca1b4b818ed97990dacccaa587097",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_1.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1198409,
+      "sha256": "0e0b4592f58c3dd8b5ded6d43cbc5f9152eea5ab1d338ce013a961f9b788499f",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_1.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1195997,
+      "sha256": "08126fe15a04c828d1d88eb97a592ead1bd0d43828729767cadfd0e988adb266",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_1.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1191061,
+      "sha256": "d16b31114cb66b4a7641146036c91d028c16ad28476d489f62a415145e2cdb77",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_1.5_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1198826,
+      "sha256": "115c0242de7439d0bba4d7ab145eb6401dcbf2c0c64300a860cd1aed8695f9fb",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_1.6_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200771,
+      "sha256": "365c64d5dcb602b4ae1edc9deebb6304ef9b29ce65ba80390a3b60dac2153c1d",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_1.7_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201748,
+      "sha256": "a15fe196775d569f203b088eb66257d584f6813b419f01d75c150503d43274e4",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_1.8_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201916,
+      "sha256": "2b3b9aa10be8e5cfa9e34e81b2050390fe04dd70a9934d735dcc1ccba58358c6",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_1.9_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201626,
+      "sha256": "49eb88155d4b08698ae1b720187f082eea5ec0c03f50d243cc8069d3ce95214e",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199441,
+      "sha256": "0fea916171801b993633f6df97e1c6a3bc0314ef893f381e173781c4870bd12c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.4_ChiN_2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1202047,
+      "sha256": "33043db5843cb04638d3fe1bb6223c062a8fad0ed4be0cae761baefddd12aefc",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1.5_ChiN_0.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199506,
+      "sha256": "9b359383b30d8fa49c38ce110a4e1ab1882457d281e33d01a7ed847a700e28cf",
+      "symlink": null
+    }
+  ],
+  "verified_before_removal": true
+}

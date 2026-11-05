@@ -1,0 +1,64 @@
+% This subsection is locally red for review; curve colors are unchanged.
+\FloatBarrier
+\begin{resultrevision}
+\subsection{Traveling pulses with an exponential response}\label{sec:exponential-response}
+
+We next use the exponentially modulated response
+\begin{equation}\label{eq:exponential-response}
+\phi_{a,h}(y)=-s_h e^{-a|y|}\operatorname{sign}(y),\qquad
+s_h=\frac{|V|_h}{\langle|v|\rangle_h}.
+\end{equation}
+The parameter $a\ge0$ is distinct from the chemical degradation rate $\alpha=0.05$;
+$a=0$ recovers the normalized sign response exactly.
+The remaining settings follow Section~\ref{sec:sign-ap-experiments}.
+Both chemical responses retain the full kinetic argument and velocity centering.
+The macroscopic drift uses weighted moments of the same response at $\varepsilon=0$.
+
+For $a=0.001$ and $\varepsilon=0.01$, Figure~\ref{fig:exponential-propagation} shows a propagating pulse with limited late-time deformation. For the saved profiles at $t=30,40,50$, centroid-translated shapes differ by up to $13.4\%$ in relative $L^2$. The centroid slopes on $[30,40]$ and $[40,50]$ differ by $0.08\%$. At fixed $a$, the full-domain density errors relative to the corresponding numerical macroscopic solution decrease with $\varepsilon$ in Figure~\ref{fig:exponential-limits}(a). At fixed $\varepsilon=0.01$, the density discrepancies from the numerical sign reference decrease with $a$, as illustrated in Figure~\ref{fig:exponential-limits}(b). The fitted propagation speeds also approach the computed sign value as $a$ decreases (Table~\ref{tab:exponential-speeds}). These comparisons retain physical positions and amplitudes; they describe finite-time behavior on the tested grid, without establishing long-time stability.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{exponential_pulse_evolution.eps}
+\captionsetup{labelfont={color=red},textfont={color=red}}
+\caption{Density evolution with the exponential response at $a=0.001$ and $\varepsilon=0.01$.
+Densities at $t=1,10,20,30,40,50$ retain their original physical positions and amplitudes.
+The plotting window is $0\le x\le40$; late-time tails extend beyond its right endpoint.}
+\label{fig:exponential-propagation}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{exponential_two_limits.eps}
+\captionsetup{labelfont={color=red},textfont={color=red}}
+\caption{Density comparisons at $T=50$.
+(a) Fixed $a=0.001$: kinetic densities for $\varepsilon=0.1,0.05,0.01$
+and the corresponding numerical macroscopic density (black solid line).
+(b) Fixed $\varepsilon=0.01$: densities for $a=0.001,0.0005,0.0001,0$;
+the sign reference $a=0$ is black and solid.
+No translation or amplitude normalization is applied.}
+\label{fig:exponential-limits}
+\end{figure}
+
+\begin{table}[htbp]
+\centering
+\color{red}
+\captionsetup{labelfont={color=red},textfont={color=red}}
+\caption{Finite-time numerical propagation speeds for the exponential response.}
+\label{tab:exponential-speeds}
+\begin{tabular}{lcccc}
+\hline
+$a$ & 0.001 & 0.0005 & 0.0001 & 0 \\
+\hline
+Numerical propagation speed & 0.690 & 0.707 & 0.720 & 0.724 \\
+\hline
+\end{tabular}
+\par\smallskip
+\begin{minipage}{0.92\linewidth}
+\color{red}\footnotesize
+Values are slopes of least-squares fits to the center of mass in \eqref{eq: center of mass}
+over $t\in[30,50]$, with $\varepsilon=0.01$.
+They estimate propagation on this interval, without asserting an exact steady traveling profile.
+\end{minipage}
+\end{table}
+\FloatBarrier
+\end{resultrevision}

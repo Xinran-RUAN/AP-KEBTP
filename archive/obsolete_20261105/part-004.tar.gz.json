@@ -1,0 +1,2936 @@
+{
+  "file": "part-004.tar.gz",
+  "sha256": "4afba94484a33417a88bf137fb73649ccf28af996c95ae2a09068db73b4f4798",
+  "bytes": 52532614,
+  "files": [
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/AP_profiles_partial.mat",
+      "size": 48114759,
+      "sha256": "dfa14a92ab557e0262599cfc07d69b281be6893c68103d5f4fe1637d7889cd53",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/AP_relative_error_by_time.csv",
+      "size": 18067,
+      "sha256": "6c128d454cef14770454ff18ec2a211f6f26cc1dbfb9b15281f7cbe62dcfe13a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/AP_relative_error_by_time_merged.csv",
+      "size": 66706,
+      "sha256": "e84d7888f579bd24fdcb918143c72199236522edb9c54342199d0a14cd1032e7",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/AP_speed_by_time.csv",
+      "size": 80114,
+      "sha256": "372b4901d1dfa763b43880eab3325451c3a24b8a75c66a1624f288226ac9d758",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/AP_speed_data.mat",
+      "size": 85910,
+      "sha256": "4a04f248c5c57bc90c18059043bb02d1441405ad1e47d444d7ae3098e9c455a8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/AP_speed_direct.csv",
+      "size": 35455,
+      "sha256": "69ca1d5ce9855c89c915590f4a3903f6e0272142cac8b4044740e9d50dd389cf",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/AP_speed_direct.mat",
+      "size": 31652,
+      "sha256": "d7da8c62f93940d628be8722ca5090ecf37ff4dddc4ef900d64f749470dc8cd4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/AP_speed_error_by_time.csv",
+      "size": 79031,
+      "sha256": "58a583b4fd1942309869adfd44d1ca0cf0db87ced5fadef2c270f42baa8b4c2f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/AP_speed_selected_times.csv",
+      "size": 2065,
+      "sha256": "bf5b7cf93ff74884e87fc67285069c21d34e2986573ace4753d93f1463438b46",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/.DS_Store",
+      "size": 497668,
+      "sha256": "9e4c8d21549e5d9e2db6725669e033e68ee72e477e367e8304ec64df8afe21eb",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_000p000.mat",
+      "size": 23193,
+      "sha256": "b4307d64801872e759c0f761de08804143f4d60257b7813ceefd6b132203d97d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_001p000.mat",
+      "size": 35945,
+      "sha256": "5755e4365205634e78a38bb9077279f997e575d5150de13e9c76003013535fd2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_002p000.mat",
+      "size": 36063,
+      "sha256": "553ed9e840d7acc84f0cbbc43dc1acfc3e14d96061c70d678cd85d6377fc1c4a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_003p000.mat",
+      "size": 36179,
+      "sha256": "10f9607ed0fcb976f775aeb1368b4bc44e2eaba109011b3a8503e710a805a0a1",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_004p000.mat",
+      "size": 36306,
+      "sha256": "a78bfe177bc213ed40f7c2a7f80dbbd283d646badd0e9ffd9590b1fa841ace85",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_005p000.mat",
+      "size": 36409,
+      "sha256": "59e2b03458c3beea3d2b349ffe01a6f31563b59a8997fb62a5cee5d40e921121",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_006p000.mat",
+      "size": 36514,
+      "sha256": "718e7aa7021a2c926cee0759d52ecb62d805937085c38c76974199070d6af68c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_007p000.mat",
+      "size": 36627,
+      "sha256": "64835cdc2d2df7ba40892b117924eef5410ff9ed545d42ee68d015d728fcf73d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_008p000.mat",
+      "size": 36722,
+      "sha256": "81ed25e39af6b771f4f54d9aba82b9b85176033d4b67cf5b1e186d8f6ab1ea4a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_009p000.mat",
+      "size": 36830,
+      "sha256": "3b09585fc4fae64b9223d2c82535bb67e3630eda5542e0605ad0c29814162752",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_010p000.mat",
+      "size": 36897,
+      "sha256": "e4a8f9f87360295313b929540efc4487b75d37b1f965f9a8d7928b380db6563f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_011p000.mat",
+      "size": 36974,
+      "sha256": "5375ee20c4e37208afd45922116660a9c08cde20500cd6266796e6e2ccf38d65",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_012p000.mat",
+      "size": 37085,
+      "sha256": "a6b6be3d5e303cc034240e32f67656c2e32c0fd1cf1ec2d18ffb286fe59b5412",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_013p000.mat",
+      "size": 37153,
+      "sha256": "7fc37cf1d1a156ca9d6ed5637679b94828e02d8ab22f1124368a85e21ae27744",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_014p000.mat",
+      "size": 37234,
+      "sha256": "5fabdac0344792ca4277905053fffa55ddb2b574d0a8286e8e95908b215137c0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_015p000.mat",
+      "size": 37322,
+      "sha256": "e135ec638d0ae5dc9d4a912d5aeb77aec43f98b487810b0a132beb12a4636880",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_016p000.mat",
+      "size": 37397,
+      "sha256": "7bf7c237f92a2f3b03ad52114f77815288b086b3b4cb530f02452e0f29a2b6af",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_017p000.mat",
+      "size": 37463,
+      "sha256": "d6e1c7f0cb3a9fda0533e1a39b3b3b2e45d81c179bd26989be0886cc82462b01",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_018p000.mat",
+      "size": 37542,
+      "sha256": "92688fa8b99a2ddeb77c0f4d2ab6d7434a570d49fc26bb74503817a6d3d3e446",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_019p000.mat",
+      "size": 37605,
+      "sha256": "a597977be013536faea72e49559b1d6a337b5309309d93a4897b45e3c18edfc0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_020p000.mat",
+      "size": 37673,
+      "sha256": "55dd301b62775ccf3c0207ff433a46d91d2760048fa6da55a218edbdaca127f1",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_021p000.mat",
+      "size": 37739,
+      "sha256": "c6f75867c49dbebfc8efd6f556c36a042f7eacf44977329c24a9a8b48c322404",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_022p000.mat",
+      "size": 37823,
+      "sha256": "6d1703e900c282d3dc06c1a2598fe678cc1a254e59e6d022ca200845ba592b2b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_023p000.mat",
+      "size": 37887,
+      "sha256": "d7761b15babfa30dedbaf2b8cbbc824b7d1fb6ffffacdce0036000eb62532011",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_024p000.mat",
+      "size": 37947,
+      "sha256": "40aa77f62734d8beffed5ebb5ba9b9db3ae1468a2a886b271af50772d2d1eb37",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_025p000.mat",
+      "size": 37999,
+      "sha256": "3ee546750d702fb10cd21f76c489b1684b8d2810a65487ea451b5e7b8b798518",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_026p000.mat",
+      "size": 38050,
+      "sha256": "4c888669053aeda0ed50ee0c8685158b6ed3a65edf6d5cccfb4486c606a3aa1d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_027p000.mat",
+      "size": 38112,
+      "sha256": "5ba7afe4069316a094eab71c4ec0c4bf20df19e82b125d9df58f6fa9ac70e4a7",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_028p000.mat",
+      "size": 38162,
+      "sha256": "ca44640e81ba07ebc2a8be288f888d391fe6aa4b2208b03a03154a7610928b66",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_029p000.mat",
+      "size": 38230,
+      "sha256": "549db51e86644f1bed4c60845d76a11d045d215b9d597f61e01d5c9f978c9f53",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_030p000.mat",
+      "size": 38268,
+      "sha256": "3bb55c8159523c802c5d3bf81bd90c891a7ac463650d134aebd9b188f863db11",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_031p000.mat",
+      "size": 38311,
+      "sha256": "d0e6e301e57bd4f0e4530d5b7b21f3861d409ff5c1bb0e2dd97db4b72605d253",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_032p000.mat",
+      "size": 38374,
+      "sha256": "bf39233f1e1a348476a4368305f20c4e2db0fd882732119cd16851a0e02d48d7",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_033p000.mat",
+      "size": 38400,
+      "sha256": "629f850258ce39382eebbe874c070fa96399e9f7cd7bc798ec1a54325b515e4a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_034p000.mat",
+      "size": 38479,
+      "sha256": "24ee121a646414a5a8ad7cac4226a8d4116c073caa93e7c87a5dd5152146a33f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_035p000.mat",
+      "size": 38546,
+      "sha256": "3bf98b4e0a86c42179bdbc50ad7295b0258384158696563f2049eee325791194",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_036p000.mat",
+      "size": 38572,
+      "sha256": "2efd9b1d08d90a86a7aff99bc7a5e70ff11d36a340af123845b1e336bd140910",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_037p000.mat",
+      "size": 38609,
+      "sha256": "417e08bdeebb44dadad8f120b04bdc845cc13e535e4b4faea77d7e952d2c1576",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_038p000.mat",
+      "size": 38644,
+      "sha256": "51757c852560cc36da3f19dc6c795ed5a453d3e3f1d1b6bc038cc3cddd34f011",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_039p000.mat",
+      "size": 38679,
+      "sha256": "6cac961979f248713a709640ab1ab2add41801de5378d1b551ba08f4440d34d5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_040p000.mat",
+      "size": 38714,
+      "sha256": "423d26766665d3ba68f3e631fc7ea93b002e32e0cec462efe9d00fe6c806326d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_041p000.mat",
+      "size": 38779,
+      "sha256": "e7a12d51120d69e8754e8323b543c1f3f2d1b2c95faed22b756e851a4ab563be",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_042p000.mat",
+      "size": 38795,
+      "sha256": "6e08c6b144e8f75667f67ddaddec6eb4945ecf2914e2d697fd7773094300f251",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_043p000.mat",
+      "size": 38889,
+      "sha256": "bcfd6572282110b5df0d6c9e1644c2e3d28f15be98fb0b07b7e301eb205d55b4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_044p000.mat",
+      "size": 38885,
+      "sha256": "9acf404696d4a962e3a6bfb6a3761d5d15a6a7c547f5aa704d1cae73beec73d3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_045p000.mat",
+      "size": 38961,
+      "sha256": "8352fae32b55b083ee5b69720c37879f18169efa4e5ec8300ad59ce80b4e7099",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_046p000.mat",
+      "size": 38952,
+      "sha256": "c8e1cadf02c8e248fccf1cd200be709be041bff33aa2c9d509ade2eebadd1c0c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_047p000.mat",
+      "size": 38998,
+      "sha256": "751393845cfb318d9460aec3f544f36068e38e1faa214a84ff8c7cd23fac028e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_048p000.mat",
+      "size": 39066,
+      "sha256": "76394a99c31e67e6aaeb3461322ba0d9f95e853de8b310b3368bd18aeb99b6b2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_049p000.mat",
+      "size": 39094,
+      "sha256": "5a743ca311fadf13b973f10344c9e92cd10fce3a1df4a25ac5386d6aeeb7227f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p001_t_050p000.mat",
+      "size": 39169,
+      "sha256": "702e37f29c606c2541514f72efd35f27fc8c76a5ec08e91e0b471ff197cc881a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_000p000.mat",
+      "size": 23193,
+      "sha256": "7c4722ffca4a8384c559f84e43f8380f886744c4435365ed8021112480e9495c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_001p000.mat",
+      "size": 35941,
+      "sha256": "8005ec58a80af6e8063fc7bdf9cc5ba36b4ea4e50f3c49d3c6a913c2084a6168",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_002p000.mat",
+      "size": 36077,
+      "sha256": "ee4c1ccf57a109ac73f8e0273b8aefddea9ad059bd95de6e250743ec636ce36a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_003p000.mat",
+      "size": 36188,
+      "sha256": "ee73c07395b948fafa61c22860cb41e3877652faad1e2f8afb319314eb842074",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_004p000.mat",
+      "size": 36314,
+      "sha256": "34b4e6b8a0f8d7319a27f7af734d30e77a9e44abd668706f1be1ea15d67919ca",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_005p000.mat",
+      "size": 36413,
+      "sha256": "1db4c008317163e66608f1abb9388aebbe3196fe5fa35dffd542025ad9254ed8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_006p000.mat",
+      "size": 36533,
+      "sha256": "9266f74a1be7cfbfc0556fb28501672851296612e556e39f505e932e54aed4f0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_007p000.mat",
+      "size": 36625,
+      "sha256": "583bf0a426d17fa2f2941d042a3b9193e30e456d060242314a4e999d3e6d66b3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_008p000.mat",
+      "size": 36734,
+      "sha256": "d5d6b401338897b8722baa096dd0a39f012a93305ef7df7a0080edd26983aad4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_009p000.mat",
+      "size": 36805,
+      "sha256": "e20852f5becd8a9a02c5e8b7968b9a6439089b80a9b9718ce4b74e20978759ad",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_010p000.mat",
+      "size": 36910,
+      "sha256": "b1f79d0b702a6f1e141c1125e66a77fa74d957773b5f7cb3ecd23820ea7e2267",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_011p000.mat",
+      "size": 36970,
+      "sha256": "cb7f932b8c660b9766545d64548399c5bc93779db00c71b869919a5010eb28c2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_012p000.mat",
+      "size": 37071,
+      "sha256": "122da6ceb3991ab2f658089520692bed3de36872b8ae3ddab6392eb544525f1f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_013p000.mat",
+      "size": 37174,
+      "sha256": "a4c4c1e30d8a360a0290b257317ebfa6fef6645294f81db5b09ff9ff820c3468",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_014p000.mat",
+      "size": 37230,
+      "sha256": "ec19726a3f368deaf05a7bde89f47c165723d4d7e1d4652e0d98fce5b7f5d591",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_015p000.mat",
+      "size": 37318,
+      "sha256": "3e877025ccc4062dc5c852eebace00625b01548d7561efd0f1e50b4f9ba4915e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_016p000.mat",
+      "size": 37389,
+      "sha256": "bea29a625cb26b7b636b9e89978f811b1989cb54e3acc2c1ccf9223372976cd8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_017p000.mat",
+      "size": 37486,
+      "sha256": "c986e0b347b2fc8d3f6dbc4f650d1aef15690fe2e3e5813d9fb775b75d6ba1b9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_018p000.mat",
+      "size": 37547,
+      "sha256": "ec5eb56df8bb33efc001a0704dd2441b32456b883fab66b3b0be1dd1b3381496",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_019p000.mat",
+      "size": 37599,
+      "sha256": "c73bb513bcb18ddf65d7cdab2dd9a054c12a5155fa3920034584619a7d2cf6d9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_020p000.mat",
+      "size": 37685,
+      "sha256": "e357dae8edea8a464747761212bf1b8e864aacb1fb2437ea9e19d0397cd840ce",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_021p000.mat",
+      "size": 37750,
+      "sha256": "f4e772e4264ba9e0ab000aed4f5be980fd99bbebcb190026077f9901c4bcad06",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_022p000.mat",
+      "size": 37811,
+      "sha256": "7d73859f861802d15b3aff841280616844e6644200d3dad498847ddf03799c49",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_023p000.mat",
+      "size": 37863,
+      "sha256": "01b256391200262e19fdcef783274134c9cf951d0d929dc405bceaf2552eee40",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_024p000.mat",
+      "size": 37971,
+      "sha256": "f882fa5e9a5453a7780881be23992ac62a5073464eacb9f47faef33eadaa2154",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_025p000.mat",
+      "size": 37994,
+      "sha256": "4bc3c9f9500b0069f8fbb0e3ed324dfb6ef8d91f754c33776060a323b6160334",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_026p000.mat",
+      "size": 38053,
+      "sha256": "0f14c12756e7bdff140ca05e26832dd861b0646009eaa485ef2d7b794fc6a851",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_027p000.mat",
+      "size": 38120,
+      "sha256": "658ff4ae8763fcf0f3d1849cea900c3ad14049b582ecabdb4798d7378ee4cb1b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_028p000.mat",
+      "size": 38169,
+      "sha256": "39832128f8f6dfcd90f94c072bd5348b2dbf874000777d52a1173e63c7645cd4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_029p000.mat",
+      "size": 38209,
+      "sha256": "d3bc8cf89e51862a9bc623137d743ce1bf7cafdffb4f538db58e0ef2d8b90b00",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_030p000.mat",
+      "size": 38266,
+      "sha256": "6e6ebd029e7d6289191ac6b7ba6a395bb8477b5dc09eb94b7203cf17f8855f18",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_031p000.mat",
+      "size": 38329,
+      "sha256": "685a2a0a044d221c62684de9265f5f6bd1ab114c35bf76fa04e7badd8caedddc",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_032p000.mat",
+      "size": 38367,
+      "sha256": "d8d725ee722d2b99a6293da613ba4e2dbeae72bc0c5b186f6c8b4d2d8eca501f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_033p000.mat",
+      "size": 38404,
+      "sha256": "5c92a0b5109adad912530b1c75e381496dd8809294ea6d8e7c9ae6015bc64da0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_034p000.mat",
+      "size": 38462,
+      "sha256": "f50605f3c08ff3ebf1689c19b938c5d175c33ac77ba7b7cfbc10d9965aa9cedf",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_035p000.mat",
+      "size": 38523,
+      "sha256": "ada2ea42caef045863429fff07fc275fa12cf89f4fc99e61f0c320d9897a8abb",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_036p000.mat",
+      "size": 38568,
+      "sha256": "075d2c9863cf8e693bdb188ead1be2019154f1952f1610bd8b8f31e2d5a96d89",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_037p000.mat",
+      "size": 38589,
+      "sha256": "b1e07847b8b5f45a2fcc202807f61412c9e9c99a702fd22ffee7abbe9b1c4aaf",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_038p000.mat",
+      "size": 38652,
+      "sha256": "0dfe9d60b7dac5edf889e097b5ffa2ba3428ad6d3c5ec610c3b1605efa71fe73",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_039p000.mat",
+      "size": 38682,
+      "sha256": "232a24592a990835d5c3b65d9b7d95941406bcedd11100bc09885cc2c1f0db80",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_040p000.mat",
+      "size": 38740,
+      "sha256": "8bcaa37d612051a3b79372c133985a79d28aebd4d15495f6df2a918a9fe1febd",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_041p000.mat",
+      "size": 38787,
+      "sha256": "c4fac71b835be7405e5e1865749ef7b421b368f545b307a3c756103d6f59b4f3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_042p000.mat",
+      "size": 38829,
+      "sha256": "cb972196c7f116307ed2e563a91b1993685e86c497f150932393ab601d8018b7",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_043p000.mat",
+      "size": 38867,
+      "sha256": "cae3146d4555331f25c965114ee7f57018322938a271fb13d798cc24ade511cd",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_044p000.mat",
+      "size": 38898,
+      "sha256": "888b08069b87f1f4f928588ddea5ded468ae7de2da601d6de0b0ddcff8937d71",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_045p000.mat",
+      "size": 38942,
+      "sha256": "6ba11f4a90232eb2ec4810dcb4968f0556c37e500485999fb4725fee56fc7343",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_046p000.mat",
+      "size": 38965,
+      "sha256": "b34b7b0e13181a190555a34a7ef875d4e1db4c67cfd9007c3157ce2118504c50",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_047p000.mat",
+      "size": 39011,
+      "sha256": "9f441b21e5491d7c285eccdfadcb4a541071aa6c421b1097cb4ae95a7fa2efd5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_048p000.mat",
+      "size": 39058,
+      "sha256": "ee0cbb85bc802ac33431e5041dd1c887e4f82b3375cc10057614ee093366e9e3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_049p000.mat",
+      "size": 39126,
+      "sha256": "009600013de2a85c4785d645d36afc310307ca495ac6248802f5db891caf18e7",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p002_t_050p000.mat",
+      "size": 39168,
+      "sha256": "656419f2bc4af98015d23758cc74c9010fb8ba5c975cc23e4faf054c073d478d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_000p000.mat",
+      "size": 23193,
+      "sha256": "0f562dcccfb2f1a0b27771ae6d8e388adab892a6e805ffd497dac028b4cf9329",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_001p000.mat",
+      "size": 35922,
+      "sha256": "68d69281cbd0ac068e753b17e93f832923feedcd5c50178c6d0bac4eea5d83f6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_002p000.mat",
+      "size": 36075,
+      "sha256": "f17a9f7b16464881c6ac46e6920dbaee9b25de445f2ce1aea618b8a1e847ee65",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_003p000.mat",
+      "size": 36187,
+      "sha256": "0a9d48ccd9b1a8cdb20d725c98161b42200f18b9ef810e5eb4ee39c7d2a5083d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_004p000.mat",
+      "size": 36298,
+      "sha256": "f97328e10e033d74e917a70568f85e33622525d6e8eec72b0ce9f9d077ecaafb",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_005p000.mat",
+      "size": 36426,
+      "sha256": "6ccc4b864bedadf4b39864cb1dfa9d434b696e249c152fc478ec4e115d4529be",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_006p000.mat",
+      "size": 36517,
+      "sha256": "75a48da5829b45d65e4053e8a811cfeb6035f63206c4fd55f9015611a9c8af00",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_007p000.mat",
+      "size": 36639,
+      "sha256": "da77f39a89bd313281a5176a33c4cc1761059e98da666e503e313037c5c83d38",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_008p000.mat",
+      "size": 36731,
+      "sha256": "23bc6abc1e2f54b90568580a9c74c268c9cc76d8648279a9e075ba0221420924",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_009p000.mat",
+      "size": 36821,
+      "sha256": "de4960668b7faa79d0394890849cd1895b657233ac1de01d4624dfb4eade1df5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_010p000.mat",
+      "size": 36920,
+      "sha256": "7bfc7e6886b9d9c0011bc9ae4fae8886a598f3c8d391979454874ae06895e084",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_011p000.mat",
+      "size": 36986,
+      "sha256": "1e64d3c204b6cf08b38d920c80994fef77fb182fdbbefb9ab246a8a0afd431c9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_012p000.mat",
+      "size": 37097,
+      "sha256": "d83f7b3ebc26bff8128e2414c8944e0254faceb9c776f38dc800001be78c005c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_013p000.mat",
+      "size": 37169,
+      "sha256": "b2d898b387c89a8508997d6d0f35f6a76bfa740e6f50c3e691f8659b655d3d29",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_014p000.mat",
+      "size": 37246,
+      "sha256": "0ec8e8557278205bfdffe23a9675752ba4f27cc51071665fd4e9525f3bf877dd",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_015p000.mat",
+      "size": 37326,
+      "sha256": "478b35eea6f85b4eb47fe55c7a41b6e091ec527c61c838194bb865e7797b8450",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_016p000.mat",
+      "size": 37400,
+      "sha256": "80452d1f2bbc97dc891f6c2770f0fde9d5ae70f77e72019ec98b3706141aed4c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_017p000.mat",
+      "size": 37472,
+      "sha256": "45e1bdc4028d7c3747d1a8504b136165ed296d9129eb148b481933570dd344f9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_018p000.mat",
+      "size": 37551,
+      "sha256": "d23936585f12cb715eca8aa9fe0e57f96bd5ea82413e11b9173737f5d9394d26",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_019p000.mat",
+      "size": 37608,
+      "sha256": "8f203e667cd8013b04a5c2eba06f6d9db9163b64eb9bdc513cfd79acc8e263dd",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_020p000.mat",
+      "size": 37662,
+      "sha256": "bb51deb0b03871c9ff96609b68f859539acb66f56cd9389a71e59c8298e54140",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_021p000.mat",
+      "size": 37745,
+      "sha256": "06230eb9c28daadadfdab4ed23afc4da6dfc5a2b435ac7f7242afeb7d0778970",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_022p000.mat",
+      "size": 37818,
+      "sha256": "a962dc19d4a89894b55b201353d3a12eade653fff1e324553fd1c5eb19f7e1f9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_023p000.mat",
+      "size": 37895,
+      "sha256": "2a7e3d8d4ba25483ca8983ddb75db010b74e41f374f8a29a791dca25bf42dec9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_024p000.mat",
+      "size": 37944,
+      "sha256": "b9f3e9fe08322d3a08f9be1b510f9eccd6eb89d232892f23573fd76de8956ed7",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_025p000.mat",
+      "size": 38004,
+      "sha256": "3a9986a7395685bb4218d65d1c14dfe020fd63d7c78113360cfc319929b5b879",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_026p000.mat",
+      "size": 38059,
+      "sha256": "bc3b3ff75f1680f5ad6bec7bad65365f7ab613c0964949ea3f14940a62cb1e63",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_027p000.mat",
+      "size": 38119,
+      "sha256": "6ed06c3d542429e869f15ff36f17bb851f579ce773bcfc01c3439d4c5f4dd847",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_028p000.mat",
+      "size": 38163,
+      "sha256": "c4313a715eef32682087975c7d50a3742081a7e79d67e5df34216313822d7929",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_029p000.mat",
+      "size": 38228,
+      "sha256": "71ae9fbea4910c939b3adb60b6e5e74bdd36754193871b9eef727129a835cbd8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_030p000.mat",
+      "size": 38234,
+      "sha256": "d2f7d9e49c591fde6f2541359b2a79a7167330fadc54d1925b1764fea489d0d3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_031p000.mat",
+      "size": 38307,
+      "sha256": "6cdf92fbe9c2013674cd1ea0404a84dcd10a85920d57738b834d0a30a441db94",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_032p000.mat",
+      "size": 38371,
+      "sha256": "608ad9ed8ff9826775ac9d55c22a1b21a25da404460dca72f9a1656282c147ee",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_033p000.mat",
+      "size": 38421,
+      "sha256": "a1b78d2e32ec866b37506e02041f2bca9d53c2320bb45d975e67a18aebe96447",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_034p000.mat",
+      "size": 38456,
+      "sha256": "e3856e43f714e3a97bf984f250e193437e1b1ab2c654d5f87950542448647a72",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_035p000.mat",
+      "size": 38516,
+      "sha256": "1c9badd8a08f5e0a4fc4870a135c9302fb25ae4de4a396c58c9b43b67b522f71",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_036p000.mat",
+      "size": 38542,
+      "sha256": "146e4642631fd1954285c1eb647ddbb009df825160109d4105608acd59652d76",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_037p000.mat",
+      "size": 38590,
+      "sha256": "5aab739545bd444c6732f07be76073c97eee3761664816f72d43dd0f92ea15ea",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_038p000.mat",
+      "size": 38628,
+      "sha256": "ebb69b87eb835cf2296b1c8b025d94db7cb9b8bca0319824187d1867acef804b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_039p000.mat",
+      "size": 38662,
+      "sha256": "81aa56cdc003106b2950f46c933055289b0de4e8476155660c80cad227399500",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_040p000.mat",
+      "size": 38736,
+      "sha256": "192a8a1ae2cbf4156207accc1fb08f0a0ca9e568a19f53b98425488d9b8a62db",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_041p000.mat",
+      "size": 38758,
+      "sha256": "7dc2802d142b67eab61de9e9307831357cf56c98ea26aa62d7b582d7f14d8f5b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_042p000.mat",
+      "size": 38817,
+      "sha256": "ec1e5e25e7eab8386dbc127f5a59c45a54382ec4392fb92aec775457c96c8263",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_043p000.mat",
+      "size": 38858,
+      "sha256": "5055039f58b3e7b30cafb65d16ccd2506aaf1ece7284135afddf412ece4fb78a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_044p000.mat",
+      "size": 38913,
+      "sha256": "6c41d4fc7e55bee5cdb37c224a8a341ea0c9105d5523fc5d64e11c9c3a7d9ccf",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_045p000.mat",
+      "size": 38965,
+      "sha256": "f1d4c871f3903be343486e428ba929e7ef4365e5942ee8665f982f8e859b04ef",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_046p000.mat",
+      "size": 38991,
+      "sha256": "d8e8deb00ae2258ea57693e625063055663f8957966aad21d5d95d8d5952680f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_047p000.mat",
+      "size": 39034,
+      "sha256": "a6ad4915d6278ab9dcb57d20501f8159b64b0a2a953e972421e7cbc65eb105ca",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_048p000.mat",
+      "size": 39101,
+      "sha256": "b6ae3a3197f870d9f1ff78ca546e59c975e566a83715c16f677e446c847e0532",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_049p000.mat",
+      "size": 39134,
+      "sha256": "b1852625a22bb5b153b809a34c3c4e2b4a6a957b17b6394109971153723820e8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p005_t_050p000.mat",
+      "size": 39158,
+      "sha256": "44b70658a80c310c91f349dc795f46ac6d12e26fd0650020fcd5f26d368b94e2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_000p000.mat",
+      "size": 23845,
+      "sha256": "513ffd48e14d6edf5e9e3634564e204716f27a7ee4d46be46603528fff22e912",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_000p100.mat",
+      "size": 36451,
+      "sha256": "6f06f5ae7b783891402c10d58a8c312a5e62cebe8525e5945a1f0769a855a5fa",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_000p200.mat",
+      "size": 36473,
+      "sha256": "8549a2748f00eea6523a03933a566400011ee097200af0d93352674a66cd3a87",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_000p300.mat",
+      "size": 36502,
+      "sha256": "44e9ec370c9c55365e321920668946d7fb4c1d7189e4a40e30dfb96507adba6c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_000p400.mat",
+      "size": 36492,
+      "sha256": "3dd1031aaf7a98267f5b9af41f47b63ae7b983e2c50a21818c1cefd162b753e6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_000p500.mat",
+      "size": 36521,
+      "sha256": "17c491e8ba54aec6d3cacd668ae9fce0ce6a9e6a5c92856ad64096a705e8727f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_000p600.mat",
+      "size": 36531,
+      "sha256": "66feb279d76e576f9edc4c6c5871cf3308ff3916f2ff257ce1d474c1af6c97f5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_000p700.mat",
+      "size": 36549,
+      "sha256": "082da468c421dce3153d79cb1748c38545193b2c9d7ae9b59d778cf653483439",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_000p800.mat",
+      "size": 36542,
+      "sha256": "fddde7983cb787d3521f26dd52c59fd6ce1a15abe69ac71aa6b23955fdadc86e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_000p900.mat",
+      "size": 36577,
+      "sha256": "16750c002387c016250f13c90f6e23e64ae93a538ea15c4489bb9d0268520323",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_001p000.mat",
+      "size": 36574,
+      "sha256": "09fdb01ca699bd3227a6ce53a7910c4b74cba42b135f6d3bfe7b5e034526397d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_001p100.mat",
+      "size": 36607,
+      "sha256": "f68709b114167955c3a4b1e160afeef4baef6b72ed1131e418dadef0d459c63d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_001p200.mat",
+      "size": 36624,
+      "sha256": "9a781bfa1c8f3eb6b2af42214b698d5c3983336e9d2e861b18ab99bc1a5370f8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_001p300.mat",
+      "size": 36627,
+      "sha256": "8cccc693a8b48bb6737ca3552a9949f0d8e746ed327aad0d6a5c417235fb136a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_001p400.mat",
+      "size": 36648,
+      "sha256": "39bf70954329f544ed101d516d8f1448a826462311045ca0bb6b07e450df8506",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_001p500.mat",
+      "size": 36665,
+      "sha256": "51f557c88c908b3d35bc0638a6273cda36124251a92a8771d6ac4046598212c7",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_001p600.mat",
+      "size": 36687,
+      "sha256": "0daa0d9a0e9b98d34ff9e3f2e71336c42ef93edb95b770c009302a09d56f80f9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_001p700.mat",
+      "size": 36688,
+      "sha256": "12e7d586d19752ac1012738db4c3869e1964fb9a58c9101b57feb110922d2bc4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_001p800.mat",
+      "size": 36698,
+      "sha256": "a7880983d6a14b513c5a1b3a12dc18c1ac2f4e6d09a8a716aa52d5000c3b2523",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_001p900.mat",
+      "size": 36688,
+      "sha256": "782ba8767d4d5cc4a0767b7299fe3cee588061c334f2d339727b0af40a9e6253",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_002p000.mat",
+      "size": 36724,
+      "sha256": "183905138afd4dc6e12bcc8a93a3cfa0957f844f03feb2084c0f1528f9c035c7",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_002p100.mat",
+      "size": 36738,
+      "sha256": "3ebec88f8844e96325ddd6fd7472dfc12fa6cf056a296db79ed14ce649c65b45",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_002p200.mat",
+      "size": 36746,
+      "sha256": "db9be611efce12e2c9fc6c3fcb4a531f9bc9343fa03e41efb75be6479b72841d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_002p300.mat",
+      "size": 36758,
+      "sha256": "691c9eb01abaa9a5eca95a1db02c7232b6552e3443e3f32b731455ffa736f3c8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_002p400.mat",
+      "size": 36782,
+      "sha256": "52d4e42b4acb40921f6beea392102f38fe87d00416398eb28a9ee69f57615676",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_002p500.mat",
+      "size": 36789,
+      "sha256": "9c4f41eeb4bad316f6484b4414e802120fd9af17c49b87e54722064449416fe9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_002p600.mat",
+      "size": 36810,
+      "sha256": "97235cacbca5a0baea58dbb325ad6f71a4c6597e144ceb5426a4bf91190ddd93",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_002p700.mat",
+      "size": 36792,
+      "sha256": "aab645175e8da5a0143031045bb64dca441cdf4f3b4c23036e32e999b3773837",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_002p800.mat",
+      "size": 36829,
+      "sha256": "e15119c972f47ac8f760cd96da8fee4ec3fd330d8c5f6c684f0ff7fbca9b39f4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_002p900.mat",
+      "size": 36833,
+      "sha256": "8d04c4bcf3367e1ec6ad944b46c70cdbd58a9d800a660eeb38e232db3caff657",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_003p000.mat",
+      "size": 36849,
+      "sha256": "d6a4f607cad6eb5eeda54b203de17941d59db93316b820dc57922dbffe669bdd",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_003p100.mat",
+      "size": 36849,
+      "sha256": "bbfdf179a0b8cb2aea3c49d390769bb32ff12a2bcb8a8ccb9921a52c03f02767",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_003p200.mat",
+      "size": 36877,
+      "sha256": "32b60a0c3078966d83a748c62b80285ec089e783ec749cfae89a40381e016bc6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_003p300.mat",
+      "size": 36872,
+      "sha256": "e4733eadbe9e0a3e46584a923aea2ae0fa5e139465fe2f6abe9d02c2383d7a5c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_003p400.mat",
+      "size": 36871,
+      "sha256": "c998d626d95626fac67a330b6f1c0861fef62b97efe9bf575e71121b4b87c9d3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_003p500.mat",
+      "size": 36905,
+      "sha256": "77137702f6710f9137bda50224b07482268a4a7f7214ec523fe8f9a98c9deffa",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_003p600.mat",
+      "size": 36908,
+      "sha256": "990f9db54cd7d9e902b744cfa8b5156ccd11278722b4542c2f56f1c778fc1f99",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_003p700.mat",
+      "size": 36934,
+      "sha256": "ee655827d6851d871d997ca5743d98ded0858198e15db5e03be1f369cd6a66d5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_003p800.mat",
+      "size": 36951,
+      "sha256": "9060fa5161b5e66cf9df81fc3ac4b7e89e2212f3bcadcbd0043b44ce6edffc2c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_003p900.mat",
+      "size": 36959,
+      "sha256": "44e339041b502f519c7ae034288647bd86a6a03ee663eb23f041ca70e7e7dab4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_004p000.mat",
+      "size": 36962,
+      "sha256": "192e9a633f0eb23cb878b3eed889e387559fc07a2c45fb8142fb1cda19c763a6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_004p100.mat",
+      "size": 36992,
+      "sha256": "5f759a8de7950461cd8b7f0bf22011f713337d7e4685c83cfb315712c9e93057",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_004p200.mat",
+      "size": 36991,
+      "sha256": "22bae1e8f9afcb40d45445a1f0e303b88d1804361051da0cef02685665cb96a1",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_004p300.mat",
+      "size": 36982,
+      "sha256": "eacee6df40eb5bf5dbaa42825106507c10544208256caae90c270fa2d99b6e13",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_004p400.mat",
+      "size": 37006,
+      "sha256": "b77e2b80922cd1002e0d7109f30e0bf6c57c42c88ba521a317651f29cc5193d9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_004p500.mat",
+      "size": 37018,
+      "sha256": "340ce58e577e8e384d8b3b6deee2a681f4843e7d219c8220cc9afb2c651145d0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_004p600.mat",
+      "size": 37025,
+      "sha256": "c98319ee1ce9d1253d182fe6cc687b5746c8e6ebe8ff75aca65acb394b18e89c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_004p700.mat",
+      "size": 37021,
+      "sha256": "73a962360031487fb92cf88c1277b8e612c4592e38bf49470a21887cd5a25d09",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_004p800.mat",
+      "size": 37044,
+      "sha256": "037a8635c8c4924d066f9f82360a666eeaa166d95b645bbe1d18931578caecd3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_004p900.mat",
+      "size": 37055,
+      "sha256": "b3b6be36c630de2665f5add4b6251bc841669741fb1d616d747f022d29668828",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_005p000.mat",
+      "size": 37063,
+      "sha256": "babffa90d09290c7ef57b61320712934cfc16456c7691384006f742c83d084e3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_005p100.mat",
+      "size": 37091,
+      "sha256": "c92f917f2743b00b9d0bf161b36db5d76def61217b08c352a8505c8f4c54c16e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_005p200.mat",
+      "size": 37096,
+      "sha256": "a1a3a4d46f73ec93535d9658638e5c86be40ad2f5a6eb8e1a599aeab233ed648",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_005p300.mat",
+      "size": 37097,
+      "sha256": "bd25710197d78b76d82040395fa256fe4bdad25c17ad3181669436ffa876ad25",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_005p400.mat",
+      "size": 37124,
+      "sha256": "5459f38924abbf240d81252828b7996ab7eec127261882720e07851be586e3db",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_005p500.mat",
+      "size": 37131,
+      "sha256": "1e66407275e4999fdc95a1f72d1853997491ae76f56e4e4379cd0c5cd8da13d8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_005p600.mat",
+      "size": 37129,
+      "sha256": "d9652eb89e8fc33b43cf7a43a373fcea55a7173367a3a8a1e673c72b1ede79e5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_005p700.mat",
+      "size": 37153,
+      "sha256": "8d9bed64c77525e9f2fa11c828c9e622cc3eeebfcf565df94bd777b74493e3ef",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_005p800.mat",
+      "size": 37158,
+      "sha256": "a4fcf36fdc6c0d3c87d6c0ebbccc727f81e610189161a594fc24ae5ddf1b1e97",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_005p900.mat",
+      "size": 37173,
+      "sha256": "cee970e14fc47e20aef361e9e74cf698b919300efd4f0c587946c670044cc43b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_006p000.mat",
+      "size": 37196,
+      "sha256": "814e82b6ff37e00175fec265970cc7c147856b2f2294f47b7a4c490405bb46cf",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_006p100.mat",
+      "size": 37197,
+      "sha256": "209253c5d418d9f00eeea7af2f42e4c6b848e5c9ab8e873cf1ec10dc8d01fc04",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_006p200.mat",
+      "size": 37193,
+      "sha256": "ac43594fc6811ecb03e19158d19e32203f32a6303d77cecc3ce4c2b8efcb4041",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_006p300.mat",
+      "size": 37227,
+      "sha256": "02004dc862e78697e09853799a5362400c4d516d83b9496ab8b00ce790cb775a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_006p400.mat",
+      "size": 37215,
+      "sha256": "f7410bfa2cf561bf15e7a58f39a36624cfff7c9c0c9a4ab8eef5c5345d13e8e7",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_006p500.mat",
+      "size": 37246,
+      "sha256": "179d9378f9e605b50ed54d9d66f8d5fa5aba469e50ba0f758f3919008a49db5b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_006p600.mat",
+      "size": 37219,
+      "sha256": "06528103960f7244291b1422b8b5e183e77414e3e8f3cd6855f8426f10a3ac0a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_006p700.mat",
+      "size": 37259,
+      "sha256": "d6967bd21cb330685a75d62eddcf4629bbe00a1548754d0b0d377fd2dd126c7c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_006p800.mat",
+      "size": 37264,
+      "sha256": "5a449a2a92fc1bc79ca17dfb7e7b0767069caad018a68d332b03a69ccaa0a901",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_006p900.mat",
+      "size": 37277,
+      "sha256": "37c912725d6b8a61e701ad1a9e1d5ce6ee3ac5edba8c14a27f770be28f1767ea",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_007p000.mat",
+      "size": 37297,
+      "sha256": "2587f7d58c3c5798be5cf36190850ef6dcafd104db456e970106c4f6b6881ca0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_007p100.mat",
+      "size": 37305,
+      "sha256": "e14fc8934fc66da3a707ab4325ef5cf14b7544105ef75bec7bfb1a16521b1c00",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_007p200.mat",
+      "size": 37314,
+      "sha256": "2c2c582ac818cde5ae85ecd968c3ba13e3242c6d8a9f9c1d4caceaf6b524afa5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_007p300.mat",
+      "size": 37323,
+      "sha256": "5fc2645a5f6957f26987f87ad4611d509c441f9089ab201d070026fa16c7266b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_007p400.mat",
+      "size": 37324,
+      "sha256": "f754846b0787a887f23d94b604c44f09de552a870c90ec3a54fd9825e2018d88",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_007p500.mat",
+      "size": 37353,
+      "sha256": "90cc3122f7968822dceefbd47b8ae5e45887bba1269228569e938ab9f5b429a4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_007p600.mat",
+      "size": 37346,
+      "sha256": "e87637a319f1b112aff93a4cc2874ea818b8faa854eda892be6658830a3f9a9c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_007p700.mat",
+      "size": 37364,
+      "sha256": "e515bcf37d654c24eaaa4881370048083ebf7b011faa4796cfe125f0ebae58f0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_007p800.mat",
+      "size": 37359,
+      "sha256": "5213515e30e447562e39a17f25a68387c1ba3f15139f552ef84c7b33a781b18a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_007p900.mat",
+      "size": 37372,
+      "sha256": "cfe30cab0909216a72016b907504fce2b1b6a9368772fce223a1935dbdd286cc",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_008p000.mat",
+      "size": 37381,
+      "sha256": "aaf1169d3b047bf2e97aacd47d2d88216ef045d5b0f30ceebae84fc70d370063",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_008p100.mat",
+      "size": 37400,
+      "sha256": "f043b3101438bfd9a08c750347dea410a06eedb5ad29dc9c2e37baef24d9eaea",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_008p200.mat",
+      "size": 37412,
+      "sha256": "fc474368c641d959ebef0bef9b21e2ef047e958ce6dd6ef8050d3df33103c0a2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_008p300.mat",
+      "size": 37403,
+      "sha256": "87055ec9f76549bca25ecd73e2093023d65fda2a9253d4cc11fc3ed395eb29b6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_008p400.mat",
+      "size": 37436,
+      "sha256": "efa08ba4eb50793f807a4313b1368bc6522bcbd20388ed7d7a52fd489198b524",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_008p500.mat",
+      "size": 37440,
+      "sha256": "198a6a9cb2c6fd4c0c20751820b76b1a039fefd5adc30c0e776b3d9a67f2c6cf",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_008p600.mat",
+      "size": 37443,
+      "sha256": "68b2b8584b6c96aafad0bc3a147c88ba7430a56c3bb6d911151e9c9b920da45a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_008p700.mat",
+      "size": 37464,
+      "sha256": "70c57f011334af9e20a384d810254e592d629279ea5925420225f5bca4505494",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_008p800.mat",
+      "size": 37462,
+      "sha256": "3afb1972b88ce0d618dd605d8442c2307db20da58ef712929d8fa5a1b85b873c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_008p900.mat",
+      "size": 37453,
+      "sha256": "a833ac943ba44dc09ed3942908c9a56421b8337c24b3764c22d13d62b14a5c6b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_009p000.mat",
+      "size": 37476,
+      "sha256": "73ef1d38498f9b8d1fd5b92e0ca5e487ddcad33dd5e70c67dd49877815d33219",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_009p100.mat",
+      "size": 37498,
+      "sha256": "793bded873f81034d0db390b36267e3a81cd3469fa453796aeaf86c700c326d1",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_009p200.mat",
+      "size": 37494,
+      "sha256": "8a50300fdd0c926af333f43873ad5e5ab103284bcbac7205d0a89d47064b215a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_009p300.mat",
+      "size": 37493,
+      "sha256": "8352199b900000a26f000eea8e6ba6aa6246f84d79d065f22081f13400a11a18",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_009p400.mat",
+      "size": 37534,
+      "sha256": "3a4e24b0b6c6471d0fc35c768ca009eb0674b8f4bba3efcb70d37036f4a5b51c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_009p500.mat",
+      "size": 37507,
+      "sha256": "fd74c9c4d5cbeb8e6b77e63d51ed159fb40737770f1b72a76857bf7f7289aa14",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_009p600.mat",
+      "size": 37542,
+      "sha256": "051c4ab69a5e6605e49df2456dd017ada429e05cd334036cb9e37ab3e9fe11a8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_009p700.mat",
+      "size": 37540,
+      "sha256": "ec5b8cd7f420c0ffb407ce6d9bb0bf39a0308e3e6ed0200fdf5dbd6399aa3308",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_009p800.mat",
+      "size": 37559,
+      "sha256": "8a64ceca0802c5a036566668882b4aab0ddc53b5aea1497d81bb0c0926bf3d9c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_009p900.mat",
+      "size": 37567,
+      "sha256": "2876eb9333f0dac9ead60cf32093931c71b6d0813b92be177f32d8c21177bf24",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_010p000.mat",
+      "size": 37550,
+      "sha256": "3988bb503adec12ca414719a1aadc591baa6e83a78a7f964f0bb9ff1cca00f60",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_010p100.mat",
+      "size": 37586,
+      "sha256": "05c40e9b4d961a9f50c7ea805464bedafd7b410c9ec349890ec016c5569d4445",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_010p200.mat",
+      "size": 37590,
+      "sha256": "4aeab77f8b388978700f535e812434806f5e6e885ebb2fd45581aea5ae8c90d6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_010p300.mat",
+      "size": 37583,
+      "sha256": "db1a36efc61fbb975de8d7dc1e76745cd3920bc87a671775b88d365197ce9a70",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_010p400.mat",
+      "size": 37595,
+      "sha256": "788f33fc94b48bb59c221fc86c4f7e12783697a0fa3015c1ae4becb521d0d077",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_010p500.mat",
+      "size": 37599,
+      "sha256": "7c5eb0d0c8bd8de295fa438da1c133a23e9b91e84a662d210577e0dfee1345cf",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_010p600.mat",
+      "size": 37633,
+      "sha256": "b75b655b75c640322ec02312b67006b8fb01f52c5a4c844b2d44151036c1b246",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_010p700.mat",
+      "size": 37629,
+      "sha256": "db98d125e53290fb5ddd913203414cbc2000f89fa84402b5fec164076ae05cce",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_010p800.mat",
+      "size": 37648,
+      "sha256": "0f144fbea9bac48bd6f69dd06a9edb806059e01e49957057faecbfbcca2e0df3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_010p900.mat",
+      "size": 37659,
+      "sha256": "2240a3d04df562731f60bbbf3570d375207fad59b45b1e0639aba32d8e11796e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_011p000.mat",
+      "size": 37648,
+      "sha256": "7ee3248adce8297516adc1a97a03296de52d4c555c702d2830f3bed1e8e1935c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_011p100.mat",
+      "size": 37644,
+      "sha256": "53ce8515a56ecc2aad2df9cc0bd7612a3fb1544b6716dad092cb6efb532a85a0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_011p200.mat",
+      "size": 37666,
+      "sha256": "64cdbcdd0f0f163207205e824d4d0211ed15bdeea4690fc6e69f309c59d16a8c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_011p300.mat",
+      "size": 37666,
+      "sha256": "d17ef5b45aaef86fc0aad0694ccdb48a7ed603585fb5c21924578c218969a111",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_011p400.mat",
+      "size": 37691,
+      "sha256": "b3d63f26a33752f12d842022adb437f4af1b91c40006ea9ff6117a780e372658",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_011p500.mat",
+      "size": 37703,
+      "sha256": "ebe4783329629fb5e7c50dbe559a9ffa815ae54a03d915389b8816e8c7430a51",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_011p600.mat",
+      "size": 37698,
+      "sha256": "e05e96da13f8abfa69930fef1cdc2cdac76c0da8934ecff1a66e1fe40cf44a1a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_011p700.mat",
+      "size": 37706,
+      "sha256": "6e3f418565ed2570eb08ad9eb26dd7b69594d6c1729fed87e533906fc7214391",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_011p800.mat",
+      "size": 37728,
+      "sha256": "9a9894c8aa0638dfe890b99828983087ca4ba090001f809ee2e87481c779eed1",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_011p900.mat",
+      "size": 37723,
+      "sha256": "00bc5a8d4cd5fc95b0e6d2a6de4eae9a219423fa846226b56717ac7621443f14",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_012p000.mat",
+      "size": 37731,
+      "sha256": "53c2f95036c76ce5abb5646cba0f5db217629b5d3c07a9699753829a7789a404",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_012p100.mat",
+      "size": 37741,
+      "sha256": "0aab3ddad90c2fd494a2ec7792664a32fb0c5abd505fc09aebd016feb8124008",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_012p200.mat",
+      "size": 37764,
+      "sha256": "f0ee76906404da7ac048e9e590608faacbf19f5126db36e563c8673726a3f17a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_012p300.mat",
+      "size": 37768,
+      "sha256": "5a7e14d4b9336d7eb6319ef1a23ed72f8316eedc1af6a098162dfcab05684fb0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_012p400.mat",
+      "size": 37776,
+      "sha256": "6989fba03a5bb60fe2a9c0b6594470888f580dd581f54d06a8e136aad3e0d4f9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_012p500.mat",
+      "size": 37778,
+      "sha256": "3ba4a5b5727931fadc62dab0ebe0c991619be9101349188516d82277b6bcbcbb",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_012p600.mat",
+      "size": 37789,
+      "sha256": "120fad33d26bced40000b982c3a1f2930c57ab71722f85a8108780c9fcf99ebb",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_012p700.mat",
+      "size": 37810,
+      "sha256": "e3c71d3c306acf0386e1037b4dcec755072683f29f474552991fb07904a3d481",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_012p800.mat",
+      "size": 37793,
+      "sha256": "5f38089dd05dcacf6378f1fa4e23435f8959a58976b39aef6c4bd66ff5baaa70",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_012p900.mat",
+      "size": 37820,
+      "sha256": "a1a1e1653a4331e222dd375a799188f9be6d1ad902a41d3bef6807a874d40b94",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_013p000.mat",
+      "size": 37818,
+      "sha256": "04c8b64c47182d0423158bf37a8032ef196171a6ea06598bd3e05ae20fc5a74d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_013p100.mat",
+      "size": 37851,
+      "sha256": "39e9010827c661f641f78cb5304449ee113491fb3ab5484edcda732c98366561",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_013p200.mat",
+      "size": 37827,
+      "sha256": "b5cb749fdbcd2ab31df24846cdd3937497f32a178ec7112bf3a94cac486c6ad8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_013p300.mat",
+      "size": 37847,
+      "sha256": "bef02e77e952a991a7526260596a7c0439d5d4e25bd77032951e8da5100cb8d3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_013p400.mat",
+      "size": 37859,
+      "sha256": "e6bdb1f0e5de9e15a4a73de43d5c466d912a87db7dfe7e687958cb226077366f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_013p500.mat",
+      "size": 37856,
+      "sha256": "c44b788210827d946f44c35ba4877a2577dc1e29e1114d5ea56b6267373ddb72",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_013p600.mat",
+      "size": 37856,
+      "sha256": "424673efc90edf6235c93cfe0ee31646ac746ddfe926097338c0d7646428a42c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_013p700.mat",
+      "size": 37881,
+      "sha256": "73eac7e256747876882539676f1445c215c62b87cb965483c75c68b49da30d9e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_013p800.mat",
+      "size": 37882,
+      "sha256": "bdd71c0195d8861c4eda47ca9fab6eae58a314bc0e00bd5eae02b68485db09a0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_013p900.mat",
+      "size": 37894,
+      "sha256": "f756c382107b57a37a863abaeb6ed2dc68cf913a726e40a6639edaf3c485fde9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_014p000.mat",
+      "size": 37893,
+      "sha256": "634322ccbdca0b4e2db91029cd9aa530947f9168d75a88513c1598dd68fa5363",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_014p100.mat",
+      "size": 37912,
+      "sha256": "d8246e25e5df5210c7a80390ffa74b61b16f155cc1c3390ca54e1126caccf5fe",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_014p200.mat",
+      "size": 37897,
+      "sha256": "0700e8458860fafaf52709d2126ddfab22fb90bf640afab749de79a4a8f61ca4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_014p300.mat",
+      "size": 37929,
+      "sha256": "d9802fa8a3212456f5bdd557d3956670231b4b85ccca6b28f5bf8cc25a69a66a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_014p400.mat",
+      "size": 37930,
+      "sha256": "ef793c14470ec81189275a795dd71700162543c3c08a42d290438ce1f897f5b0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_014p500.mat",
+      "size": 37939,
+      "sha256": "419c40018a0726e115d19c8424d8c5c6dad9a1986bd0dbe8895d99aae6b6d0ca",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_014p600.mat",
+      "size": 37950,
+      "sha256": "a4d774c4685da65edb01713c9faae15590c1148699f54392fd23e30b020fc0fc",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_014p700.mat",
+      "size": 37968,
+      "sha256": "11d52f6c40928163585998aaf93cee9cfd379e41f31b1b4e0b83c9f031b9dd03",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_014p800.mat",
+      "size": 37950,
+      "sha256": "8b60f6d85c5bbe28a26b7ecdcb23c08403901c421445cee8fc035a4b30fb4629",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_014p900.mat",
+      "size": 37971,
+      "sha256": "349873724a12456b009ef16fcf4751b291125f4f1954eaf039dad41289f20124",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_015p000.mat",
+      "size": 37978,
+      "sha256": "9532889014fb8e0cf6cf28b3cd9231f55309fd2ec93865c16987a4ed58613771",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_015p100.mat",
+      "size": 37975,
+      "sha256": "18eb763f151fe33d4014c973404d42e303a726d0e45de64efc5c953328570548",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_015p200.mat",
+      "size": 37983,
+      "sha256": "7363f76f08d9954f1bd0b3dbdf32deade8d40a80002221759f366aef41879fbe",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_015p300.mat",
+      "size": 37998,
+      "sha256": "76c02cec77c248846d9e1811c66e71338bda09ff23868fcdf4f91cd58c3f108a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_015p400.mat",
+      "size": 37996,
+      "sha256": "ec67a320bb341312644b29f9f64459af40b5d56859da6092a5192d21a3e48a98",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_015p500.mat",
+      "size": 37979,
+      "sha256": "79533c78f0edfa5a94e5c5d319b31db400f419dcf3f00edf30d2b41c401e727a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_015p600.mat",
+      "size": 38014,
+      "sha256": "7f8b48aa33e2acdac456e456dba6e1e27f42fa583699ccfbdcc2ee1d30b122ad",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_015p700.mat",
+      "size": 38037,
+      "sha256": "efb59bf4d8114e0c604ae24658ff96615437bc9565e71e2d2df607ff46868d78",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_015p800.mat",
+      "size": 38039,
+      "sha256": "38db670db6675d224b04fe122e1c722d7f471da974a02906b5e8e02bf63c05ab",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_015p900.mat",
+      "size": 38026,
+      "sha256": "ba8a2faf7d4b610aa9467f3e5d76e673a944c0d34d83b5a77ae8a837be200dcd",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_016p000.mat",
+      "size": 38037,
+      "sha256": "88e8fcdc5942004dec2e82cefab2534d302e96a2f4ad41e27feee76bcf2309fa",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_016p100.mat",
+      "size": 38063,
+      "sha256": "10b0104a3aac99f5538b1c87e1dae600f8cc6b3c40485d3368894cfdf30be742",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_016p200.mat",
+      "size": 38060,
+      "sha256": "91e9f5e9b4f6904a97cd48d9d8085d152e9f2feb0d7bf6059e40ac3d62525580",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_016p300.mat",
+      "size": 38073,
+      "sha256": "7cf4bb45a9e98d3905a3acf7b2c73bc60c372965c155c67209a625a9521e12b7",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_016p400.mat",
+      "size": 38078,
+      "sha256": "bcb52d7c8c98361a6a1f04e139aff782f63580a66c527e76ec99abc95f08e607",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_016p500.mat",
+      "size": 38091,
+      "sha256": "bc743ce6001e88390dca2d59cb509c021553d32162ac554b1ce7f5935b420873",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_016p600.mat",
+      "size": 38097,
+      "sha256": "e36681a2aef3ee05999fab15bf57258260140475d9712ff778feda9af15bbf46",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_016p700.mat",
+      "size": 38111,
+      "sha256": "4a6025b71a4e841fc37dc157000bdf55c872b52219f831bcda0fd98168ad60ed",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_016p800.mat",
+      "size": 38098,
+      "sha256": "5e16a71663c409a3a0dbe402a31580e200573d36559abf7812b78ace9f95c070",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_016p900.mat",
+      "size": 38126,
+      "sha256": "2060a5d9d0ead48a88875ad4ed13ff681da444abf73990dd9080bc24743c355f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_017p000.mat",
+      "size": 38131,
+      "sha256": "2c6ff4a2bbecf815c55bd66c3be8fa31e082a59cb6b78369f2c77dec43ea9cdf",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_017p100.mat",
+      "size": 38141,
+      "sha256": "d59eb6209f97b5d24667fce1c7c89c9c8990872ecd39a97643996b23ef271d84",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_017p200.mat",
+      "size": 38146,
+      "sha256": "ea7af9527a30cbc9f4b62e43de12cd00d164a7f8d755f20980a1533b6a6966c9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_017p300.mat",
+      "size": 38133,
+      "sha256": "6a86b0f534e6f5337558c88520a40095e7524e020182abed9f526cd9ceb65787",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_017p400.mat",
+      "size": 38169,
+      "sha256": "20cd70787e7c5527a6841f6ba97f29bfc3ac486e28a66d771673119fba9e929d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_017p500.mat",
+      "size": 38163,
+      "sha256": "8c614b29aac8d755511a2347bdfc5e8e63938b29b619d19bd06a72f3f19aef72",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_017p600.mat",
+      "size": 38166,
+      "sha256": "64a7f49ac055a16233023e48de486d8f9c5be07895ffac82d993007416b1d87f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_017p700.mat",
+      "size": 38175,
+      "sha256": "602d7e8502089023fb72eefdeb716a46143e58d5da0be09336f23b86451f6304",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_017p800.mat",
+      "size": 38171,
+      "sha256": "1f09914ca88d27835cc0e779acf99430a050e1416269bfa7204a1ee4d10320ed",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_017p900.mat",
+      "size": 38214,
+      "sha256": "e305cec973f2d4ec9e0cac29ab7ec145c04d0d4fff58d8a7e12370cdd3567046",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_018p000.mat",
+      "size": 38189,
+      "sha256": "992c8eabdedbfc4d09caac25765a5ad4f88874db6cb0d54975fc5f9d185ba793",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_018p100.mat",
+      "size": 38202,
+      "sha256": "3247cfc17d93c4ce191f0b4abd7f48807200eeeed2fd5779e5d1974d03f201c7",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_018p200.mat",
+      "size": 38216,
+      "sha256": "be5b133b6d9fe54e509cf5a5ec82f8467838fa1e967593a3f63ce7a0fb8af805",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_018p300.mat",
+      "size": 38213,
+      "sha256": "3fe703c2b2f5437bbce679b2a98334096bb477768752a43327bae2db46b2f725",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_018p400.mat",
+      "size": 38210,
+      "sha256": "4353657b8a0b083223c84a4b95e8b80b0f422c2e54d37ed1ef4d055af77ed57c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_018p500.mat",
+      "size": 38219,
+      "sha256": "f1662507e0b949d0eda460c640b3d79da5943710449a67c2f5dc902ebc9b4736",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_018p600.mat",
+      "size": 38232,
+      "sha256": "a1af30a158988435dba9c5d7093b93d5c39e358c29d61b9e1a536899bdc2a64d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_018p700.mat",
+      "size": 38253,
+      "sha256": "37227216b46f434a85cab0cf2e1271fdd4375fe6ba943bf1e8ddcb4a789a329f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_018p800.mat",
+      "size": 38246,
+      "sha256": "b398fc5b32b90a8bb7a7afa670b248b103063e4f275f9e111b7981046a84a84f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_018p900.mat",
+      "size": 38257,
+      "sha256": "79d2621c28a1ba78aec0d2d0e1f250a96e790a1fd6e098ae05e568f18f1742c0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_019p000.mat",
+      "size": 38279,
+      "sha256": "01150a1e66ca108a5531221d7da789d1f6696a3edf46ed079572a477e2312256",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_019p100.mat",
+      "size": 38281,
+      "sha256": "d5b61e28440b2c2870d1c7b9317d8ed4d7a7a6ad5f17311cdd3d0c8897a9ffb5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_019p200.mat",
+      "size": 38272,
+      "sha256": "bc84657020faf7721d43c00805a16e6b54af8a1beae7b72c3aa90f5281f3603a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_019p300.mat",
+      "size": 38297,
+      "sha256": "7b05ab47a8905b397a48bea9cb3c6d30c898e764935a2daf14d921bd4c71c6b8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_019p400.mat",
+      "size": 38301,
+      "sha256": "7b97f14bcfe3d29b40389438bd3c9c384e76c53d7b08563fc8f384abd6a2e08a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_019p500.mat",
+      "size": 38302,
+      "sha256": "07b73ed34959ff81b885117f742bbae232e806f450f52d6a347c2ff3d3724e67",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_019p600.mat",
+      "size": 38297,
+      "sha256": "ba3b1e11f4394de46df3dd69877ad10d2c3dd20be81193098d79a0eb5feba76c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_019p700.mat",
+      "size": 38305,
+      "sha256": "61cc12f9290f2066bc3733e82486d3c5fe0ea93f91a397ba8628862ddb704f0d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_019p800.mat",
+      "size": 38327,
+      "sha256": "6a543671c02ff9e193c196a8e8723907bdd40ebb6bba4d146e36c8bcedd8f37a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_019p900.mat",
+      "size": 38365,
+      "sha256": "8b2cefc0669756c7b84d8c50130f3966c510d5cf913ec4ff76dc7808461bfd6a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_020p000.mat",
+      "size": 38331,
+      "sha256": "3ab474fdfb40782b29cd2fc181452a6c4a1b7866e210a63755433a6a79e8aaa6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_020p100.mat",
+      "size": 38318,
+      "sha256": "127ed35c572586888d0155f3060412532c6ce0ca977ce49f05777d9a97c48c78",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_020p200.mat",
+      "size": 38332,
+      "sha256": "20c977a66d5920487f68f209535b738762188dfbc69ca6d699d90e4eb73430e4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_020p300.mat",
+      "size": 38343,
+      "sha256": "d053d01bb993591b1cf59be2de345c0cdbbd588394a96b6d79ac7e6a9f20c8d5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_020p400.mat",
+      "size": 38339,
+      "sha256": "1f3c19ab8658dc35d9b222da52429d2a3b870e981da3f0c80743e3ee6087e962",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_020p500.mat",
+      "size": 38370,
+      "sha256": "d1aa9de00572a7e99785b8d2623f17613e10effce1cc163ce1b005094629e783",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_020p600.mat",
+      "size": 38356,
+      "sha256": "53a4d6c6173115627a80b6b2947fcd194cf0ae8235926064c2a3f404e2d54647",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_020p700.mat",
+      "size": 38374,
+      "sha256": "3630b79faba7ac1439f94064a37f04a387d427f4a32bed3895d0649762613406",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_020p800.mat",
+      "size": 38379,
+      "sha256": "ccbf3e9669f30c7cfc040db2289baed8fbdae77d872d9cb88061d9b6e6d845b2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_020p900.mat",
+      "size": 38390,
+      "sha256": "9fc58f6f4e1f20aeceb3c877128656df439d776afd043ae2c9a976068fc55082",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_021p000.mat",
+      "size": 38388,
+      "sha256": "117c1e4530b332fe63215a39aac1e21fb08f3ba8023a76d6ce2bd5d7f422b628",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_021p100.mat",
+      "size": 38391,
+      "sha256": "e5acead0db54704d1549243e9a2706b927e8b693cdbbade74a3340bf44d164ac",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_021p200.mat",
+      "size": 38423,
+      "sha256": "6eb842a35302f5866c222848b4b59721cda6008ac93dfcf592391c12e9131510",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_021p300.mat",
+      "size": 38430,
+      "sha256": "5cd872e99691b0a86ab252ca20599d6f2549bed4baaecf2b414f973f23fb467b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_021p400.mat",
+      "size": 38438,
+      "sha256": "467412bd24a823623bf52f853f9ae3c0832f3f3c591110a14c178138d6f31f00",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_021p500.mat",
+      "size": 38452,
+      "sha256": "e0a9c63719a42389987366b7d3d79fb4176f78d4b255a3ce1b4bbe41fcdf37c5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_021p600.mat",
+      "size": 38436,
+      "sha256": "b0fc64ebe1d8419e74173a10c18d1ce10111ca46a5c40da11770ca3d1a52bb81",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_021p700.mat",
+      "size": 38443,
+      "sha256": "fac03f76a1fea1fd5eabba9a3160d764278b5d914c68089a9265a3c1107e833b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_021p800.mat",
+      "size": 38453,
+      "sha256": "9b5aa08b1384852459b55b1daa11cf22cd16ed31a05d746ed2ebb8f4a9ee4423",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_021p900.mat",
+      "size": 38473,
+      "sha256": "5db585aa0aa2b60c6ec867c0fd104b75626b1502010f3f47b9db054f54c3996b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_022p000.mat",
+      "size": 38449,
+      "sha256": "6f5f12fa6591cf6de7097198a7f20c8f1f435b8a54a5f7798b4c13b5869833d8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_022p100.mat",
+      "size": 38479,
+      "sha256": "ee74f03f3c70d36eb516ff77ff46856c2597caccb0e80ebbdde8fae0d7008d21",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_022p200.mat",
+      "size": 38482,
+      "sha256": "56a7d8ef52e5892fd9c89b7305bb783ae9ac8a7a5f702f1fd0e89b541f451b1d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_022p300.mat",
+      "size": 38497,
+      "sha256": "e45a2b775fff21e42d4e88699359b188f93af6ee6cd79f06b65306a33e844b31",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_022p400.mat",
+      "size": 38495,
+      "sha256": "9725f1969eda9dfd9466248925c76f4e756abde40aacc15d65feac7631421a7e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_022p500.mat",
+      "size": 38518,
+      "sha256": "841b9fe3f264d6a8a67a965b631a94d0e600bcb4b31daacc562b07465a96ad7a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_022p600.mat",
+      "size": 38511,
+      "sha256": "d7cd42237fb69d3d785af9ae3f718f99b328be43b037388288b40d89fa09905b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_022p700.mat",
+      "size": 38540,
+      "sha256": "4b603fe1d6bb1e77ea143e843ad08b7bb9cf15121c68d3da3944f8f4589bf927",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_022p800.mat",
+      "size": 38520,
+      "sha256": "d34c4d4ce495383f2ed925da81391d964a4a79fe975826f77752b4f14cfe4f78",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_022p900.mat",
+      "size": 38512,
+      "sha256": "dcd53080fa39c2fdf0af4284a2bc810701756263f5666b89bdbc7cfc0eacca13",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_023p000.mat",
+      "size": 38535,
+      "sha256": "b3a82ea181778cd06800b3af3de5d075376588ade95bb07c5b67eec6bad6f92b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_023p100.mat",
+      "size": 38542,
+      "sha256": "29bc654cc837a42aa0d459c3f43286c50cedde82886e6baeb8cf99e22d80c67b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_023p200.mat",
+      "size": 38514,
+      "sha256": "f69fcac6674ff49bfca5bad93434f881671da3f72eccb0211fc35e036afcdd54",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_023p300.mat",
+      "size": 38545,
+      "sha256": "fc44c7f5de7de8ff8424d7473a31e3afda8efab69fb80044ad988b30418bf1bc",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_023p400.mat",
+      "size": 38563,
+      "sha256": "9e45aac34cb73e26a65c0452dba871fe5716f56297a47b709a17e796d84743a9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_023p500.mat",
+      "size": 38562,
+      "sha256": "6149e38dafb302faba8ab1bb85dcc34ff39a655c66a2cd822cd1c1bdd7596a18",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_023p600.mat",
+      "size": 38578,
+      "sha256": "5549fcaca32474513377efd3a7bcd6731544a3df1c02e8fe7deba0966ebc89d8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_023p700.mat",
+      "size": 38558,
+      "sha256": "5044bb54337be4a708696bedb97c167590533909eac2cca886e3feaff452ae54",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_023p800.mat",
+      "size": 38586,
+      "sha256": "07456d71ecc7b41cfdd9820f1fcaa58456537a14fb78c3dacad12e65a36028f6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_023p900.mat",
+      "size": 38599,
+      "sha256": "9de535f4782e664ce4bc07ef7ae202689fea4a674352ad2423c22671b95a4c5c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_024p000.mat",
+      "size": 38581,
+      "sha256": "9b943a024efec6d812f767879cc86d3bb2b1fefaa8318a20aec5b5c194c882f2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_024p100.mat",
+      "size": 38597,
+      "sha256": "a964af3b55d0b6f9a6033c019b9c16fc3450887370fecada6c95f26848affbd2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_024p200.mat",
+      "size": 38608,
+      "sha256": "dccc3a185eb211a3b562f6f92d59f9ed06cb0d698bb268d0dbb51d4db0c80893",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_024p300.mat",
+      "size": 38627,
+      "sha256": "24f3afc90f75f21020fa6866ead34fe3722a5c0ee671957bf9882d9b59968893",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_024p400.mat",
+      "size": 38605,
+      "sha256": "586fc2c85e20d1fa6552d3a2b1e39c9f2a67f5778f778ba9718c5d71b3251da0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_024p500.mat",
+      "size": 38607,
+      "sha256": "2b3364362a41de5d0756674032618a35076f79f44db76eb43af0cb22e1589d10",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_024p600.mat",
+      "size": 38637,
+      "sha256": "d74696eab62d6da50b310d59dfe1d0b13cea74daeed83f615359740879c790ab",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_024p700.mat",
+      "size": 38647,
+      "sha256": "7f44e10b31aec9b3a0014cc3405c9e615b1c96df71872ff8a2788b99c0137b6b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_024p800.mat",
+      "size": 38636,
+      "sha256": "b1110a6f38f835bf85dffe9b0d5dc29e8b12294aacede2ed01ab90806daeb6be",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_024p900.mat",
+      "size": 38641,
+      "sha256": "92314f839dc52b1b02e655a4143709a13678a21f9d723383c2a43dca885b17bc",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_025p000.mat",
+      "size": 38656,
+      "sha256": "6d536132c356230b9cdbc3e670b1263f666c929df47300eaedab44df4c78a5fc",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_025p100.mat",
+      "size": 38653,
+      "sha256": "0ead6da5e37229f52f13daf95da0c8a294753273d62bdfe1dd22a3c2261afaba",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_025p200.mat",
+      "size": 38643,
+      "sha256": "60578ef096c94aaa53abe7bca29b59cd82d6df1e89fb84200bad9fe7a06f5ed0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_025p300.mat",
+      "size": 38661,
+      "sha256": "6747c0cd78ed564bed717d66dded15df52255db24226bcf0d04ea9ba38a9b3d3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_025p400.mat",
+      "size": 38658,
+      "sha256": "cfac2fcc26aa2417aaf163b7228274a2a99ae30546a59a8c0b9732d47eade15e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_025p500.mat",
+      "size": 38679,
+      "sha256": "beb0947d313fd5603bae74459232eef66dc1fc7e2ea38006114398401c21cfd0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_025p600.mat",
+      "size": 38692,
+      "sha256": "5310d79cb9be06d2180fd9591c2ce7abe934f073586399e3c7563d95b68ebb84",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_025p700.mat",
+      "size": 38701,
+      "sha256": "b09ad245fd9f43520f58415bd6f0444894ff549198f57091c2d3d09963c2a2c2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_025p800.mat",
+      "size": 38696,
+      "sha256": "a9a02764f52ea82dc18fbf77236580f44a4e18d692802678bb49ba9744712976",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_025p900.mat",
+      "size": 38699,
+      "sha256": "c2fd33134575e8e26de2c55b7886805709e472481366eabbd2b22f7c462a8d48",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_026p000.mat",
+      "size": 38724,
+      "sha256": "6c1ca9f9d5774ebd38c9df3989248f9ce8810159f2b425c124a4af4e1936083a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_026p100.mat",
+      "size": 38715,
+      "sha256": "50d5e00385e2464c911b892961828d831aa088f052e1959bfb3eeebfefeab045",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_026p200.mat",
+      "size": 38702,
+      "sha256": "e60dc21a81450ab2e7239cb2c038a07e70f9ea17c5035dcb3de9b8179a842895",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_026p300.mat",
+      "size": 38732,
+      "sha256": "c2a60c4709024f862207e1d720b493235e4925e7558b2abc6df496519069ba3d",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_026p400.mat",
+      "size": 38719,
+      "sha256": "707ccafae250430213178661095cd6d68cb55cc0be46182a2eda2d1580aaa2d6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_026p500.mat",
+      "size": 38719,
+      "sha256": "53494ccdb3909097a4714e48819e2d2cf17531432d4c39181024086d51bebce9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_026p600.mat",
+      "size": 38737,
+      "sha256": "769c7143379a1445a5599e859065b03e3f9976bcef2b1c0b7bc6a38d1e08bfd8",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_026p700.mat",
+      "size": 38751,
+      "sha256": "3313a1dc2f83639d833e89ecbb4ba6ef1d28b2f582aa4b6efc70282d13602b07",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_026p800.mat",
+      "size": 38758,
+      "sha256": "921604d43849162231ef383ae58018eb584b505ae9026a121da9eafe78d1f40f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_026p900.mat",
+      "size": 38754,
+      "sha256": "a4fdbdf5077afec91371d3891537410afb13cd8dff3bd7edc89e5dd3ce372c19",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_027p000.mat",
+      "size": 38762,
+      "sha256": "1e74efadc52957c469587e674b3191d04f2ed676706d463834f4d53d20046506",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_027p100.mat",
+      "size": 38768,
+      "sha256": "2ace1ce11072578b882c953890210e0ed2f750757d602f850e44383afcb48c76",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_027p200.mat",
+      "size": 38777,
+      "sha256": "e1123b05ae64ee801565eaefae5647c8d0dd8c42b8d40f18ff384df6e818a016",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_027p300.mat",
+      "size": 38773,
+      "sha256": "a524becc2144043fdda8de112d31eb0a6ed4f67a1b98ad425d7a9cfc6de85004",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_027p400.mat",
+      "size": 38776,
+      "sha256": "b452a958f359bea4dea9949de8c5a59deeb84ae475614094e6bd22588d02251b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_027p500.mat",
+      "size": 38781,
+      "sha256": "b42747ef7a3f900f9fe511bc510f58593da3d0995a14edbcfa7d816ee77371a9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_027p600.mat",
+      "size": 38794,
+      "sha256": "980162bc1c3d31671217de96faa66253e347b91226a10a27b11cecc377d081f3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_027p700.mat",
+      "size": 38831,
+      "sha256": "5aee586ed417993352ff006a7170fc9ec0d613a691bd6492074b3ebfa8f7a22f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_027p800.mat",
+      "size": 38822,
+      "sha256": "12f5fc7d8b5d6ea7b8af7f57fcc7310b581d726606896f27f1c4a24755293170",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_027p900.mat",
+      "size": 38818,
+      "sha256": "82d55aa8858595dae4a1a61c01bc8efdc967fb3cbb326996fff647611bb4a0e4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_028p000.mat",
+      "size": 38834,
+      "sha256": "2111d564a40f76cb2a509ae7f08919ca6df1e65cf7718e1b52fd69d7a668e677",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_028p100.mat",
+      "size": 38835,
+      "sha256": "684f19515b804648193023d10ec5a6da3a18c766f283dd516fad5ffe4e9364b2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_028p200.mat",
+      "size": 38844,
+      "sha256": "4389fa15e2a548db46b6489f5f8ea156af3599dc5125264270b5716320a78317",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_028p300.mat",
+      "size": 38842,
+      "sha256": "107065b18ee064486064dfec19a32150a50cd8357e70ae2f48e14c7efbd7759a",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_028p400.mat",
+      "size": 38855,
+      "sha256": "146368cc5dcbc060ce7256b97314eea960efdaef61b227cb85fcc3bcc23efd0e",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_028p500.mat",
+      "size": 38861,
+      "sha256": "6bba944d4b059bf4b35075380011780e7f64726df5f48cae2aa65fcf2eedc011",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_028p600.mat",
+      "size": 38842,
+      "sha256": "5711892d276ba4131f1e1a830ff6e1fc367c1fcea871ddfabfc3083956b41510",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_028p700.mat",
+      "size": 38855,
+      "sha256": "41450ff4050ea4e8bc0cd0fe2a71803843886c65f923cab97a3515e5cc5741fa",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_028p800.mat",
+      "size": 38885,
+      "sha256": "dd863b99fae70de504c4aead951e9240fce8c10c578f458ae02edff68fca7eab",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_028p900.mat",
+      "size": 38880,
+      "sha256": "586ca3ba8e80743b75cb6d911ca858d74fe68ee529b66c9d204a91e1c664ceb0",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_029p000.mat",
+      "size": 38850,
+      "sha256": "fb9779a7cde9775813027cac8606c62be9ed7e20bb4112fa178ccd075611ca06",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_029p100.mat",
+      "size": 38875,
+      "sha256": "5ee67c9c3990728dfa383db9d13fe3c8f06386a7c081c8d3d0ad798d2b46eb32",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_029p200.mat",
+      "size": 38886,
+      "sha256": "21646e6e508010939ced3af1244e3bf46910e4589320413c09bf11a17ff02ee4",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_029p300.mat",
+      "size": 38912,
+      "sha256": "94260abeef25823f9782ec7fbdbcde63e5a5fe97452a7620d4c97f847687f171",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_029p400.mat",
+      "size": 38910,
+      "sha256": "1bd648e5e12f4007dcf9c9dae880bcf039ad7dbf2e9f1a7765cddcf15473f7a3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_029p500.mat",
+      "size": 38913,
+      "sha256": "a7b2fff3947340b14a71cedfd4e1d6336fd8b837b0cf823abcf41b9f98744990",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_029p600.mat",
+      "size": 38932,
+      "sha256": "10e79b991d3ee0bd7772126ff1806e95a78bdebba68cbaa03373637f1e03b5b3",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_029p700.mat",
+      "size": 38897,
+      "sha256": "f5e693cd82059278273438340c655cce620748a6008d1075e24bbe1b842c9551",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_029p800.mat",
+      "size": 38905,
+      "sha256": "075acb7d13881d54d89558ee995c832433284aa63b923528ee8fac6fe3b95ff9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_029p900.mat",
+      "size": 38942,
+      "sha256": "6a2187d88d93e8301bf2c11f666eac0a835bfe9fcc8b8ddf80ac8a8d40e9bb02",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_030p000.mat",
+      "size": 38917,
+      "sha256": "ec650306bfc9593af07f95bb270d2062699fa9daf423cadf8963dadf0744b38b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_030p100.mat",
+      "size": 39348,
+      "sha256": "142b150dfa333bc5f7d35fc70e1c2e979b4152b9166a1ea105935d0d2155eaa2",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_030p200.mat",
+      "size": 39321,
+      "sha256": "71ccf06cc8f7f31f8073c6249a81fe1e43c29eb4cd746734de3dd07dd1ce3e52",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_030p300.mat",
+      "size": 39356,
+      "sha256": "a0c2e722c61c1b3586858572e5848201007827279a16d919dc91d46798f5d0fc",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_030p400.mat",
+      "size": 39360,
+      "sha256": "023535272f6a8e0bb6044b320d5e6c511e01d261aec218b79f4eeb4e85fafef6",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_030p500.mat",
+      "size": 39369,
+      "sha256": "5f6f9ae2e8f691ba43eb6c6b38753bcf4b611bde5d4c9632b31d43f27981a288",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_030p600.mat",
+      "size": 39368,
+      "sha256": "c01c77bfd8eb68ad0881a58a86036146f7a5a816856e2f9df5b4d74baab91644",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_030p700.mat",
+      "size": 39376,
+      "sha256": "c343c32cdeb94494f7108a942c9fc0614ad69cb98195508321d4f12afa04dc5c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_030p800.mat",
+      "size": 39386,
+      "sha256": "d578d4f63a5ef94793af88f25a6db7ddff439c18f1220165273e236a8e19a992",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_030p900.mat",
+      "size": 39391,
+      "sha256": "348a473f3cc4a61a87dbd08a02761d7d320c336c78be3787148aaa9ef73a4a9c",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_031p000.mat",
+      "size": 39387,
+      "sha256": "a6980912af99a951dffdd40ec64308a0dbba0bfeb610773b96d260b69cadf50b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_031p100.mat",
+      "size": 39368,
+      "sha256": "e6e48fe16d508f4b9bffd53ff6f9582e7796f7000e67ce30610ab1bdb63ecf2b",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_031p200.mat",
+      "size": 39394,
+      "sha256": "ec615669b6f2a63baefaae106f3578f793f1406b2aa8049e93f37cea1a1c9135",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_031p300.mat",
+      "size": 39395,
+      "sha256": "024110000fd423346026a98c81ef7d68143b57f85a992eb5f321fd2f89ccd206",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_031p400.mat",
+      "size": 39413,
+      "sha256": "0a901d2b469ed9c84fc9844469485ad5e714aad7c0c16bd01adf43e08cd13221",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_031p500.mat",
+      "size": 39414,
+      "sha256": "9cd08ea670048c2371ad69583520bc6cae03a3d93a05099aca02699f32fe4c60",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_031p600.mat",
+      "size": 39419,
+      "sha256": "2cc0845d1dda7cd388a696f0e2c6afb4fa3c5b7a12c576dbff34a06bcac180ba",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_031p700.mat",
+      "size": 39436,
+      "sha256": "80e36dbe737b27b48f0c4bf925e92fb43503ad6d7beb051388bd5c2112d9918f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_031p800.mat",
+      "size": 39438,
+      "sha256": "26860d040c1b46b91c9df00ebbdc8bb460318b3323bd08caf83b897a088f44d5",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_031p900.mat",
+      "size": 39413,
+      "sha256": "b906c9f57e97c9b593ac8dfbccca666b9470e1a3005273019fe47d6b427145b9",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_032p000.mat",
+      "size": 39434,
+      "sha256": "684a7a2dd955a3cb956275e759d70c036cd29cc68b7d09a03cea875fcbb1830f",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_032p100.mat",
+      "size": 39438,
+      "sha256": "a84d1bc695fe93f930cbb8c48906129373c9332fb0597e87c9471c2f195f1702",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_032p200.mat",
+      "size": 39429,
+      "sha256": "4ae045ab19289b6b5b82c6f595c0a1f7d47fcffd914e63163bf65db8435f5ebd",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_032p300.mat",
+      "size": 39456,
+      "sha256": "3e17bd82f9544b0dfebb5be0a04c652e5861f81e7919743e04e3a498be88f883",
+      "symlink": null
+    },
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/snapshots/kinetic_eps_0p01_t_032p400.mat",
+      "size": 39455,
+      "sha256": "7a38aaba03bc2e85d20917a284f6f1b9fee34b16ce2d4b57ef8728709166d93c",
+      "symlink": null
+    }
+  ],
+  "verified_before_removal": true
+}

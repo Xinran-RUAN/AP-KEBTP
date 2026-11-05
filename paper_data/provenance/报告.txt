@@ -1,0 +1,119 @@
+2026-11-05 后续图形调整：按作者要求，Figure 7 两个子图纵轴现为 [0,0.12]，刻度间隔仍为0.02；峰顶已完整显示，曲线数据及其他样式不变。本文旧版关于 Figure7 纵向截断的描述不再适用于当前正式图。
+
+保正触发条件修正及 Figure 3–7 细网格重算报告
+生成时间：2026-11-05T05:35:42.046938+08:00
+本目录：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/analysis/conditional_limiter_finegrid_20261104
+
+一、完成范围和代码修改
+完成独立测试、14 个唯一算例各 50000 步至 T=50、五幅原样式 EPS/可编辑 FIG、指数响应横排波速表和红标稿编译。旧原始数据、旧探索结果和其他日期稿件保持不变。Figure 1、2 的 15 个 EPS/FIG/PDF 文件逐项 SHA-256 与修改前一致。
+保正函数：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/AP_bacteria_code_v4_paper_response/+model/positivity_limiter.m:17
+有限性检查通过且 rho>=0、F=rho/Vh+epsilon*(g_left+g_right)/2>=0 时，rho、g 逐元素原样返回。检查使用 >=0，不使用负值容差；NaN、Inf 被拒绝。该分支不做 theta、质量恢复、回插、去均值或 eta。正总输入质量及正对称速度权重等原前提保留。
+时间步：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/AP_bacteria_code_v4_paper_response/+src/step_kinetic_AP.m:42
+仅把原有最终端点反射移到 provisional g 完成后、检查保正之前，避免在提前返回后重复投影。内部离散、未知量、线性系统及负值修正分支算法未改变。负值分支的输出已与备份旧函数逐元素比较一致。差异见 production_code.patch。已有用户修改未重置、提交或推送。
+
+二、独立验证
+positive_nonconstant: early=True, correction=False, rho原样=True, g原样=True, minF=0.41464466094067254, mass差=0, theta_min=1, mass_scale=1, eta_min=1, max|<g>|=4.44e-16, boundary=0
+zero_density: early=True, correction=False, rho原样=True, g原样=True, minF=0, mass差=0, theta_min=1, mass_scale=1, eta_min=1, max|<g>|=0, boundary=0
+positive_old_transfer_counterexample: early=True, correction=False, rho原样=True, g原样=True, minF=0.0049999999999999992, mass差=0, theta_min=1, mass_scale=1, eta_min=1, max|<g>|=0, boundary=0
+negative_f: early=False, correction=True, rho原样=False, g原样=False, minF=-5.5511151231257827e-17, mass差=0, theta_min=0.29289321881345237, mass_scale=1.0000000000000002, eta_min=0.99999999999999956, max|<g>|=9.66e-15, boundary=1.02e-31
+negative_density: early=False, correction=True, rho原样=False, g原样=False, minF=2.4651903288156619e-34, mass差=-6.94e-18, theta_min=1, mass_scale=0.99004975124378125, eta_min=0, max|<g>|=2.86e-17, boundary=0
+两步均无需保正时，调用新函数与完全跳过后处理的 rho、g、S、N、t 均逐元素一致；NaN/Inf 四类异常全部拒绝。细网格 epsilon=0.1,0.05,0.02,0.01 与宏观 20 步短跑均通过。validation/results.json、validate_trigger.m、validation/passed.mat 保留证据。
+负值修正测试的最小 F=-5.55e-17 是尺度约 1 的数值上的浮点残差；精确算术证明与浮点输出分开记录。触发判断本身不允许这些负值绕过修正。正式实验每步另作按局部变量尺度和机器精度的误差检查，没有通过增大触发容差来减少修正。
+
+三、配置和数据来源
+Figure 1 原始 x 数组确认 Delta x=0.025、Nx=6000；本次所有 Figure 3–7、误差、速度和宏观参考均使用相同原生空间节点，未将粗网格插值成新解。L=150，Delta t=0.001，Delta v=0.02，Nv=101；速度梯形求积 Vh=2，D_rho,h=0.3334。Figure 2 独立扫描网格未更改。
+初值 rho=exp(-3x)、g=0、S=0、N=1000；chi_S=0.5、chi_N=1.1、D_S=2、D_N=0、alpha=0.05、beta=gamma=1；反射及零密度通量沿用当前修正版本。指数 a 与 alpha 区分，S、N 均为 -s_h exp(-a|y|)sign(y)，完整 y=epsilon L+v delta_x q 和中心化保持不变；宏观响应 epsilon=0。
+宏观给定条件 Delta t/Delta x=0.04 <=1/[4(chi_S+chi_N)]=0.15625。受隐式弛豫缩放的微观输运系数 max(epsilon Delta t/[(epsilon^2+Delta t)Delta x])=0.571429。后者只记录离散系数，不代替全动理学保正或统一稳定性定理；正式运行全部时间步均检查实际返回状态。
+新 sign 动理学 epsilon=0.1,0.05,0.02,0.01,0.005,0.002,0.001 + sign 宏观；新 a=0.001 的 epsilon=0.1,0.05,0.01 + 对应指数宏观；新 a=0.0005,0.0001 的 epsilon=0.01。没有复用旧动理学数据。Figure 7(b) a=0 共享 sign epsilon=0.01；Figure 6 和 Figure 7 中 a=0.001,epsilon=0.01 共享同一新文件。
+计算中因系统交换文件占用导致磁盘余量下降，仅调整进程调度，将后续并发从六个降到三个；活跃算例未中断，数值设置和冻结源文件不变。已完成算例的重复终态检查点经与完整结果逐元素核对后清理，记录在 diagnostics/retired_checkpoints.json；原始完整结果和运行中恢复点保留。
+MATLAB 9.14.0.2206163 (R2023a)，MACI64；求解入口 run_case.m；调度 run_all.py；分析 analyze_results.m；原样式模板替换 update_figures.m；跨旧数据诊断 compare_baseline.m。每组实际完整参数见 config/<case_id>.json 和 data/<case_id>.mat 的 settings。冻结源文件见 source_archive/ 和 source_manifest.json。
+低磁盘下对新 MAT 容器采用标准 HDF5 shuffle+gzip9 无损重压缩；保留 MATLAB 7.3 用户头与全部数据、维数、类型、属性。已重压缩的文件均以 h5diff 全文件精确比较后才原位替换；空间不足的文件保持原生容器；样本另以 MATLAB load 全变量 isequaln 验证一致。没有删减快照或更改数值。日志和原/新文件哈希见 diagnostics/lossless_compaction.json、logs/lossless_h5diff.log。
+每组 rho/S/N、质心与质量每 0.1 保存；g 在 t=0,1,10,20,30,40,50 保存并保留最终完整状态。每步在线累计非负性、质量、原始/实际端点通量及速度均值；每次真实修正均保存发生时刻和系数诊断，见 *_correction_times.csv。运行中每 t=5 保存检查点，最终 MAT 为完整终态及轨迹记录；日志可追溯到每 t=1。
+
+四、正式算例质量及误差（全域 M=Delta x sum rho）
+case | M0 | M50 | max relative mass drift | min rho | min F | max boundary moment | max |<g>| | correction/theta/eta steps | seconds
+sign_macro | 0.33325522114881595 | 0.33325522115008765 | 3.82e-12 | 3.84e-196 | 不适用 | 0 | 0 | 0/0/0 | 5545.3
+sign_kinetic_e0p1 | 0.33325522114881595 | 0.33325522114537148 | 1.03e-11 | 3.84e-196 | 1.89841875e-196 | 1.43e-17 | 3.64e-16 | 0/0/0 | 7456.8
+sign_kinetic_e0p05 | 0.33325522114881595 | 0.33325522114838235 | 1.7e-12 | 3.84e-196 | 1.89978126e-196 | 9.11e-18 | 3.71e-16 | 0/0/0 | 7682.6
+sign_kinetic_e0p02 | 0.33325522114881595 | 0.33325522114821748 | 1.8e-12 | 3.84e-196 | 1.91751686e-196 | 3.04e-18 | 3.5e-16 | 0/0/0 | 5605.3
+sign_kinetic_e0p01 | 0.33325522114881595 | 0.33325522114854889 | 8.01e-13 | 3.84e-196 | 1.91751686e-196 | 3.9e-18 | 4.84e-16 | 0/0/0 | 7567.2
+sign_kinetic_e0p005 | 0.33325522114881595 | 0.33325522114663636 | 6.54e-12 | 3.84e-196 | 1.91751686e-196 | 1.95e-18 | 4.61e-16 | 0/0/0 | 5600.9
+sign_kinetic_e0p002 | 0.33325522114881595 | 0.33325522114746742 | 4.05e-12 | 3.84e-196 | 1.91751686e-196 | 3.25e-19 | 4.68e-16 | 0/0/0 | 5655.1
+sign_kinetic_e0p001 | 0.33325522114881595 | 0.33325522114700301 | 5.44e-12 | 3.84e-196 | 1.91751686e-196 | 2.03e-19 | 4.61e-16 | 0/0/0 | 5512.6
+exp_a0p001_macro | 0.33325522114881595 | 0.33325522114846895 | 1.04e-12 | 3.84e-196 | 不适用 | 0 | 0 | 0/0/0 | 5933.8
+exp_a0p001_kinetic_e0p1 | 0.33325522114881595 | 0.33325522114728429 | 4.6e-12 | 3.84e-196 | 1.89841875e-196 | 1.43e-17 | 7.7e-16 | 0/0/0 | 5963.6
+exp_a0p001_kinetic_e0p05 | 0.33325522114881595 | 0.33325522114657563 | 6.72e-12 | 3.84e-196 | 1.89978126e-196 | 8.24e-18 | 1.34e-15 | 0/0/0 | 6136.1
+exp_a0p001_kinetic_e0p01 | 0.33325522114881595 | 0.33325522115036321 | 4.64e-12 | 3.84e-196 | 1.91751686e-196 | 3.47e-18 | 3.2e-15 | 0/0/0 | 7766.7
+exp_a0p0005_kinetic_e0p01 | 0.33325522114881595 | 0.3332552211503611 | 4.64e-12 | 3.84e-196 | 1.91751686e-196 | 5.2e-18 | 2.32e-15 | 0/0/0 | 5281.4
+exp_a0p0001_kinetic_e0p01 | 0.33325522114881595 | 0.33325522115036194 | 4.64e-12 | 3.84e-196 | 1.91751686e-196 | 3.25e-18 | 2.9e-15 | 0/0/0 | 4079.7
+计时 seconds 为原生 tic/toc 的时间推进、在线诊断和运行中检查点保存耗时，不含最后 MAT 写入、无损压缩及图文后处理。
+详细最大质量收支残差、limiter 输入输出质量差、raw Jtilde、theta/eta 界面数和最小值见 case_diagnostics.csv。各算例初始质量相同；与旧粗网格不同的初始质量是积分网格差异，不能当作质量漂移。
+sign 终态全域 L2（不平移、不调幅）：
+epsilon=0.1: 0.047168372328515541
+epsilon=0.05: 0.016416694857055915
+epsilon=0.02: 0.0049269221123702123
+epsilon=0.01: 0.0027896860241252244
+epsilon=0.005: 0.0012473099912598035
+epsilon=0.002: 0.00048112948835149331
+epsilon=0.001: 0.00022208291427731086
+固定 a=0.001，相对同 a 宏观解：
+epsilon=0.1: 0.043950501740125117
+epsilon=0.05: 0.014769886769274569
+epsilon=0.01: 0.0024578108259786656
+固定 epsilon=0.01，相对本次 sign 解的 L2 和 [30,50] 波速：
+a | full precision speed | paper 3 decimals | L2 to sign | speed[30,40] | speed[40,50] | centroid-shifted relative L2 t30/t40 versus t50
+0.001 | 0.68973902579550084 | 0.690 | 0.1297003684608356 | 0.6894476077828573 | 0.68998397261566757 | 0.134159/0.0606808
+0.0005 | 0.70679150776042787 | 0.707 | 0.08981492361750848 | 0.70680265698032252 | 0.70671729777564485 | 0.117019/0.0516624
+0.0001 | 0.72013705440430698 | 0.720 | 0.024868600531330647 | 0.72045362800355417 | 0.71998204326471082 | 0.095478/0.0398957
+0 | 0.72353148693753722 | 0.724 | 0 | 0.72378655734988406 | 0.72331137977244009 | 0.0892634/0.0364804
+形状诊断仅作质心空间平移，在线性插值共同扩展坐标上比较并用零值延拓保留全域分布，不作幅值或质量归一化。正式图和 AP 误差没有平移或幅值处理。Figure 5 沿用原质心采样、pchip 和原局部一次拟合窗口，不另加平滑；理论预测线沿用解析公式 0.723545036874495，并未从新数据反推。指数响应表不使用该预测值。
+趋势核验：sign 七点误差单调=True；Figure3 三个 epsilon 六时刻误差均单调=True；指数固定a误差单调=True；a趋零密度误差单调=True；波速对sign的差异单调=True。对应正文按实际数据保留或修正，未为得到阶数更改扫描点或参考线锚定规则。
+
+五、Figure 1 跨图宏观核对
+t=30: rho逐元素一致=True, max差=0, L2差=0, 峰高新/旧=0.10351922165786839/0.10351922165786839, M新/旧=0.33325522114946793/0.33325522114946793
+t=50: rho逐元素一致=True, max差=0, L2差=0, 峰高新/旧=0.1025511430946658/0.1025511430946658, M新/旧=0.33325522115008765/0.33325522115008765
+Figure 1 原始来源 AP_bacteria_code_v4_paper_response/data/macro_travelling_wave/snapshots/macro_t_030p000.mat、macro_t_050p000.mat；未按当前入口脚本的默认网格猜测。采用原始数据核实的配置及当前宏观求解器，重算密度在这些时刻逐元素一致，未通过调幅、平滑或修改 Figure 1 消除差异。原历史生成器未完整锁定源码版本，本次验证的是当前重算与实际原始数组的一致性。
+
+六、相对旧结果的变化与显示范围
+本次同时取消无需修正时的回插平滑并把 Delta x 从 0.1 改为 0.025；新旧差异不能全部归因于其中一项。以下旧值从修改前正式 FIG 的完整曲线读取（绘图数据），不是新计算数据。诊断性共同网格比较仅把旧曲线线性插值到新网格，不作为正式结果。
+sign_macro: 峰高旧->0.0869646->0.102551；峰位置33.45->33.7875；全域M0.33208660682->0.33325522115
+sign_kinetic_e0p01: 峰高旧->0.0849766->0.102956；峰位置33.45->33.8125；全域M0.332086606818->0.333255221149
+sign_kinetic_e0p05: 峰高旧->0.0841471->0.104042；峰位置33.55->33.9375；全域M0.332086606819->0.333255221148
+sign_kinetic_e0p1: 峰高旧->0.0858007->0.105091；峰位置33.85->34.2625；全域M0.332086606818->0.333255221145
+exp_a0p001_kinetic_e0p01: 峰高旧->0.0894804->0.107542；峰位置31.45->31.5625；全域M0.332086606819->0.33325522115
+全部新旧量对照见 diagnostics/old_new_profile_comparison.csv；AP 误差对照见 diagnostics/old_new_AP_errors.csv，旧值来自旧正式 FIG。
+波速 a=0.001：旧稿显示值0.693498 -> 新值0.689739026（旧稿值仅有六位小数）。
+波速 a=0.0005：旧稿显示值0.708383 -> 新值0.706791508（旧稿值仅有六位小数）。
+波速 a=0.0001：旧稿显示值0.719897 -> 新值0.720137054（旧稿值仅有六位小数）。
+波速 a=0：旧稿显示值0.722774 -> 新值0.723531487（旧稿值仅有六位小数）。
+AP_profiles: style/data/reopen验证通过；无纵轴截断。
+AP_error_T50: style/data/reopen验证通过；原固定纵轴范围有曲线点超出，见以下记录及 diagnostics/*_full_y_range.fig/.eps/.png。
+  panel=1 $O(\varepsilon^2)$: 窗口内新数据范围[4.71684e-06,0.0471684], 超范围点新=1, 旧=1
+AP_speed_direct: style/data/reopen验证通过；无纵轴截断。
+exponential_pulse_evolution: style/data/reopen验证通过；无纵轴截断。
+exponential_two_limits: style/data/reopen验证通过；原固定纵轴范围有曲线点超出，见以下记录及 diagnostics/*_full_y_range.fig/.eps/.png。
+  panel=1 macro: 窗口内新数据范围[2.65654e-11,0.106655], 超范围点新=3, 旧=0
+  panel=1 $\varepsilon=0.01$: 窗口内新数据范围[2.9775e-13,0.107542], 超范围点新=3, 旧=0
+  panel=1 $\varepsilon=0.05$: 窗口内新数据范围[5.45874e-14,0.108167], 超范围点新=3, 旧=0
+  panel=1 $\varepsilon=0.1$: 窗口内新数据范围[9.32975e-15,0.107879], 超范围点新=3, 旧=0
+  panel=2 $a=0$: 窗口内新数据范围[1.06751e-07,0.102956], 超范围点新=1, 旧=0
+  panel=2 $a=0.0001$: 窗口内新数据范围[1.03621e-07,0.103053], 超范围点新=1, 旧=0
+  panel=2 $a=0.0005$: 窗口内新数据范围[9.24656e-08,0.104414], 超范围点新=3, 旧=0
+  panel=2 $a=0.001$: 窗口内新数据范围[2.9775e-13,0.107542], 超范围点新=4, 旧=0
+发现旧 Figure7 FIG 依赖生成会话的根默认设置：新会话中坐标轴字号从 EPS 的22变为11，刻度变密；图例解释器也依赖原全局默认。已在独立模板中显式固定与原正式 EPS 完全相同的字号、刻度和 LaTeX 解释器，并在恢复默认值后重新打开、重新导出逐像素对照。见 diagnostics/template_export_probe/portable_comparison.json；未改动原备份。
+人工渲染检查还发现：Figure 6 旧位置的 t=10 白底注记局部遮挡新峰顶。依照“时刻标注位置不变”的要求，正式输出保留该位置；原生FIG可编辑，并另附 diagnostics/exponential_pulse_evolution_label_clearance.fig/.eps 作为注记避让诊断版。Figure7的峰顶纵向裁切按要求保留，完整纵轴诊断版可用于审核；这两项显示冲突仍需作者决定是否允许调整。
+正式图严格保持旧坐标、图幅、子图位置、颜色、字体、线型、图例顺序与位置；未自动扩轴。Figure 3/6 的 x=[0,40]、y=[0,0.2]，Figure 6 六条黑实线且无图例；Figure 7 x=[20,60]、(a)(b) 原位置不变。EPS/FIG 同源，FIG 原生线对象可选可编辑并用 openfig 重新打开核查。显示窗口与全域统计分开；超范围点以本报告逐图记录为准。
+
+七、论文及复现
+红标主稿：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/manuscript/20261103/main_Gissell.tex
+红标小节：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/manuscript/20261103/exponential_response_section.tex
+编译稿：/Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/manuscript/20261103/main_Gissell.pdf
+最小文字修改：统一实验网格；Figure1段末改为同网格独立宏观参考；附录A补有限非负时原样返回及边界投影的顺序；仅按新数据同步 Figure3–5 和 §5.4 的直接相关描述及横排波速数值。原保正与守恒证明不改写。六时刻 Figure6 图注保留，表注保留 [30,50] 拟合区间。详细 TeX 差异在 paper/*.patch。
+成功编译、实际图形输入、自动编号与交叉引用检查见 paper/verification.json；渲染预览见 paper/rendered/。
+一键入口：bash /Users/ruanxinran/Documents/GitHub/动理学AP格式-GissellCanan/analysis/conditional_limiter_finegrid_20261104/reproduce.sh；已完成同配置新缓存通过源码/参数校验后复用；无旧算例数值混入。新输出绝对路径均在本目录和 manuscript/20261103；图形为 figures/*.eps、figures/*.fig，论文对应文件同名。
+
+八、限制与未解决事项
+Figure 2(c) 既有 kinetic 扫描未按本次触发逻辑重算，仍是独立的提交前待核验项，不能由本次 Figure 3–7 的验证替代。本次不验证未重跑的 Figure2 扫描，也不宣称额外修正的完整统一 AP 或精度定理。结论局限在本次固定网格、参数和 0<=t<=50；有限时间形状/速度诊断不能证明无限时行波稳定性。
+发生过磁盘耗尽的 I/O 中断：a=0.0005 的50,000步全部完成后最终存盘崩溃，已从完整T50检查点恢复；a=0.0001 在约t29写日志时中断，从完好t25检查点以相同冻结求解器续算；其T50最终重复存盘再次受磁盘耗尽影响，同样使用完整T50检查点恢复。未改变数值参数或rho/g状态。原始错误日志、IO_recovery收据和恢复入口均保留。最终所有数值检查以实际恢复后的完整数据重新核验；这些存储异常不能描述为数值格式不稳定。
+a=0.0005 和 a=0.0001 的原生MAT保留完整检查点字段，由 read_completed_case.m 在内存中提供标准 out 结构；rho/S/N/g及全部快照均为原计算值。其余原生格式由该函数统一读取。
+无遗漏算例。若上节列出裁切，提交前仍需作者决定是否允许改变原固定显示范围；本次按授权保留原范围，并交付完整纵轴诊断版，不隐藏该冲突。

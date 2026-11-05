@@ -1,0 +1,2132 @@
+{
+  "file": "part-047.tar.gz",
+  "sha256": "2094e7197fcb9e1a3e2d31ba62fc889d3e13183bca28f9efacf9f0687ead3bae",
+  "bytes": 34806697,
+  "files": [
+    {
+      "path": "analysis/sign_boundary_revision_20261028/data/macro_checkpoint.mat",
+      "size": 18473322,
+      "sha256": "086027278cc7a47f66663b577d92acfb033f0cb97c34466c77c661df45aa8cb1",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/data/macro_history.csv",
+      "size": 43877,
+      "sha256": "060d9f0687a8a90bb5b3d26f09688c618c03402ab66ddaa42dc672f5badfd802",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/delivery_manifest.json",
+      "size": 6066,
+      "sha256": "927df8f07df274057b40d22325348dfdb1a70be61fb84f1c042d4e781ce4053e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/editable_figures_manifest.json",
+      "size": 665,
+      "sha256": "7cd6c7490a98fb851aa60e1732440cb83b2f01e3843ca6964302653e20ec13bc",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/editable_figures_zh.txt",
+      "size": 681,
+      "sha256": "7a5fb1403b471f2697d90888c12ffc43ed878f4571f20934b593df64dfa0afbc",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/export_legacy_series.m",
+      "size": 851,
+      "sha256": "e1c8ded19d45e7c783ac9624d646785c35714434661ad52607bd2e78d82b0747",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figure_range_conflicts.json",
+      "size": 465,
+      "sha256": "9fadf3af4be186a352f57f06c4f135d7e2715f6357cff60983698f2fbd092b02",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_error_T50.eps",
+      "size": 98745,
+      "sha256": "88ad91048b9cb31da856bba1530bfbbcdce2a05f0e033636333e5a15b88c2424",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_error_T50.fig",
+      "size": 35197,
+      "sha256": "3d122e3aa660ddfe3eedad5e300adebb7c8f2f9a6af17e568d2f2fcc20b0c335",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_error_T50.native.eps",
+      "size": 93043,
+      "sha256": "b98e13d39bd5544afa3991799f1b5ab516f61e41d3b2b1263c178a782fe0c919",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_error_T50.native.pdf",
+      "size": 29218,
+      "sha256": "41ea2cd9aa5c6cbf9550649a6150e073b6be17989320d0304c84e386c41af29b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_error_T50.native.png",
+      "size": 76786,
+      "sha256": "f7de1a49745f863247f4701202395ac23a766e81cc1d36c824672d8942f653cf",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_error_T50.pdf",
+      "size": 45026,
+      "sha256": "71db79d8b59f8a6dcdef57be38e0fa45598b1871e68d1a981127d20d4c1a3617",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_error_T50.png",
+      "size": 94709,
+      "sha256": "78ad3ed152b3511e951e72cd51b27876cadd3ca9aac36104318366cbd83c8752",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_error_T50_fullrange.fig",
+      "size": 35509,
+      "sha256": "c7e79c42787644bd7e42518ea340b08cd549d5d16c95541032a868ffad4d51d6",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_error_T50_fullrange.native.eps",
+      "size": 98648,
+      "sha256": "cee12cb44f1e7fce86c669e8a578959c9d3c213174330e0eb7187a11412e10c8",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_error_T50_fullrange.native.pdf",
+      "size": 30583,
+      "sha256": "3958a9390a47b7c8cb6d1ea81e8e1bde07eb6f2fe447a78ccf4ab11b740843bd",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_error_T50_fullrange.native.png",
+      "size": 80638,
+      "sha256": "1c791090be18b8dd25b9ccdc0cfd6972d41bbc18ff1271a1e1a79d5ecffed94d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_error_T50_original_range.eps",
+      "size": 95159,
+      "sha256": "4cdb03812b2c065c8690298949d7d95abcfdbe7855443c7af9ab65cb0f59bc33",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_profiles.eps",
+      "size": 563849,
+      "sha256": "3ee616e05013f78d3f7e8cd56bc41b9456a29f2707a6eb27007edfc476827685",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_profiles.fig",
+      "size": 846332,
+      "sha256": "79250006308bc65a55c81b21ee5f22ce7d758277c2cc9b89ea55c2b5ea5a8cc2",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_profiles.native.eps",
+      "size": 214824,
+      "sha256": "34480eb1e8978812109fa0dac003b82a1966406242bc30d24cc26c29d055daf0",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_profiles.native.pdf",
+      "size": 65426,
+      "sha256": "a5ec9c4f03cdd988516d74490c6f46438ba974f6b5356fb156220c7c1ae0a75b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_profiles.native.png",
+      "size": 106388,
+      "sha256": "ba4f267451a84829979c14dfc7dba5bfe091f7d5f8317231eef44e234940aeac",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_profiles.pdf",
+      "size": 86710,
+      "sha256": "71c586714ce348983f8546690183dc334c5e0d36efe3327f2f932843eaa7200f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_profiles.png",
+      "size": 74572,
+      "sha256": "57c6e8133917cdc8e05b283638a6535291e774510da2fd2df964e4087c6622a7",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_profiles_fullrange.fig",
+      "size": 846700,
+      "sha256": "9ebb3c6f8c2a116685551fdcf6d1121df3daf41b763b3fd291b5af0e4a71d5b2",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_profiles_fullrange.native.eps",
+      "size": 563752,
+      "sha256": "8656d7af47dd0c5590ab7ac01996831bf4eac3d33a7ef44ee2b6937b06837179",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_profiles_fullrange.native.pdf",
+      "size": 118498,
+      "sha256": "e4790f01b5db29c640582fe8b67af9b018a6fff6e86f68128cafe003c47ab2ab",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_profiles_fullrange.native.png",
+      "size": 81729,
+      "sha256": "ae44d412920f1634c85c3930b8ee4fbc2116e66d914304b9bc37a8cfbfd2ac7a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_profiles_original_range.eps",
+      "size": 287519,
+      "sha256": "1f82c149aefb87ab0bec48da79fe11667e7571cf5587eb3d9ed529499761273c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_speed_direct.eps",
+      "size": 148922,
+      "sha256": "49a57f0ce8afa4cece3d50e2d87ead46178ada9be28a1b70e1e586bca35455ff",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_speed_direct.fig",
+      "size": 76540,
+      "sha256": "805b92458936f1ab243790699193eeb8078db906837e6bfda8334b6417e5ea22",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_speed_direct.native.eps",
+      "size": 134067,
+      "sha256": "813dd9706e77032bc6147101a47f5d24a404bce264ffd78761ab63ea074614e9",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_speed_direct.native.pdf",
+      "size": 37491,
+      "sha256": "3c0164315eb18d9d44640ffb55bd89ecb9f24ed3d68108ca3ddc426c8aa98bd8",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_speed_direct.native.png",
+      "size": 86941,
+      "sha256": "22ead13d4dd5acb90e73becb84ed754354567e0a27696f6fa2125be64ec0e597",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_speed_direct.pdf",
+      "size": 70809,
+      "sha256": "1589fe2865bd217dad86477a9f103d937d5556a5aad54edea682824019255c59",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/figures/AP_speed_direct.png",
+      "size": 73499,
+      "sha256": "c597a86c135cdc5467276d206ecb0e1cb8a142084ba4d10d39f648a1935ef4c8",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/final_audit.json",
+      "size": 1985,
+      "sha256": "d46ff304ffbcd276e391f0c9166a2a77612ce323d36eef702e204b792fefc59e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/final_audit.py",
+      "size": 3019,
+      "sha256": "1a178c42dfa7adbf81a11d23d2b2316b13eb68ae98a118d13048fead2e3a90d3",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/finalize_paper_results.py",
+      "size": 6774,
+      "sha256": "770d81329e09080df24e5ae56afe10935d746a242e4638d542727c0648ea970b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/finalize_report.py",
+      "size": 13943,
+      "sha256": "b73687fd0c3e69a6c1932e107ea13d5cbc594753fc38055e99f6f5f665a7b4f9",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/finish_revision.py",
+      "size": 2036,
+      "sha256": "df391bcd7a3e0e6f0fba7decae1afcd0ce05b3babd021efc9706bd6485e0dfe9",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/git_head.txt",
+      "size": 41,
+      "sha256": "1fc52e311116dd4101e821318bb832007f959c29d6780f7aea4325dd283ae731",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/initial_git_diff.patch",
+      "size": 1694,
+      "sha256": "424703f883cf852a2421372e356db577df27bf0db2c35b6e0e7f9b72b326e79f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/initial_git_status.txt",
+      "size": 61,
+      "sha256": "693de0a065b280c666d57588f7695d46ac2baced0a2765e4ae7f7b057f017896",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/inspect_legacy.m",
+      "size": 2624,
+      "sha256": "677be0060d0c656e3785c58165388617f330f96977bbe10e3fa6f1e465f21bc6",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/legacy_fig3_data_match.json",
+      "size": 2522,
+      "sha256": "e63117ccda3dbf84f88914fe0dcc221cf204facb7be05d9362e9bbb1f7bcfaf0",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/legacy_fig4_eps_points.json",
+      "size": 570,
+      "sha256": "d75f24d716efea63fa65b73afc0e6053051083861a10625e91ba76f3f03eb7a8",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/legacy_figure_inventory.json",
+      "size": 1314311,
+      "sha256": "99e0ab0b238deee1ec0cc28a61bc383990e2ca7aac77b3d8bf2a6ec24c37229f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/legacy_plot_series.json",
+      "size": 839130,
+      "sha256": "ac44a6e93a559613c4c4ecbc2af0778804b65ade1c90969d51f9e821d892cbae",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/additional_validation.log",
+      "size": 420,
+      "sha256": "a2a5293440e400afe9a606134fac71321ca72b8fe4658fcd6d4d53ae70391273",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/completed_case_inspection.log",
+      "size": 627,
+      "sha256": "07d730fc7002b3b82e5154c2b28760bfbf9d462b72af6e5a8af9577fcd2b9f19",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/final_audit.log",
+      "size": 115,
+      "sha256": "4f607d2fda0ca950ee4a6cdc38e21356e6f9e2e026bdeb11f74488ee39f3d4d0",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/final_compile.log",
+      "size": 18637,
+      "sha256": "6c3207f300a2f37e59423059b74dbd03f296bdd7965f2ced072a2380aab3a467",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/final_compile_layout.log",
+      "size": 18375,
+      "sha256": "2b9484b1a91638e3a92c60d0f5aa4f16fcfa0a44ab65e3793b6d33dba0d3e0b5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/final_report.log",
+      "size": 141,
+      "sha256": "123183813fc9116d602b91fe4ec20cff46184c073de59da269894437ae82a8cc",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/finalize_paper_results.log",
+      "size": 62,
+      "sha256": "28ccc4ecbfe98937f39806c74a29bd216063639b4170f2814ef4f3405b818c27",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/finisher.log",
+      "size": 1904,
+      "sha256": "b8352e4059f19b77167b88ba91d388b1a4f7c24e4fb8f9d780624c33f4245825",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/formal_eps0p001.log",
+      "size": 4833,
+      "sha256": "527914a5247ef733ae5d9445ef798ff83f738b7bfa1fb5ecabba2015b16affdb",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/formal_eps0p001_system_retry.log",
+      "size": 6218,
+      "sha256": "41b4d4190fe41ca08bc0859c1e66cd19d752dc67ecfccb2a658e289cb0a19d68",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/formal_eps0p002.log",
+      "size": 4832,
+      "sha256": "8260440a78b78f88519c9ba144b93de543da6583441f193a10f7d332d2ac16fd",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/formal_eps0p002_system_retry.log",
+      "size": 6207,
+      "sha256": "22b6e94b2c4ff05b5c4f1184db122501ee4527fbe3371113c389dc8c47785a05",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/formal_eps0p005.log",
+      "size": 4834,
+      "sha256": "b8365209974af4746e28db342ac52f38ce1d9694043157a705b11df22790c23a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/formal_eps0p005_system_retry.log",
+      "size": 6216,
+      "sha256": "d2fb49c060ff2f6c6d1cf6fc67eb9d88e78bac2add054a43f3a97da831b971ff",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/formal_eps0p01_scheduled.log",
+      "size": 6157,
+      "sha256": "9ed44b8b6bf4741063a2601051d03d465f058bd23b35327ac013e7b9668ea24e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/formal_eps0p02_scheduled.log",
+      "size": 6157,
+      "sha256": "27aaab3d4d9465bed0e23c08e2403197ec40f99472509b266766502c31db6c9d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/formal_eps0p05_scheduled.log",
+      "size": 6114,
+      "sha256": "d75a5839871f8028e1dd113a967c91df82dfd42022e97e269df0e5dcc2d7be9a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/formal_graphics.log",
+      "size": 1679,
+      "sha256": "c66c29cd7448eaad0231cccf3daa60d1a2b9deae9e8403779e674f877a218600",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/formal_graphics_full_domain.log",
+      "size": 1679,
+      "sha256": "e5ae5dba871435ffa0826f13e76209129b09420c92f887e6bca5368788c3b70e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/formal_run.log",
+      "size": 5224,
+      "sha256": "ff087fec363d57b7b29cbe1aaccaebf53e13525baccb206c0299505b0125dded",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/formal_run_system_retry.log",
+      "size": 11151,
+      "sha256": "d47b760aaf94865d4a829a80952ac7adb32cd739b1b1ada97e36023d60b3f12c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/legacy_inspection.log",
+      "size": 5590,
+      "sha256": "0c8920acb2834a4187f03baa719c88b444892a1d97b6244201845f75e3c53137",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/legacy_series.log",
+      "size": 364,
+      "sha256": "da0b355a9d61a3d90c9fd2a90e6a0a2b354fd94932b09c5595e9f4656fc965f5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/prepare_redline.log",
+      "size": 120,
+      "sha256": "b860796b3673a0b587a78ea40b1a06bf3a9ea244f8219008077aa5cdc2bab55a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/publish_figures.log",
+      "size": 81,
+      "sha256": "51bf799bc2f33c9d4a4eeadfd0fdbb8770699c9c5349c0aaea097f2eb63d90ac",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/replace_eps_data.log",
+      "size": 88,
+      "sha256": "5669494324294c4d0dca5ade115f4473b811ad8fb78e284fb228232d4d03f393",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/scheduler.log",
+      "size": 253,
+      "sha256": "64fa3656ab03ef95cc347d32c511a59c7619e402edcbf3cafdda216fa7a08044",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/source_before_graphics.log",
+      "size": 49,
+      "sha256": "a258530c3e5cc44909571a346fd6b23caad33b9c8b4409f2f3eb34eb7b472163",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/validation.log",
+      "size": 1547,
+      "sha256": "663488b13a6d9681d2582dadebb7d480becce3a835460d10fba1c793bebcb5a4",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/logs/validation_retry.log",
+      "size": 1569,
+      "sha256": "86aed535d2e804a8b1a2b8d2a21d00887660a8218650cffb5fd8273396cfbdfb",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/mapping_and_parameters_zh.txt",
+      "size": 5589,
+      "sha256": "14abf4a78bec126feeae48aebeae228c59d190d8fe10b2da1e687d277e20e2cb",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/modified_production_files.txt",
+      "size": 247,
+      "sha256": "1775bf2c3ca1b2e55658f49e7cdb6b174aaf8f5e0cf6e93256ee2dbf78d48e5d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/new_figure_style_audit.json",
+      "size": 1612,
+      "sha256": "64fcdde80ae31c2c961eaec3bbc318baba59a98c4231eeba8174f5c82ed549b7",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/original_eps_metadata.json",
+      "size": 1521,
+      "sha256": "6e3bd67b03cad8b66d68ae6e685615aaf100eb61638e55f2b7ad40f0bf810734",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/last_generated_sha256.txt",
+      "size": 64,
+      "sha256": "419c6e26dda08162022af1fdf54289cf7a3cce1bc3a9fda5d15c06e09f1bab96",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/main_Gissell_redline.pdf",
+      "size": 770299,
+      "sha256": "0b7d4cf66d5f6fcdad72744ea79f2c3bedb14c2416ccb93b275b11ccaecd93e5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/main_Gissell_redline.tex",
+      "size": 81652,
+      "sha256": "530db5b5fa1e69e4246d8d21234052ae30adc65d3c4e857fa17ce257dfa2f99d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/manuscript_redline.patch",
+      "size": 22853,
+      "sha256": "53bb8ca3fec4be7b74c8fc13b83cad231a295cd5dd93dd32edba9e2f5a67296a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/modification_line_numbers.txt",
+      "size": 971,
+      "sha256": "98fd2d3d41fdbfe7b9a13e8550019e356c1ffe732b6e7c08233ebaa515d830f4",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/modification_locations.json",
+      "size": 2321,
+      "sha256": "e9675a1c801ea442e2c312c97dcdf2900dc91b2592a76987dd719f6f6161f4dc",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/AP_error_T50-eps-converted-to.pdf",
+      "size": 43103,
+      "sha256": "2066a9bfc16a4c8ec80fb3d1e8f02f3cc7bbb7b6dac131386b80e810e98007e4",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/AP_error_T50.eps",
+      "size": 94850,
+      "sha256": "c3542619a5cb2988c7d8719b010df50b73f4d666e0bce65d052c01f45ed90c51",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/AP_profiles-eps-converted-to.pdf",
+      "size": 69492,
+      "sha256": "53e656b8e4a3a643468400d303a6443567174c0bcb7ce59cbd009be0b4427a59",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/AP_profiles.eps",
+      "size": 215197,
+      "sha256": "badd5a2bf81e8501f513954f6a31be140ced42f17c99d142a2c1c94577dff933",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/AP_speed_comparison.eps",
+      "size": 99817,
+      "sha256": "2e0fffd9efa51d4bf06c9e7f39b214c5cd1753fee7c49290b7cddc18c3642bbf",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/AP_speed_direct-eps-converted-to.pdf",
+      "size": 69867,
+      "sha256": "0a3a4678f1c0d09ef9526f14ea430bf2257657a69a5dddb5f92f3e1e50f92cd7",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/AP_speed_direct.eps",
+      "size": 132612,
+      "sha256": "3c3b4dac7050f3cc33f04fbd7dcf2cab23e3439c7aaca16e787d12bdc68162a5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/T_1.eps",
+      "size": 74503,
+      "sha256": "648ab796d472adf71c26ccda3011863a2355d41088c19cc991d52ec66e6c253c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/T_10.eps",
+      "size": 76053,
+      "sha256": "f26838ac91556f28cf42b41521f0b150e374d8f552b6437f180e8e36594a446b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/T_20.eps",
+      "size": 78526,
+      "sha256": "c67c6ae1631db834592b0abefd0d742e4f7ada85cae549bc7bfe513db96cc227",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/T_50.eps",
+      "size": 83264,
+      "sha256": "6dbbd7a1728cbf1b86dad3b5e3de2624cabddf68009d45db3231f6ded7a68538",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/bib.bib",
+      "size": 9715,
+      "sha256": "0b680a45f491d56089bb4585e7b309566a1b8f5d663ff557fe1d149c740c7a94",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/compare_profile.eps",
+      "size": 78390,
+      "sha256": "0a0c6aa97998b02460f8ccce321c1866621057f4a8751225f717e17edfdb54b6",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/diagnose_groups.aux",
+      "size": 11229,
+      "sha256": "b8fcba5007a92446b45bd5d79e3cd4c3fcb60c0407455126266ff028efe0b4e9",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/diagnose_groups.log",
+      "size": 40322,
+      "sha256": "5aee9a6448065cfb1adb81119d6a89dd9001558fa4a482ab469e8e49e77375a3",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/diagnose_groups.out",
+      "size": 2640,
+      "sha256": "d6e77a17b4cd6db2f013c6186d8d4e182500e2396bb570034e22cbc59ec332ce",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/diagnose_groups.pdf",
+      "size": 735463,
+      "sha256": "19bb05725655c681659936db0aec431f7f75462205af846f645e4853b43a8c77",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/diagnose_groups.tex",
+      "size": 80583,
+      "sha256": "90e3fad5c6588a4738facafdaed1b268fa1c8051dcfebed19bc30d1dc8f52e17",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/diagnose_groups.thm",
+      "size": 258,
+      "sha256": "04e1655bb0573bcf38e238fa544027410dc445e8faf567ad4d429128e9f1f3b7",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/diagnose_groups_console.log",
+      "size": 16010,
+      "sha256": "b7b20de48f16ff1bdebd8ceb174b7522f058ea4631d035f15d430aaa6e9e8dc8",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/error_vs_time.eps",
+      "size": 53486,
+      "sha256": "ed73655c900c4e55c6d48db3aff774f385861ea628f614d6a6d65ca9f5b1d2e7",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/macro_compare_t_030p000-eps-converted-to.pdf",
+      "size": 34462,
+      "sha256": "2324d9fd8e51e3f57531128f4cb0f4fd8deafa3365b31f063226c3ff68cb71fc",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/macro_compare_t_030p000.eps",
+      "size": 75925,
+      "sha256": "c0271923b4a75c152cc74683015d7b551a91e975c0d62ee38f918c724095bd7c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/macro_compare_t_050p000-eps-converted-to.pdf",
+      "size": 34171,
+      "sha256": "468496377b903ccf2df800691d743e1bf45cdf87004e9fd629d860baaa3a0654",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/macro_compare_t_050p000.eps",
+      "size": 74297,
+      "sha256": "91cbfcafc3e89a9b2bb43938ed72fdcf70d224a59460bc6e6add7ebf13eeef83",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/main_Gissell.aux",
+      "size": 11731,
+      "sha256": "2f72b31b55b2d7b98bf5a7a398a38b152ba12ebb3f83efb0155d13acb2101e00",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/main_Gissell.bbl",
+      "size": 3813,
+      "sha256": "9b00887215399cd3c9dfa49243bf4982c3ef741db42237db463b007cb9decbe5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/main_Gissell.blg",
+      "size": 896,
+      "sha256": "94a0ff8eae30f8b223b66df91771842e22a14ad941f96f33cb44084a3317fed1",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/main_Gissell.fdb_latexmk",
+      "size": 20085,
+      "sha256": "085d44ccc0f644d180529662d81b9409440353090b68395643488ef186dda951",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/main_Gissell.fls",
+      "size": 23001,
+      "sha256": "4ba9473979a710d526eb2a2dad6a5a453bdaaf51697681ed7d126695b18eecdd",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/main_Gissell.log",
+      "size": 32459,
+      "sha256": "c22ad5bf9c2d3219d4b16eaab2f9ae9387e367f50686c71e3e816d6eabebb370",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/main_Gissell.out",
+      "size": 2640,
+      "sha256": "d6e77a17b4cd6db2f013c6186d8d4e182500e2396bb570034e22cbc59ec332ce",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/main_Gissell.pdf",
+      "size": 748152,
+      "sha256": "75fc453db3ea95d98c4d2d3741558e7366bbddcf6d9c88ed559530ea286815eb",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/main_Gissell.tex",
+      "size": 80657,
+      "sha256": "d57758f26e5d33ce5dd64b933eabadb82f332d4759bea592be94b97d6aef2de3",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/main_Gissell.thm",
+      "size": 258,
+      "sha256": "04e1655bb0573bcf38e238fa544027410dc445e8faf567ad4d429128e9f1f3b7",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/preflight_compile.log",
+      "size": 9017,
+      "sha256": "da54430f0b5eb1ec581f9350d9dcd6a7518ceb6f35c3a453882ea01b23994625",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/profiles.eps",
+      "size": 122005,
+      "sha256": "dea285ef1aad978b0889e3025680bf06ff22766cda359c0d93af6a0e0e08d343",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/profiles_epsilon.eps",
+      "size": 294860,
+      "sha256": "70f9699d85db6439cda5ae15056ae1c8ab02e3d5e10640bba70f608d8e5b13d5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/render/page-08.png",
+      "size": 121678,
+      "sha256": "156c55aea04398095ad95493519fc2517f787fc101108b5b525fb78a53b41563",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/render/page-09.png",
+      "size": 127874,
+      "sha256": "a254c0fe25dc004da9e14ecd5058a9b34f5162cd4e6173a2713d8a652c6b72a1",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/render/page-10.png",
+      "size": 130348,
+      "sha256": "2259f0f22cca166b817bace082609ce2468bb89f9d75dfd27fcc2c206d73bba6",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/render/page-11.png",
+      "size": 120932,
+      "sha256": "6415312c740019b65ce2d6fce0870339147363aacad0558f2d0c57eb4683d0b6",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/render/page-23.png",
+      "size": 134584,
+      "sha256": "e43915c9f9d25495cba5d6e7a75c5b712b08a380d02754a2f4838d73d17dc498",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/render/page-24.png",
+      "size": 186766,
+      "sha256": "402cf9d65d491ccdc42ecb051156a37fe9d5bdb74fabd88ddfd48abaf45cd5ad",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/sistedes.cls",
+      "size": 2506,
+      "sha256": "0fde249fb23e819dcaae17c650512fae0d2ee652fac0e6580d12e0237afd094b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/travelling_speed_analytic-eps-converted-to.pdf",
+      "size": 68744,
+      "sha256": "6f5c66ac29d21d6e3970965eec27718856b51b84a8f61b6923d107c5eb60b208",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/travelling_speed_analytic.eps",
+      "size": 83306,
+      "sha256": "8b3c3fbcdf546782b59f02f6eaa598f3c1630ce1ab61094b7830be20f17ee23a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/travelling_speed_numeric_kinetic-eps-converted-to.pdf",
+      "size": 48215,
+      "sha256": "c13d3dcfe283cee9ec682b90a22661270d9d904ce13b3d421f233c2cb6667fd9",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/travelling_speed_numeric_kinetic.eps",
+      "size": 82792,
+      "sha256": "2eef0f7041d84505c1e518f24ffc25bfdf47871acf5d5c29f2e4f99bd88eb9dc",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/travelling_speed_numeric_macro-eps-converted-to.pdf",
+      "size": 48729,
+      "sha256": "cce2ada2679d4e5c3981ec801d8ed7f9d86a8d80de5f39aed090134a5af2eea8",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/travelling_speed_numeric_macro.eps",
+      "size": 82995,
+      "sha256": "93f86830822737c834ee17cec641abfbe65401a4afe409446b7177838a9ce23a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/tumbling rates.png",
+      "size": 29149,
+      "sha256": "7199ab7ad58edbe0285445eb34929d1d350f2e9d742866106a0c6a65f36f70b2",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/wave_speed_vs_time.png",
+      "size": 161860,
+      "sha256": "c2335712464a6d42e6cca03e3fd855d581c03f4eade8a51c022dbf3fd660356e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/preflight/wavespeed_vs_time.eps",
+      "size": 54076,
+      "sha256": "9c7019f3b51486c1da8ede6a74b76575df717402120b8e1696a77bf04357e67b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/published_figure_hashes.json",
+      "size": 334,
+      "sha256": "0ec6a03739ab6a25613bb15ff4c6c4d530191b3a5b5ce4b0db2c3231d80209ce",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/contact-1.jpg",
+      "size": 165601,
+      "sha256": "81f37551322352f11439455c1bce1f77c61398d73cbc9bcf75ae62fb49bbab45",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/contact-2.jpg",
+      "size": 141464,
+      "sha256": "1589d02c7b3c37933e7cb83067e5f6b3d5a8a6b81f0b2c3ad3e1388f74f469d4",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/contact-3.jpg",
+      "size": 138843,
+      "sha256": "65930d67c8b93714df490689cefc5c036e3d10b9fd1aa57385d87ebdd1bcfb18",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/contact-4.jpg",
+      "size": 136069,
+      "sha256": "3291d9dbfc7c49bca9199c3ca2a0432b0c6231596eddb0182c4d1aa8eadd43e1",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/contact-5.jpg",
+      "size": 46856,
+      "sha256": "d13dfbe50af605591311a394bfba95f4db4bf327d588032c285a0bfaf602af27",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-01.png",
+      "size": 159475,
+      "sha256": "209da076d48b417b87c261f9bb51023aa90ff355d19b53082cfe37c3cdf5001c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-02.png",
+      "size": 193195,
+      "sha256": "2ca83250f9f3e6251a8495c26ba6842a50f478952429d2a036a1b66c8167b09c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-03.png",
+      "size": 137945,
+      "sha256": "8147a8b08b51d313840c0cfe27a160b5d9fd100884e801bf921395d1aa3f7b0d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-04.png",
+      "size": 193417,
+      "sha256": "c63739dd93e63974bae93ef980ff3c75cac500ee8c3021c280f1e6493b34e7d1",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-05.png",
+      "size": 128234,
+      "sha256": "9246cb90f0dbdcd1266e77d2ff60b6f49bb0340f8032ce90c9c518160f8fec22",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-06.png",
+      "size": 141821,
+      "sha256": "f471daa9d3f590ecc5011edf4769e34dc9dc41d2b12e8560996d714b97d38ef0",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-07.png",
+      "size": 131303,
+      "sha256": "bba322b05a1aab3dce6d6776a20e1b98330ca120b7cc53fae05cbe328fa9cbe6",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-08.png",
+      "size": 120957,
+      "sha256": "b36849a63af6433f68af3ab638bbda274a7ee969d6cf8dd4c094a3dfb11ec57f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-09.png",
+      "size": 127874,
+      "sha256": "a254c0fe25dc004da9e14ecd5058a9b34f5162cd4e6173a2713d8a652c6b72a1",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-10.png",
+      "size": 130261,
+      "sha256": "c26af084777a8f613b763f16d8e6bed1fe994cbf8608c8ee1e6cddf6bb07f795",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-11.png",
+      "size": 120932,
+      "sha256": "6415312c740019b65ce2d6fce0870339147363aacad0558f2d0c57eb4683d0b6",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-12.png",
+      "size": 153847,
+      "sha256": "a1ff25297ae705d90539e23254b07e9f3d8f2ac5d720677e1f9f6df6d81f0adb",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-13.png",
+      "size": 95360,
+      "sha256": "386b792130c7fb084616a48cd7005d86e001ecc39880d8d57e6e1a8186653500",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-14.png",
+      "size": 149526,
+      "sha256": "1b0d7d4cf2cd9d59cd09e262f9365347fe4acd261b6fe46b30d198f20f06bb77",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-15.png",
+      "size": 139100,
+      "sha256": "f0bd2717f8f7b6ea2873c46fed9ec06201a88148f0c15efb9944f8d5e1cce1a3",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-16.png",
+      "size": 123920,
+      "sha256": "ca412da0f20639f44281fc89708e64191c2b99371627ed8837f0fb1a1bd0c3e4",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-17.png",
+      "size": 164315,
+      "sha256": "1c0329ab51828e135f7f11618a6b82abb768ff38923710285d6dd6bbc61ca71a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-18.png",
+      "size": 54726,
+      "sha256": "4fee43c3c660fbd2e500b5375958d391309db86f1d5495930e73b2b3023e80af",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-19.png",
+      "size": 86668,
+      "sha256": "4db8d2afd458197fcef55d1cb17e82a44120093ca68ca6db64dd95e42b071d83",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-20.png",
+      "size": 50094,
+      "sha256": "698de86114d2b78e5bf590c0dd9f3533299e6f39750e4646faae47fcf1db19cf",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-21.png",
+      "size": 225803,
+      "sha256": "40148dda6bcf5a30995a93a354ade3c6198e2ac8a274f010b80355643183d7a1",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-22.png",
+      "size": 98715,
+      "sha256": "51727535a48937d2f68104032ffb869864ab60d73ad902c064198a0f67179c88",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-23.png",
+      "size": 104984,
+      "sha256": "10a4af5c2c812bed6da29503882c51a885ff52e80aba731fd95b5a4b894b9bd3",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-24.png",
+      "size": 154931,
+      "sha256": "25f6371978944bc37e1675633172aa5b1ac4efcec2f13c31592f10430fc0ef3e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/render/page-25.png",
+      "size": 191170,
+      "sha256": "bbaf461c05375e5f1dc1d73b4207ff603a6910c18efa5325bd86e461978be2d7",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/paper/result_replacements.json",
+      "size": 6701,
+      "sha256": "c7867d4489b3724b2e9e2c41eb27125ea99cc563b0c4823820d977ea929ebad8",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/prepare_redline.py",
+      "size": 14943,
+      "sha256": "84fdc973280d55916d2ad080b3d15fc1b3b0d1ed62606ff8d879e6229f9253ee",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/production_code.patch",
+      "size": 7160,
+      "sha256": "95e07550e32e7198b6918e8372c8767cd1bc0a0e5bf62d61564a2bb1f9a9d550",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/publish_figures.py",
+      "size": 1034,
+      "sha256": "f92ef0b49b8512d1e2eb1e5473cdcb620da6e0b4042e99b9e2ce56c85c2d0f0f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/replace_eps_data.py",
+      "size": 6540,
+      "sha256": "0d02fda9d513a0c5ffc976f36494f47b528dfcee30c41066e6d2aa179b662a22",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/report_zh.md",
+      "size": 8489,
+      "sha256": "b1245c3bb5faffa44aca20e1ec6b9d65512c7998e7455f639c7d53c947e821a1",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/reproduce.sh",
+      "size": 1568,
+      "sha256": "a2b91ae2a651f78423884f18cc87196da4d8cba06a3e20c181ea1c3f840f49d3",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/run_all_formal.m",
+      "size": 218,
+      "sha256": "588b6bcc720df15b2fe59240b71d16133f37800c9b38c409ce2770df184417c9",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/run_formal_case.m",
+      "size": 6571,
+      "sha256": "4a3ddcc6a7b61513519b9adee6e5fa9f67aa9c53c9377417c9208f263f9d7c0f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/scheduler_exit_status.json",
+      "size": 50,
+      "sha256": "54090ba80ae6a71fd4e054e33074d3c6e3b3b3a6b10c85fc9a942b77e304059b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+model/K_equilibrium.m",
+      "size": 384,
+      "sha256": "6a4f296dc6e52ef0ad96dffeddee36553024e037f1b35979c8d87eaea1e30a70",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+model/build_rho_matrix.m",
+      "size": 1200,
+      "sha256": "7c184ae98c469e277f6ed8be35742f098c40c536370bf821b53a2cb79e4a0d54",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+model/compute_response.m",
+      "size": 2343,
+      "sha256": "671097554cdc7f499d1b033a421b7a2e9cd4066964132d89f5a9fc42742c43eb",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+model/default_params.m",
+      "size": 2251,
+      "sha256": "5d644d4de1d0ad79468f7d6455a259217dda4a02b0024a855868bf64afea5f0f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+model/div_flux_center.m",
+      "size": 144,
+      "sha256": "d63834060ea54519580cfc1ea2c1334a4ea4a4b0c6308c1492023cbf6301e765",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+model/initial_data.m",
+      "size": 229,
+      "sha256": "cd50f1832b831912df99d821b399ff44e3b46c54475ebbb3055561506c355069",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+model/make_grid.m",
+      "size": 271,
+      "sha256": "fa74e721069eb711e39999478e2ec8c2c0214c5ddc3c795b37eca2484c1da28d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+model/phi_response.m",
+      "size": 195,
+      "sha256": "9522c75e652cc7c2a68064d94e3ac101ebcd3e53f92257a0460772ac27dc8cb5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+model/positivity_limiter.m",
+      "size": 2391,
+      "sha256": "7e284fcaf00c8ecd7b2424aa0f6c18df3106c542427e43a045b4f85594c0c3e1",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+model/project_zero_mean.m",
+      "size": 181,
+      "sha256": "ac07d026d284b6ba12b726c15ddb70e9dac558708aba471f140b99b4706b6cff",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+model/reflection_indices.m",
+      "size": 973,
+      "sha256": "a2518664aa1a668fa786ec5318f53b810cfd3702290aa0a0206bfc03b6552453",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+model/response_scale.m",
+      "size": 710,
+      "sha256": "565db1ad9a9568fb7e8472d931530832063ed3e6e5d751149880c183c3755d4d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+model/upwind_g_transport.m",
+      "size": 409,
+      "sha256": "8e60dc2c44d1a78d9790e2c12a3f4d8a033df34f1a2fff5435efaa57a40b04ce",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+model/upwind_rho_edges.m",
+      "size": 357,
+      "sha256": "cac34c0e5a5631f532f7db3e22e3979a24cbefdd0412ea48b779c50949ad9be4",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+post/plot_AP_error.m",
+      "size": 413,
+      "sha256": "b42b0f67188b69c3231db513bacce055867611c4b0835f3d6b37299a08098f22",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+post/plot_AP_error_by_time.m",
+      "size": 694,
+      "sha256": "3e201b2b27899e9925d78d47f52994b2ff3b0f6dc3a26e8628a78183d86ecf84",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+post/plot_AP_profiles.m",
+      "size": 610,
+      "sha256": "638b2daf24616a02ed70ded80e89f448b4865bb2a7229c897acc5a87892b3cbd",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+post/plot_AP_profiles_paper.m",
+      "size": 9879,
+      "sha256": "725832fc8352ddab2d5deb9edd87de6951ca5df751b49919924c9045522a4123",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+post/plot_AP_profiles_snapshots.m",
+      "size": 2488,
+      "sha256": "d2de0ba3ff0e5f85c041054907bc64266fe5ea661b1a5798651b42f9ce47bed5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+post/plot_macro_travelling_wave.m",
+      "size": 2550,
+      "sha256": "12e5de78829b4b19f178308841b6a00e5bed6f4deeeadf7bceda7e7c49f5b833",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+post/plot_profiles.m",
+      "size": 636,
+      "sha256": "3c933b62cffd03ea29b18ad71c1e219198ab0f9a36fd1f7fb809b115186776d9",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+post/plot_speed_scan.m",
+      "size": 1548,
+      "sha256": "420e10374a8e691a4ce4f74b49df4388e956d051065ac578442c98122ba00df5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+post/plot_speed_time.m",
+      "size": 689,
+      "sha256": "43f9fa8b7d7e874a02b565164d4ff52b62ab02e3ca7d7860061375f044f53d65",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+src/analytic_profile_macro.m",
+      "size": 2618,
+      "sha256": "d5b38444887be085bf3b50248b327d18d4d890c2c725a7fb375de94dcab3e593",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+src/analytic_speed_macro.m",
+      "size": 328,
+      "sha256": "3b36cfc73c4a2722081a8dee8e48176e11e376b7cf18ae6d767b13262a6465fb",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+src/effective_chi_macro.m",
+      "size": 796,
+      "sha256": "85acfe60d2d74ea17a5aefbcb33d2f056ba8d1a9701fdfa2b1092597e8282728",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+src/estimate_speed.m",
+      "size": 275,
+      "sha256": "6bbb8939cf6b65787b3455c3a0151a1a105b764e891b4f5d16c1009f5cdca017",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+src/l2_error.m",
+      "size": 87,
+      "sha256": "90291721ce478802b2b9b8d86aac01bfb2e84a768258d6abcc10f1b86c5bc60e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+src/run_model.m",
+      "size": 4949,
+      "sha256": "d73bcbc5e45e05f786ed9a7dfec5f3360f0d345b15962ea39ec360521087ea33",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+src/step_chemicals.m",
+      "size": 347,
+      "sha256": "f30a6535ee1618fa0a025bedd262598d5a206f309ae7a25104d3dc96fe821ac1",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+src/step_kinetic_AP.m",
+      "size": 3032,
+      "sha256": "fb6cbb21f83f317316dba8891aa36b162b251745caab78315950b2c233a076a4",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+src/step_macro.m",
+      "size": 884,
+      "sha256": "e0c38126cffa94e117c9e493bc856a7da0f49e9b3c1dd3409437c47028bdbc56",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+utils/cell_to_edge.m",
+      "size": 163,
+      "sha256": "4a2d6e3468de5581e53afcd69236846ed68500aa875707866c6fc2ef2cd7e87d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+utils/grad_cell_to_edge.m",
+      "size": 172,
+      "sha256": "83a199fc457c2cbd92c90bfb3baf397c85e0e6c77f7d23ac73f2ab3f83a4af90",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+utils/lap_neumann_matrix.m",
+      "size": 220,
+      "sha256": "a1440313c919f8f2019961bbf2d8d543d1db5d39dd6349ae78a1693c22be501a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+utils/make_dir.m",
+      "size": 932,
+      "sha256": "257d23032c36b80b402c711d7d768a458655f9074af705ebb427cea6a0746a0f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+utils/num_to_tag.m",
+      "size": 561,
+      "sha256": "09fbe18eb76dc26b909fbe464f3bbc64e4bc8a405cb587ced9364b98525f6bef",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+utils/project_root.m",
+      "size": 391,
+      "sha256": "02a7965f4f60dd2bdd104081c2e6fb3ddae7cd872809ac09b94cdfa48e779442",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+utils/resolve_project_path.m",
+      "size": 1472,
+      "sha256": "8c939948199e8384f574d80dbcfa150ddc12a041bb3e51a567213a6049c07aa5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+utils/velocity_grid.m",
+      "size": 578,
+      "sha256": "74b6a35feb9bd240cc8d2094966931d910412377ba76f291292c0b064a8c86a2",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/+utils/vint.m",
+      "size": 125,
+      "sha256": "73e945c3d9db49f6e1f0b708acdba0b8b0cd91c6e924fe3cd6e88d0b2f510a8d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/post/plot_AP_from_snapshots_direct.m",
+      "size": 28534,
+      "sha256": "b86195e7e089e71d066f45969bc17fc7f9a91ebb5628c33434d232e3ec76e971",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/post/plot_AP_profiles_paper.m",
+      "size": 27537,
+      "sha256": "1a919f2375cf2915a36954bb8052cd5626b4a34be0d106d4fab8d63b3494886d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/post/plot_macro_compare_time.m",
+      "size": 9601,
+      "sha256": "1f9beb93e6095c4a85119232fb47dfea78f6a44d80d3f221ccd4f2a1a6d8a5cd",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/post/plot_speed_from_snapshots_direct.m",
+      "size": 16137,
+      "sha256": "fd886404dcdc2131f6569cec53d57a981ee694cccdc0172fc7ae138ba5c7c3fb",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/runs/rebuild_AP_profiles_from_flat_snapshots.m",
+      "size": 16593,
+      "sha256": "b79ecf52cba76798e9ba9850244c877868c3461e497c2c55bbfb8bd5e3340089",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/runs/run_AP_profiles.m",
+      "size": 5663,
+      "sha256": "32b15762b6d928016bf9dfab9f24476e666dd167337505bf5ea15ab0a6abe493",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/runs/run_calvez_bistability_probe.m",
+      "size": 1656,
+      "sha256": "d67cc739c0bd964766d5aa1c8b53b8e60b27f0df305490b0370dbfe4a34ccf7e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/runs/run_macro_travelling_wave.m",
+      "size": 2681,
+      "sha256": "7cd11065fc8cfa922faa3a83542766087b0ee9a643c30a51dec568b9fffaff46",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/runs/run_single_case.m",
+      "size": 1644,
+      "sha256": "a257cea32635ed88afdb901a10f63f238f3bcab389beb77dc644bc256e8885c8",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/runs/run_speed_scan_light.m",
+      "size": 2829,
+      "sha256": "b2359d243fbe7c69d7d3302bf53aee7e13f28e2f00fb3999e51596629b115f9c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/AP_bacteria_code_v4_paper_response/startup_AP_bacteria.m",
+      "size": 222,
+      "sha256": "c4bb8ad4741794535500ecebd045155ea263c3571b7aa071d07e5192b2545b53",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/analysis/sign_boundary_revision_20261028/run_all_formal.m",
+      "size": 218,
+      "sha256": "588b6bcc720df15b2fe59240b71d16133f37800c9b38c409ce2770df184417c9",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/analysis/sign_boundary_revision_20261028/run_formal_case.m",
+      "size": 6571,
+      "sha256": "4a3ddcc6a7b61513519b9adee6e5fa9f67aa9c53c9377417c9208f263f9d7c0f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_archive/analysis/sign_boundary_revision_20261028/validate_actual_m.m",
+      "size": 3942,
+      "sha256": "f3a364ca3467fc253ae1afc841542cc6afb5530fcbcd8a11727b9a02d11e4fb5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/source_manifest.json",
+      "size": 7368,
+      "sha256": "429f795c5111f9996b231ce638b43bc64f7a9802d6e0d365bd17110d19fc54a8",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/summary.json",
+      "size": 934218,
+      "sha256": "f823419e0e2d9d54e8c96fde23054847b412e9494feb726072de28c5d65efd50",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/summary_by_epsilon.csv",
+      "size": 2704,
+      "sha256": "0f4b2b8f14e8a488cf9a8224248e0f58005a0a6a8164d84401981075ad98304a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/validate_actual_m.m",
+      "size": 3942,
+      "sha256": "f3a364ca3467fc253ae1afc841542cc6afb5530fcbcd8a11727b9a02d11e4fb5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/validate_additional_records.m",
+      "size": 1701,
+      "sha256": "8a3c76c472d02ff0a7fb148e78c70c3bcd4e44082d2e8c9052017393b520b7b7",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/validation/passed.mat",
+      "size": 313,
+      "sha256": "36dbde0ceddb51541e0f81e296670fc033c3be47ee333a293c2bc33ac75649d8",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/validation/positivity_limiter_old_reflect.m",
+      "size": 1144,
+      "sha256": "9aaa8a0b2d3fdac9f82317697af363deb19581ec2d0a09ca5163ed91081cee9f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/validation/step_flux_budget_limiter0_eps0.01.csv",
+      "size": 21386,
+      "sha256": "f4aea830865e2dc8edb2d3dcabca8f728bc0bbf58e45eaf5434b4864cd9b8980",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/validation/step_flux_budget_limiter0_eps0.1.csv",
+      "size": 21700,
+      "sha256": "9be893ca0b9688fe152dcb7f8ef6d2e60cf2ff46ad725310b1c58dc8147995a4",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/validation/step_flux_budget_limiter1_eps0.01.csv",
+      "size": 22279,
+      "sha256": "26ff3e2019bfa0250b106dc5c2145e9f21c7386bacdf07903a25f16925349fac",
+      "symlink": null
+    },
+    {
+      "path": "analysis/sign_boundary_revision_20261028/validation/step_flux_budget_limiter1_eps0.1.csv",
+      "size": 22040,
+      "sha256": "50c94e66c829e5c1ed8eb4b4735ea68f6d1ff3a59d734168fb9ad6b6808c75b2",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/apply_style_update.m",
+      "size": 2370,
+      "sha256": "24834b266f6aaef254cf074d6550cb33ea0e4680ec43e09c95b4c057b81e9c2d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/baseline/analysis/exponential_response_20261103/screening_20261104/audit_figure6_style.m",
+      "size": 2035,
+      "sha256": "cbfb90a0dcd5aaf81c9e19bb54f8d75ed54707d25483433163c2fe523e1e097e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/baseline/analysis/exponential_response_20261103/screening_20261104/finalize_delivery.py",
+      "size": 14829,
+      "sha256": "5dae085e7ad3c514a78e97300c328350075d879ad9fda778167e469e7547190e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/baseline/analysis/exponential_response_20261103/screening_20261104/later_manuscript_revisions.json",
+      "size": 848,
+      "sha256": "be9991ac4086345e8a016eca7c167ee761996f9389c03eca618ad60c3633802f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/baseline/analysis/exponential_response_20261103/screening_20261104/plot_selected_figures.m",
+      "size": 4271,
+      "sha256": "5c9344acf971eb0af511c8d6af031e475de55ccfe30ed184734ac3efa68196fb",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/baseline/analysis/exponential_response_20261103/screening_20261104/verify_selected_figures.m",
+      "size": 2753,
+      "sha256": "025dd026cb3b5a310f93006fbd9eebfae9f19ffacd3cab0fc65945da1bd25524",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/baseline/analysis/figure_refresh_20261103/figure_mapping_and_parameters.json",
+      "size": 3127,
+      "sha256": "b97fb56ed9ee5c8120e9d22dc9f8346f4a52ead8310fd84217fffac3b2446a5c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/baseline/analysis/figure_refresh_20261103/refresh_figures.m",
+      "size": 9954,
+      "sha256": "3f04b292f4ee57b83b96037e5710185d57725e9d2e7d88a5261fad840376e6a4",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/baseline/analysis/figure_refresh_20261103/updated_figures.json",
+      "size": 2095,
+      "sha256": "e20bddea6d5ab005a853f41497091c9e717b9ca1956920d656c8ea188c9b758b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/baseline/manuscript/20261103/AP_profiles.eps",
+      "size": 215289,
+      "sha256": "ac202ec5fa36c56b61a49bb4cbc6ebcd0b061f961bc7c60422cca74b981f359f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/baseline/manuscript/20261103/AP_profiles.fig",
+      "size": 846342,
+      "sha256": "bea4f0008a5ec153d8edf67899e78bdd66b6aeeef39f65937868731519d3d19e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/baseline/manuscript/20261103/exponential_pulse_evolution.eps",
+      "size": 86327,
+      "sha256": "616fb815220e5203b57024cead4cd74539ee5d3991f0b366edcc239b069a16fd",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/baseline/manuscript/20261103/exponential_pulse_evolution.fig",
+      "size": 239385,
+      "sha256": "42888219acadaf6b744e7028732238738b6b36ea6e572fbf2ece88104dde6b4d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/baseline/manuscript/20261103/exponential_response_section.tex",
+      "size": 3534,
+      "sha256": "723c15cdc6365b02715a02b82d99b8d2fb0d410889e61bc0369c3bfe80a120e8",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/baseline/manuscript/20261103/main_Gissell.pdf",
+      "size": 845741,
+      "sha256": "6e9eb7a364f94c6ce5ac16584b9c800cc2d57c7904c6dddc3f53ecd866353117",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/baseline/manuscript/20261103/main_Gissell.tex",
+      "size": 75731,
+      "sha256": "ed6431ee56167e714497d0443b86d170449ba46611550047db5a209354692a53",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/before_manifest.json",
+      "size": 5003,
+      "sha256": "f99d1d6ad21ad264c193c56fd642a582fe800f0b09c1e13922ebc92c1ec2cf64",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/changes.patch",
+      "size": 22320,
+      "sha256": "f4a32184fb59c9c4c8bfdab8764fdedf9cd3584ca64de88439735a1c540cdffa",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/compile.log",
+      "size": 9785,
+      "sha256": "49291b4445a9a868ca349df3903286ce2414a734f42e4194411d6561e7f2eaf5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/page-17.png",
+      "size": 103028,
+      "sha256": "59b36923dedcfc941856ad4c964c9826000b46fb05dc976a9ab4b79bde1d6368",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/page-19.png",
+      "size": 161442,
+      "sha256": "45f28ac6d1a027f7604b11bba95f636b453e1e483e66823dc5f302038b1a5960",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/report_zh.txt",
+      "size": 712,
+      "sha256": "292284452b79e16a0106aa51617af9f02d5a47999c252b18423821937ad4b3c1",
+      "symlink": null
+    },
+    {
+      "path": "analysis/profile_style_update_20261104/verification.json",
+      "size": 391,
+      "sha256": "5af3ce2adb654a333c8e73558fee51c987eaa008b8af92d98df71af902e4b067",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/baseline/analysis/conditional_limiter_finegrid_20261104/delivery_manifest.json",
+      "size": 5622,
+      "sha256": "95b4a507411006cf9d1d9f88c486039b1bcef3914ff1568fdbe9f18ad5da48fb",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/baseline/analysis/conditional_limiter_finegrid_20261104/figure_verification.json",
+      "size": 21050,
+      "sha256": "21f723c6508445a48b665cdb235602ac3dbfb656a53c9e328255ba1ba977be90",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/baseline/analysis/conditional_limiter_finegrid_20261104/paper/verification.json",
+      "size": 1114,
+      "sha256": "bc09b91f50c6af6bcce4e616e97d4859182306db2c1ba3372a4451f926209a9c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/baseline/analysis/conditional_limiter_finegrid_20261104/update_figures.m",
+      "size": 7414,
+      "sha256": "e1392d2b20e0da0b410649ec6c5501c81a708706b2c4c890892d4f4c10903303",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/baseline/manuscript/20261103/exponential_two_limits-eps-converted-to.pdf",
+      "size": 118120,
+      "sha256": "2ef16282f5cb77f3aff7d766d51479a0ba08e71048dfc2fb20ffe3fc047ca1ba",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/baseline/manuscript/20261103/exponential_two_limits.eps",
+      "size": 300786,
+      "sha256": "c91f5a881ac8988e418ae8b45607c5ef86bf22aceb3faf49493fb57442611f2a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/baseline/manuscript/20261103/exponential_two_limits.fig",
+      "size": 1075744,
+      "sha256": "d5aa345a44af86592074ef03cd3b820634afee49d46966156bbc6172c3814d6a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/baseline/manuscript/20261103/main_Gissell.pdf",
+      "size": 996689,
+      "sha256": "bed73b14e3b95a40a80a3a7b817a0a3197494d33a0490eba8a5157df7286fad2",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/baseline_hashes.json",
+      "size": 1058,
+      "sha256": "27f690c20323e4ff67a583bbbf4919998f00ac6b12faa8a701a6d13dab2e526a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/figures/exponential_two_limits.eps",
+      "size": 301044,
+      "sha256": "18e9bdf033ac9beece66a34439752861164ba1ec9a8c5b4e88cdcd6fb6a5ae28",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/figures/exponential_two_limits.fig",
+      "size": 1075807,
+      "sha256": "b217a0d92ffd051ae8e1981df5ec8f29cc2a9c80ee2c921ce1e1076e7b510bfa",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/figures/exponential_two_limits.png",
+      "size": 88158,
+      "sha256": "67057816e3a6d947a3f69ae1865cc9de1c99be08e6530449a2511abff3d974ac",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/final_checks.json",
+      "size": 292,
+      "sha256": "f0b4f1d038b509a70f03829b99f909b72338a9d3ee7e6fe57604e94a7bbc6c06",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/logs/latexmk.log",
+      "size": 9580,
+      "sha256": "2af7813854e081c8228b1db46ad2d3966715f814f06aa5694f214f455eb8b3f8",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/logs/matlab.log",
+      "size": 2085,
+      "sha256": "50a8d9c1efed2e51a1c2c4f8834935b0f584b1600d2b68692527814a7d28675c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/logs/paper_verification.log",
+      "size": 559,
+      "sha256": "50e7e6671eab03be8fdad9223614485398b617d6fe4af9efe703cc24350fa724",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/plot_script.patch",
+      "size": 3176,
+      "sha256": "1fd13004a85d65a719231c99add8bbad5b72fd1052823ab5bf5b5270ba660114",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/protected_hashes.json",
+      "size": 4339,
+      "sha256": "bc934385b6cbc323c7e4849e55b411fb86eec608ffd9c51b37b2b9600c44597f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/raise_figure7.m",
+      "size": 4090,
+      "sha256": "fcc0fedfc41067759762ca5892060dfa5172a137ad93f267d2fc16ab1a9a374c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/verification.json",
+      "size": 970,
+      "sha256": "dd2e9163ab523987e09bb84932f974f5dc15ccc134a3b6345bea95132c7fec7f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/figure7_ylim_012_20261105/修订说明.txt",
+      "size": 1388,
+      "sha256": "54bf863680e60b9e59fddc44c587b0fc58ac61de78d5a02464ba9b1e11142410",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/__pycache__/build_exponential_section.cpython-313.pyc",
+      "size": 9363,
+      "sha256": "2c48c5b5d4692e86c6df38bd7c1414bbf2d4804964e68068f59978feda4fbe1b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/__pycache__/revise_existing_text.cpython-313.pyc",
+      "size": 10319,
+      "sha256": "1d9871ca7ac97ad9973ca10b980ac85f3e98232de32624371ddf8472577b8552",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/all_case_diagnostics.csv",
+      "size": 4461,
+      "sha256": "d478cc06d01aacda879d14b2e3b73135443856048988fe6fe2d67b85f33756fe",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/analyze_exponential_results.m",
+      "size": 5810,
+      "sha256": "c1eb28db6549c36bf1db5c44c16f035049fbe7ad32ed3e23579b7bab8f38b505",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/audit_existing_data.m",
+      "size": 3277,
+      "sha256": "2c25f46703448cdb7eacc6be9d4591ee2bea2d5aec2fee491e7acbf6d0bcd2fd",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/AP_error_T50-eps-converted-to.pdf",
+      "size": 43579,
+      "sha256": "523b216fdcc6d9f70f3a1fedb0d7f62b995bee5326f16aab6b98a427f22f3c83",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/AP_error_T50.eps",
+      "size": 95745,
+      "sha256": "ef365900617d33b37a325f0f15d77254b8a929fc9125f03a9362a0326f28b543",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/AP_error_T50.fig",
+      "size": 35136,
+      "sha256": "780f900c58523b89d3316685dcef845978368e087f79c30c41e5f558af105228",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/AP_profiles-eps-converted-to.pdf",
+      "size": 67649,
+      "sha256": "74c7d43dc7c3f3e11d1ed08777e882db65c7f6989ab33e4d96ee89c4ec712441",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/AP_profiles.eps",
+      "size": 215289,
+      "sha256": "ac202ec5fa36c56b61a49bb4cbc6ebcd0b061f961bc7c60422cca74b981f359f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/AP_profiles.fig",
+      "size": 846342,
+      "sha256": "bea4f0008a5ec153d8edf67899e78bdd66b6aeeef39f65937868731519d3d19e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/AP_speed_comparison.eps",
+      "size": 99817,
+      "sha256": "2e0fffd9efa51d4bf06c9e7f39b214c5cd1753fee7c49290b7cddc18c3642bbf",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/AP_speed_direct-eps-converted-to.pdf",
+      "size": 71330,
+      "sha256": "406482a174d10c5202cb198b161125cd57d09dc2713e278fca59c67bee188ad0",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/AP_speed_direct.eps",
+      "size": 136527,
+      "sha256": "359ff0bc1e8dd5e1caaa40d7f44140230386b094a8116c9571df40cc29589521",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/AP_speed_direct.fig",
+      "size": 76244,
+      "sha256": "1e8c3ac392cbd5922afdf5775db9f3ad9d03e6f3a64c6bcaee49d95d576b6d7e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/Old/cleaned_main.tex",
+      "size": 50436,
+      "sha256": "1e1bc626f7bdc8d59dd5d108805176e9f1fac290d578e12bcedea5b0ac042e26",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/Old/main.tex",
+      "size": 51371,
+      "sha256": "bfd98a6e2ad62d3bf4f457d9160f45d3c27e8480c9b93e5d41e643582d0bd736",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/T_1.eps",
+      "size": 74503,
+      "sha256": "648ab796d472adf71c26ccda3011863a2355d41088c19cc991d52ec66e6c253c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/T_10.eps",
+      "size": 76053,
+      "sha256": "f26838ac91556f28cf42b41521f0b150e374d8f552b6437f180e8e36594a446b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/T_20.eps",
+      "size": 78526,
+      "sha256": "c67c6ae1631db834592b0abefd0d742e4f7ada85cae549bc7bfe513db96cc227",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/T_50.eps",
+      "size": 83264,
+      "sha256": "6dbbd7a1728cbf1b86dad3b5e3de2624cabddf68009d45db3231f6ded7a68538",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/bib.bib",
+      "size": 10029,
+      "sha256": "e514960a3c9280503eb3537afbb334ac406db1774590e2c07a9a3a6fe30a903a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/compare_profile.eps",
+      "size": 78390,
+      "sha256": "0a0c6aa97998b02460f8ccce321c1866621057f4a8751225f717e17edfdb54b6",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/error_vs_time.eps",
+      "size": 53486,
+      "sha256": "ed73655c900c4e55c6d48db3aff774f385861ea628f614d6a6d65ca9f5b1d2e7",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/macro_compare_t_030p000-eps-converted-to.pdf",
+      "size": 27913,
+      "sha256": "54a89032d5262e2e57fd3612d0699d29bc70ce81511d5d85ed7c598762872cd6",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/macro_compare_t_030p000.eps",
+      "size": 56422,
+      "sha256": "966f0cae7da0ea92bc08a0a4d0d8755b86d0fdd8e74beca503368564e14426af",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/macro_compare_t_030p000.fig",
+      "size": 95197,
+      "sha256": "09e84bab3b6d9227db9aa3a21ff564ca50e6200a602487377acc1b1ffd0f5542",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/macro_compare_t_050p000-eps-converted-to.pdf",
+      "size": 27643,
+      "sha256": "8920d41615ddbfbc60ce0ebde705db5dae9e84ba360bf66bd037fd43ddb850b7",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/macro_compare_t_050p000.eps",
+      "size": 54733,
+      "sha256": "a81732ccfc744ce458b71265eee05062c7d9de41da4aadaa641c182ade282bfc",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/macro_compare_t_050p000.fig",
+      "size": 95127,
+      "sha256": "52a7ffec8be31c57cc53a7261e4adf8d3ff5396cf17c26f53d5e54e9b168a31a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/main_Gissell.aux",
+      "size": 11546,
+      "sha256": "3478905f93809ab201814d8d6d71aaefa7793a5f80b6124676486a4b95744019",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/main_Gissell.bbl",
+      "size": 4070,
+      "sha256": "b148715846bb1f16fde9d48c18d4ab1bc073845e2bca6187f71e09b1f3e8ddad",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/main_Gissell.blg",
+      "size": 899,
+      "sha256": "1b78334d5cb853f114b4ce63ce99038ba48f5666e30222c32599857497fd1241",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/main_Gissell.fdb_latexmk",
+      "size": 20138,
+      "sha256": "6c1267494db82c786973364c4d15c2423de66aa2535c98f48507b20ea9348069",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/main_Gissell.fls",
+      "size": 22969,
+      "sha256": "bae57b3064d6c10323ef780caa2f106eff1f8a9c1cc33d381a6a7ce18ebefab1",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/main_Gissell.log",
+      "size": 32691,
+      "sha256": "e6f13d49bacafca112604e098c119afc3eca9459d0e528ef829f2e4369e1fded",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/main_Gissell.out",
+      "size": 2658,
+      "sha256": "ecb1b13aad0641935e78808961e45b367c75616e7f51920ee7d16bffcff6f53c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/main_Gissell.pdf",
+      "size": 698039,
+      "sha256": "f89cad8f3c755c1ad5c42b33c07ecef6957ecb9f3fdaef1c33853b2e727a3731",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/main_Gissell.tex",
+      "size": 75402,
+      "sha256": "4f9f9fdf044d4c2826024adc4a664083593ba95272344b2389b19320e802b3f9",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/main_Gissell.thm",
+      "size": 258,
+      "sha256": "4551fd00378b94275a12b9c8f4d2bec611a0bd6363708ac8f08bb2660a03cb44",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/profiles.eps",
+      "size": 122005,
+      "sha256": "dea285ef1aad978b0889e3025680bf06ff22766cda359c0d93af6a0e0e08d343",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/profiles_epsilon.eps",
+      "size": 294860,
+      "sha256": "70f9699d85db6439cda5ae15056ae1c8ab02e3d5e10640bba70f608d8e5b13d5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/sistedes.cls",
+      "size": 2506,
+      "sha256": "0fde249fb23e819dcaae17c650512fae0d2ee652fac0e6580d12e0237afd094b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/travelling_speed_analytic-eps-converted-to.pdf",
+      "size": 43410,
+      "sha256": "4710755bdcb67ac19913ecdc90c94178003c5cada00d11fc63b2224768aeac01",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/travelling_speed_analytic.eps",
+      "size": 81800,
+      "sha256": "d31c5794165adebd1c22a82b506680ae0e6ce3395c2bf48d029d173b9634306b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/travelling_speed_analytic.fig",
+      "size": 187594,
+      "sha256": "1b01c976090f77a6b7164ac12211a6da94f79ccf75f6bef6018c03e7749983ce",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/travelling_speed_numeric_kinetic-eps-converted-to.pdf",
+      "size": 47545,
+      "sha256": "94e7946df4f24ed1fff6e6909fd00367e310ef8ba1ffb4330d98f998ead06567",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/travelling_speed_numeric_kinetic.eps",
+      "size": 81370,
+      "sha256": "4597417ec0030f10c8f8863642612eb4e66393bce2d19e378311a800c70dba4c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/travelling_speed_numeric_kinetic.fig",
+      "size": 34362,
+      "sha256": "1c68648625c2275d5ce5d628a6a5df3a3b9727f2399b0b6f4ce242c6c3d2757c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/travelling_speed_numeric_macro-eps-converted-to.pdf",
+      "size": 47351,
+      "sha256": "ae656ba9490b6c445ae3d10b4e64ff24ef67dc70b7c7a88322d2138262dd2cec",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/travelling_speed_numeric_macro.eps",
+      "size": 81641,
+      "sha256": "a5e42bd8a87279bca7bc9115a3f772b80526799b3a0600475dd76ee8ad4bfae2",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/travelling_speed_numeric_macro.fig",
+      "size": 32688,
+      "sha256": "2ead0be01a8e04f87e30e18aff7a5ee8312ee97eeddbb10f5a5ec16b90a091f2",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/tumbling rates.png",
+      "size": 29149,
+      "sha256": "7199ab7ad58edbe0285445eb34929d1d350f2e9d742866106a0c6a65f36f70b2",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/wave_speed_vs_time.png",
+      "size": 161860,
+      "sha256": "c2335712464a6d42e6cca03e3fd855d581c03f4eade8a51c022dbf3fd660356e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline/manuscript/20261103/wavespeed_vs_time.eps",
+      "size": 54076,
+      "sha256": "9c7019f3b51486c1da8ede6a74b76575df717402120b8e1696a77bf04357e67b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/baseline_manifest.json",
+      "size": 5629,
+      "sha256": "f3909ed143023e6fd01691fcba836e74769f615a338b7dce814ed253fb41f92b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/build_exponential_section.py",
+      "size": 6923,
+      "sha256": "c36b40fc9011c33b8e6b9d7c05f32ce26d03d7b42b2821f5f919dfb6a1bd12be",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/check_sources.py",
+      "size": 374,
+      "sha256": "9dfc21d1379074fdb40ca2c984d73ba95d4931d2c800d6d31a76b91deb4be993",
+      "symlink": null
+    }
+  ],
+  "verified_before_removal": true
+}

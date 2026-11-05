@@ -1,0 +1,350 @@
+{
+  "file": "part-022.tar.gz",
+  "sha256": "71fd1b3708df61a04edd971af5906adf8dd58153a7fc1952620a3591242308c5",
+  "bytes": 66407763,
+  "files": [
+    {
+      "path": "code/project/data/kinetic_20260226_214541/snap_t_0052.0.mat",
+      "size": 1185535,
+      "sha256": "999945fa6d8dd13afc0968ee2009c021a6003da1dd58dbc18d141da9b5dcdb6a",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214541/snap_t_0053.0.mat",
+      "size": 1185647,
+      "sha256": "3b914941602de854477cf6be5e8131a3572baad973001615caca560c51f1e13d",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214541/snap_t_0054.0.mat",
+      "size": 1185594,
+      "sha256": "b464ad5ef68f6352056fb529a47efc328892c953fdd5316895dcc5721ea270c6",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214541/snap_t_0055.0.mat",
+      "size": 1185494,
+      "sha256": "60b42458917b1dfcec4ec704e935dfb60251c0dcea9229ccbc571e34e00833e0",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214541/snap_t_0056.0.mat",
+      "size": 1185470,
+      "sha256": "6d5df9eff69e0995920dbc21a62895e7157604d27d08fa04c76a86457f162ed0",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214541/snap_t_0057.0.mat",
+      "size": 1185478,
+      "sha256": "4f4af3f75245d323380f8b1e4f63d2830f4784a3e4f941230896bfe44dfe42de",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214541/snap_t_0058.0.mat",
+      "size": 1185538,
+      "sha256": "53dcaa5ce98c77a7e96b1bfe366e93ae8c90c8054f93e1a48e84fe0331a95e71",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214541/snap_t_0059.0.mat",
+      "size": 1185577,
+      "sha256": "097bebbfeefacee9c72c3046e12fbc8fe80d0d057251d84f98fe804b704cfe45",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214541/snap_t_0060.0.mat",
+      "size": 1185324,
+      "sha256": "15bd5281d71d0e9d8bb8f4b43b73bd09fa7b0026e730ddbbfe1668002361da01",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/final.mat",
+      "size": 1186377,
+      "sha256": "216d890007520a6548b2835147607da906fed00e73d3304d041c7996c829a3e8",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0000.0.mat",
+      "size": 18216,
+      "sha256": "7f7d4824ae992e844f6e4d942f97e1fce5e346acd9dbed7ab3e510e91fa4f464",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0001.0.mat",
+      "size": 1185789,
+      "sha256": "a1db64d7d7d4a442f0a278a5965b54d1380285c89839f48968587cf98b03309f",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0002.0.mat",
+      "size": 1185713,
+      "sha256": "b54d6b455db3cdaeb1afe3c1a32706e1b47ba83773043e1b58ff43d8031c09c7",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0003.0.mat",
+      "size": 1185645,
+      "sha256": "e7bcac9f79f82240e50e7e78ba0713ac6e6b8f0ea66d9783d9f65d00d845d76d",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0004.0.mat",
+      "size": 1185718,
+      "sha256": "a3984846f12826900a035383fba7db3dca9894debe09c7b65f1f608a2a8efa5a",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0005.0.mat",
+      "size": 1185816,
+      "sha256": "06468085417dd42e9ea8bb67bd2d0abaa7d7871220fd3b986707986c86e444ac",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0006.0.mat",
+      "size": 1185640,
+      "sha256": "d7e6da80a3893acc7398a6b20044904b4ad22953142790cae77838e346d91c42",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0007.0.mat",
+      "size": 1185794,
+      "sha256": "6adfe1557f09a9a37596da19715184811ec2a8e10ea2ed41457e58b8e0a5dfc6",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0008.0.mat",
+      "size": 1185815,
+      "sha256": "bf54b658a0a742ea665e0a11a778330763eb786dcdb6e90f8b1287f11cad8ebd",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0009.0.mat",
+      "size": 1185792,
+      "sha256": "e7499a75757077f20e5c884b28744032dc3f7951b459dcc5405df6896a50f117",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0010.0.mat",
+      "size": 1185701,
+      "sha256": "6fcc9dbc52658e785734daad48daa00b37bbadf4d103b92865507fe04d14928d",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0011.0.mat",
+      "size": 1185571,
+      "sha256": "b97737783ca21de8cc08d9cfff567c2dd7bdab2406bf7c53336016d2fa7f431c",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0012.0.mat",
+      "size": 1185674,
+      "sha256": "00e2421a6140f9b61ec5114043e4d48bc1249d3bdc6e9425d3aea0da1730d752",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0013.0.mat",
+      "size": 1185775,
+      "sha256": "577997db5d19fdefe47aee846865b21f70228142ec388c5b15b1ffaf835f47f1",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0014.0.mat",
+      "size": 1185737,
+      "sha256": "a3179c17e4ed49525b2f4f1d74574b83900051b4e91053badc995a31c551ec8b",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0015.0.mat",
+      "size": 1185853,
+      "sha256": "6f793580c9e6b219c38950764cc3888743054e3e1ae127b50f6f565a1f22e5d5",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0016.0.mat",
+      "size": 1185784,
+      "sha256": "6415f9f3b5584528b6a01a3147089584b1d9f74d1ba5198cb7a46bf08004b948",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0017.0.mat",
+      "size": 1185870,
+      "sha256": "db50b7fb15036679baa147cf6f6063ba0f3097c34116392f7fc402f70e57f9e8",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0018.0.mat",
+      "size": 1185623,
+      "sha256": "3e68fab74a841c0aa57747d6880d05d72f482115394014c0c8911f3d4fe5f8f8",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0019.0.mat",
+      "size": 1185708,
+      "sha256": "0b738f59f418b4db45733c5c6476b063835ad2e58aef43b62df2388e2c06731c",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0020.0.mat",
+      "size": 1185733,
+      "sha256": "40e3935a8fad98e040a94910d769060b96bae82ef83e9196330b40362fe8eea7",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0021.0.mat",
+      "size": 1185642,
+      "sha256": "4a3bd42912ff95566df1879004bcf9731a92ef44ac6493e267d96ede9314388b",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0022.0.mat",
+      "size": 1185826,
+      "sha256": "9714d1de7a8ccadce53b2c352b0a98eb71563fc336fbde630503131fd30a257b",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0023.0.mat",
+      "size": 1185726,
+      "sha256": "f68fd52ffee2945368bea81a5786f2ef8508dda07bbb3c392ecd9985f40e5e04",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0024.0.mat",
+      "size": 1185583,
+      "sha256": "d0c43ef46875e92211822f8035f5251ce47fcdf244be32e4c3a826c31a617c31",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0025.0.mat",
+      "size": 1185699,
+      "sha256": "d1de094558614f60b55b7c9b15bd7e6acbbfae52b25365c900ad773d8d1c0828",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0026.0.mat",
+      "size": 1185665,
+      "sha256": "0bf84d60b33702e6583083e461eeda8ad4c9275f11b5fa5a35cf5bbfe16480ac",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0027.0.mat",
+      "size": 1185517,
+      "sha256": "d36881ccd28aa30d4764bed0b2878f15daa95f34fedebe9bcaba75c29630dc02",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0028.0.mat",
+      "size": 1185630,
+      "sha256": "a85b73ce3eed4ff8cbf81d89379b73529ef7985a694d68dfb20ff567caa70f48",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0029.0.mat",
+      "size": 1185449,
+      "sha256": "c9fa7f42f5d04ec8c168e58db2652c77046962d95362191056587d96e0e7b218",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0030.0.mat",
+      "size": 1185456,
+      "sha256": "465fdc3514d6351ea56e9714ba01b5eb8dcc224fa887782641308b54f43eefd3",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0031.0.mat",
+      "size": 1185515,
+      "sha256": "aad12828d2ffbbff1621eade1422eaedd330b086a6095630314fb07cdf2d9a8f",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0032.0.mat",
+      "size": 1185585,
+      "sha256": "9bde20f02d071bf0626075970298730ce9963008a159425a3e81b5b0f2d09e50",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0033.0.mat",
+      "size": 1185527,
+      "sha256": "cc14ef005144cae2d2a366b8c781db0b0a029241c4332849ee79429ed60bf649",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0034.0.mat",
+      "size": 1185472,
+      "sha256": "3dce4e00eee5ac57a831fd2b403344e385b375633180974347bab1f73b7d05dc",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0035.0.mat",
+      "size": 1185588,
+      "sha256": "1fd9d966aabf7f2d6715e82bbf05e024e776b785ba30c22fa6938b9faf7f647d",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0036.0.mat",
+      "size": 1185379,
+      "sha256": "3de0cfe5d66af20555465730e75ae889ca9f45a66b94120b97b8bf71c7c71ffa",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0037.0.mat",
+      "size": 1185539,
+      "sha256": "5ce081414ebf9da057c61737e121d49beb1d5b33ee8d89fb88c05d3965b78efc",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0038.0.mat",
+      "size": 1185656,
+      "sha256": "23ec4be8fa4816bf33a4e1b5fa85ca24528e579b13a33f7cb6e3ee88e1bdeacb",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0039.0.mat",
+      "size": 1185492,
+      "sha256": "867d29674f54dff5de3a0a8a075ac53fe7591cfeafcf2b07f70091c1d3f285c3",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0040.0.mat",
+      "size": 1185561,
+      "sha256": "d33377af33e250c2108b0ced70ee43505f13092901599430fbb3cf9f7842d517",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0041.0.mat",
+      "size": 1185463,
+      "sha256": "809b193846e17c89ad88c2cb5997231252d1b4d42f2134cd4dfa75c80a7b579b",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0042.0.mat",
+      "size": 1185308,
+      "sha256": "b0c0327d3944b9e71ea17302dfadf7ac59ddc2bf5165a38f1bce015e1264175a",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0043.0.mat",
+      "size": 1185466,
+      "sha256": "76c34a5c384a4a3c043ae6d7198d32d64cd72929c4f5973862e0a4e20bfe35f1",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0044.0.mat",
+      "size": 1185571,
+      "sha256": "70c0290e478c84aa234253ddaa09f49f2e2ab0a28a6bdfb679db8b5f78aa68aa",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0045.0.mat",
+      "size": 1185512,
+      "sha256": "7b4376ee4783778b325a960ea303b29de868896ef05e3bdc5985350e51469145",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_214617/snap_t_0046.0.mat",
+      "size": 1185506,
+      "sha256": "e4617b23a1c0731919fa6b3137d8fea5018c4a9091a50cadc66284baaac44ee7",
+      "symlink": null
+    }
+  ],
+  "verified_before_removal": true
+}

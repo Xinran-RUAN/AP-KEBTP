@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "numerical_kernels": 25,
+  "raw_cases": 14,
+  "immutable_data_verified": true,
+  "manuscript_preserved_files": 304,
+  "Finder_metadata_changed_without_overwrite": [
+    "manuscript/.DS_Store"
+  ],
+  "end_to_end_reproduction_after_archive": true,
+  "native_FIG_files": 10,
+  "selective_restore_passed": true,
+  "archived_files": 8974,
+  "archive_parts": 53,
+  "original_obsolete_bytes": 3636481036,
+  "compressed_archive_bytes": 3057607819,
+  "bytes_saved": 578873217,
+  "all_archive_members_verified_before_removal": true,
+  "no_long_experiments_rerun": true,
+  "no_commit_or_push": true
+}

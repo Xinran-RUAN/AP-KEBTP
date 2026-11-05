@@ -1,0 +1,38 @@
+{
+  "file": "part-052.tar.gz",
+  "sha256": "3693ec3c11ca1d1246e82cc622788a94c852f862881368fa8089571d9f540b8c",
+  "bytes": 44400539,
+  "files": [
+    {
+      "path": "analysis/exponential_response_20261103/screening_20261104/data/a0p0005_kinetic_e0p01_checkpoint.mat",
+      "size": 19673647,
+      "sha256": "43b9b3563b2e3ab719722572c5850848b146aa8d221a88706a9103bac3016399",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/screening_20261104/data/a0p0005_kinetic_e0p01_history.csv",
+      "size": 75220,
+      "sha256": "1aa60a4f6338ad59e3573448bc93e25a72b154eb39f53bef55585851a42d73c3",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/screening_20261104/data/a0p002_kinetic_e0p01.mat",
+      "size": 19747774,
+      "sha256": "be2905a8b8b3cbd5697ccccc9e8ae6978cf680ee3ac1c2abbbbdd5c88a94648d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/screening_20261104/data/a0p002_kinetic_e0p01_checkpoint.mat",
+      "size": 19703176,
+      "sha256": "3e416e98a65eabeeb2ccac52ccea649848c4d0632dbc0cc719e0ade14af9ae10",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261103/screening_20261104/data/a0p002_kinetic_e0p01_history.csv",
+      "size": 74938,
+      "sha256": "884d68c4d42bef69f42a613610194e89f3455a684441a0f5b9cd8d9ce3f1f107",
+      "symlink": null
+    }
+  ],
+  "verified_before_removal": true
+}

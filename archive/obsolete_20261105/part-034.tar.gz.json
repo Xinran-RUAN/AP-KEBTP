@@ -1,0 +1,32 @@
+{
+  "file": "part-034.tar.gz",
+  "sha256": "9304c0d19b438b1134ca60328a55f5302f26f9d42bb4db0297813e1bcd68e71c",
+  "bytes": 42003636,
+  "files": [
+    {
+      "path": "analysis/exponential_response_20261028/data/a0p001_macro_e0.mat",
+      "size": 18564143,
+      "sha256": "512798609243d87f2d97a2dde36e45570c6fc63acbadc55682738de6fd95185b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/data/a0p001_macro_e0_checkpoint.mat",
+      "size": 18519553,
+      "sha256": "09e3baf2cd46dd2a2c721f128bb2ec301d72c068a1dc39b4c7ffe32ad1712281",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/data/a0p001_macro_e0_history.csv",
+      "size": 43278,
+      "sha256": "8b4534456b3360dc9f44535abef594adf1ff6c51a7033bf604251bde81355069",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/data/a1e-05_kinetic_e0p001.mat",
+      "size": 19685785,
+      "sha256": "61aab8a41aec8904ca8ce4c953ff9c3ecd78efe8cadd78edbdf0571e6990c955",
+      "symlink": null
+    }
+  ],
+  "verified_before_removal": true
+}

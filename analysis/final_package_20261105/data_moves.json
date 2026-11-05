@@ -1,0 +1,174 @@
+[
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p01_correction_times.csv",
+    "to": "paper_data/cases/sign_kinetic_e0p01_correction_times.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p002_correction_times.csv",
+    "to": "paper_data/cases/sign_kinetic_e0p002_correction_times.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p0001_kinetic_e0p01_correction_times.csv",
+    "to": "paper_data/cases/exp_a0p0001_kinetic_e0p01_correction_times.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_macro_history.csv",
+    "to": "paper_data/cases/sign_macro_history.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p0005_kinetic_e0p01.mat",
+    "to": "paper_data/cases/exp_a0p0005_kinetic_e0p01.mat"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p001_kinetic_e0p05_history.csv",
+    "to": "paper_data/cases/exp_a0p001_kinetic_e0p05_history.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p0001_kinetic_e0p01.mat",
+    "to": "paper_data/cases/exp_a0p0001_kinetic_e0p01.mat"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p05_correction_times.csv",
+    "to": "paper_data/cases/sign_kinetic_e0p05_correction_times.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p001_macro_history.csv",
+    "to": "paper_data/cases/exp_a0p001_macro_history.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p005_history.csv",
+    "to": "paper_data/cases/sign_kinetic_e0p005_history.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p0005_kinetic_e0p01_history.csv",
+    "to": "paper_data/cases/exp_a0p0005_kinetic_e0p01_history.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p001_kinetic_e0p1.mat",
+    "to": "paper_data/cases/exp_a0p001_kinetic_e0p1.mat"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p05_history.csv",
+    "to": "paper_data/cases/sign_kinetic_e0p05_history.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p02_history.csv",
+    "to": "paper_data/cases/sign_kinetic_e0p02_history.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p05.mat",
+    "to": "paper_data/cases/sign_kinetic_e0p05.mat"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p1.mat",
+    "to": "paper_data/cases/sign_kinetic_e0p1.mat"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p001_kinetic_e0p1_correction_times.csv",
+    "to": "paper_data/cases/exp_a0p001_kinetic_e0p1_correction_times.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p02.mat",
+    "to": "paper_data/cases/sign_kinetic_e0p02.mat"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p001_kinetic_e0p01_history.csv",
+    "to": "paper_data/cases/exp_a0p001_kinetic_e0p01_history.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_macro_correction_times.csv",
+    "to": "paper_data/cases/sign_macro_correction_times.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p005_correction_times.csv",
+    "to": "paper_data/cases/sign_kinetic_e0p005_correction_times.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p1_correction_times.csv",
+    "to": "paper_data/cases/sign_kinetic_e0p1_correction_times.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p002_history.csv",
+    "to": "paper_data/cases/sign_kinetic_e0p002_history.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p01.mat",
+    "to": "paper_data/cases/sign_kinetic_e0p01.mat"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p0005_kinetic_e0p01_correction_times.csv",
+    "to": "paper_data/cases/exp_a0p0005_kinetic_e0p01_correction_times.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p001_kinetic_e0p05_correction_times.csv",
+    "to": "paper_data/cases/exp_a0p001_kinetic_e0p05_correction_times.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p001.mat",
+    "to": "paper_data/cases/sign_kinetic_e0p001.mat"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_macro.mat",
+    "to": "paper_data/cases/sign_macro.mat"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p001_macro.mat",
+    "to": "paper_data/cases/exp_a0p001_macro.mat"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p1_history.csv",
+    "to": "paper_data/cases/sign_kinetic_e0p1_history.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p001_kinetic_e0p05.mat",
+    "to": "paper_data/cases/exp_a0p001_kinetic_e0p05.mat"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p001_history.csv",
+    "to": "paper_data/cases/sign_kinetic_e0p001_history.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p002.mat",
+    "to": "paper_data/cases/sign_kinetic_e0p002.mat"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p001_macro_correction_times.csv",
+    "to": "paper_data/cases/exp_a0p001_macro_correction_times.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p001_kinetic_e0p01_correction_times.csv",
+    "to": "paper_data/cases/exp_a0p001_kinetic_e0p01_correction_times.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p001_correction_times.csv",
+    "to": "paper_data/cases/sign_kinetic_e0p001_correction_times.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p001_kinetic_e0p01.mat",
+    "to": "paper_data/cases/exp_a0p001_kinetic_e0p01.mat"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p01_history.csv",
+    "to": "paper_data/cases/sign_kinetic_e0p01_history.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p02_correction_times.csv",
+    "to": "paper_data/cases/sign_kinetic_e0p02_correction_times.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p0001_kinetic_e0p01_history.csv",
+    "to": "paper_data/cases/exp_a0p0001_kinetic_e0p01_history.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/exp_a0p001_kinetic_e0p1_history.csv",
+    "to": "paper_data/cases/exp_a0p001_kinetic_e0p1_history.csv"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/sign_kinetic_e0p005.mat",
+    "to": "paper_data/cases/sign_kinetic_e0p005.mat"
+  },
+  {
+    "from": "analysis/conditional_limiter_finegrid_20261104/data/plot_data.mat",
+    "to": "paper_data/derived/plot_data.mat"
+  }
+]

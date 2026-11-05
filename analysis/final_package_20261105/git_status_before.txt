@@ -1,0 +1,10 @@
+ M AP_bacteria_code_v4_paper_response/+model/phi_response.m
+ M AP_bacteria_code_v4_paper_response/+model/positivity_limiter.m
+ M AP_bacteria_code_v4_paper_response/+model/upwind_g_transport.m
+ M AP_bacteria_code_v4_paper_response/+src/step_kinetic_AP.m
+ M manuscript/.DS_Store
+?? AP_bacteria_code_v4_paper_response/+model/reflection_indices.m
+?? analysis/
+?? manuscript/20261027/
+?? manuscript/20261028/
+?? manuscript/20261103/

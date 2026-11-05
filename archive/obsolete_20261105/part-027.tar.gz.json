@@ -1,0 +1,1286 @@
+{
+  "file": "part-027.tar.gz",
+  "sha256": "8a891d45487633da29c17217b750bd0ed40310905847d7a11632693bfd0c8e45",
+  "bytes": 38343795,
+  "files": [
+    {
+      "path": "code/project/data/kinetic_20260226_220711/snap_t_0086.0.mat",
+      "size": 1208300,
+      "sha256": "9bbc8152476701c2aec8547731e58a753a16c0c5d7822223c255be0e07c047df",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_220711/snap_t_0087.0.mat",
+      "size": 1208584,
+      "sha256": "82a8e63688265a4500cc9a1d09b2b69dd21108812f309dd7e42f9bb621fed39d",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_220711/snap_t_0088.0.mat",
+      "size": 1208766,
+      "sha256": "579c609b79164ad0746958dc3e0af6279cbdf59889120148f0f8c78c5e332ea8",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_220711/snap_t_0089.0.mat",
+      "size": 1208840,
+      "sha256": "d3ca4779f96d7d0f6394e03717f6730f21b2eb9572309764128068afae383c66",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_220711/snap_t_0090.0.mat",
+      "size": 1208596,
+      "sha256": "1d8f3bae426cce0f1f2ba482f84b5cf5b825995e7a78ee91b031ee3ea1a996ee",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_220711/snap_t_0091.0.mat",
+      "size": 1208786,
+      "sha256": "ce83f7ad5b3badb37b802fedc7825da4a0bbba50303d71ac72d0bcfd9f8c94a9",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_220711/snap_t_0092.0.mat",
+      "size": 1208818,
+      "sha256": "ac5b9a5ab5e0145e0208fcbcd5df58ee0f9379cb0a1404cd94c259fc6686bb28",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_220711/snap_t_0093.0.mat",
+      "size": 1208786,
+      "sha256": "d9a3e46ca6cd33fc2fd33731eeeabaf01f15b164ab32fadfa0d83919f89b5aef",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_220711/snap_t_0094.0.mat",
+      "size": 1209058,
+      "sha256": "7588994378cd59a90a94830eee66307b8fca3ccb7403a5c4ce1c0cb5b8ad84c4",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_220711/snap_t_0095.0.mat",
+      "size": 1209074,
+      "sha256": "efc1411ac6d490a5767eefee794bee5b6af68de465c52f299eb0c6261d70979a",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_220711/snap_t_0096.0.mat",
+      "size": 1209182,
+      "sha256": "5824cec859d6b49b0636a686d079a98a05169ca179481593f0ce1d0a7dc04605",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_220711/snap_t_0097.0.mat",
+      "size": 1209188,
+      "sha256": "e431a2d39f13f522390d565ddc6353b1885da8f760728b811a5ece24abab9591",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_220711/snap_t_0098.0.mat",
+      "size": 1209362,
+      "sha256": "53d9459976186047f2e0ea1d2fd8a2ca2024dcb0da220564e4ab3fa36dfbb449",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_220711/snap_t_0099.0.mat",
+      "size": 1209454,
+      "sha256": "b47cd92f3679f6d3d244b174291607c0043a5cfbc95ce4727a4c108603e34497",
+      "symlink": null
+    },
+    {
+      "path": "code/project/data/kinetic_20260226_220711/snap_t_0100.0.mat",
+      "size": 1209351,
+      "sha256": "96997ce9d6a996f9f1a2ca2e3b89bf2a75cabdd0fdc32531d73a0de2f9ca5727",
+      "symlink": null
+    },
+    {
+      "path": "code/project/run/.DS_Store",
+      "size": 6148,
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+      "symlink": null
+    },
+    {
+      "path": "code/project/run/run_kinetic.m",
+      "size": 1733,
+      "sha256": "ac08c31351af4b16c7a971b692f5ad60604387f7e6c47e5d39952b660d1f170a",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/.DS_Store",
+      "size": 10244,
+      "sha256": "9545b2b53f338017c05ba33e85872088ee5ab280ce10f93dbf97f1f1f3228311",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/bi_stable/.DS_Store",
+      "size": 6148,
+      "sha256": "170f1ec5aca077434ceb8b82d84dbb10fe0f42fdb6f0f2267783e6ce722a70b5",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/bi_stable/Compute_G_Flux_res.m",
+      "size": 1261,
+      "sha256": "7ff8e41f72faeda6e9ee0e3550ef666ff5c5b49ef72ac0b3a179a1b2597b65cc",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/bi_stable/OneStep_KineticModel_IMEX.m",
+      "size": 10009,
+      "sha256": "19069d435cbe83e6f4e8c78e4e707d7cebf353577cd87dbecd1961d9c9d7a538",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/bi_stable/PLOT_DATA.m",
+      "size": 441,
+      "sha256": "812bdb9cc46af210d25f0cf5088e16648978a7beabd387441849d8b8ea2e8060",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/bi_stable/SAVE_DATA.m",
+      "size": 590,
+      "sha256": "cceb0c68c1496a528cf4fd7bb7a9d478c20f72c19ddb04a955d0e4026eb6ba8a",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/bi_stable/accuracy_test.m",
+      "size": 1685,
+      "sha256": "659109a63afe46ade01f5ca6eebd6ba82ec093bc0ee8311765878089ebdbb65e",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/bi_stable/data_kinetic/data_kinetic_ChiC_0.48_ChiN_0.44_eps_1e+00_T_1000_dt_1e-02.mat",
+      "size": 265324,
+      "sha256": "9f6c3d32b4a2a7c87f88daa56697293637e89424e13f454783b0008e527501de",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/bi_stable/integration_v_meshgrid.m",
+      "size": 504,
+      "sha256": "a31b30432b3caa9aa387d8debf0c6ae6b6ef521beb83fc3df8c6387fc63ea493",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/bi_stable/main_kinetic_model.m",
+      "size": 5020,
+      "sha256": "37f1dacbd1a03fab2c932fe1a0bee7007cce5bde945dd5735c99140f4e81c590",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/bi_stable/run_speed_kinetic_cases.m",
+      "size": 1382,
+      "sha256": "0aeb8f46bcabeaf9c39ad9ac1ebb02424ae85ae68f378109d340c486a74fdcba",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/profile比较/compare_profile.m",
+      "size": 627,
+      "sha256": "57aa839f53f637bca6721e48e2d2b5d418e826a072bea1c497262cbb9a2f6007",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/.DS_Store",
+      "size": 6148,
+      "sha256": "c394c463974721daf07e46c60c56dbff17efdc11086823eac6a77010b827510c",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/Compute_G_Flux_res.m",
+      "size": 1261,
+      "sha256": "7ff8e41f72faeda6e9ee0e3550ef666ff5c5b49ef72ac0b3a179a1b2597b65cc",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/Matrix_div_urho.m",
+      "size": 2378,
+      "sha256": "b85ec47c4b06c26b73bb4e59634d351bfd01ea23eb17b1a456e02bc1018deb93",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/OneStep_KineticModel_IMEX.m",
+      "size": 6714,
+      "sha256": "214b733879e8c604d6a240dfdf8d19e65272c244e4b8d974689212d10699007d",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/OneStep_macro.m",
+      "size": 1635,
+      "sha256": "0defa7e6a69a5444b13c6110be7641b9b2a35fcdec17aa8f796cb2a5781e3e54",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/README.md",
+      "size": 3589,
+      "sha256": "faca8ffc1495cf9e616544de66af2cf9d9b61814ef3d4c5a72602b002e3b6cb1",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/T_1.eps",
+      "size": 74503,
+      "sha256": "648ab796d472adf71c26ccda3011863a2355d41088c19cc991d52ec66e6c253c",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/T_1.pdf",
+      "size": 14865,
+      "sha256": "980eba1e03a478a8c768ae205f7d16e6f1daa59875203723464d3f050091c591",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/T_10.eps",
+      "size": 76053,
+      "sha256": "f26838ac91556f28cf42b41521f0b150e374d8f552b6437f180e8e36594a446b",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/T_10.pdf",
+      "size": 18097,
+      "sha256": "706a1accbcea5d3aac1ab9cffb2148e00cbc4091cee7d4e64e676971e418f7c3",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/T_20.eps",
+      "size": 78526,
+      "sha256": "c67c6ae1631db834592b0abefd0d742e4f7ada85cae549bc7bfe513db96cc227",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/T_20.pdf",
+      "size": 20706,
+      "sha256": "65b74bfbc7f27cd9fa2ce1f96b1755d8784bc7397e417c01b28b2aa04a3ca8a7",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/T_50.eps",
+      "size": 83264,
+      "sha256": "6dbbd7a1728cbf1b86dad3b5e3de2624cabddf68009d45db3231f6ded7a68538",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/error_table.csv",
+      "size": 469,
+      "sha256": "57da467fc98ef6a4d8f852bff554a26e75b1de7da934c4f219a8a2a41bb57d2d",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/integration_v_meshgrid.m",
+      "size": 478,
+      "sha256": "418ae1fa030526ca180821c4ae430311b3734ebbcda55dc5c2cbb118d7b9aa1b",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/plot_figures.m",
+      "size": 1255,
+      "sha256": "10c8eba0446ba49ca5a30d3579499571ed0d88783fdf0a1bdaa86be7e92f250e",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e+00_T_1.mat",
+      "size": 28712,
+      "sha256": "4a89c087decb37c934b03454d2f9bda3b8b98eca685a7ef2053d242dc03f9fec",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e+00_T_10.mat",
+      "size": 28712,
+      "sha256": "3e1ac54be99b9f74cd0456c0460a239199b2ff19dc88bde14158588216c66062",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e+00_T_20.mat",
+      "size": 28712,
+      "sha256": "526604337f0954a2595c2736008cae969dd898de59d884ab94dc5b7d9d4f49f7",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e+00_T_30.mat",
+      "size": 28712,
+      "sha256": "983cf621127e6b77f241bd3c3de10cae4bb15b6275744fc52b0ba96c67086582",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e+00_T_40.mat",
+      "size": 28712,
+      "sha256": "5a88d323325996ad4b2adb5230707b7c64fd2d5be8ecc0aa2c80bb6ff33d7f62",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e+00_T_5.mat",
+      "size": 28712,
+      "sha256": "f30551edd035be1cd4d5439309377b4d8a79d570fb736a0320c57e008a39c715",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e+00_T_50.mat",
+      "size": 28712,
+      "sha256": "f3ce287723596632d2db910ab0a4be7def3371cf55a17dee022bdebae7e184d6",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e+00_T_50_all.mat",
+      "size": 2516876,
+      "sha256": "658d26264dc850a3009d42081fb05e0052d5314657f3ee55fd200913e220fff3",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-01_T_1.mat",
+      "size": 28712,
+      "sha256": "7c28dec9b40758f8d8adf0e19352c3a7de5bb7df522947ff1cc05f6fc8ae2f59",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-01_T_10.mat",
+      "size": 28712,
+      "sha256": "e1616e5738b5f9265f70dbebaac0aa45c27d5eae4c81e0aad7d465e7433a09d5",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-01_T_20.mat",
+      "size": 28712,
+      "sha256": "583efbfb1433d0eebf91414d198dbe43219ea2364348f731916f8ac1bf67bf7e",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-01_T_30.mat",
+      "size": 28712,
+      "sha256": "c0f21452792b0abdbc680207b48b10ac8f4a51de2bc9f6c30aa39afac81a6b88",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-01_T_40.mat",
+      "size": 28712,
+      "sha256": "aea6dea3762adca902ee7f8a234934b72fad3811b9251f2f46f3a9513dc00a7b",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-01_T_5.mat",
+      "size": 28712,
+      "sha256": "791ee5be83bdc3c51155cc55d2f6b0c699353287741ef26125e8317ed43e65bf",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-01_T_50.mat",
+      "size": 28712,
+      "sha256": "90354cb7cb3c137df4f7528aaaf4dca21a0f7a8a4237db0ccf3931371932957f",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-01_T_50_all.mat",
+      "size": 2590169,
+      "sha256": "b009c42e7d3379f3e42a55009c34fe5566018c29c69639accc89ef16af072591",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-02_T_1.mat",
+      "size": 28712,
+      "sha256": "6d5e22f3f18055e68fe2d3a999bdc774cba679d01c7b1fbaec4115180e36c1fa",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-02_T_10.mat",
+      "size": 28712,
+      "sha256": "2db6486a332ae8ca38ff04bfe633030a68147f07766c6020243d5017accb8dce",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-02_T_20.mat",
+      "size": 28712,
+      "sha256": "f41264b9218f24f55bf0079d0369e01475f55bf1c455fefedbfe726963a87da4",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-02_T_30.mat",
+      "size": 28712,
+      "sha256": "8a8d19b576e2db77a3963c1013b68c14c5007f8fa08adbb22a08d202d613e95e",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-02_T_40.mat",
+      "size": 28712,
+      "sha256": "19c4e1d21c7bcf23b375227b37ff4a24ce6e8551f6d2836eff7bc054b6e5cdd1",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-02_T_5.mat",
+      "size": 28712,
+      "sha256": "8ee6f4955746cf00042ed8b2f86969662c83797188292136408b6ce593427022",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-02_T_50.mat",
+      "size": 28712,
+      "sha256": "2e0c7efdd7d9f6f12a3347d4fbc5c4e126e1e48754b74954a55d2050db6f3a55",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-02_T_50_all.mat",
+      "size": 2591841,
+      "sha256": "1ba21dedfc491c6547d98ffd31cd44a381e3439d1e7225ad8068f41610f03935",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-03_T_1.mat",
+      "size": 28712,
+      "sha256": "05bdf00ea0a65ebc500c9756a19763bdc668fd27f886538220c5d9e05273f064",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-03_T_10.mat",
+      "size": 28712,
+      "sha256": "1115ee76996328bbb9064fe816d118d3c719243e0dbfbd2b702b903b32bf96b5",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-03_T_20.mat",
+      "size": 28712,
+      "sha256": "5eb0c4cca6386bca0c727f02a9cfaa1d47af9be8b87f4a2730856160cf7580a0",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-03_T_30.mat",
+      "size": 28712,
+      "sha256": "79e8e87611d77c94d9bd85babb6b3547cf0c3111d8ed26a1dc9e511f038495a8",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-03_T_40.mat",
+      "size": 28712,
+      "sha256": "7729df8ad1f2f57585c2ea592242e6ee97effff6dccd18866931c59189c327a5",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-03_T_5.mat",
+      "size": 28712,
+      "sha256": "9493785ccd25688ec5f626cddc08f9ec833f1902662876ae915916badf4313d3",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-03_T_50.mat",
+      "size": 28712,
+      "sha256": "cb32a1c160922a3436c032b8f6eaee7d14b870d924c14ebc494a23d61dc30df3",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_1e-03_T_50_all.mat",
+      "size": 2589073,
+      "sha256": "fe9a0380e32419fbfe9ca13b4097c9b5cd35d702fa9cf6adba46faa2eebb1b6a",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_5e-02_T_1.mat",
+      "size": 28712,
+      "sha256": "f04252c867d73bffc4661b1bc1f95bb4cc9332fd36fe183d499ddfb7bdbb2b8d",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_5e-02_T_10.mat",
+      "size": 28712,
+      "sha256": "10c1c4b702af6eb16cc52199d886b46d62e263e00ed195f21b9fc9043162cc4f",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_5e-02_T_20.mat",
+      "size": 28712,
+      "sha256": "5a9664511d0d9977e8b22af984719075bdb6ba685962442ea15cff28d22a055a",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_5e-02_T_30.mat",
+      "size": 28712,
+      "sha256": "eac689c445d9639aec42e96737501acbf55293dee202eadfe3bae076ac551453",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_5e-02_T_40.mat",
+      "size": 28712,
+      "sha256": "16f73cda81e1faf6325294486d772cfd71c62bb2763d62169c724222d7267b1a",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_5e-02_T_5.mat",
+      "size": 28712,
+      "sha256": "581499d25f25de2d3a221a20cddf8fcfb86ce47db5cacfe79e03175b7ccb9e03",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_5e-02_T_50.mat",
+      "size": 28712,
+      "sha256": "8b682237b5069eac3da478c65233058b33bbc5c9a6fa6a324f6e97c186f27cfb",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_eps_5e-02_T_50_all.mat",
+      "size": 2583400,
+      "sha256": "bdd1cf7cd68117963546a5e725b3c369c40af4c3f687d68d930de8a69e6ea841",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_macro_T_1.mat",
+      "size": 25984,
+      "sha256": "57e7c0b29dee4774462a424ab344e713cc42f811b0073d14410e82d48bb07cff",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_macro_T_10.mat",
+      "size": 25984,
+      "sha256": "47f4f4264926611080d7a8521991e86701a86dab473be88e284bc5249cb06095",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_macro_T_20.mat",
+      "size": 25984,
+      "sha256": "e8546bfb1da67dc2a9a1234e0c684c380267cee40a164d48a7fc3a1da80f1e30",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_macro_T_30.mat",
+      "size": 25984,
+      "sha256": "7971115d547f7dd36a1070a3b3d3e1126f598f38e595c7a2cfaae6f36d00153e",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_macro_T_40.mat",
+      "size": 25984,
+      "sha256": "91fcc3d372a160c4a7cc443a6cb4be4cd90f28aac1b60462dee3c78ac14daf56",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_macro_T_5.mat",
+      "size": 25984,
+      "sha256": "cb1b1186c7cbcd64394adf4467eab1efe761a458d014efd569b405b79e6057ed",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_macro_T_50.mat",
+      "size": 25984,
+      "sha256": "231d41013aaf61478bcc6e9a16a3d4a53c2726d52448241b10210c42646bfd7e",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/rho_macro_T_50_all.mat",
+      "size": 1316627,
+      "sha256": "46ea39f9d12493c766ab795f7cf57f72129371e56ecee06af816a414e8cb4ce8",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/run_compute_error.m",
+      "size": 560,
+      "sha256": "d983758c9683733f8eee2076eb810df8c85f7c121fe1c5dbabb9b8dff41f2935",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/run_kinetic_batch.m",
+      "size": 3011,
+      "sha256": "4dbcd70308c93ff53a333a6e43ed21a15bb56b0aea9a019928dbdd9bc564f89f",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/run_macro_batch.m",
+      "size": 1911,
+      "sha256": "5d3946c6df14d77721800b7306729186024c0646cdf1d3ae0911092005c5e04e",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/travel_speed_with_time_eps_1e+00_T_50.csv",
+      "size": 1229016,
+      "sha256": "fbe22933934719252a75cfd58eb420c614ef22190757839a9577397d74333014",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/travel_speed_with_time_eps_1e-01_T_50.csv",
+      "size": 1228672,
+      "sha256": "efb58a5ab415cd0e4fba6d15f9b1225e4eb78ac41f0b2745146179cc95cd449b",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/travel_speed_with_time_eps_1e-02_T_50.csv",
+      "size": 1228346,
+      "sha256": "1358aa84f45f8748e84240e86f24cf439c847a6deedd15c6c880a3d255d14b90",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/travel_speed_with_time_eps_1e-03_T_50.csv",
+      "size": 1228384,
+      "sha256": "7f1cee7855a43fd12312d207ae58335b398869ca3628f36bb357c5b389b60e7b",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/travel_speed_with_time_eps_5e-02_T_50.csv",
+      "size": 1228575,
+      "sha256": "5338cfbcd71625bd7fc710e8f3e32bf74efa04f549f46c416ae982aafac6e412",
+      "symlink": null
+    },
+    {
+      "path": "数值实验/误差测试与行进速度测试/travel_speed_with_time_macro_T_50.csv",
+      "size": 1228290,
+      "sha256": "7a4eee3de04afec114667f3c371516fc9e2afc41dec1e3db9b6e63d0229fd4ba",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/WORKLOG.txt",
+      "size": 5544,
+      "sha256": "4df940151809dff2ed2e763e765e9ff2e59238fecbffc3aa6a1e3eda52f22fc0",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/__pycache__/build_manuscript.cpython-313.pyc",
+      "size": 15379,
+      "sha256": "fc7aef73b8738fe714b8fcd4c00f61308369d4f7f8fe911348d16186c9b31002",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/__pycache__/check_source.cpython-313.pyc",
+      "size": 1047,
+      "sha256": "94edc09e7c052acb8a3b281dd17b6b455a4dbbf8935111c258dd3801e568e790",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/__pycache__/final_audit.cpython-313.pyc",
+      "size": 6151,
+      "sha256": "7d0a90508f19b726acb0641c5a1ab29e8c259da6a5c0e44139de194fe35ab033",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/__pycache__/finalize_report.cpython-313.pyc",
+      "size": 18290,
+      "sha256": "ab4f138d9c6057d90022ce12f0775d9780d12121ab266b10e8ca2fa5287081ea",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/__pycache__/finish_when_complete.cpython-313.pyc",
+      "size": 3378,
+      "sha256": "f9bbe6642ecfd08c46e147b01c8f3c6d5740442dab83434ca78fa7f7d2b6275b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/__pycache__/progress.cpython-313.pyc",
+      "size": 2271,
+      "sha256": "e355efa9fbe0b33bcf020bae9282cb6ed12c7f612e437c48a10763603764d310",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/__pycache__/watch_progress.cpython-313.pyc",
+      "size": 2481,
+      "sha256": "3bf20d739d138e986c7fdbc16e1a42c037ccea07ac9b9707e2cc15ece543d9fa",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/analyze_exp_results.m",
+      "size": 9701,
+      "sha256": "402d00c42fc48f3b48915448874a179879869649d377a762e373c5b0d37a1b62",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+model/K_equilibrium.m",
+      "size": 384,
+      "sha256": "6a4f296dc6e52ef0ad96dffeddee36553024e037f1b35979c8d87eaea1e30a70",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+model/build_rho_matrix.m",
+      "size": 1200,
+      "sha256": "7c184ae98c469e277f6ed8be35742f098c40c536370bf821b53a2cb79e4a0d54",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+model/compute_response.m",
+      "size": 2343,
+      "sha256": "671097554cdc7f499d1b033a421b7a2e9cd4066964132d89f5a9fc42742c43eb",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+model/default_params.m",
+      "size": 2251,
+      "sha256": "5d644d4de1d0ad79468f7d6455a259217dda4a02b0024a855868bf64afea5f0f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+model/div_flux_center.m",
+      "size": 144,
+      "sha256": "d63834060ea54519580cfc1ea2c1334a4ea4a4b0c6308c1492023cbf6301e765",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+model/initial_data.m",
+      "size": 229,
+      "sha256": "cd50f1832b831912df99d821b399ff44e3b46c54475ebbb3055561506c355069",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+model/make_grid.m",
+      "size": 271,
+      "sha256": "fa74e721069eb711e39999478e2ec8c2c0214c5ddc3c795b37eca2484c1da28d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+model/phi_response.m",
+      "size": 195,
+      "sha256": "9522c75e652cc7c2a68064d94e3ac101ebcd3e53f92257a0460772ac27dc8cb5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+model/positivity_limiter.m",
+      "size": 2391,
+      "sha256": "7e284fcaf00c8ecd7b2424aa0f6c18df3106c542427e43a045b4f85594c0c3e1",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+model/project_zero_mean.m",
+      "size": 181,
+      "sha256": "ac07d026d284b6ba12b726c15ddb70e9dac558708aba471f140b99b4706b6cff",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+model/reflection_indices.m",
+      "size": 973,
+      "sha256": "a2518664aa1a668fa786ec5318f53b810cfd3702290aa0a0206bfc03b6552453",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+model/response_scale.m",
+      "size": 710,
+      "sha256": "565db1ad9a9568fb7e8472d931530832063ed3e6e5d751149880c183c3755d4d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+model/upwind_g_transport.m",
+      "size": 409,
+      "sha256": "8e60dc2c44d1a78d9790e2c12a3f4d8a033df34f1a2fff5435efaa57a40b04ce",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+model/upwind_rho_edges.m",
+      "size": 357,
+      "sha256": "cac34c0e5a5631f532f7db3e22e3979a24cbefdd0412ea48b779c50949ad9be4",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+post/plot_AP_error.m",
+      "size": 413,
+      "sha256": "b42b0f67188b69c3231db513bacce055867611c4b0835f3d6b37299a08098f22",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+post/plot_AP_error_by_time.m",
+      "size": 694,
+      "sha256": "3e201b2b27899e9925d78d47f52994b2ff3b0f6dc3a26e8628a78183d86ecf84",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+post/plot_AP_profiles.m",
+      "size": 610,
+      "sha256": "638b2daf24616a02ed70ded80e89f448b4865bb2a7229c897acc5a87892b3cbd",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+post/plot_AP_profiles_paper.m",
+      "size": 9879,
+      "sha256": "725832fc8352ddab2d5deb9edd87de6951ca5df751b49919924c9045522a4123",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+post/plot_AP_profiles_snapshots.m",
+      "size": 2488,
+      "sha256": "d2de0ba3ff0e5f85c041054907bc64266fe5ea661b1a5798651b42f9ce47bed5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+post/plot_macro_travelling_wave.m",
+      "size": 2550,
+      "sha256": "12e5de78829b4b19f178308841b6a00e5bed6f4deeeadf7bceda7e7c49f5b833",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+post/plot_profiles.m",
+      "size": 636,
+      "sha256": "3c933b62cffd03ea29b18ad71c1e219198ab0f9a36fd1f7fb809b115186776d9",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+post/plot_speed_scan.m",
+      "size": 1548,
+      "sha256": "420e10374a8e691a4ce4f74b49df4388e956d051065ac578442c98122ba00df5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+post/plot_speed_time.m",
+      "size": 689,
+      "sha256": "43f9fa8b7d7e874a02b565164d4ff52b62ab02e3ca7d7860061375f044f53d65",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+src/analytic_profile_macro.m",
+      "size": 2618,
+      "sha256": "d5b38444887be085bf3b50248b327d18d4d890c2c725a7fb375de94dcab3e593",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+src/analytic_speed_macro.m",
+      "size": 328,
+      "sha256": "3b36cfc73c4a2722081a8dee8e48176e11e376b7cf18ae6d767b13262a6465fb",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+src/effective_chi_macro.m",
+      "size": 796,
+      "sha256": "85acfe60d2d74ea17a5aefbcb33d2f056ba8d1a9701fdfa2b1092597e8282728",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+src/estimate_speed.m",
+      "size": 275,
+      "sha256": "6bbb8939cf6b65787b3455c3a0151a1a105b764e891b4f5d16c1009f5cdca017",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+src/l2_error.m",
+      "size": 87,
+      "sha256": "90291721ce478802b2b9b8d86aac01bfb2e84a768258d6abcc10f1b86c5bc60e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+src/run_model.m",
+      "size": 4949,
+      "sha256": "d73bcbc5e45e05f786ed9a7dfec5f3360f0d345b15962ea39ec360521087ea33",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+src/step_chemicals.m",
+      "size": 347,
+      "sha256": "f30a6535ee1618fa0a025bedd262598d5a206f309ae7a25104d3dc96fe821ac1",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+src/step_kinetic_AP.m",
+      "size": 3032,
+      "sha256": "fb6cbb21f83f317316dba8891aa36b162b251745caab78315950b2c233a076a4",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+src/step_macro.m",
+      "size": 884,
+      "sha256": "e0c38126cffa94e117c9e493bc856a7da0f49e9b3c1dd3409437c47028bdbc56",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+utils/cell_to_edge.m",
+      "size": 163,
+      "sha256": "4a2d6e3468de5581e53afcd69236846ed68500aa875707866c6fc2ef2cd7e87d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+utils/grad_cell_to_edge.m",
+      "size": 172,
+      "sha256": "83a199fc457c2cbd92c90bfb3baf397c85e0e6c77f7d23ac73f2ab3f83a4af90",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+utils/lap_neumann_matrix.m",
+      "size": 220,
+      "sha256": "a1440313c919f8f2019961bbf2d8d543d1db5d39dd6349ae78a1693c22be501a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+utils/make_dir.m",
+      "size": 932,
+      "sha256": "257d23032c36b80b402c711d7d768a458655f9074af705ebb427cea6a0746a0f",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+utils/num_to_tag.m",
+      "size": 561,
+      "sha256": "09fbe18eb76dc26b909fbe464f3bbc64e4bc8a405cb587ced9364b98525f6bef",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+utils/project_root.m",
+      "size": 391,
+      "sha256": "02a7965f4f60dd2bdd104081c2e6fb3ddae7cd872809ac09b94cdfa48e779442",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+utils/resolve_project_path.m",
+      "size": 1472,
+      "sha256": "8c939948199e8384f574d80dbcfa150ddc12a041bb3e51a567213a6049c07aa5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+utils/velocity_grid.m",
+      "size": 578,
+      "sha256": "74b6a35feb9bd240cc8d2094966931d910412377ba76f291292c0b064a8c86a2",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/+utils/vint.m",
+      "size": 125,
+      "sha256": "73e945c3d9db49f6e1f0b708acdba0b8b0cd91c6e924fe3cd6e88d0b2f510a8d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/post/plot_AP_from_snapshots_direct.m",
+      "size": 28534,
+      "sha256": "b86195e7e089e71d066f45969bc17fc7f9a91ebb5628c33434d232e3ec76e971",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/post/plot_AP_profiles_paper.m",
+      "size": 27537,
+      "sha256": "1a919f2375cf2915a36954bb8052cd5626b4a34be0d106d4fab8d63b3494886d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/post/plot_macro_compare_time.m",
+      "size": 9601,
+      "sha256": "1f9beb93e6095c4a85119232fb47dfea78f6a44d80d3f221ccd4f2a1a6d8a5cd",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/post/plot_speed_from_snapshots_direct.m",
+      "size": 16137,
+      "sha256": "fd886404dcdc2131f6569cec53d57a981ee694cccdc0172fc7ae138ba5c7c3fb",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/runs/rebuild_AP_profiles_from_flat_snapshots.m",
+      "size": 16593,
+      "sha256": "b79ecf52cba76798e9ba9850244c877868c3461e497c2c55bbfb8bd5e3340089",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/runs/run_AP_profiles.m",
+      "size": 5663,
+      "sha256": "32b15762b6d928016bf9dfab9f24476e666dd167337505bf5ea15ab0a6abe493",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/runs/run_calvez_bistability_probe.m",
+      "size": 1656,
+      "sha256": "d67cc739c0bd964766d5aa1c8b53b8e60b27f0df305490b0370dbfe4a34ccf7e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/runs/run_macro_travelling_wave.m",
+      "size": 2681,
+      "sha256": "7cd11065fc8cfa922faa3a83542766087b0ee9a643c30a51dec568b9fffaff46",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/runs/run_single_case.m",
+      "size": 1644,
+      "sha256": "a257cea32635ed88afdb901a10f63f238f3bcab389beb77dc644bc256e8885c8",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/runs/run_speed_scan_light.m",
+      "size": 2829,
+      "sha256": "b2359d243fbe7c69d7d3302bf53aee7e13f28e2f00fb3999e51596629b115f9c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/AP_bacteria_code_v4_paper_response/startup_AP_bacteria.m",
+      "size": 222,
+      "sha256": "c4bb8ad4741794535500ecebd045155ea263c3571b7aa071d07e5192b2545b53",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/git_diff.patch",
+      "size": 6728,
+      "sha256": "c1deaf36f7222d99c95eab64afb972af7b24db59216266bfa2966a0013bfcfa7",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/git_status.txt",
+      "size": 344,
+      "sha256": "d6598b4c7d46597abe99345192c0cf31ac536f1a7e5b02ffdf08061de86fc5ad",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/AP_error_T50-eps-converted-to.pdf",
+      "size": 45148,
+      "sha256": "386a9e9d25fb26a848517de50bbf066c6aede887126fb0ee66defb5dba36cf7a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/AP_error_T50.eps",
+      "size": 98745,
+      "sha256": "88ad91048b9cb31da856bba1530bfbbcdce2a05f0e033636333e5a15b88c2424",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/AP_error_T50.fig",
+      "size": 35509,
+      "sha256": "c7e79c42787644bd7e42518ea340b08cd549d5d16c95541032a868ffad4d51d6",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/AP_profiles-eps-converted-to.pdf",
+      "size": 86830,
+      "sha256": "b51e4d63ded7b679b80083bc8039b90ebc98164ef26a53fc720a4003806465ca",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/AP_profiles.eps",
+      "size": 563849,
+      "sha256": "3ee616e05013f78d3f7e8cd56bc41b9456a29f2707a6eb27007edfc476827685",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/AP_profiles.fig",
+      "size": 846700,
+      "sha256": "9ebb3c6f8c2a116685551fdcf6d1121df3daf41b763b3fd291b5af0e4a71d5b2",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/AP_speed_comparison.eps",
+      "size": 99817,
+      "sha256": "2e0fffd9efa51d4bf06c9e7f39b214c5cd1753fee7c49290b7cddc18c3642bbf",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/AP_speed_direct-eps-converted-to.pdf",
+      "size": 70933,
+      "sha256": "845148d93c9d98fbe7998c00969fb5e8cc21aa5edec805185c3163c55b55fd01",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/AP_speed_direct.eps",
+      "size": 148922,
+      "sha256": "49a57f0ce8afa4cece3d50e2d87ead46178ada9be28a1b70e1e586bca35455ff",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/AP_speed_direct.fig",
+      "size": 76540,
+      "sha256": "805b92458936f1ab243790699193eeb8078db906837e6bfda8334b6417e5ea22",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/T_1.eps",
+      "size": 74503,
+      "sha256": "648ab796d472adf71c26ccda3011863a2355d41088c19cc991d52ec66e6c253c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/T_10.eps",
+      "size": 76053,
+      "sha256": "f26838ac91556f28cf42b41521f0b150e374d8f552b6437f180e8e36594a446b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/T_20.eps",
+      "size": 78526,
+      "sha256": "c67c6ae1631db834592b0abefd0d742e4f7ada85cae549bc7bfe513db96cc227",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/T_50.eps",
+      "size": 83264,
+      "sha256": "6dbbd7a1728cbf1b86dad3b5e3de2624cabddf68009d45db3231f6ded7a68538",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/bib.bib",
+      "size": 9715,
+      "sha256": "0b680a45f491d56089bb4585e7b309566a1b8f5d663ff557fe1d149c740c7a94",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/compare_profile.eps",
+      "size": 78390,
+      "sha256": "0a0c6aa97998b02460f8ccce321c1866621057f4a8751225f717e17edfdb54b6",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/error_vs_time.eps",
+      "size": 53486,
+      "sha256": "ed73655c900c4e55c6d48db3aff774f385861ea628f614d6a6d65ca9f5b1d2e7",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/macro_compare_t_030p000-eps-converted-to.pdf",
+      "size": 34462,
+      "sha256": "02d82a2c82c9327dae27b0d5819cfb3a7adda0d22c3a4855cdbfd573c2f0b5b4",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/macro_compare_t_030p000.eps",
+      "size": 75925,
+      "sha256": "c0271923b4a75c152cc74683015d7b551a91e975c0d62ee38f918c724095bd7c",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/macro_compare_t_050p000-eps-converted-to.pdf",
+      "size": 34170,
+      "sha256": "b047aafa1087d8e90f9213322fb3a931597dededce5f677da8b45427d70e4cc8",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/macro_compare_t_050p000.eps",
+      "size": 74297,
+      "sha256": "91cbfcafc3e89a9b2bb43938ed72fdcf70d224a59460bc6e6add7ebf13eeef83",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/main_Gissell.aux",
+      "size": 12583,
+      "sha256": "0d0066fc303edc36402dcd41c477b9d608c079a6c28ffce7dcb5465b89707be0",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/main_Gissell.bbl",
+      "size": 3813,
+      "sha256": "9b00887215399cd3c9dfa49243bf4982c3ef741db42237db463b007cb9decbe5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/main_Gissell.blg",
+      "size": 896,
+      "sha256": "94a0ff8eae30f8b223b66df91771842e22a14ad941f96f33cb44084a3317fed1",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/main_Gissell.fdb_latexmk",
+      "size": 20103,
+      "sha256": "6c17cdedbc1676227cd607a38034fd8788d2e2381125e759507997ef39442bd5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/main_Gissell.fls",
+      "size": 22964,
+      "sha256": "044638369d2d216e52ed04fd3a4c8e9989385f3ba268b70ed070165ac334dc8d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/main_Gissell.log",
+      "size": 32594,
+      "sha256": "1c381db46958edec4752c0c40f018d2214919c976a175e9f06170c29541759b5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/main_Gissell.out",
+      "size": 2640,
+      "sha256": "d6e77a17b4cd6db2f013c6186d8d4e182500e2396bb570034e22cbc59ec332ce",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/main_Gissell.pdf",
+      "size": 770299,
+      "sha256": "55e85516ea95e48a960a1c06e510307ca57bb23e59457d6c523f6b95b2388aea",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/main_Gissell.synctex.gz",
+      "size": 209847,
+      "sha256": "32350518b787a3a5044b84d3e1ee0413149253886e4e7bc16136319e7ec0af8a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/main_Gissell.tex",
+      "size": 81652,
+      "sha256": "530db5b5fa1e69e4246d8d21234052ae30adc65d3c4e857fa17ce257dfa2f99d",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/main_Gissell.thm",
+      "size": 258,
+      "sha256": "04e1655bb0573bcf38e238fa544027410dc445e8faf567ad4d429128e9f1f3b7",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/main_Gissell_redline.pdf",
+      "size": 770299,
+      "sha256": "0b7d4cf66d5f6fcdad72744ea79f2c3bedb14c2416ccb93b275b11ccaecd93e5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/profiles.eps",
+      "size": 122005,
+      "sha256": "dea285ef1aad978b0889e3025680bf06ff22766cda359c0d93af6a0e0e08d343",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/profiles_epsilon.eps",
+      "size": 294860,
+      "sha256": "70f9699d85db6439cda5ae15056ae1c8ab02e3d5e10640bba70f608d8e5b13d5",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/sistedes.cls",
+      "size": 2506,
+      "sha256": "0fde249fb23e819dcaae17c650512fae0d2ee652fac0e6580d12e0237afd094b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/travelling_speed_analytic-eps-converted-to.pdf",
+      "size": 68744,
+      "sha256": "f1a652cfd4b958519c72d33eee83353a2c33670fb2e60e3f44b83a51d442b8b2",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/travelling_speed_analytic.eps",
+      "size": 83306,
+      "sha256": "8b3c3fbcdf546782b59f02f6eaa598f3c1630ce1ab61094b7830be20f17ee23a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/travelling_speed_numeric_kinetic-eps-converted-to.pdf",
+      "size": 48216,
+      "sha256": "b23c2ba038ae5212432869ac4f5f9323a99b8e039f578f3919f9705244391915",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/travelling_speed_numeric_kinetic.eps",
+      "size": 82792,
+      "sha256": "2eef0f7041d84505c1e518f24ffc25bfdf47871acf5d5c29f2e4f99bd88eb9dc",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/travelling_speed_numeric_macro-eps-converted-to.pdf",
+      "size": 48730,
+      "sha256": "6fd928f9352a8af3a8547963cb2d81bbb0710fa312365978cc107c303aeedd92",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/travelling_speed_numeric_macro.eps",
+      "size": 82995,
+      "sha256": "93f86830822737c834ee17cec641abfbe65401a4afe409446b7177838a9ce23a",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/tumbling rates.png",
+      "size": 29149,
+      "sha256": "7199ab7ad58edbe0285445eb34929d1d350f2e9d742866106a0c6a65f36f70b2",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/wave_speed_vs_time.png",
+      "size": 161860,
+      "sha256": "c2335712464a6d42e6cca03e3fd855d581c03f4eade8a51c022dbf3fd660356e",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline/manuscript/20261028/wavespeed_vs_time.eps",
+      "size": 54076,
+      "sha256": "9c7019f3b51486c1da8ede6a74b76575df717402120b8e1696a77bf04357e67b",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/baseline_manifest.json",
+      "size": 12210,
+      "sha256": "dd5067e71ebdb27d80f99a809997b5fea4ebfe35603207172b1539e814190fa2",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/build_manuscript.py",
+      "size": 11266,
+      "sha256": "8558d3c8108f56663473f4532050b28b64f9198e5c528c51719ff9c935a13eba",
+      "symlink": null
+    },
+    {
+      "path": "analysis/exponential_response_20261028/check_source.py",
+      "size": 362,
+      "sha256": "8da0f10ed1ca0d64622647811a51761995dede65b52850ce810c58d1a110e8fe",
+      "symlink": null
+    }
+  ],
+  "verified_before_removal": true
+}

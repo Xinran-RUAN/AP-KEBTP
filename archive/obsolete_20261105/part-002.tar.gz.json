@@ -1,0 +1,14 @@
+{
+  "file": "part-002.tar.gz",
+  "sha256": "9aaa530520807cf8ca88d1a25472ad456477c7371d906748be05a3a3ff6bb09c",
+  "bytes": 35639802,
+  "files": [
+    {
+      "path": "AP_bacteria_code_v4_paper_response/data/AP_profiles/AP_profiles.mat",
+      "size": 49208751,
+      "sha256": "9d597ec312280c079a0d71ccab490870905f68197a62ccc5e071896e5888dcf6",
+      "symlink": null
+    }
+  ],
+  "verified_before_removal": true
+}

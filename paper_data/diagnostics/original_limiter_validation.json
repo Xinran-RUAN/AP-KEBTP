@@ -1,0 +1,143 @@
+{
+  "passed": true,
+  "MATLAB": "9.14.0.2206163 (R2023a)",
+  "cases": [
+    {
+      "name": "positive_nonconstant",
+      "early_return": true,
+      "correction_applied": false,
+      "rho_bitwise_equal": true,
+      "g_bitwise_equal": true,
+      "theta_cells": 0,
+      "theta_min": 1,
+      "mass_scale": 1,
+      "eta_edges": 0,
+      "eta_min": 1,
+      "min_f": 0.41464466094067254,
+      "mass_difference": 0,
+      "max_mean_g": 4.4408920985006262E-16,
+      "boundary_flux": 0
+    },
+    {
+      "name": "zero_density",
+      "early_return": true,
+      "correction_applied": false,
+      "rho_bitwise_equal": true,
+      "g_bitwise_equal": true,
+      "theta_cells": 0,
+      "theta_min": 1,
+      "mass_scale": 1,
+      "eta_edges": 0,
+      "eta_min": 1,
+      "min_f": 0,
+      "mass_difference": 0,
+      "max_mean_g": 0,
+      "boundary_flux": 0
+    },
+    {
+      "name": "positive_old_transfer_counterexample",
+      "early_return": true,
+      "correction_applied": false,
+      "rho_bitwise_equal": true,
+      "g_bitwise_equal": true,
+      "theta_cells": 0,
+      "theta_min": 1,
+      "mass_scale": 1,
+      "eta_edges": 0,
+      "eta_min": 1,
+      "min_f": 0.0049999999999999992,
+      "mass_difference": 0,
+      "max_mean_g": 0,
+      "boundary_flux": 0
+    },
+    {
+      "name": "negative_f",
+      "early_return": false,
+      "correction_applied": true,
+      "rho_bitwise_equal": false,
+      "g_bitwise_equal": false,
+      "theta_cells": 8,
+      "theta_min": 0.29289321881345237,
+      "mass_scale": 1.0000000000000002,
+      "eta_edges": 6,
+      "eta_min": 0.99999999999999956,
+      "min_f": -5.5511151231257827E-17,
+      "mass_difference": 0,
+      "max_mean_g": 9.6589403142388619E-15,
+      "boundary_flux": 1.0168910106364605E-31
+    },
+    {
+      "name": "negative_density",
+      "early_return": false,
+      "correction_applied": true,
+      "rho_bitwise_equal": false,
+      "g_bitwise_equal": false,
+      "theta_cells": 0,
+      "theta_min": 1,
+      "mass_scale": 0.99004975124378125,
+      "eta_edges": 2,
+      "eta_min": 0,
+      "min_f": 2.4651903288156619E-34,
+      "mass_difference": -6.9388939039072284E-18,
+      "max_mean_g": 2.8622937353617317E-17,
+      "boundary_flux": 0
+    }
+  ],
+  "two_steps": [
+    {
+      "step": 1,
+      "rho_difference": 0,
+      "g_difference": 0,
+      "full_state_bitwise_equal": true
+    },
+    {
+      "step": 2,
+      "rho_difference": 0,
+      "g_difference": 0,
+      "full_state_bitwise_equal": true
+    }
+  ],
+  "abnormal_rejected": true,
+  "finegrid_shortchecks": [
+    {
+      "epsilon": 0.1,
+      "steps": 20,
+      "elapsed": 1.332942875,
+      "early_steps": 20,
+      "correction_steps": 0,
+      "min_f": 1.8984187492641435E-196
+    },
+    {
+      "epsilon": 0.05,
+      "steps": 20,
+      "elapsed": 1.215705791,
+      "early_steps": 20,
+      "correction_steps": 0,
+      "min_f": 1.8997812628160938E-196
+    },
+    {
+      "epsilon": 0.02,
+      "steps": 20,
+      "elapsed": 1.20800175,
+      "early_steps": 20,
+      "correction_steps": 0,
+      "min_f": 1.9287722292739673E-196
+    },
+    {
+      "epsilon": 0.01,
+      "steps": 20,
+      "elapsed": 1.149599875,
+      "early_steps": 20,
+      "correction_steps": 0,
+      "min_f": 1.9518250090989203E-196
+    },
+    {
+      "epsilon": 0,
+      "steps": 20,
+      "elapsed": 0.8110465,
+      "early_steps": 0,
+      "correction_steps": 0,
+      "min_f": null
+    }
+  ]
+}

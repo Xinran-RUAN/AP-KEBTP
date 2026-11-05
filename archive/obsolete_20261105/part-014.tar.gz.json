@@ -1,0 +1,1490 @@
+{
+  "file": "part-014.tar.gz",
+  "sha256": "c72409505c48c181e97a3ca950e5821e23a16b0a0e5df50d3f9c66ca7e319a6c",
+  "bytes": 65999527,
+  "files": [
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1_ChiN_0.7_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1198881,
+      "sha256": "69ea9ce8441e2277cb529829403e6c04852a3b1c284f38924f28a8177d9717ee",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1_ChiN_0.8_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1198295,
+      "sha256": "f242476864784fe2bea4816522d6210760510db18ce253a8bf4584beb01596c9",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1_ChiN_0.9_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1196377,
+      "sha256": "8be26bb97924497e542e6afdadf3f51d1bcb7f75efa37521074bfe67c49f2f38",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1_ChiN_0_eps_1e-02_T_50_dt_1e-03.mat",
+      "size": 639324,
+      "sha256": "dacb5fcc4da3460dafaf0b3004e87158e8027db2f0c2d60e11f71795ab93644c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1_ChiN_0_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1198907,
+      "sha256": "c9d43c08146a84fb0aa427a267514e647e1f471d01f04feaa4dbbb87f72a76a2",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1_ChiN_1.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1197681,
+      "sha256": "3044c1d4c8450809cb936abc7f20ed37ce11ea4d376a75298914d1fe8d923f1b",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1_ChiN_1.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199712,
+      "sha256": "ed151d6bce8c347cd62fb7f4ead984bc0146a59158971428b4b99d3b6f080fcd",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1_ChiN_1.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200686,
+      "sha256": "5857dd38ae3b3fdd1f62bc22a7e3ddebad7284d0e7dac109d2a130c5399c9745",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1_ChiN_1.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200470,
+      "sha256": "e9857c2eb2c1ec957270e5c66e27c2521a0c82cda5a00c244eae14be2cce0e84",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1_ChiN_1.5_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201504,
+      "sha256": "5509144c6f1797b56e16e2730483f0b9849967af9b95bda67fafa168bf6fdc91",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1_ChiN_1.6_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201159,
+      "sha256": "dd1d578ecdeb7c9501a70ee928dfa05f75453210eb373f88f625fc026565086d",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1_ChiN_1.7_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201574,
+      "sha256": "a9a6ea11c1c3cf34b7a1db938d4b09d674981c70348f48fcf86e52214317d39b",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1_ChiN_1.8_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200672,
+      "sha256": "0ad203ad607126d468b5fcef17efbf006cc76d914b4099fdd54711f30eaef9ab",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1_ChiN_1.9_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1201975,
+      "sha256": "a038a63a646102c1e4baf69b36f560530100f44004c2f776e47bc70a4eeabfa3",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1_ChiN_1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1190374,
+      "sha256": "a9261045696398422c4fd3f6824e300c00904331c226147eb8b6f16e95bb474a",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_1_ChiN_2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1197971,
+      "sha256": "e4c549c9fe54a8c20282a65ce63b22afae488d33879db0201f1c589fca8b4e83",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_0.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199877,
+      "sha256": "c544e2bed4b3597dec3d936d5e7e913ec55192d8912d6c90a1f8118d4593d953",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_0.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199937,
+      "sha256": "1605c3c5695626f09372fa0a163a11823cece13baa7a854acb03f94bcd6702aa",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_0.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199943,
+      "sha256": "da3b965de408e40c19f227af78e26b47a5a71542af5b4ce9476708c78ccca923",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_0.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200049,
+      "sha256": "ad438493d47f07efb47cc32a62454f71ee0424cf593a70cb05aa7805d14ed92b",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_0.5_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200019,
+      "sha256": "2491ca0359e76ad477af79694a12539f79880dd7f34392733607830e3e128fff",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_0.6_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200021,
+      "sha256": "be276a12df58668c74ac1073c0dc4960fef78d970d419aa9d5db11ac6e23256b",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_0.7_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200120,
+      "sha256": "fc92900f06ff53bbe4ac3979cd4400e0502c701ed630fb4802cb0b3b5953a9c1",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_0.8_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200133,
+      "sha256": "7d44fd7edfb4d97606be57bf8101c4fe96136220a3804a5ce8b928b3299faef7",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_0.9_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200034,
+      "sha256": "e0d8bae07e557a474833a5ada3e0f1806b10aead015330db4f1b24f22e388ec2",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_0_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199916,
+      "sha256": "3c57a6a70236823e9e2bfc19a84fef73e4f97dc8849a6e016ed64d1477101bd5",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_1.1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200000,
+      "sha256": "d3b914d56ee38e046e42a019a7b4c09684253b4ef77fdc3c26665161cf9a2013",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_1.2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200073,
+      "sha256": "cd923b9ad8bb690502c40f6a83b61f4cf8369480f49f5b51aaa3613f88802a02",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_1.3_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199934,
+      "sha256": "ef114f5f01d263c0d1b5c2132ae1a6e9633692634ef2f0b0aba80d2196d9a705",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_1.4_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200034,
+      "sha256": "291f7b37adbc9c7d398d0c3520fa90d553445cef88c0765de1274068efa90b85",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_1.5_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199975,
+      "sha256": "db0c3fecac13c8635a5268185215618eee5b000ee0429c330d8bb689cb957b3e",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_1.6_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199856,
+      "sha256": "6ff9ab09a7119fa8d5bcbe2e60f235ff7a2cadada1d8d963b9b657c4d4bdc1f3",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_1.7_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1199517,
+      "sha256": "0b403d11d29e5784aa32b05ce2dd6b54a70edc1bd2825d9e030a327fab050f97",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_1.8_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1198521,
+      "sha256": "4bf7aa771ac38a703ff5675c5c001dd0e45de128033dc6051d97cac461de35d2",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_1.9_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1195246,
+      "sha256": "b5b08792d55f0290aced836e0fc41fe2982566af6d69adde5abfcc596470b04a",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_1_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1200055,
+      "sha256": "4b2445bdb146475c8380708a52cb3ec2cc97fa2b517e48d055108531fad46910",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic/data_kinetic_ChiC_2_ChiN_2_eps_1e-02_T_60_dt_1e-02.mat",
+      "size": 1191576,
+      "sha256": "526e62499da9fb32c6886d9af5c3ebb8424d79b4776c51d6f0675d22f5ea9a29",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/data_kinetic_speed.mat",
+      "size": 3258,
+      "sha256": "38652a7e2ff6c52b50a5c77dcb82516abfb3ef4f543f12028a14675ae393d97f",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/integration_v_meshgrid.m",
+      "size": 478,
+      "sha256": "418ae1fa030526ca180821c4ae430311b3734ebbcda55dc5c2cbb118d7b9aa1b",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/main_kinetic_model.m",
+      "size": 2373,
+      "sha256": "8230dbdcf9c7b91af5c83eeb954983303baa72b8578c0cb0fba5d287ef160f2a",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/run_speed_kinetic_cases.m",
+      "size": 1382,
+      "sha256": "0aeb8f46bcabeaf9c39ad9ac1ebb02424ae85ae68f378109d340c486a74fdcba",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/travelling_speed_numeric_kinetic.eps",
+      "size": 82792,
+      "sha256": "2eef0f7041d84505c1e518f24ffc25bfdf47871acf5d5c29f2e4f99bd88eb9dc",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/travelling_speed_numeric_kinetic.fig",
+      "size": 34252,
+      "sha256": "70932209c6b26752d5e9ff1c4ad9730a079dc29e264bd5d06690a98616b9f372",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/travelling_speed_numeric_kinetic.pdf",
+      "size": 48214,
+      "sha256": "7228dbd969a1f625eed31647fccdd55fd1d92a753181d95d335e25ad538d5948",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/kinetic/归档.zip",
+      "size": 12092,
+      "sha256": "8f50b97afcfc62eb3d15168e9b09c34ea4bcebe546897bdcd58399cd4a2162bb",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/.DS_Store",
+      "size": 6148,
+      "sha256": "61d018531b975e37e83606b7d3cf60e0c81070da3e233b6af5d5f3155acb419d",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/Matrix_div_urho.m",
+      "size": 2378,
+      "sha256": "b85ec47c4b06c26b73bb4e59634d351bfd01ea23eb17b1a456e02bc1018deb93",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/OneStep_macro.m",
+      "size": 1650,
+      "sha256": "499daf974c4ef3bb0c49fed634475321bb2c8677fb31d223b35f114179fd2f72",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/PLOT_DATA.m",
+      "size": 439,
+      "sha256": "5ffc1ced328cc73683f5c5a283bd902525bbe213511482d4f466ca11fc504e69",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/compare_profile.m",
+      "size": 627,
+      "sha256": "57aa839f53f637bca6721e48e2d2b5d418e826a072bea1c497262cbb9a2f6007",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.05.mat",
+      "size": 123223,
+      "sha256": "2cf46cc55ae07a825bb0c034539233878c4289fc8b76d14db005c0452c6d5d74",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.1.mat",
+      "size": 122631,
+      "sha256": "41f0a7b88779173b627ae148431c1b757f4270002fdca3efcf389bb3b7f65bcd",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.15.mat",
+      "size": 121968,
+      "sha256": "419afbca269af49ff8cc0d25934c9b709c2be425ea93ba8e9a7c05812444d893",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.2.mat",
+      "size": 121371,
+      "sha256": "532623a5c61cd36b474c5b1603e232c73f29f6959a114550c4440be09da6161e",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.25.mat",
+      "size": 120852,
+      "sha256": "f5cae96d0ca7a0cf579dd15e8c67a0a21ffb4a0f908e8d2e958f980e10dc4c0f",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.3.mat",
+      "size": 120185,
+      "sha256": "2d4770f65026f6919ec9ad73c71d83a69deac3a821fd4f8b99d4fbf550934c86",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.35.mat",
+      "size": 119623,
+      "sha256": "b8dc39c266293e6f5f36d65b5e272a3967fc6ad0e32a8572bb625e57b4707875",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.4.mat",
+      "size": 119097,
+      "sha256": "79b472edcfbc73ecd6dd8a4f5cd564a121c90e27ead9270cc412024ff4c8f4f3",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.45.mat",
+      "size": 118465,
+      "sha256": "5c991a7ea4a14e0fefbf9fdacaf1e2eab6fde4f15e4f18ffd8a8663d383720da",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.5.mat",
+      "size": 118025,
+      "sha256": "c47e2d8f61f68ebc5bc97c9ad6ecb24ced1c5bfaafbf41f3fe3e35e614390d90",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.55.mat",
+      "size": 117500,
+      "sha256": "4d9a18b2b631984a4e939a3b5027446f444cee2f8bcfad016b72cee5a8f28ccc",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.6.mat",
+      "size": 117077,
+      "sha256": "8ba3c11d26c51135f0554daaa4d0b920395714fb7925ec35078915d23151d330",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.65.mat",
+      "size": 116603,
+      "sha256": "110d6bcd8fb60d362b7a7252db7bd8b0f987b7febaab0e1ab6f08dd9e3404085",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.7.mat",
+      "size": 116269,
+      "sha256": "ba7f860a97a3b601237febc86cc3b16037475a7c10f38f435abf592c001769a1",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.75.mat",
+      "size": 115839,
+      "sha256": "b5548ef1a8c9862d073b5707925aae41c892a254d931f5df616a93bf90d956f8",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.8.mat",
+      "size": 115480,
+      "sha256": "e6ad91b187cfd52813aeab87854809f21dc9bbb18a11e98cf218c46e27be129b",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.85.mat",
+      "size": 115205,
+      "sha256": "0d7ddc19d69de72bc9ab7fc99861c41c2365f9f3deb044a69cb3f7514451f199",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.9.mat",
+      "size": 114919,
+      "sha256": "678b14c3021c7c0b33542663e070f393fb2f2abdd769bbb1ef6d81abcf83334c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.95.mat",
+      "size": 114699,
+      "sha256": "1f87d7de861d82992a82464fe409a569652c7b06b38045c7150faa1a2a430984",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_0.mat",
+      "size": 123807,
+      "sha256": "af66e803fa277ce66d685479f6ae36ef6a565ff8f6cf35a6e9dfc12355df04c0",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.05.mat",
+      "size": 114211,
+      "sha256": "fe1c8d2a53f0635a95cec03160031eaafc06367ec094e22f45a8573926ac20d8",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.1.mat",
+      "size": 113927,
+      "sha256": "ae0f946b0de934f52fd77a429b34ca38fff590d34022ee09ea49f70b8d524fc4",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.15.mat",
+      "size": 113974,
+      "sha256": "cb4fdb2673b7c42c12eca6a4eefba75fb7541619afe0e2f68d5bc6c1a8822276",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.2.mat",
+      "size": 113888,
+      "sha256": "cafbf19f7883e46d996c3c243d364bc348a47fc8c410ab912b2f7c76c2572b04",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.25.mat",
+      "size": 113827,
+      "sha256": "fa223a825451b5f4f85e840013d71c89f01c0a336506e1489e9dbb19bb14f3d5",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.3.mat",
+      "size": 113798,
+      "sha256": "4c0f421533c5d05521338b3548b35d8a8d10f2ef9fbf0b5eb2447b14b76ec3dc",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.35.mat",
+      "size": 113697,
+      "sha256": "401baed28128ca3864b1e4138518394be779fc63987352e755b006f56ffbb69c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.4.mat",
+      "size": 113647,
+      "sha256": "3992b395c3c18d654783349656f3ccc312e73d38b238e4b345fc4922c19f8748",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.45.mat",
+      "size": 113581,
+      "sha256": "4dd666fbe5eb7c7861244f0f1e61651c3e5b22f58b1429ebb8a1d595e2caa996",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.5.mat",
+      "size": 113585,
+      "sha256": "884d310c26926aa6e8c453270a1e23d7579405e8b732bcefc391e300b4705b62",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.55.mat",
+      "size": 113436,
+      "sha256": "931d632774cfc14c64d64a4dd2fd9c60d8f65fe0eafffa8d69b57a14f067c097",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.6.mat",
+      "size": 113384,
+      "sha256": "9cde1e9e60b05f0dbb641ca58b1ee7010dea6f78553cbaf17b7ae4ba19465523",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.65.mat",
+      "size": 113459,
+      "sha256": "d25f81e4f0f67beee81441cfa39bde2d9e55f8a19b91ae22d09588c6bb886039",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.7.mat",
+      "size": 113412,
+      "sha256": "77af1bf3d698563d5586d290541bd91f57138edc5d3c97cac9e39a09bcbf943d",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.75.mat",
+      "size": 113424,
+      "sha256": "c294b569645838f72deceaaca4ff768d33771d6c8fabf29bdeb20f092ad5090f",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.8.mat",
+      "size": 113396,
+      "sha256": "25567246d3d1912a9b9d8d5c0c3d77df4ef6c4045d99011c1d5981b7df409c75",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.85.mat",
+      "size": 113356,
+      "sha256": "c0931c84613ef3499ee52e1e901a676844ab95aa813e6cd16c9d15bd9b1523b1",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.9.mat",
+      "size": 113192,
+      "sha256": "5a9004d0fbbff3a3ee88eb8f7c2257e436d36ed3e452a5a8a9975a820f370e2a",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.95.mat",
+      "size": 113332,
+      "sha256": "f83703f73b5a0b1e416a531a3a3b5544838587b30f0598d5e5229f637e062988",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_1.mat",
+      "size": 114423,
+      "sha256": "8dee728a991bf8e84018a3f451235c578817bc748b60867262f8b07db33f4b41",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.05_chiS_2.mat",
+      "size": 113192,
+      "sha256": "ad9966191cd0a1b19b1ad078c75f6af5ed35b2c2ca981a6c380ebb2f0a8f032a",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.05.mat",
+      "size": 124914,
+      "sha256": "d189cf789d6f3ab23c50aa62b29b11e703aa7221660805bc721151c0d155aba7",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.1.mat",
+      "size": 124414,
+      "sha256": "dc08adad80cfb1d6d7838d640c6d3f32e75679f5d5b6e42792910ea0f551227a",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.15.mat",
+      "size": 123776,
+      "sha256": "e4f9b11c7bebd6c718d64cb3f1a9037623e1749a483a0226e8fd2db4614e283f",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.2.mat",
+      "size": 123145,
+      "sha256": "44e8360b455d9357a09125a7236c93d74ccf564ab683ae84d423a01029c5a2f2",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.25.mat",
+      "size": 122498,
+      "sha256": "8d4e76ee5c9b5ae51bad58ae1ea542b4ee490a43ec98b8fa02fc6e50f74bec03",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.3.mat",
+      "size": 121923,
+      "sha256": "5a3a6fa8f25b7e37193751b61ca85c2ad820004617bbbaead9baeb91a8844c35",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.35.mat",
+      "size": 121349,
+      "sha256": "fff7260f788a6eac586950ca9f960adf61183063b89044c1bab0d46c3c3fe456",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.4.mat",
+      "size": 120750,
+      "sha256": "517dd1eac891525995443df41b729a6a936e0b74ba323e7ff974d20aee5dcad5",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.45.mat",
+      "size": 120199,
+      "sha256": "66e45d1533efd693edcdc9a3a438a25065848942ab76633fab74e0e84d12c4cf",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.5.mat",
+      "size": 119651,
+      "sha256": "b33e6a63265daba3e61beabcee8cbbeeadbcac100fca3d6778bc850884a9e6f8",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.55.mat",
+      "size": 119021,
+      "sha256": "5c8fc38f761c359d9d00e38f44765da42d7818ad80ed2b9d5ba1ccfa7cc8d3ad",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.6.mat",
+      "size": 118537,
+      "sha256": "58757f8e3b98387611720d4b7bdb1f6ee105a079ea850ceba7cf2f2b43b25bd3",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.65.mat",
+      "size": 118008,
+      "sha256": "19ea72d48aeb4e7b0e12379b2f20339a31f0139c662733b4a97385699420a380",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.7.mat",
+      "size": 117552,
+      "sha256": "1be56c6841d553cf5e777da0b258a29c09e2146e73cc3512993404e5f4ef97a9",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.75.mat",
+      "size": 117138,
+      "sha256": "71e573806656ff41cd0cee4aec40156b004e5a1f4bd3f8fb6d3c777cc988ee8c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.8.mat",
+      "size": 116726,
+      "sha256": "5d41e75982ff37185185066e6eb98c7e573a67cc03dcee39c1ddaaa2b721ba01",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.85.mat",
+      "size": 116361,
+      "sha256": "0538cca8a691afcc20cbb084dd970becc2ea5fb83dd0bc60579a93ffbf771bec",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.9.mat",
+      "size": 115991,
+      "sha256": "2c0c0356cbdc1518e013a7dbfa11e27f13169ae7e4a5e59d39695c20906a41f2",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.95.mat",
+      "size": 115682,
+      "sha256": "5f2bac08f50e203e714a41094e542c476f930043ae8415f109eaecd818229f69",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_0.mat",
+      "size": 125478,
+      "sha256": "1a9fdb42fa1d57fe2e1dafd68f026bcdb55d759d76b4bfa046ce884109a6f4d9",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.05.mat",
+      "size": 115202,
+      "sha256": "5dac1dcecc1888918a7f2cd3efd91d4a7d4a773ed251b66fde62c5e62c27a37a",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.1.mat",
+      "size": 114932,
+      "sha256": "8e38efec28edbc9fee969958bc5453d9bf1d0593aa0eae1be78159885fdf0200",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.15.mat",
+      "size": 114690,
+      "sha256": "f733b24205d8e864ae2e63a087bcbed33859e09ba97b2c0963653390a4de9922",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.2.mat",
+      "size": 114394,
+      "sha256": "2e31db13f66cff7697cd84a58897ed8c31dda33ec9980c046aebd415aacfa4a0",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.25.mat",
+      "size": 114381,
+      "sha256": "053e6bd2a44a5218de8dd2cc538bb3bc98a1d5808e4bebb802e5415ac40f7caa",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.3.mat",
+      "size": 114362,
+      "sha256": "659104f43c471954f01c3ff4c1eabec2a36209aec4aa35bb2f3cd8f92e358205",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.35.mat",
+      "size": 114268,
+      "sha256": "32f5eaa613c59e769d57013c96f4c195a6f8c104d866202f6768ee532f9bc60e",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.4.mat",
+      "size": 114204,
+      "sha256": "2e81772821b107aabd12cb93d2705014200812b97053d225ae10c6c7c39d3d3e",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.45.mat",
+      "size": 114116,
+      "sha256": "52d168c4c8381a7029ccc77c45ba2c531a6ab714ed2c3cffaf94e85416a52812",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.5.mat",
+      "size": 114110,
+      "sha256": "281c821b93299f7af0788fa754261f3b8e298bd4f249ace4dd0072d2d10ab7b0",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.55.mat",
+      "size": 114053,
+      "sha256": "cdd7604f2c60d57c57c7597d6a168da95df09fd18f91e2294dd8416427571250",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.6.mat",
+      "size": 114011,
+      "sha256": "0288c9ec4b1f463ced99d65353441f0e44bce2ae47dff7c6cfd7508dcc52ac67",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.65.mat",
+      "size": 113924,
+      "sha256": "481eae8df119629ae9ae89620c632d918a5485421b7752d0e5dee7fa3d0b2927",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.7.mat",
+      "size": 113860,
+      "sha256": "20794067c7cab67e8bdcf4efc3229a482bc1a06549a6f8cbb4f55187a8de8145",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.75.mat",
+      "size": 113895,
+      "sha256": "c8e0f275be5940fe5a21205dff1b94697bd9f52535180eebd1e80491f7ec11b6",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.8.mat",
+      "size": 113845,
+      "sha256": "2fbbac6426a5274b541315db350468efec3ab0cee6cb2e4e897dbb77e8fcb3ce",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.85.mat",
+      "size": 113820,
+      "sha256": "f8f0608c960cad292efb519e444885f449bc5bc270960523e2389754781240d6",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.9.mat",
+      "size": 113646,
+      "sha256": "e664a92ed8600cda9821ac33bc88402236902d9d8d06ef1088589ce6db8ecc13",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.95.mat",
+      "size": 113670,
+      "sha256": "379fd465cfcca295000d3ff4ea6c18d80debb6244868ba7de7da7f1d00faafb6",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_1.mat",
+      "size": 115385,
+      "sha256": "2ac400c15fbf8b28679eaa66e6b165e850537da6cf875f6f74cf4c2a369d0477",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.15_chiS_2.mat",
+      "size": 113797,
+      "sha256": "e75e0a72744093bd7ed641e6ffa2eb0fb513411f7b238a032c92a1f61695623f",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.05.mat",
+      "size": 124161,
+      "sha256": "7df687b51fe72b6abfd878459f3a0c50741cb2a636144ca710a11f3d4a90de79",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.1.mat",
+      "size": 123526,
+      "sha256": "8bb4498c6509b28cdfa82efae5492cb6cad3f527d9f019c4a4d2102acd0f4075",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.15.mat",
+      "size": 122853,
+      "sha256": "79d855949952fe328cdce1892d181572e7af01ff1d0114cc34dd68c06d966493",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.2.mat",
+      "size": 122304,
+      "sha256": "d63110fff2b7dda44f62bae76a0b4f39640791de156d87b0ca0e3274394fce94",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.25.mat",
+      "size": 121656,
+      "sha256": "e024dfb459b9b3d23d3d6704fc611c0ad23c294f709b7dacb2609e1730e9869a",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.3.mat",
+      "size": 121074,
+      "sha256": "cbfeefe94b3a436b010ed3c5141e2b5db8df37c16ee5a10347043d1e2d409a04",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.35.mat",
+      "size": 120492,
+      "sha256": "87f5fa85afbb161bc5d0f044a56d8eb915b50c1e5b327760bd5dac3f3b088e07",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.4.mat",
+      "size": 119909,
+      "sha256": "b25493ba2442d8f04fb5391f01a4c15ec16d8ed6053c46d3318f41ea87213477",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.45.mat",
+      "size": 119379,
+      "sha256": "9d238ff12283b0214883206577ea4f625832b137db337d061fdf97bfddc4fe42",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.5.mat",
+      "size": 118788,
+      "sha256": "abe416b3b0cd14e031d3b782b21fcf83e1b1750d9c30db11f6780570e0ba2c77",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.55.mat",
+      "size": 118294,
+      "sha256": "af86b0eba718ae90d80b0edbe07ef1222dbcfe66c1781f742a5ffe22506eff58",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.6.mat",
+      "size": 117776,
+      "sha256": "e624f4821b615bae7e39aae8cff2e844592336698b6dc5810bed9edf04969901",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.65.mat",
+      "size": 117320,
+      "sha256": "58c5df82902930626cc8a2e14e5672497f586d922ae8f0ba21104e17abe9f9f8",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.7.mat",
+      "size": 116874,
+      "sha256": "dc8adbbeeeab096af79dddbb1ce77939f6b3a64e88667832db3c85fbdeacb15f",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.75.mat",
+      "size": 116442,
+      "sha256": "917bdfea63413a7694d6128083bfd16f6cacae81655ff2ac591a8f5a9bec56ec",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.8.mat",
+      "size": 116100,
+      "sha256": "54cfea7658eaa7ab2bb3a0bdbbfa64ba02c8b1f0bcdb82cebfc35e5d8b5069a7",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.85.mat",
+      "size": 115768,
+      "sha256": "b000c81527da28378b81bfa490f5c043c09ef0cfd5b3b8025663371a5e9b83e4",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.9.mat",
+      "size": 115465,
+      "sha256": "b906ce79ba3f408c1bd4b4b54cc77a38506c5719ecd1e1a9b7faa798b805696a",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.95.mat",
+      "size": 115204,
+      "sha256": "059450093401651717d5fa1c7052a5d7acd6196f182c1f3306a616f1a20aebc8",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_0.mat",
+      "size": 124664,
+      "sha256": "e27c00ff2836eb7a7cfcc0ea07f9ab8ef604a25577dcae11fb2462f22392d6a3",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.05.mat",
+      "size": 114727,
+      "sha256": "08e8dcea2e7b765c4c0053036b0f4227d59cd96376a73155ea1553775c6c4fdb",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.1.mat",
+      "size": 114514,
+      "sha256": "0dac75ffc9d7e35794c1dc434bd04441c10a04edc65976755626ddb5ea5c49a2",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.15.mat",
+      "size": 114188,
+      "sha256": "ad6a1e931ab9984572e040e90630f12e445f0fb04db5d9bccb980bfde259bf07",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.2.mat",
+      "size": 114147,
+      "sha256": "5d57d0ce1a44290cd39203968710603b2c818c58fee2a64bff835862d48f3f1c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.25.mat",
+      "size": 114115,
+      "sha256": "1e5f514a98803a6c4688e190bb14802d3e787aa351801298f5c17dc1f26b5d74",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.3.mat",
+      "size": 114103,
+      "sha256": "854e92c225bef635dc527af78b932f1eb1609d7f37ff1ae7104e9f1ad9b4a59c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.35.mat",
+      "size": 114001,
+      "sha256": "0097a6aa91595f23e113ebc055e23f4918558772d274d6f69e50b10b10886995",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.4.mat",
+      "size": 113860,
+      "sha256": "24eac0fb9c09c4d9723e179e4b6c4bf430cd16d0fd62fb9937cea38affda1d1b",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.45.mat",
+      "size": 113877,
+      "sha256": "87f7bd4934e93002b339209b1120245389049b0be1cd14cda18b24d2bda87d1c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.5.mat",
+      "size": 113852,
+      "sha256": "29a38e3b05c0635e550fcec844d8196bda7aec5309267f0552fbaa87fa38eff3",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.55.mat",
+      "size": 113764,
+      "sha256": "3efb425fc8c97f5be89c39eadd22709a34c0f48cd58c31721a6b06e5d0d9e450",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.6.mat",
+      "size": 113762,
+      "sha256": "cb419008abd0285e790dfff237cf6f7b58ec86d0ca9ac58b567c39fcb265e0c0",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.65.mat",
+      "size": 113760,
+      "sha256": "dd04a42e9010470334b214d0c814b99a5db287aa1757490511450489a32e1ae3",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.7.mat",
+      "size": 113691,
+      "sha256": "cb14612f299a6ac85aaed92cc9d7ed51cf18906b98a2f831472f273c733f48a7",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.75.mat",
+      "size": 113671,
+      "sha256": "60dfafb8332915e6cc29863075ba3430b3936fe9d80153005b8e80f269bfb289",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.8.mat",
+      "size": 113625,
+      "sha256": "87325f902ee17544bfaf357c6e7d123a117f753850907ae3e0a377b40c51747d",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.85.mat",
+      "size": 113593,
+      "sha256": "8886b76a9e27e08ba45299abb8f0d913a2edf60ef9d9d76406d9b2203a86c6f3",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.9.mat",
+      "size": 113472,
+      "sha256": "0afd39bb25f1d4875555e1b2872c6a251d908c852150f367f8f7ac6d40736cec",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.95.mat",
+      "size": 113519,
+      "sha256": "274373751b1323eca9946eb5f2045289c5f9fbff47fb6179186d35d8d46a9f62",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_1.mat",
+      "size": 114920,
+      "sha256": "85fe970bd441cf46b0ee9be04c5b90d2b77059d8217fe27895a11cdb16eb49eb",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.1_chiS_2.mat",
+      "size": 113508,
+      "sha256": "82a37e17b9b63ef458656e2bc31153762341caa1bb58565f4c015448f53d1d3f",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.05.mat",
+      "size": 126533,
+      "sha256": "f593aba7f2de09e1bf53bc732762003275f7cc333dbbeb68b8834429f8e6633c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.1.mat",
+      "size": 125916,
+      "sha256": "7238fda91effe252c5a3cbf978d2b357c4b7d1e853056d530c7f05ce0d30c627",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.15.mat",
+      "size": 125445,
+      "sha256": "19a6af6975b97829d6bef107c3d514ab415b4ac4385e512f42061b8bddd852b3",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.2.mat",
+      "size": 124893,
+      "sha256": "c7068483685fcf35200d299151e08acd41884eae0e5eeaf0ff64268dde335ac6",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.25.mat",
+      "size": 124282,
+      "sha256": "6efcdbf9d06ca6fc53decaa62ee32d626f081f7d9fe2a20c3cd29cf4b940b6d4",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.3.mat",
+      "size": 123644,
+      "sha256": "a18a2ab2d609199b72bc4db60f7e8acf0af6290683830c45131b648a832aa738",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.35.mat",
+      "size": 123003,
+      "sha256": "812da7342b897d59572375777c30284ba4af7e45ae77a72351b5794daf94ea3d",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.4.mat",
+      "size": 122370,
+      "sha256": "b6d30df684a9bcb7cc7787f684efcc07c37ae87343199ab0cf1bad8e1d29edae",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.45.mat",
+      "size": 121826,
+      "sha256": "54fa95838cce58dd3ab142a8b28c87c5f926c9d76823f997c816aaba552cd243",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.5.mat",
+      "size": 121251,
+      "sha256": "31a9c05fd9ef5195388aadb61faaa1e36862d70de44ec50bf512df4338c59e14",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.55.mat",
+      "size": 120615,
+      "sha256": "8176f5477f62df5a568257ebd32a0fb918cd48ffbed92346b2972ad8b6ef0efb",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.6.mat",
+      "size": 120073,
+      "sha256": "31b451dd29ae8bd56036ab00332e7adddb72e84d9cf4fa4c2399ecb46c4b6407",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.65.mat",
+      "size": 119528,
+      "sha256": "39179b7f793c511d1b3afe68eb248313d2d825a580d392caf71c344178510bdd",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.7.mat",
+      "size": 119010,
+      "sha256": "1cd5473a2f08f3b9fbda35feb7fa4c655692d37b8ef8f99bfe3e28551afb0832",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.75.mat",
+      "size": 118509,
+      "sha256": "f5a02f9692f4c88b2fd5d6dc1e6917c7417953675f56af9828e21da6287415aa",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.8.mat",
+      "size": 118061,
+      "sha256": "8e9b6afe11f2ed07a903ede709e39074402cee585806ec7c0381bd14361f750e",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.85.mat",
+      "size": 117580,
+      "sha256": "c024c9cbb60965303526c2cc4c9af03b0825b5d68cecceac726097d5e5a649c9",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.9.mat",
+      "size": 117171,
+      "sha256": "459abb38d0107354694da0f8375d74fa4a611579e6e75234482c5707187aabe0",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.95.mat",
+      "size": 116838,
+      "sha256": "af31df37ea9ffc27ded0e97156ae87ebc5d5b905b5173852bdb7118a8fed2c3b",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_0.mat",
+      "size": 127173,
+      "sha256": "db983acd614e81d920d4e1371fd44e6fabb723dc438ace520b11a2f4ddb5d37b",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.05.mat",
+      "size": 116232,
+      "sha256": "2f0808c3c9aafaa1ea10a2263bbc1ebf9a42ed00a59f648b4a90b29f22bef191",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.1.mat",
+      "size": 115901,
+      "sha256": "ec8f0d4f8d54ae90027cab4f948bec8c77c9acc8199f7079eaa85ad5ea6cc6d9",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.15.mat",
+      "size": 115621,
+      "sha256": "6d196be72ba1cfd03ac6687a63dce065d34c0c6817001c6ab24c0c189362d7a7",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.2.mat",
+      "size": 115416,
+      "sha256": "e48e0ded590a83aa0f5fe194a1ad600c8246fb5115ee1d6cf65fe404a796884d",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.25.mat",
+      "size": 115125,
+      "sha256": "acb1564ab3e89204ce45f2f0ca8ab349466fd210e705a149f1d07b3af0d107bc",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.3.mat",
+      "size": 114930,
+      "sha256": "3710699752510dee371dff207d859efcdbe322978d2f499aa5455ea1c79b6830",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.35.mat",
+      "size": 114791,
+      "sha256": "ec4576b2887d7cd4f4de67f98644d7cc6aec9d1be3fe9ac4553d99defe12d781",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.4.mat",
+      "size": 114743,
+      "sha256": "bf5ae84c949abda7a64b236167f2e7d69b7a45804dd3693cc585d33c6cac3dc1",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.45.mat",
+      "size": 114718,
+      "sha256": "2769bb6676d1119fd3497b90c83ee6f00384ac765bf8631e709af0c718400d6a",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.5.mat",
+      "size": 114693,
+      "sha256": "022d977288e81eef3db56b9db7ec558a5f7ff390e88558354debe46de8e614f0",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.55.mat",
+      "size": 114548,
+      "sha256": "2507edbc0730967b522ac3dbd17aa6be347ffe20c7895a01ab989cce7543091d",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.6.mat",
+      "size": 114540,
+      "sha256": "0270d33662865863f4afe014c94581d0c3ef48dc71a5428c02cfd3449f1b932f",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.65.mat",
+      "size": 114520,
+      "sha256": "8f0aa81318bd094ebdd2aa0de73e9e16d126b9481764391301668960430fe6c7",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.7.mat",
+      "size": 114418,
+      "sha256": "32246f5f2f1da49e635577625eebb39252ba456314de1dc441cdc9508bc1fb86",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.75.mat",
+      "size": 114377,
+      "sha256": "cff8923a9cd8f92f961222c12d8ef5bd6d0604faf34d05249879ae306de5ae8b",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.8.mat",
+      "size": 114260,
+      "sha256": "776c49089709390e233e5366182913456a5d2f7d85d82e9a7370878a1a8afdcd",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.85.mat",
+      "size": 114323,
+      "sha256": "a5b9d9229cd8eb2325e509c31bb7fa6e4a83f2724af7079c39c05f087a251e7c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.9.mat",
+      "size": 114262,
+      "sha256": "e003ac2be786ba6f357fd06f8af915db3f8ac1529d080188b9d0213bcfbf70fa",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.95.mat",
+      "size": 114218,
+      "sha256": "c51930f608f25972aac6d918be36228157f465aa2d4c2755c0d72e2de5276978",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_1.mat",
+      "size": 116464,
+      "sha256": "5897c75691da201e921fae2e9e58cc4c595dc376cb9193b196419f643ff3e658",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.25_chiS_2.mat",
+      "size": 114227,
+      "sha256": "589296147d7e44f80e5b59295ffbbf98e27086a7f17a92875124db04b568bea8",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.05.mat",
+      "size": 125705,
+      "sha256": "48446a416fb201a883a8ed27add26cc0b7eb788949f3414fe90a0cb16365f5de",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.1.mat",
+      "size": 125111,
+      "sha256": "acddccf391696727f71fe3628020ba7b8587e27c27e58a1413a5b86469846b75",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.15.mat",
+      "size": 124640,
+      "sha256": "5a98f197011c4a0ce3ac2b8697e0998e0fae4d2fe9cba1cfe39ac9b843c323f8",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.2.mat",
+      "size": 124063,
+      "sha256": "a41d011ac9a6ba5698f2f7548d762e5eb5154118c8f703a97ae23172ae15bac6",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.25.mat",
+      "size": 123349,
+      "sha256": "b9e0a440f409354af12c4db1c7adacc823773851528b71f1b0a9fce2fd064110",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.3.mat",
+      "size": 122751,
+      "sha256": "5ab3e738fef255fd480e4d15a9f1aaeb2ca067eb3ad1b707be8965f8595c555c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.35.mat",
+      "size": 122105,
+      "sha256": "2372c8ae3408099395e18039e27abbe135e53cd88d674ddd6bff28e1731f07f9",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.4.mat",
+      "size": 121547,
+      "sha256": "0e923832f4c07704ccb96d3a5d9fe03028cef711206be49db13d434fc1ca01d6",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.45.mat",
+      "size": 120957,
+      "sha256": "9a92e04cc520a183e8eab1fef619b892abff4a304d848d909632324899eda2f7",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.5.mat",
+      "size": 120419,
+      "sha256": "49ac9c1f7adc991de4f70669f28f800fa79b6dea63805bf18e02cd0bb08e5caf",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.55.mat",
+      "size": 119850,
+      "sha256": "64bb0725f638a5ef42db0022483dbc93c54611d63b6219a57b40506cb7561075",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.6.mat",
+      "size": 119294,
+      "sha256": "fcd9edf6e4ac9706017e14a9892c5aa99d0248ee310c10fb694cdc31eb3f1cb4",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.65.mat",
+      "size": 118752,
+      "sha256": "4bfa51962821e7fb6a38bee6eebadc497c49947b9b7dc0d6639919176a958767",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.7.mat",
+      "size": 118250,
+      "sha256": "4b5a5a3a71a4cbb6e5b9f0b90e9d4ac88e1e0a2766160287f83c4e23d160a9ea",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.75.mat",
+      "size": 117805,
+      "sha256": "1142ad88589688ea1aad5744a9d1858889b5295fefb59bb09de256c72d3f0e39",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.8.mat",
+      "size": 117393,
+      "sha256": "fdf3bdbfe56220cadc002ab1ce8512c96a57fafd5e37846a6a2f9c842e328a8c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.85.mat",
+      "size": 116910,
+      "sha256": "a154b0f46709c3f78f881be304c949951ada31832e1f7257f140046d3a4f73fe",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.9.mat",
+      "size": 116547,
+      "sha256": "b53f1c8523c78a30dd700baf28e63e61eafb1f72b091114e5e5befdef7331b86",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.95.mat",
+      "size": 116237,
+      "sha256": "739b18242aea269ea10795a50f1c57953441426ee8c1537f98959dc0e56a95bc",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_0.mat",
+      "size": 126324,
+      "sha256": "1ca86fc41fc8671ded706a66af386e80e4bcbb09aeda344535753a9e16aff013",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_1.05.mat",
+      "size": 115695,
+      "sha256": "ff85045c797e95fb0ab619736a13495a113187bc278e992ed6678db1611b7917",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_1.1.mat",
+      "size": 115429,
+      "sha256": "c70ffa609291750fe6aaa397140b8762a33888fbdd7abfd7f588b4abf791ca5d",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_1.15.mat",
+      "size": 115181,
+      "sha256": "853511aed58cf65205edbb075f192374fea074f4a2e5ac505920914ed20e9ebd",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_1.2.mat",
+      "size": 114949,
+      "sha256": "703870c9b2f81bbf8ae120389b8c07390ea000a1e248bbc08c4e936d396cb41f",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_1.25.mat",
+      "size": 114677,
+      "sha256": "7dac2dd5f26cf60222293078dd31588375f6ea7d599ac88235f2bd092abefda2",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_1.3.mat",
+      "size": 114653,
+      "sha256": "585cb56b630a51b92235b28fa588bd0306d1dbe629c3ed9d76ec511c0dda294f",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_1.35.mat",
+      "size": 114555,
+      "sha256": "4d8cefe29c02e3388d44bf114b67b0a7bb58da61941c6d70390975c594861c4a",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_1.4.mat",
+      "size": 114493,
+      "sha256": "4b5e663bbd01ab1b803fe74a22f921a9ada3834440c0bf9ccfa3d896ee871560",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_1.45.mat",
+      "size": 114367,
+      "sha256": "eb0ddface22ce2b64ffedb0e0d3326fa3cfb9255645ffc7b5c4c8a6745e7320c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_1.5.mat",
+      "size": 114367,
+      "sha256": "9ff7a1686de0995c776e0b1c7f262126520713c463cdb432382a098dbf7a9045",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_1.55.mat",
+      "size": 114269,
+      "sha256": "3dbd60e972a023f9a7e68a666fdf58971753e899d11b14a33ac46c35d79a7e6b",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_1.6.mat",
+      "size": 114217,
+      "sha256": "178afe6d3617a6d45fd360bde9c8487801eb866f14afc820f0488752c821255c",
+      "symlink": null
+    },
+    {
+      "path": "code/code-0407/macro/data/data_chiN_0.2_chiS_1.65.mat",
+      "size": 114263,
+      "sha256": "12645478d9ebf614b1ffddcb4fec3d80033a0d6d411943ea80ff0d0b9abc7731",
+      "symlink": null
+    }
+  ],
+  "verified_before_removal": true
+}

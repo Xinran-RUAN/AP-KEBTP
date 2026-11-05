@@ -1,0 +1,186 @@
+{
+  "manuscript": "manuscript/20261103/main_Gissell.tex",
+  "Figure1": {
+    "source": "paper_data/cases/sign_macro.mat",
+    "times": [
+      30,
+      50
+    ],
+    "reference_snapshots": "paper_data/figure1/",
+    "analytical": "peak position and discrete mass matched using original rule"
+  },
+  "Figure2": {
+    "source": "paper_data/figure2/legacy_speed_scan.mat",
+    "kind": "retained legacy scan, not rerun with the current kinetic solver"
+  },
+  "Figure3": {
+    "a": 0,
+    "epsilon": [
+      0.1,
+      0.05,
+      0.01,
+      0
+    ],
+    "times": [
+      1,
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
+  },
+  "Figure4": {
+    "a": 0,
+    "epsilon": [
+      0.1,
+      0.05,
+      0.02,
+      0.01,
+      0.005,
+      0.002,
+      0.001
+    ],
+    "T": 50,
+    "reference": "sign_macro",
+    "error": "sqrt(dx*sum((rho_kinetic-rho_macro).^2)), full domain, no shift or rescaling"
+  },
+  "Figure5": {
+    "cases": [
+      "sign_macro",
+      "sign_kinetic_e0p1",
+      "sign_kinetic_e0p05",
+      "sign_kinetic_e0p01"
+    ],
+    "speed_method": "pchip centroid interpolation on 0:0.1:50; linear fit within +/-0.5 at each output time, as in current paper"
+  },
+  "Figure6": {
+    "a": 0.001,
+    "epsilon": 0.01,
+    "times": [
+      1,
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
+  },
+  "Figure7a": {
+    "a": 0.001,
+    "epsilon": [
+      0.1,
+      0.05,
+      0.01,
+      0
+    ],
+    "T": 50
+  },
+  "Figure7b_and_speed_table": {
+    "epsilon": 0.01,
+    "a": [
+      0.001,
+      0.0005,
+      0.0001,
+      0
+    ],
+    "T": 50,
+    "speed_fit_interval": [
+      30,
+      50
+    ]
+  },
+  "shared_grid_Figures1_3_7": {
+    "L": 150,
+    "dx": 0.025,
+    "dt": 0.001,
+    "dv": 0.02,
+    "T": 50
+  },
+  "cases": [
+    {
+      "id": "sign_macro",
+      "kind": "macro",
+      "epsilon": 0,
+      "a": 0
+    },
+    {
+      "id": "sign_kinetic_e0p1",
+      "kind": "kinetic",
+      "epsilon": 0.1,
+      "a": 0
+    },
+    {
+      "id": "sign_kinetic_e0p05",
+      "kind": "kinetic",
+      "epsilon": 0.05,
+      "a": 0
+    },
+    {
+      "id": "sign_kinetic_e0p02",
+      "kind": "kinetic",
+      "epsilon": 0.02,
+      "a": 0
+    },
+    {
+      "id": "sign_kinetic_e0p01",
+      "kind": "kinetic",
+      "epsilon": 0.01,
+      "a": 0
+    },
+    {
+      "id": "sign_kinetic_e0p005",
+      "kind": "kinetic",
+      "epsilon": 0.005,
+      "a": 0
+    },
+    {
+      "id": "sign_kinetic_e0p002",
+      "kind": "kinetic",
+      "epsilon": 0.002,
+      "a": 0
+    },
+    {
+      "id": "sign_kinetic_e0p001",
+      "kind": "kinetic",
+      "epsilon": 0.001,
+      "a": 0
+    },
+    {
+      "id": "exp_a0p001_macro",
+      "kind": "macro",
+      "epsilon": 0,
+      "a": 0.001
+    },
+    {
+      "id": "exp_a0p001_kinetic_e0p1",
+      "kind": "kinetic",
+      "epsilon": 0.1,
+      "a": 0.001
+    },
+    {
+      "id": "exp_a0p001_kinetic_e0p05",
+      "kind": "kinetic",
+      "epsilon": 0.05,
+      "a": 0.001
+    },
+    {
+      "id": "exp_a0p001_kinetic_e0p01",
+      "kind": "kinetic",
+      "epsilon": 0.01,
+      "a": 0.001
+    },
+    {
+      "id": "exp_a0p0005_kinetic_e0p01",
+      "kind": "kinetic",
+      "epsilon": 0.01,
+      "a": 0.0005
+    },
+    {
+      "id": "exp_a0p0001_kinetic_e0p01",
+      "kind": "kinetic",
+      "epsilon": 0.01,
+      "a": 0.0001
+    }
+  ]
+}

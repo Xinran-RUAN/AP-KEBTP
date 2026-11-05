@@ -1,0 +1,989 @@
+\documentclass[11pt,twoside]{article}
+
+%\usepackage[utf8]{inputenc}
+
+\usepackage{fullpage}
+\usepackage[margin=1in]{geometry}                                         % set the margins to 1in on all sides
+\usepackage{amsmath}        % great math stuff
+%\usepackage{amsfonts}              % for blackboard bold, etc
+\usepackage{amsthm}                % better theorem environments
+\usepackage{bbold}
+
+\usepackage{amsmath}
+
+\newcommand\red[1]{\color{red}#1} 
+
+
+\newcommand*\diff{\mathop{}\!\mathrm{d}}
+\newcommand*\Diff[1]{\mathop{}\!\mathrm{d^#1}}
+
+\usepackage{graphicx,subfigure,color}       % to include figures
+\usepackage{caption}                                 %\usepackage{subcaption}
+\usepackage{epstopdf}
+\usepackage{tabularx}
+
+
+\usepackage{enumerate} 			         % for enumerate with step
+%\usepackage{bbm}             		         % for characteristic function 1
+\usepackage[bookmarks=true,         bookmarksnumbered=true,
+colorlinks=true,
+pdfstartview=FitV,
+linkcolor=blue, citecolor=blue, urlcolor=blue,
+]{hyperref}
+
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage[normalem]{ulem}
+ \usepackage{booktabs}
+\usepackage[section]{placeins}
+\usepackage[english]{babel}
+\usepackage{times,verbatim}
+
+\DeclareMathOperator{\sign}{sign}
+\numberwithin{equation}{section}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% define ususally used notations
+%% various theorems, numbered by chapter
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem*{remark*}{Remark}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{question}[theorem]{Question}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{property}[theorem]{Property}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{assumption}[theorem]{Assumption}
+
+\DeclareMathOperator{\Tr}{Tr}
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+
+\newcommand{\bd}{\mbf{d}}
+\newcommand{\bu}{\mbf{u}}
+\newcommand{\bv}{{\mathbf{v}}}
+\newcommand{\bw}{\mbf{w}}
+\newcommand{\bx}{{\mathbf{x}}}
+\newcommand{\bX}{\mbf{X}}
+\newcommand{\bbX}{\mathbb{X}}
+\newcommand{\bY}{\mbf{Y}}
+\newcommand{\mH}{\mathcal{H}}
+
+\newcommand{\rhoT}{\rho_T}
+\newcommand{\rhoL}{\rho_T^L}
+\newcommand{\rhoLM}{\rho_T^{L,M}}
+\newcommand{\brhoL}{\bm{\rho}_T^L}
+\newcommand{\rhsF}{\mbf{f}}
+
+
+% customized commands
+
+
+\newcommand{\mres}{\mathbin{\vrule height 1.2ex depth 0pt width
+0.13ex\vrule height 0.13ex depth 0pt width 0.9ex}}
+
+
+
+\newcommand{\mbf}[1]{\boldsymbol{#1}}
+\newcommand{\lil}[1]{\ell_{#1}}
+\newcommand{\innerp}[2]{\langle #1,#2 \rangle}
+\newcommand{\inp}[1]{\langle{#1}\rangle}
+\newcommand{\dbinnerp}[1]{\langle\hspace{-1mm}\langle{#1}\rangle\hspace{-1mm}\rangle}
+\newcommand{\abs}[1]{\big| #1 \big|}
+\newcommand{\dquo}[1]{``#1"}
+\newcommand{\bxm}{\bx^{m}}
+\newcommand{\dotbxm}{\dot\bx^m}
+\newcommand{\bXm}{\bX^{m}}
+\newcommand{\dotbXm}{\dot\bX^{m}}
+\newcommand{\Xtrain}{\bX_{\mathrm{tr}}}
+\newcommand{\brm}{\bar{\br}^{m}}
+\newcommand{\nbrm}{r^{m}}
+
+% define norms
+\newcommand{\norm}[1]{\left\| #1 \right\|}
+\newcommand{\Tnorm}[1]{\left\| #1 \right\|_{\mathcal{T}}}
+\newcommand{\tnorm}[1]{\left\| #1 \right\|_{\mathcal{T}_t}}
+\newcommand{\HDnorm}[1]{d_{\text{HD}}{(#1)}}
+\newcommand{\ltworho}[1]{\norm{#1}_{L^2(\rho_T)}}
+% define some spaces in real
+\newcommand{\realR}[1]{\mathbb{R}^{#1}}
+\newcommand{\real}{\mathbb{R}}
+\newcommand{\compC}[1]{\mathbb{C}^{#1}}
+\newcommand{\comp}{\mathbb{C}}
+\newcommand{\integ}{\mathbb{Z}}
+% for some special variables
+% the vector varaible
+
+
+\newcommand{\br}{\mbf{r}}
+
+\newcommand{\bB}{\mbf{B}}
+
+%\newcommand{\bX}{\mbf{X}}
+
+
+
+\newcommand{\balpha}{\mbf{\alpha}}
+%
+\newcommand{\mA}{\mathcal{A}}
+\newcommand{\mC}{\mathcal{C}}
+\newcommand{\mE}{\mathcal{E}}
+\newcommand{\mF}{\mathcal{F}}
+\newcommand{\mG}{\mathcal{G}}
+\newcommand{\mL}{\mathcal{L}}
+%\newcommand{\mH}{\mathcal{H}}
+
+\newcommand{\mI}{\mathcal{I}}
+\newcommand{\mK}{\mathcal{K}}
+\newcommand{\mR}{\mathcal{R}}
+\newcommand{\mS}{\mathcal{S}}
+\newcommand{\mT}{\mathcal{T}}
+\newcommand{\mX}{\mathcal{X}}
+\newcommand{\mY}{\mathcal{Y}}
+%
+\newcommand{\bigO}{\mathcal{O}}
+%
+\newcommand{\R}{\real}
+\newcommand{\dimamb}{D}
+\renewcommand{\dim}{d}
+\newcommand{\numcl}{K}
+\newcommand{\idxcl}{k}
+\newcommand{\spaceM}{S}
+\newcommand{\cl}{C}
+\newcommand{\clof}{\mathpzc{k}}
+\newcommand{\adj}{\mathcal{A}}
+\newcommand{\eadj}{\adj^E}
+\newcommand{\aadj}{\adj^A}
+\newcommand{\xiadj}{\adj^{\xi}}
+% the coupling strength terms
+\newcommand{\cst}{\mathcal{\kappa}}
+\newcommand{\vcst}{\cst^{\bv}}
+\newcommand{\xicst}{\cst^{\xi}}
+\newcommand{\bcst}{\bm{\cst}}
+\newcommand{\bvcst}{\bm{\cst}^{\bv}}
+\newcommand{\bxicst}{\bm{\cst}^{\xi}}
+\newcommand{\bL}{\mbf{L}}
+\newcommand{\e}{\varepsilon}
+
+%
+
+\newcommand{\st}[1]{\textcolor{red}{#1}}
+\newcommand{\XR}[1]{\textcolor{red}{#1}}
+
+
+
+\title{An asymptotic preserving scheme for kinetic equations describing bacterial travelling pulses}
+\author{Discussion notes}
+\date{August 2021}
+
+\begin{document}
+
+\maketitle
+
+
+
+\section{Introduction}
+\textcolor{red}{\begin{itemize}
+    \item Canan: Section 3 on the traveling wave solution for the kinetic and macro models.
+    \item Gissell: Sections 2, 4 and 5 about the micro-macro decomposition and AP scheme.
+    \item Xinran: Section 6 about the numerical results. Describe the parameters, functions and include some plots.
+\end{itemize}}
+
+
+The formation of suspensions of swimming bacteria self-aggregate in regions where the conditions are more favorable, for instance there is more oxygen. These high concentration regions propagate along the channel, within the suspension. This phenomena was first reported by Adler \cite{adler1976chemotaxis}. Chemotaxis (the directed movement of individuals in response to some chemical signal) is widely known to be responsible for the formation of these travelling pulses in capillary assays (or micro-channels) and we refer to \cite{tindall2008overview} for a review from the different modelling perspectives. 
+
+In \cite{saragosti2010mathematical} the authors presented a macroscopic model of the traveling pulses from a detailed description of the run-and-tumble movement at the mesoscopic level, where they also presented numerical simulations in accordance with the experimental observations. They also quantitatively capture the main characteristics of the pulse such as the speed and the relative size tail. Later in \cite{calvez2018well}, a well-balanced numerical scheme was developed to solve a kinetic run-and-tumble equation coupled with two reaction-diffusion equations where traveling wave solutions were also studied. 
+
+In this paper we are concerned with a numerical study of the limit from a mesoscopic  description as in \cite{calvez2018well} to a macroscopic one as in \cite{saragosti2010mathematical}. In particular we present an asymptotic preserving scheme in which we study the traveling wave solution at both levels of description... We observe that...
+
+
+Following the seminal works by Alt \cite{alt1980biased}, Dunbar and Othmer \cite{othmer1988models}  we start from the following kinetic equation 
+\begin{equation}
+    \partial_t f(t,x,v)+{v}\partial_x f(t,x,v)= \int_{V}\Bigl(T(t,x,v,v')f(t,x,v')-  T(t,x,{v}',v)f(t,x,v)\Bigr)\diff v'\ .\label{eq: main kinetic}
+\end{equation}
+The bacteria population is described by the mesoscopic density $f(t,x,v)$ where $(x,v)\in\mathbb{R}\times V$ since we are looking for planar travelling wave solutions. Here $V$ denotes a compact interval of admissible velocities. The turning kernel $T$ describes the change in direction during the tumbling phase of the movement. $T$ depends on the space and time variables through the chemical signals in the medium,  and $T(\cdot, v,v')$ represents the change of velocity from $v'$ to $v$. Following [Refs], we consider the influence of two chemical species, $S(t,x)$, a chemotactic signal released by the bacteria, and $N(t,x)$, a nutrient consumed by the bacteria. We assume that both chemical cues influence the tumbling kernel in an additive way as we explain below. For simplicity we are going to assume that $T$ only depends on the current velocity with the condition that $\int_VT(t,x,v)\diff v=1$.
+
+Let 
+\begin{equation}\label{TepsFeps}
+%\begin{cases}
+    T_\varepsilon(t,x,v)=\frac{\psi_\varepsilon(t,x,{v}) }{\displaystyle\int_{V}\psi_\varepsilon(t,x,{v})  \diff {v}}\ ,
+ %   \end{cases}
+\end{equation}
+where we assume that the dependency of the turning operator on the chemical gradient $\partial_x S$ and the nutrients gradient $\partial_x N$ happens as a perturbation of magnitude $\varepsilon\ll 1$ in the following way
+\begin{equation}\label{expansion_psi}
+    \psi_\varepsilon(t,x,{v})=1+\varepsilon\psi_1(t,x,{v})\ .
+\end{equation}
+\paragraph{Assumption 1}
+\begin{equation}\tag{A1}
+\int_V\psi_1(t,x,{v})\diff {v}=0\ , \quad \psi_1(t,x,{v}) = \phi_1[S]({v}) + \phi_2[N]({v})\ , \label{hypo2}
+\end{equation}
+where
+$$\phi_1[S]({v})=\chi_S\phi\Bigl(\frac{DS}{Dt}\bigg\rvert_{v}\Bigr)\ \ ,\ \ \phi_2[N](v)= \chi_N\phi\Bigl(\frac{DN}{Dt}\bigg\rvert_{v}\Bigr)\ ,\ \ \textnormal{where}\ \ \phi(\cdot)=\textcolor{red}{-}\sign(\cdot)\ .$$
+ $\frac{D}{Dt}=\partial_t+{v}\partial_x$ is the total derivative along the direction given by ${v}$. The sign function has been chosen since \textcolor{red}{(...)}
+
+
+ 
+Using \eqref{expansion_psi}, the turning kernel $T_\varepsilon$ writes
+\begin{align}
+    T_\varepsilon(t,x,{v})=& 1+\varepsilon\Bigl[\chi_S\phi\Bigl(\frac{DS}{Dt}\bigg\rvert_{v}\Bigr)+ \chi_N\phi\Bigl(\frac{DN}{Dt}\bigg\rvert_{v}\Bigr)\Bigr]  + {\mathcal{O}(\varepsilon^2)} \ ,\label{eq: turning operator scaled}
+\end{align}
+{where the $\mathcal{O}(\varepsilon^2)$-term {are such that} $\langle\mathcal{O}(\varepsilon^2)\rangle=0$. We also note that using Assumptions \ref{hypo2} we have $\langle T_\varepsilon\rangle=1$ which describes the conservation of individuals during the velocity reorientation.}
+
+The chemoattractant and nutrients concentrations evolve according to a reaction-diffusion equation
+\begin{align}
+    \partial_t S&=D_S\partial_{xx}S-\alpha S+\beta \rho\ ,\\
+    \partial_t N&=D_N\partial_{xx}N-\gamma\rho N\ .
+\end{align}
+The chemoattractant $S$ is consumed and produced by the cells with rates given by $\alpha$ and $\beta$, respectively. The nutrients are consumed at rate $\gamma$. Both, chemoattractant and nutrients diffuse in the medium with constant $D_S$ and $D_N$. Here $\rho$ denotes the macroscopic density defined as
+\[
+\rho(t,x)=\int_Vf(t,x,v)\diff v\ .
+\]
+In this paper we numerically study the macroscopic limit of the kinetic equation \eqref{eq: main kinetic} to the system 
+\begin{equation}
+\begin{aligned}
+&\partial_t\rho =D_\rho\partial_{xx}\rho-\partial_x (\rho u_S+\rho u_N)\ ,\\
+&\partial_tS =D_S\partial_{xx} S-\alpha S+\beta \rho\ ,\\
+&\partial_t N=D_N\partial_{xx} N-\gamma \rho N\ .\label{eq: macro system}
+\end{aligned}
+\end{equation}
+where
+\begin{equation}
+u_S= \chi_S\sign(\partial_x S)\ , \quad u_N= \chi_N\sign(\partial_x N)\ .\label{eq: fluxes def}
+\end{equation}
+ We assume a linear combination of the external signal at the microscopic level, resulting in a summation of two independent contributions for the directed movement which is given by $u_S$ and $u_N$. The effect of the chemoattractant flux $u_S$ is to aggregate cells and create a pulse, while the nutrients flux $u_N$ contributes to the motion of the pulse towards high concentrations of $N$. We consider that these fluxes are proportional to the gradients as in \eqref{eq: fluxes def}.
+
+This paper is organised as follows. \textcolor{red}{(...)}
+
+
+\section{Macroscopic system of equations}
+In this section we are going to introduce the macroscopic system that is obtained from \eqref{eq: main kinetic}.
+Introducing a parabolic scaling in space and time we have
+\begin{equation}
+    \varepsilon^2 \partial_t f^\varepsilon+\varepsilon{v}\partial_x f^\varepsilon = \int_V\Bigl(T_\varepsilon(t,x,v')f^\varepsilon(t,x,v')-T_\varepsilon(t,x,v)f^\varepsilon(t,x,v)\Bigr)\diff v'\ , \label{eq: inital model with scaling}
+\end{equation}
+We now consider a second order regular expansion of $f^\e$ in $\varepsilon$, 
+\begin{equation*}
+f^\e(t,{x},{v})=f^0(t,{x},{v})+\varepsilon f^1(t,{x},{v})+\varepsilon^2 f^2(t,{x},{v})+\mathcal{O}(\varepsilon^3)\ , 
+\end{equation*}
+where $\int_V f^\e(t,{x},{v})\diff {v} = \int_V f^0(t,{x},{v})\diff {v} = \rho(t,{x})$, therefore $\int_V f^i(t,{x},{v})\diff {v}=0$, $\forall i\geq 1$.
+
+
+
+
+
+
+Introducing this ansatz in \eqref{eq: inital model with scaling}, we obtain
+\iffalse
+{\begin{align*}
+    \varepsilon^2\partial_t f^0&+\varepsilon{v}\partial_x\big(f^0+\varepsilon f^1  \big) 
+    =-\psi_0(v) f^0+\int_V\psi_0(v')f^0(v')\diff v'\\
+    &+\varepsilon\int_V\Bigl(\psi_0(v')f^1(v')+\psi_1(t,x,v')f^0(v')-\psi_0(v)f^1(v)-\psi_1(t,x,v)f^0(v) \Bigr)\diff v'+{\mathcal{O}(\varepsilon^3)}
+      \ .
+\end{align*}}
+
+\noindent Identifying the different equations in powers of $\varepsilon$, we obtain
+\fi
+\begin{align}
+    \varepsilon^0: & \quad f^0(t,{x},{v})=\rho(t,{x})\ ,\label{eq: epsilon0}\\
+    \varepsilon^1: & \quad {v}\partial_x f^0=\int_V\psi_1(v')f^0(v')\diff v'\textcolor{red}{+}\psi_1(v)f^0(v)-f^1(v)\ ,\label{eq: epsilon1}\\
+    \varepsilon^2: & \quad \partial_tf^0+{v}\partial_x f^1 =\int_V\psi_1(v')f^1(v')\diff v'-\psi_1(v)f^1(v)-f^2(v) \ \label{eq: epsilon2}.\
+\end{align}
+Next, after replacing $f^0$ by its expression (Eq. \eqref{eq: epsilon0}), we multiply \eqref{eq: epsilon1} by ${v}$ and we integrate again with respect to ${v}$ to obtain
+\begin{align}
+    \langle{v}f^1\rangle&=- \partial_x \big(\rho  \langle v^2\rangle \big)+\rho \langle {v}\psi_1\rangle  \ .\label{eq: mean direction}
+\end{align}
+We define
+\begin{equation}
+D_\rho=\langle v^2 \rangle\ ,\quad \langle {v}\psi_1\rangle=\langle{v}\phi_1[S]({v})\rangle+\langle{v}\phi_2[N]({v})\rangle=u_S+ u_N\ ,\label{eq: moment}\end{equation} 
+where 
+\begin{equation}
+u_S= \chi_S\sign(\partial_x S)\ , \quad u_N=\chi_N \sign(\partial_x N)\ .
+\end{equation}
+Finally, integrating \eqref{eq: epsilon2} in ${v}$ and using \eqref{eq: moment} we obtain
+\[
+\partial_t\rho=D_\rho\partial_{xx}\nabla\rho-\partial_x(\rho u_S+\rho u_N)\ .
+\]
+We refer to \cite{emako2015existence,emako2016traveling} for more details of the derivation.
+
+
+Now we non-dimensionalised the system. We introduce a new set of variables $\tilde{t}=t/\bar{t}$ and $\tilde{x}=x/\bar{x}$ where $\bar{t}$ and $\bar{x}$ are the macroscopic time and space scales. Then we have
+\begin{align}
+&\partial_t\rho =\tilde{D}_\rho\partial_{xx}\rho-\partial_x (\rho \tilde{u}_S+\rho \tilde{u}_N)\ ,\label{eq: rho nondimension}\\
+&\partial_tS =\tilde{D}_S\partial_{xx} S-\tilde{\alpha} S+\tilde{\beta} \rho\ ,\\
+&\partial_t N=\tilde{D}_N\partial_{xx} N-\tilde{\gamma} \rho N\ \label{eq: N nondimension},
+\end{align}
+where $\tilde{u}_S=\frac{\bar{t}\chi_S}{\bar{x}}\sign(\partial_x S)$, $\tilde{u}_N=\frac{\bar{t}\chi_N}{\bar{x}}\sign(\partial_x N)$ and 
+\[
+\tilde{D}_\rho=\frac{\bar{t}D_\rho}{\bar{x}^2}\ ,\ \ \tilde{D_S}=\frac{\bar{t}D_S}{\bar{x}^2}\ ,\ \ \tilde{\alpha}=\bar{t}\alpha\ ,\ \ \tilde{\beta}=\bar{t}\beta\ ,\ \ \tilde{D}_N=\frac{\bar{t}D_N}{\bar{x}^2}\ ,\ \ \tilde{\gamma}=\gamma \bar{t}\ .
+\]
+From now on, for simplicity of notation we are going to drop the tilde in the new coefficients.
+
+%\section{Travelling pulses under competing fluxes}
+
+%\textcolor{red}{(To Canan: In this section we should include the traveling wave solution for the kinetic and macroscopic systems. Please, we should write things clearly and not copy and paste results from previous papers. Since everything is already done in \cite{saragosti2010mathematical} for the macroscopic equations and in \cite{calvez2018well} for the kinetic equation we should only include here the main results: traveling wave solution, speed of propagation etc)}
+
+
+\section{Existence of travelling wave solutions}
+
+
+\subsection{Kinetic travelling wave solution}
+In this section we summarise the results obtained in \cite{calvez2016chemotactic} for the existence of travelling wave solutions for the kinetic equation \eqref{eq: main kinetic},  and for the macroscopic systems \eqref{eq: macro system}.
+
+Consider a travelling wave solution $z=x-ct$ where $c$ denotes the speed of the wave. We rewrite \eqref{eq: main kinetic} in the moving frame variable $z$,
+\begin{equation}
+\begin{aligned}\label{system}
+(v-c)\partial_zf(z,v)&=\int T(z,v'-c)f(z,v')d\nu(v')-T(z,v-c)f(z,v)\\
+-c\partial_z S(z)&=D_S\partial_{z}^2S(z)-\alpha S(z)+\beta \rho(z)\\
+-c\partial_zN(z)&=D_N\partial_{z}^2N(z)-\gamma\rho(z) N(z)
+,
+\end{aligned}
+\end{equation}
+where $\nu$ is a symmetric probability measure on $\mathbb{R}^d$, where $V=\textnormal{supp}\ \nu$. Throughout this section we assume that $\nu$ is absolutely continuous with respect to the Lebesgue measure. The probability density function belongs to $L^p$ for some $p > 1$, i.e.
+\[
+\diff \nu (v)=w(v)\diff v\ ,\ \quad w\in L^p\ , \quad p\in(1,\infty]\ .
+\]
+
+We assume that the the fresh nutrient is located on the right so the wave moves towards high concentrations of the nutrient, i.e.  $\partial_zN>0$. We expect the chemoattractant concentration to have a maximum at the cell density peak, and therefore we look for a solution where  $\partial_zS$ changes sign. Without loss of generality we assume that this maximal point is at $z=0$.  We summarise these conditions as follows
+\begin{equation}
+\begin{aligned}
+ &S(\pm \infty)=0\ ,\quad N(\pm\infty)=N_\pm\ ,\\
+&\partial_z S>0  \quad  \textrm{for}\quad z<0\ , \quad\textnormal{and}\quad\partial_z S<0 \quad \textrm{for}\quad z>0\ ,\\
+&\partial_zN>0\ ,\quad\forall z\in\mathbb{R}\ .\label{eq: cond chemicals}
+\end{aligned}
+\end{equation}
+Moreover, the tumbling rate $T$ in \eqref{system} can take only four values depending on the sign of the gradients,
+\begin{eqnarray}\label{tumbl}
+   T(z,v-c)=1-\chi_S \textrm{sign}((v-c)\partial_z S(z))-\chi_N \textrm{sign}((v-c)\partial_z N(z))\ ,
+\end{eqnarray}
+and we denote these values by $T^+_+,T^-_+, T^-_-, T^+_- $:
+\begin{align*}
+T^-_-=1+\chi_S+\chi_N,\quad T^+_-=1-\chi_S-\chi_N\\
+T^-_+=1-\chi_S+\chi_N,\quad T^+_+=1+\chi_S-\chi_N
+\end{align*}
+Before showing existence of travelling waves solutions, we need some conditions on the parameters $(D_S,\alpha)$,
+that are linked to the asymptotic behaviour of the solution of the linear stationary problem
+\[
+(v-c)\partial_zf(z,v)=\int T(z,v'-c)f(z,v')\diff d\nu(v')-T(z,v-c)f(z,v)
+\]
+for a given $c$ and $S(z)$ and $N(z)$ satisfying the conditions in \eqref{eq: cond chemicals}. We also consider that the density $f(z,v)$ decays exponentially fast on both sides of the origin $z=0$. There exist $\lambda_+,\ \lambda_-$ positive and velocity distributions $F_+,\ F_-$ such that
+\[
+f(z,v)\underset{z\to-\infty}{\sim} e^{\lambda_-z}F_-(v)\ , \quad f(z,v)\underset{z\to+\infty}{\sim} e^{-\lambda_+z}F_+(v)\ .
+\]
+The pairs $(\lambda_-,F_-)$ and $(\lambda_+,F_+)$ are given by the expressions
+\begin{align}
+    F_-(v)=(T_-(v-c)+\lambda_-(v-c))^{-1}\ ,\quad F_+(v)=(T_+(v-c)-\lambda_+(v-c))^{-1}
+\end{align}
+where $\lambda_-$ and $\lambda_+$ are the smallest positive root of
+\[
+\int\frac{v-c}{T_-(v-c)+\lambda(v-c)}dv=0\ ,\quad\textnormal{and}\quad \int\frac{v-c}{T_-(v-c)-\lambda(v-c)}dv=0\ ,
+\]
+respectively.
+The existence of $\lambda_{+}$ ($\lambda_-$) is guaranteed if $c$ is larger than $c_*$ ($c^*$), where $c_*$ ($c^*$) is defined as the unique velocity such that
+\[
+\int \frac{v-c_*}{T_+(v-c_*)}dv=0\quad \Bigl(\int \frac{v-c^*}{T_-(v-c^*)}dv=0 \Bigr)\ .
+\]
+In order to show existence of travelling waves, we need the following conditions.
+
+\begin{theorem}[\cite{calvez2016chemotactic}]
+    Assume $(\chi_S,\chi_N)\in (0,1/2]\times [0,1/2)$. Assume in addition that  $\nu$ is absolutely continuous with respect to Lebesgue's measure: $d\nu(v)=w(v)dv$, where the p.d.f. $w$ belongs to $L^p$  for some $p>1$.
+    Additionally, assume that the parameters $D_S$ and $\alpha$ satisfy the following conditions
+    \begin{equation}\label{1.cond}
+\frac{c_*+ \sqrt{(c_*)^2+4\alpha D_S}}{c_*+\sqrt{(c_*)^2+4\alpha D_S}+2D_S\lambda_-(c_*)}\leq \textit{explicit constant}\ ,
+\end{equation}
+\begin{equation}\label{2.cond}
+\frac{-c^*+ \sqrt{(c^*)^2+4\alpha D_S}}{-c^*+\sqrt{(c^*)^2+4\alpha D_S}+2D_S\lambda_+(c^*)}\leq \textit{explicit constant}\ ,
+\end{equation}
+\begin{equation}\label{3.cond}
+\textit{Either}\quad \chi_N \geq \chi_S, \textit{or} \quad \frac{\sqrt{\alpha/D_S}+\lambda_+(0)}{\sqrt{\alpha/D_S}+\lambda_-(0)}\ .
+\end{equation}
+Then there exist a non-negative $c$, and positive functions $(f, S, N)\in (L^1\cap L^\infty (\mathbb{R}\times V))\times C^2(\mathbb{R})\times C^2(\mathbb{R})$ solution of the travelling wave problem (\ref{system})-(\ref{tumbl}).
+\end{theorem}
+
+\iffalse
+where $c_*$ and $c^*$ are defined implicitly such that
+
+\begin{eqnarray}
+    \int_{\{v<c_*\}}\frac{v-c_*}{T^-_+}d\nu(v)+\int_{\{v>c_*\}}\frac{v-c_*}{T^+_+}d\nu(v)=0,\quad  \int_{\{v<c^*\}}\frac{v-c^*}{T^-_-}d\nu(v)+\int_{\{v>c^*\}}\frac{v-c^*}{T^+_-}d\nu(v)=0
+\end{eqnarray}
+
+
+and $\lambda_+(c^*)$ and $\lambda_-(c_*)$ are the smallest positive root of 
+
+\begin{equation}\label{lamda}
+  \int\frac{v-c^*}{T_+(v-c^*)-\lambda(v-c^*)}d\nu(v)=0  ,\quad \int\frac{v-c_*}{T_-(v-c_*)+\lambda(v-c_*)}d\nu(v)=0
+\end{equation}
+
+We get $\lambda_ -(0)$ and $\lambda_+(0)$ from the last information (\ref{lamda}).
+
+\begin{theorem}
+    Assume $(\chi_S,\chi_N)\in (0,1/2]\times [0,1/2)$. Assume in addition that  $\nu$ is absolutely continuous with respect to Lebesgue's measure: $d\nu(v)=w(v)dv$, where the p.d.f. $w$ belongs to $L^p$  for some $p>1$. Under assumption conditions (\ref{1.cond})-(\ref{2.cond})-(\ref{3.cond}) about the reaction-diffusion parameters $\alpha$ and $D_S$, there exist a non-negative $c$, and positive functions $(f, S, N)\in (L^1\cap L^\infty (\mathbb{R}\times V))\times C^2(\mathbb{R})\times C^2(\mathbb{R})$ solution of the travelling wave problem (\ref{system})-(\ref{tumbl})
+\end{theorem}
+\fi
+The details of the proof of this theorem can be found in \cite{calvez2016chemotactic}.
+
+\noindent An important issue discussed in \cite{calvez2018well} is regarding the uniqueness of the travelling wave, where the authors numerically observed that travelling wave exists for several values of $c$, in a parameter regime which violates conditions \eqref{1.cond}-\eqref{3.cond}. This clearly contradicts the results observed at the macroscopic level, where there exists a unique wave speed.  
+
+\textcolor{red}{(this is something we should look into in our AP scheme)}
+
+
+\subsection{Macroscopic travelling wave solution}
+\textcolor{red}{The existence of trevelling waves for the model obtained in \cite{saragosti2010mathematical}. We give shortly in this section.} We now consider the macroscopic system \eqref{eq: macro system} for the case of stiff signal response functions given in \eqref{eq: fluxes def}. we look for travelling wave solutions of the form
+$\rho(t,x)=\bar{\rho}(x-\sigma t)$ , $S(t,x)=\bar{S}(x-\sigma t)$, $N(t,x)=\bar{N}(x-\sigma t)$ with $\sigma$  being the speed of the wave at the macroscopic level. Considering the transformation $z=x-\sigma$,  \eqref{eq: macro system} are rewritten as
+\begin{align}
+&-\sigma \rho'(z) =D_\rho \rho''(z)-\ (\rho(z) u_S(z)+\rho(z) u_N(z))'\ \label{rho_z},\\
+&-\sigma S'(z) =D_S S''(z)-\alpha S(z)+\beta \rho(z)\ ,\\
+&-\sigma  N'(z)=D_N N''(z)-\gamma \rho(z) N(z)\ .
+\end{align}
+As before, we consider that the concentrations $S$ and $N$ satisfy \eqref{eq: cond chemicals} and therefore, $u_N(z)$ and $u_S(z)$ are given by
+$$ 
+u_N(z)=\chi_N ,\quad u_S(z)=-\chi_S \sign(z)\ .
+$$
+
+After, integrating the equation \eqref{rho_z}, we have 
+\begin{displaymath}
+    D_\rho \rho'(z)=\rho(z)(u_S(z)+u_N(z)-\sigma)
+\end{displaymath}
+The cell density is calculated as a combination of two exponential distributions since the flux $u_S$ takes two values and the flux $u_N$ is constant, 
+\begin{equation}\label{lamda}
+    \rho(z)= \begin{cases} 
+\rho_0\exp(\lambda^{-}z),\quad\lambda^{-}=
+\frac{\chi_N+\chi_S-\sigma}{D_{\rho}}>0,\quad \textrm{for}\quad z<0 \ ,\\
+\\
+
+    \rho_0\exp(\lambda^{+}z), \quad \lambda^{+}=\frac{\chi_N-\chi_S-\sigma}{D_{\rho}}<0,\quad \textrm{for}\quad z>0\ .     
+\end{cases}
+\end{equation}
+
+
+Now, we aim to obtain an expression for the travelling wave speed $\sigma$, given that $S$ satisfies $\partial_zS=0$ at $z=0$. 
+From the equation satisfied by $S$, we get that $S(z)=(K*\beta\rho)(z)$ where 
+\begin{displaymath}
+    K=a_1\exp\left(-a_2|z|-a_3z\right)
+\end{displaymath}
+where $a_1=\frac{1}{\sqrt{\sigma^2+4\alpha}}$,   $a_2=\frac{\sqrt{\sigma^2+4\alpha D_s}}{2D_s}$ and $a_3=\frac{\sigma}{2D_s}$.
+The chemical signal should satisfy $\partial_zS(0)=0$, therefore, from $(\partial_z K *\beta\rho)(0)=0$ we obtain
+\begin{align*}
+    0&=a_1\rho_0\int_{-\infty}^{0}(a_2+a_3) \exp(a_2z+a_3z)\exp(\lambda^-z)dz\\ &\quad+a_1\rho_0\int_{0}^{\infty}(-a_2+a_3)\exp(-a_2z+a_3z)\exp(\lambda^{+}z)dz
+    =a_1\Bigl(\frac{a_2+a_3}{a_2+a_3+\lambda^{-}}-\frac{-a_2+a_3}{-a_2+a_3+\lambda^+}\Bigr)\ .
+\end{align*}
+
+\textcolor{red}{To Canan: This sentence makes no sense here. If you read it it doesn't say anything and is not necessary. As you said, the detailed derivation is in other papers so it's not needed here.}
+
+Finally, we obtain the following implicit formula for the speed of the pulse,
+\begin{equation}\label{sgm}
+\chi_N-\sigma=\chi_S\dfrac{\sigma}{\sqrt{4D_S\alpha+\sigma^2}}\ \end{equation}
+There exists a unique positive travelling speed $\sigma\in (0,\chi_N)$  solving eq (\ref{sgm}) (see \cite{saragosti2010mathematical} for details)
+
+\textcolor{red}{(where is this coming from?)}.
+
+
+
+
+\section{Micro-macro decomposition}
+\textcolor{red}{(Gissell takes care of this section)}
+
+To design an asymptotic preserving scheme which automatically preserves the macroscopic limit, a micro-macro formulation needs to be derived. 
+We decompose the solution $f(t,x,v)$ as 
+\begin{equation}\label{def:f_decompose}
+    f(t,x,v) = \rho(t,x) + \varepsilon g(t,x,v)\ .
+\end{equation}
+Substituting the micro-macro decomposition of $f(t, x, v)$ given by \eqref{def:f_decompose} into the  kinetic model \eqref{eq: inital model with scaling}, integrating over $v$ and noticing the fact that $\langle T_\varepsilon \rangle=1 \, \textnormal{and}\, \langle f\rangle = \rho$, we have the equation for the macroscopic quantity $\rho(t, x)$
+\begin{equation*}
+    \partial_t \rho +  \langle v \nabla  g\rangle  =  0\ .
+\end{equation*}
+To get the equation for $g$, we use the projection technique. 
+For simplicity of notations, we introduce the projection operator $\Pi$ defined as 
+\begin{equation*}
+    \Pi f(t,{v},{x}) = \langle f(t,{v},{x})\rangle \ .
+\end{equation*}
+It is easy to check that, {for $I$ the identity operator,} 
+\begin{align*}
+    & (I - \Pi) f = \varepsilon(I - \Pi) g = \varepsilon g\ ,\\
+    & (I - \Pi) \left(\int_VT_\varepsilon(v')f^\varepsilon(v')\diff v'-T_\varepsilon(v)f^\varepsilon(v)\right) = -\varepsilon\left(g+\rho \psi_1 \right) \ .
+\end{align*}
+Finally taking the operator $I-\Pi$ into equation \eqref{eq: inital model with scaling}, we get
+\begin{align*}
+    &\partial_t g + \frac{1}{\varepsilon} (I-\Pi)\left[v \partial_x g \right] 
+    = \frac{1}{\varepsilon^2}\left[-(v\partial_x\rho-\rho \psi_1  - g\right] \ .
+\end{align*}
+
+As a summary, by decomposing $f$ as \eqref{def:f_decompose}, the following micro-macro formulation of the system is derived
+\begin{align}\label{eq:macro_micro}
+\begin{cases}
+	&\partial_t \rho +  \langle v\partial_x g\rangle  = 0\ , \\
+	&\partial_t g + \frac{1}{\varepsilon} (I-\Pi) ({v}\partial_x g) = \frac{1}{\varepsilon^2}(-({v}\partial_x \rho-\rho\psi_1 -  g) \ ,\\
+	&  \partial_t S = \tilde{D}_S\partial_{xx} S -\tilde{\alpha}S+\tilde{\beta}\rho\ ,\\
+ & \partial_tN = \tilde{D}_N\partial_{xx} N-\tilde{\gamma}\rho N\ .
+\end{cases}
+\end{align}
+
+\section{Asymptotic preserving finite difference scheme}
+\textcolor{red}{(Gissell takes care of cleaning this section.)}
+
+We introduce and asymptotic preserving scheme by discretising \eqref{eq:macro_micro} using a finite difference method. 
+We consider the  one-dimensional case for simplicity, i.e $x,v\in[x_{\textnormal{min}},x_{\textnormal{max}}]\times[v_{\textnormal{min}},v_{\textnormal{max}}]$ with zero boundary conditions in both variables.
+
+We denote  $x_{j+\frac{1}{2}}=(j+\frac{1}{2})\Delta x$ and $x_{j}=j\Delta x$ for $j=0,..,N_x-1$,  $v_k=k\Delta v$ for $ k=1,...,N_v$ and $t_n=n\Delta t$ for $n\geq 0$, where $ N_x=(x_{\textnormal{max}}-x_{\textnormal{min}})/\Delta x$ and $N_v=(v_{\textnormal{max}}-v_{\textnormal{min}})/\Delta v$. We consider the approximation of the unknown density function  $\rho(t,x)$ is computed on half grid points $x_{j+\frac{1}{2}}$ with $\rho_{j+\frac{1}{2}}^n\approx\rho(t_n,x_{j+\frac{1}{2}})$, while the unknown perturbation function $g(t,x,v)$ is computed on  $x_{j}$ with $g_{j,k}^n\approx g(t_n,x_{j},v_k)$. Also,   $g(t_n,x_{j+\frac{1}{2}},v_k)$ is calculated by interpolation:
+$$g(t_n,x_{j+\frac{1}{2}},v_k)\approx \bar{g}_{j+\frac{1}{2},k}^n:=(g_{j,k}^n+g_{j+1,k}^n)/2\ .$$
+
+For simplicity of notations, we further introduce the standard finite difference operators $\delta_t^+$ and $\delta_x$, which are numerical approximations of $\partial_t$ and $\partial_x$, respectively, and defined as 
+
+$$\delta_t^+\rho_{j+\frac{1}{2}}^n=\frac{\rho_{j+\frac{1}{2}}^{n+1}-\rho_{j+\frac{1}{2}}^n}{\Delta t}, \quad\delta_xg_{j+\frac{1}{2},k}^n=\frac{g_{j+1,k}^n-g_{j,k}^n}{\Delta x},\quad \delta_x\rho_{j}^n=\frac{\rho_{j+\frac{1}{2}}^n-\rho_{j-\frac{1}{2}}^n}{\Delta x}\ .$$
+
+The composite of two operators $\delta_x$, which is denoted as $\delta_x^2$, is then defined to be 
+$$
+\delta_x^2\rho_{j+\frac{1}{2}}^n=\frac{\delta_ x\rho_{j+1}^n-\delta_x\rho_{j}^n}{\Delta x}=\frac{\rho_{j+\frac{3}{2}}^n-2\rho_{j+\frac{1}{2}}^n+\rho_{j-\frac{1}{2}}^n}{(\Delta x)^2}
+$$
+which is the numerical approximation of $\partial_x^2$. Another important notation to be introduced is $\langle \cdot \rangle_h$, which is defined as
+$$
+\langle \eta_{j,k}^n \rangle_h:=\Delta v\sum_k\eta_{j,k}^n\ ,
+$$
+where $\eta_{j,k}^n\approx \eta(t_n,x_j,v_k)$ for some general function $\eta(t,x,v)$. Obviously, $\langle \eta_{j,k}^n \rangle_h$ is the finite difference approximation of $\langle \eta(t_n,x_j,v))\rangle:=\int_V \eta(t_n,x_j,v) dv$
+Then $D_0:=\langle v^2\psi_0(v) \rangle_h$\\
+can be approximated by
+
+$$D_h:=\langle v_k^2\psi_0(v_k)\rangle_h$$
+
+
+\iffalse
+ Finally, to better approximate $\rho$ at $x=x_{j+\frac{1}{2}}$ and $t=t_n$, we introduce the notation $\Phi_{j+\frac{1}{2}}^{n_1,n}$, which is defined as 
+ \begin{eqnarray}
+     \Phi_{j+\frac{1}{2}}^{n_1,n}=\left\{ \begin{array}{rc}\rho_j^{n_1} ,& \mbox{if} \quad  \delta_xS_{j+\frac{1}{2}}^n \geq 0,\\
+     \rho_{j+1}^{n_1} ,  & \mbox{if} \quad \delta_xS_{j+\frac{1}{2}}^n < 0,\end{array}\right.
+ \end{eqnarray}
+ where $n_1=n$ or $n+1$. As shown in [] $\Phi_{j+\frac{1}{2}}^{n_1,n}$ approximates $\rho$ at $t=t_n$ and $x=x_{j+\frac{1}{2}}$ in an upwind manner and thus help improve the stability of the numerical scheme.
+ \fi
+ 
+  With the notations defined, the system \ref{eq:macro_micro} can be discretised as
+   \begin{equation}
+\begin{cases}\label{eq: main scheme}
+   &\delta_t^+\rho_{j+\frac{1}{2}}^n +\langle v_k \delta_x (g_{j,k}^{n+1})\rangle_h=0\ ,\\
+   
+        &\delta_t^+ g_{j+\frac{1}{2},k}^n + \frac{1}{\epsilon}(I-II_h)M_{j,k}^n =\frac{1}{\epsilon^2}(K_{j,k}^{n,n+1}-g_{j,k}^{n+1})\ ,\\
+        
+        &\delta_t^+S_{j+\frac{1}{2}}^{n+1} = \tilde{D}_S \delta _x^2S_{j+\frac{1}{2}}^{n}-\tilde{\alpha} S_{j+\frac{1}{2}}^{n}+\tilde{\beta}\rho_{j+\frac{1}{2}}^{n}\ ,\\
+        
+     &\delta_t^+N_{j+\frac{1}{2}}^{n+1} = \tilde{D}_N \delta _x^2N_{j+\frac{1}{2}}^{n}-\tilde{\gamma} \rho_{j+\frac{1}{2}}^{n}N_{j+\frac{1}{2}}^{n}\ ,\\
+   \end{cases}
+   \end{equation}
+where
+\begin{align}
+M_{j,k}^n&=(v_k^+\delta_x(g_{j-\frac{1}{2},k}^n)-v_k^-\delta_x(g_{j+\frac{1}{2},k}^n))\ ,\\
+K_{j,k}^{n,n+1}
+& = -v_k\psi_0(v_k)\delta_x\rho_{j}^{n+1}+{\Phi^{n+1,n}_{j}\phi_1[S_{j}^n](v_k)+\Psi^{n+1,n}_{j}\phi_2[N_{j}^n](v_k)}
+\end{align}
+for $v^+=\max\{v,0\}$ and $v^-=\max\{-v,0\}$ and 
+\[
+\Phi^{n_1,n}_{j}=\begin{cases}
+     \rho^{n_1}_{j-\frac{1}{2}}\ ,  &\textnormal{if}\ \  \delta_x S_{j}^n\geq 0\ ,\\
+    \rho^{n_1}_{j+\frac{1}{2}}\ , &\textnormal{if}\ \ \delta_x S_{j}^n< 0\ ,
+\end{cases}
+\quad \Psi^{n_1,n}_{j}=\begin{cases}
+     \rho^{n_1}_{j-\frac{1}{2}}\ , & \textnormal{if}\ \  \delta_x N_{j}^n\geq 0\ ,\\
+    \rho^{n_1}_{j+\frac{1}{2}}\ , & \textnormal{if}\ \ \delta_x N_{j}^n< 0\ ,
+    \end{cases}
+\]
+where $n_1=n$ or $n+1$.
+
+
+Following the idea in [21], the scheme \eqref{eq: main scheme} can be solved efficiently. Instead of solving the system \eqref{eq: main scheme} directly, where all densities $\rho_{j+\frac{1}{2}}^{n+1}$ and perturbations $g_{j,k}^{n+1}$ are coupled so that a large linear system needs to be inverted, we introduce $\tilde{g}_{j,k}^{n+1}$, which satisfies
+\begin{eqnarray}\label{eqg}
+    \frac{\tilde{g}_{j,k}^{n+1}-g_{j+\frac{1}{2},k}^{n+1}}{\Delta t}+\frac{1}{\epsilon}(I-II)M_{j,k}^n=\frac{1}{\epsilon^2}(\widetilde{K}_{j,k}^{n}-\tilde{g}_{j,k}^{n+1})
+\end{eqnarray}
+where
+$$
+\widetilde{K}_{j,k}^{n}=-v_k\psi_0(v_k)\delta_x\rho_{j}^{n+1}+{\Phi^{n,n}_{j}\phi_1[S_{j}^n](v_k)+\Psi^{n,n}_{j}\phi_2[N_{j}^n](v_k)}
+$$
+
+By reformulating \eqref{eqg}, it is easy to see that
+\iffalse
+\begin{eqnarray}\label{gtilda}
+\left( \frac{1}{\Delta t}+\frac{1}{\epsilon ^2}\right)\tilde{g}_{j+\frac{1}{2},k}^{n+1}=\frac{g_{j+\frac{1}{2},k}^n}{\Delta t}-\frac{1}{\epsilon}(I-II)\left(v_k^+\delta_x(g_{j,k}^n)-v_k^-\delta_x(g_{j+1,k}^n)\right)\nonumber\\
++\frac{1}{\epsilon^2}\left( -v_k\psi_0(v_k)\delta_x\rho_{j+\frac{1}{2}}^{n+1}+\psi_1(v_k,\delta_x S_{j+\frac{1}{2}}^n)\Phi_{j+\frac{1}{2}}^{n+1,n}\right)
+\end{eqnarray}
+\fi
+ all the unknowns $\tilde{g}_{j,k}^{n+1}$ can be solved explicitly. By comparing \eqref{eqg} and the second equation in \eqref{eq: main scheme}, it can be observed that 
+\begin{align}\label{g}
+    g_{j,k}^{n+1}
+    &=\tilde{g}_{j,k}^{n+1}+\frac{1}{\epsilon^2}\left(\frac{1}{\Delta t}+\frac{1}{\epsilon^2}\right)^{-1}\left( K_{j,k}^{n,n+1}-\widetilde{K}_{j,k}^n \right)\ .
+\end{align}
+
+\textcolor{red}{
+Then by substituting \ref{gtilda} into first equation \eqref{eq: main scheme}, a system which contains only the unknowns for the densities is derived. Specifically, we have  
+\begin{eqnarray}\label{rho}
+  \frac{\rho_j^{n+1}}{\Delta t}-\delta_x(a_*^n\delta_x\rho_*^{n+1})_j + \delta_x(b_*^n\Phi_*^{n+1,n})_j=r_j 
+\end{eqnarray}
+where the coefficients $a_{j+\frac{1}{2}}^n, b_{j+\frac{1}{2}}^n$ and residuals $r_j^n$ can be explicitly computed via
+\begin{eqnarray}
+    a_{j+\frac{1}{2}}^n&=&\frac{\Delta t}{\epsilon^2+\Delta t} D_h\nonumber\\
+    b_{j+\frac{1}{2}}^n&=&\frac{\Delta t}{\epsilon^2+\Delta t} \langle v_k\psi_1(v_k,\delta_x S_{j+\frac{1}{2}}^n)\rangle_h\nonumber\\
+    r_j^n&=&\frac{{\rho_j^{n+1}}}{\Delta t}-\langle v_k\delta_x(\tilde{g}_{*,k}^{n+1})_j\rangle_h-\delta_x(a_*^n\delta_x\rho_*^n)_j+\delta_x(b_*^n\Phi_*^{n,n})_j
+    \end{eqnarray}
+To solve all the unknowns $\rho_j^{n+1}$ from the system \eqref{rho}, only a tridiagonal matrix needs to inverted. And the the unknowns 
+ $g_{j+\frac{1}{2},k}^{n+1}$ can be solved explicitly via \eqref{g}. In this way, we efficiently update the system \eqref{eq} from $t=t_n$ to $t=t_{n+1}$}
+
+
+
+\subsection{Asymptotic preserving property}
+\subsection{Positivity preserving property}
+\section{Numerical experiments}
+\textcolor{blue}{Compute the travelling wave solution speed at the macro level for different values of $\chi_N$ and $\chi_S$, see reference [8]. We can compare to the numerical velocity obtained at the kinetic level for the same parameters.}
+
+\textcolor{red}{(To Xinran: Please explain here the details, the choices of the functions, the parameter values and include some plots for the macroscopic and kinetic travelling waves.)}
+
+\textcolor{red}{
+\[(\chi_N-\sigma)^2(4D_S\alpha+\sigma^2)=\chi_S^2\sigma^2\]
+\[ \chi_N=1.1,\quad D_S=2,\quad \alpha=0.4,\quad \chi=\frac{1}{2}\]
+\[\sigma^4-2.2\sigma^3+4.16\sigma^2-7.04\sigma+3.872=0\]
+\[\sigma=0.8794\]}
+
+From the data observed in the previous experiments in [refs] we can compute the following
+\[
+A=1\ , \ \  B=1/2\ ,\ \ C=1.1\ ,\ \ D=2\ ,\ \ E=0.4\ , \ \ F=4\cdot 10^7\textnormal{cells}^{-1}\ ,\ \ G=2\ ,\ \ H=4\cdot 10^7\textnormal{cells}^{-1}\ .
+\]
+
+\textcolor{red}{Define the following quantities
+\[
+\psi_0(v)\ , \quad \phi_1[S](v)\ ,\quad \phi_2[N](v)
+\]
+Also, define the initial conditions for $\rho$, $N$ and $S$.
+}
+
+{\XR {For numerical simulations of the macroscopic model \eqref{eq: macro system}, we assume the cells concentrate on the left side of the domain with no chemical signal and a constant level of nutrient. 
+In other words, we compute in the interval $(0, L)$ for some $L$ and choose the following ansatz 
+$$
+    \rho(0, x) = \rho_0 e^{-\lambda x}, \quad 
+    S(0, x) = 0, \quad
+    N(0, x) = N_0,
+$$
+with some $\rho_0, \lambda, N_0$ for numerical simulations.
+Other parameters can be chosen the same as in the reference \cite{saragosti2010mathematical}, i.e. 
+$$
+    D_{\rho} = 1, D_S = 2, D_N = 0, \alpha = 0.05, \beta = \gamma = 1. 
+$$
+Figure \ref{} shows the profiles of $\rho(t,x)$ with $\chi_S = 0.5, \, \chi_N = 1.1$. 
+(In the absence of nutrient, there should be a stationary solution $\rho(x) = e^{-\frac{\chi_S}{D_\rho} x}$ as suggested in \cite{saragosti2010mathematical}. In other words, we should have $\sigma=0$, which is consistent with our result.)
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{profiles.eps}
+    \includegraphics[width=0.5\linewidth]{compare_profile.eps}
+    \caption{The first figure shows density profiles $\rho(t,x)$ at $T=20,60,100$. 
+    The second figure compares the numerical density profile $\rho$ at $T=100$ with the analytical one.}
+    \label{fig:enter-label}
+\end{figure}
+}
+}
+
+{\XR {
+By varying the values of $\chi_S$ and $\chi_N$, we should expect the travelling speed varies accordingly, following the rule 
+$$
+    \chi_N - \sigma = \chi_S \frac{\sigma}{\sqrt{4D_S\alpha + \sigma^2}},
+$$
+which by monotonicity arguments admits at most one solution. 
+In Table \ref{tab:compare_speed_chiN}, we compared the numerical travelling speed with the analytical results.
+\begin{table}[]
+    \centering
+    \begin{tabular}{c|c|c|c}
+        \hline
+        $\chi_N$ & 1.1 & 2 & 3 \\
+        \hline
+        Numerical travelling speed & 0.7230 & 1.5428 & 2.5210 \\
+        \hline
+        Analytical travelling speed & 0.7235 & 1.5376 & 2.5151 \\
+        \hline
+    \end{tabular}
+    \caption{Comparison of the numerical travelling speed and the analytical travelling speed. In the test, we fix $\chi_S = 0.5, D_s = 2, \alpha = 0.05$.
+    (For $\chi_N=3$, $\Delta x=0.01$,
+    $\chi_N=2$, $\Delta x=0.01$,
+    $\chi_N=3$, $\Delta x=0.02$)}
+    \label{tab:compare_speed_chiN}
+\end{table}
+}}
+
+{\XR {
+For the kinetic model, the velocity distributions $\psi_0(v)$, $\phi_1[S](v)$ and $\phi_2[N](v)$ should be measured via experiments. 
+Without experiment results, we may take the following choices as in \cite{} 
+$$
+    \psi_0(v) = \frac{1}{2\pi} e^{-\frac{v^2}{2}}, \quad 
+    \phi_1[S](v) = \phi_1[N](v) = \frac{v}{2\pi} e^{-\frac{v^2}{2}}
+$$
+Figure \ref{fig:epsilon} shows the profiles of $\rho(t,x)$ with different values of $\varepsilon$.
+}}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{profiles_epsilon.eps}
+    \caption{We compare the density profiles with $\varepsilon_0 = 10^{-3}$. Other parameters are chosen to be $\Delta x = 0.1, \Delta t = 10^-2, \chi_N=1.1, \chi_S = 0.5, D_s = 2, \alpha = 0.05$. (The scheme is unstable with a larger $\varepsilon$, say 0.01.)}
+    \label{fig:epsilon}
+\end{figure}
+\begin{table}[]
+    \centering
+    \begin{tabular}{c|c|c|c}
+        \hline
+        $\varepsilon$ & $10^{-3}$ & $10^{-4}$ & $10^{-5}$ \\
+        \hline
+        $\|\rho^{\varepsilon} - \rho\|_2$ & 6.7634e-04 & 6.7943e-05 & 6.7975e-06 \\
+        \hline
+        $\|\rho^{\varepsilon} - \rho\|_{\infty}$ & 
+        0.0013 & 1.3498e-04 & 1.3504e-05 \\
+        \hline
+    \end{tabular}
+    \caption{Accuracy test at $T = 0.1$. (We can't observe the convergence as $\varepsilon\to0$ with a larger $T$. The reason is unclear but might be related to the boundary condition as oscillations appear near $x=0$, which is different from the macro model.)}
+    \label{tab:accuracy_test}
+\end{table}
+
+
+{\XR {Update: 
+In the simulation, we enforced $f$ to be nonnegative, which improved the robustness of our scheme. 
+Figure \ref{fig:conv_T} compares the density profiles of the kinetic model for $\varepsilon = 0.1, 0.05, 0.01$ with that of the macroscopic model. 
+Table \ref{tab:epsilon_T_values} shows $\|\rho^\varepsilon-\rho\|_2$ for different values of $\varepsilon$ and T. 
+Table \ref{tab:travel_speed} shows numerical travelling speeds corresponding to various $\varepsilon$ and T. 
+}}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.4\textwidth]{T_1.eps}
+    \includegraphics[width=0.4\textwidth]{T_10.eps}
+    \centering
+    \includegraphics[width=0.4\textwidth]{T_20.eps}
+    \includegraphics[width=0.4\textwidth]{T_50.eps}
+    \caption{Comparison of density profiles for $\varepsilon = 0.1$, $0.05$, and $0.01$. The other parameters are set as follows: $\Delta x = 0.1$, $\Delta t = 10^{-3}$, $\chi_N = 1.1$, $\chi_S = 0.5$, $D_s = 2$, and $\alpha = 0.05$.}
+    \label{fig:conv_T}
+\end{figure}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        & $\varepsilon= 1$ & $\varepsilon=0.1$ & $\varepsilon=0.05$ & $\varepsilon=0.01$ & $\varepsilon=0.001$ \\
+        \hline
+        T = 1 & 0.457387598 & 0.195572754 & 0.063367709 & 0.005665137 & 0.004720726 \\
+        \hline
+        T = 5 & 1.170938306 & 0.166912175 & 0.048322629 & 0.004832707 & 0.002355114 \\
+        \hline
+        T = 10 & 1.802961097 & 0.143816224 & 0.040773215 & 0.003372185 & 0.00141042 \\
+        \hline
+        T = 20 & 2.858996388 & 0.143795041 & 0.040367427 & 0.00313379 & 0.000241319\\
+        \hline
+        T = 50 & 6.209264324 & 0.139749525 & 0.038962193 & 0.003058151 & 0.000246702 \\
+        \hline
+    \end{tabular}
+    \caption{$L^2$-error $\|\rho^\varepsilon - \rho\|_2$ for different values of $\varepsilon$ and $T$. The travelling wave emerges after $T = 20$, and the results in the last two rows are nearly identical.}
+    \label{tab:epsilon_T_values}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|c|c|c|c|c|c|}
+        \hline
+         & $T=1$ & $T=10$ & $T=20$ & $T=30$ & $T=40$ & $T=50$ \\
+        \hline
+        Macro & 0.880333028 & 0.599239839 & 0.727553803 & 0.733532824 & 0.725697528 & 0.722771112 \\
+        Kinetic $\varepsilon=1$ & 0.518963817 & 0.337444262 & 0.325072197 & 0.328886534 & 0.325139289 & 0.312056651 \\
+        Kinetic $\varepsilon=10^{-1}$ & 0.755476966 & 0.622117057 & 0.73996298 & 0.734300279 & 0.72678202 & 0.72959248 \\
+        Kinetic $\varepsilon=10^{-2}$ & 0.747591452 & 0.616041174 & 0.729054516 & 0.734959884 & 0.72684429 & 0.724830459 \\
+        Kinetic $\varepsilon=10^{-3}$ & 0.816131653 & 0.60631475 & 0.727427547 & 0.733612479 & 0.725641466 & 0.723017182 \\
+        \hline
+    \end{tabular}
+    \caption{Numerical travelling speeds of the macroscopic and kinetic models for various values of $\varepsilon$ and $T$.}
+    \label{tab:travel_speed}
+\end{table}
+
+\appendix
+
+\section{Numerical scheme for the PDE}
+For the numerical solution of the PDE we rewrite \eqref{eq: rho nondimension} as
+\begin{equation}
+    \partial_t\rho=\nabla\cdot\Bigl(\rho(A\nabla H'(\rho)-Bu_S-Cu_N)\Bigr)\ .
+\end{equation}
+\textcolor{red}{(Explain numerical discretisation)}
+
+Then we have
+\begin{equation}
+\frac{d\rho_j}{dt}=-\frac{F_{j+\frac{1}{2}}(t)-F_{j-\frac{1}{2}}(t)}{\Delta x},
+\end{equation}
+where
+\begin{equation}
+F_{j+\frac{1}{2}}=U^+_{j+\frac{1}{2}}\rho_j+U^-_{j+\frac{1}{2}}\rho_{j+1}, \quad  F_{j-\frac{1}{2}}=U^+_{j-\frac{1}{2}}\rho_{j-1}+U^-_{j-\frac{1}{2}}\rho_j\ .
+\end{equation}
+Also
+\[
+\xi_i=AH'(\rho)=A\log(\rho_i)
+\]
+and
+\begin{equation}
+    U_{j+\frac{1}{2}}=-\frac{\xi_{j+1}-\xi_j}{\Delta x}+a_j[S]+a_j[N]\ ,\ \quad    U_{j-\frac{1}{2}}=-\frac{\xi_{j}-\xi_{j-1}}{\Delta x}+a_{j-1}[S]+a_{j-1}[N]\ ,
+\end{equation}
+\[
+a_j[S]=B\sign\Bigl( \frac{S_{j+1}-S_j}{\Delta x}\Bigr)\ ,\ \quad a_{j-1}[S]=B\sign\Bigl( \frac{S_{j}-S_{j-1}}{\Delta x}\Bigr)
+\]
+and finally
+\begin{equation}
+    U_{j+\frac{1}{2}}^+=\max(U_{j+\frac{1}{2}},0)\ ,\quad U_{j+\frac{1}{2}}^-=\min(U_{j+\frac{1}{2}},0)
+\end{equation}
+
+We consider zero-flux boundary conditions for $\rho$, $S$ and $N$.
+
+
+
+
+
+
+
+
+\iffalse
+IN THE EXAMPLE\\
+$\epsilon_j=D_p \log \rho_j-\chi(S) sign(\frac{\partial S}{\partial x})X-\chi(N) sign(\frac{\partial N}{\partial x})X$
+\begin{eqnarray}
+U^+_{j+\frac{1}{2}}=\max(U_{j+\frac{1}{2}},0), \quad U^-_{j+\frac{1}{2}}=\min (U_{j+\frac{1}{2}},0)
+\end{eqnarray}
+
+\begin{eqnarray}
+\frac{S_j^{n+1}-S_j^n}{\Delta t}=D_S\frac{M_{j+1}^n-2S_j^n+S_{j-1}^n}{(\Delta x)^2}-\alpha S_j^n+\beta \rho_j^n\\
+S_j^{n+1}=S_j^n+D_S \frac{\Delta t} {(\Delta x)^2}(S_{j+1}-2S_j^n+S_{j-1}^n)-\alpha \Delta t S_j^n+\beta \Delta t \rho_j^n
+\end{eqnarray}
+
+
+\begin{eqnarray}
+\frac{N_j^{n+1}-N_j^n}{\Delta t}=D_N\frac{N_{j+1}^n-2N_j^n+N_{j-1}^n}{(\Delta x)^2}-\gamma N_j^n \rho_j^n\\
+N_j^{n+1}=N_j^n+D_N \frac{\Delta t} {(\Delta x)^2}(N_{j+1}-2N_j^n+N_{j-1}^n)-\gamma \Delta t N_j^n \rho_j^n
+\end{eqnarray}
+
+\textbf{ For boundary $ j=1(j=1,...,m) \quad b=D_S \frac{\Delta t} {(\Delta x)^2}, \quad d=D_N \frac{\Delta t} {(\Delta x)^2}$}
+\begin{eqnarray}
+\frac{d\rho_1}{dt}=-\frac{F_{1+\frac{1}{2}}}{\Delta x}=-\frac{U^+_{\frac{3}{2}}p_1+U^-_{\frac{3}{2}}p_2 }{\Delta x}, \quad U_{\frac{3}{2}}=-\frac{\epsilon_2-\epsilon_1}{\Delta x}
+\end{eqnarray}
+
+ 
+%FOR S
+\begin{eqnarray}
+\partial_x S |_{x=0}= 0, \quad -> S^n_1-S^n_0=0\\
+S_j^{n+1}=S_j^n+D_M \frac{\Delta t} {(\Delta x)^2}(S^n_{j+1}-2M_j^n+S_{j-1}^n)-\alpha \Delta t S_j^n+\beta \Delta t \rho_j^n, \\
+S_1^{n+1}=S_1^n+b(S^n_{2}-2S_1^n+S_{0}^n)-\alpha \Delta t S_1^n+\beta \Delta t \rho_1^n\\
+S_1^{n+1}=S_1^n+b(S^n_{2}-S_1^n)-\alpha \Delta t S_1^n+\beta \Delta t \rho_1^n\\
+S_1^{n+1}=bS^n_2+(1-b-\alpha \Delta t)S_1^n+\beta \Delta t \rho_1^n
+\end{eqnarray}
+
+%FOR N
+\begin{eqnarray}
+\partial_x N |_{x=0}= 0, \quad -> N^n_1-N^n_0=0\\
+N_j^{n+1}=N_j^n+D_N \frac{\Delta t} {(\Delta x)^2}(N^n_{j+1}-2N_j^n+N_{j-1}^n)-\gamma \Delta t N_j^n \rho_j^n\\
+N_1^{n+1}=N_1^n+d(N^n_{2}-2N_1^n+N_{0}^n)-\gamma \Delta t N_1^n \rho_1^n\\
+N_1^{n+1}=N_1^n+d(N^n_{2}-N_1^n)-\gamma \Delta t N_1^n \rho_1^n\\
+N_1^{n+1}=dN^n_{2}+(1-d)N_1^n-\gamma \Delta t N_1^n\rho_1^n\\
+\end{eqnarray}
+
+
+\textbf{ For boundary $ j=m(j=1,...,m) \quad b=D_S \frac{\Delta t} {(\Delta x)^2}, \quad d=D_N \frac{\Delta t} {(\Delta x)^2}$}
+\begin{eqnarray}
+\frac{d\rho_m}{dt}=\frac{F_{m-\frac{1}{2}}}{\Delta x}=\frac{U^+_{m-\frac{1}{2} }\rho_{m-1}+U^-_{m-\frac{1}{2} }\rho_m }{\Delta x}, \quad U_{m-\frac{1}{2}}=-\frac{\epsilon_m-\epsilon_{m-1}}{\Delta x}
+\end{eqnarray}
+
+
+%FOR S
+\begin{eqnarray}
+\partial_x S |_{x=L}= 0, \quad -> S^n_{m+1}-S^n_m=0\\
+S_j^{n+1}=S_j^n+D_S \frac{\Delta t} {(\Delta x)^2}(S^n_{j+1}-2S_j^n+S_{j-1}^n)-\alpha \Delta t S_j^n+\beta \Delta t \rho_j^n, \\
+S_m^{n+1}=S_m^n+b(S^n_{m+1}-2S_m^n+S_{m-1}^n)-\alpha \Delta t M_m^n+\beta \Delta t \rho_m^n\\
+S_m^{n+1}=S_m^n+b(-S^n_{m}+S_{m-1}^n)-\alpha \Delta t S_m^n+\beta \Delta t \rho_m^n\\
+S_m^{n+1}=(1-b-\alpha \Delta t)S^n_m+bS_{m-1}^n+\beta \Delta t \rho_m^n
+\end{eqnarray}
+
+%FOR N
+\begin{eqnarray}
+N(t,x=L)= \tilde{N}, \\
+N_j^{n+1}=N_j^n+d(N^n_{j}-2N_{j-1}^n+N_{j-2}^n)-\gamma \Delta t N_j^n \rho_j^n\\
+N_m^{n+1}=N_m^n+d(N^n_{m}-2N_{m-1}^n+N_{m-2}^n)-\gamma \Delta t N_m^n \rho_m^n\\
+N_m^{n+1}=(1+d-\gamma \Delta t\rho_m^n)\tilde{N}+d(-2N^n_{m-1}+N_{m-2}^n)
+\end{eqnarray}
+
+
+\textbf{\textit{Example}} J. Saragosti, v. Calvez, N. Bournaveas, A. Buguin, P. Silberzan, B. Perthame ''Mathematical Description of Bacterial Travelling Pulses'' 2009\\
+$D_{\rho}=1, \chi_M=\chi_N=1$,  $D_M=2,\alpha=0.05,\gamma=\beta=1 $  $D_N=0$ \\
+$\Delta x=0.5,\quad \Delta t=0.001,\quad T=5, \quad x\in[0,50]$\\
+
+$\rho(0,x)=\exp(-x),\quad S(0,x)=0,\quad N(0,x)=N_0=10$\\
+\fi
+
+\iffalse
+SCALING OF PDE\\
+
+$t=\tilde{t} \bar{t}, \quad x=\tilde{x}\bar{x},\quad  \tilde{t},\quad \tilde{x}$ are new variables.
+
+$$
+\tilde{t}=\frac{t}{\bar{t}}, \quad \tilde{x}=\frac{x}{\bar{x}}
+$$
+
+\begin{eqnarray}
+\frac{\partial \rho}{\partial t}&=&D_p\frac{\partial^2 \rho}{\partial x^2}-\frac{\partial}{\partial x}\left( \rho \chi_S sign(\frac{\partial S}{\partial x})+\rho \chi_N sign(\frac{\partial N}{\partial x})\right) \\
+\frac{\partial S}{\partial t}&=&D_S \frac{\partial^2S}{\partial x^2}-\alpha S+\beta \rho\\
+\frac{\partial N}{\partial t}&=&D_N \frac{\partial^2N}{\partial x^2}-\gamma \rho N
+\end{eqnarray}
+%FOR S
+\begin{eqnarray*}
+\frac{1}{\bar{t}}\frac{\partial S}{\partial\tilde{t}}=\frac{D_S}{(\bar{x})^2}\frac{\partial^2S}{\partial \tilde{x}^2}-\alpha S+\beta \rho
+\end{eqnarray*}
+
+\begin{eqnarray}
+\frac{\partial S}{\partial\tilde{t}}=\frac{D_S\bar{t}}{(\bar{x})^2}\frac{\partial^2S}{\partial \tilde{x}^2}-\alpha\bar{t} S+\beta \bar{t}\rho
+\end{eqnarray}
+
+%FOR N
+
+\begin{eqnarray*}
+	\frac{1}{\bar{t}}\frac{\partial N}{\partial\tilde{t}}=\frac{D_N}{(\bar{x})^2}\frac{\partial^2N}{\partial \tilde{x}^2}-\gamma\rho N
+\end{eqnarray*}
+
+\begin{eqnarray}
+\frac{\partial N}{\partial\tilde{t}}=\frac{D_N \bar{t}}{(\bar{x})^2}\frac{\partial^2N}{\partial \tilde{x}^2}-\gamma\bar{t}\rho N
+\end{eqnarray}
+
+
+
+
+\begin{eqnarray*}
+\frac{1}{\bar{t}}\frac{\partial \rho}{\partial\tilde{t}}=\frac{D_\rho}{(\bar{x})^2}\frac{\partial^2\rho}{\partial \tilde{x}^2}-\frac{1}{\bar{x}}\frac{\partial}{\partial \tilde{x}}\left[ \rho\chi_S sign\left( \frac{\partial S}{\bar{x}\partial \tilde{x}}\right) +\rho \chi_N sign\left( \frac{\partial N}{\bar{x}\partial \tilde{x}}\right)\right] 
+\end{eqnarray*}
+
+\begin{eqnarray}
+\frac{\partial \rho}{\partial\tilde{t}}=\frac{\bar{t}D_\rho}{(\bar{x})^2}\frac{\partial^2\rho}{\partial \tilde{x}^2}-\frac{1}{\bar{x}}\frac{\partial}{\partial \tilde{x}}\left[ \rho\frac{\bar{t}}{\bar{x}}\chi_S sign\left( \frac{\partial S}{\bar{x}\partial \tilde{x}}\right) +\rho\frac{\bar{t}}{\bar{x}} \chi_N sign\left( \frac{\partial N}{\bar{x}\partial \tilde{x}}\right)\right] 
+\end{eqnarray}
+FOR $\rho$
+\begin{eqnarray}
+A=\frac{\bar{t}D_\rho}{(\bar{x})^2},\quad
+B= \frac{\bar{t}}{\bar{x}}\chi_S,\quad
+ C=\frac{\bar{t}}{\bar{x}} \chi_N
+ \end{eqnarray}
+ FOR $S$
+ \begin{eqnarray}
+ D=\frac{\bar{t}D_S}{(\bar{x})^2},\quad
+ E=\bar{t}\alpha,\quad
+  F=\bar{t}\beta,
+\end{eqnarray}
+FOR $N$
+\begin{eqnarray}
+ G=\frac{\bar{t}D_N}{(\bar{x})^2},\quad
+ H=\gamma \bar{t}
+\end{eqnarray}
+
+\begin{eqnarray*}
+A=\frac{\bar{t}D_\rho}{(\bar{x})^2}=\frac{100s}{(200.10^{-4}cm)^2}4.10^{-6}\frac{cm^2}{s}=1,\\
+B= \frac{\bar{t}}{\bar{x}}\chi_S=\frac{100s}{200.10^{-4}cm}10^{-4}cms^{-1}=\frac{1}{2}\\,\end{eqnarray*}
+\begin{eqnarray*}
+C=\frac{\bar{t}}{\bar{x}} \chi_N=\frac{100s}{200.10^{-4}cm}.2.2.10^{-4}cms^{-1}=1.1,\\
+D=\frac{\bar{t}D_S}{(\bar{x})^2}=\frac{8.10^{-6}cm^2s^{-1}.100 s}{(200.10^{-4}cm)^2}=2,\\
+E=\bar{t}\alpha=100s.4.10^{-3}s^{-1}=0.4\\
+F=\bar{t}\beta=100s.4.10^5cell^{-1}s^{-1}=4.10^7cell^{-1}\\
+G=\frac{\bar{t}D_N}{(\bar{x})^2}=8.10^{-6}cm^2s^{-1}\frac{100s}{(200.10^{-4}cm)^2}=2,\\
+H=\gamma\bar{t}=4.10^{-5}cell^{-1}s^{-1}100s=4.10^{7}cell^{-1}
+\end{eqnarray*}
+\fi
+
+\bibliographystyle{abbrv}
+\bibliography{bib.bib}
+
+
+\end{document}

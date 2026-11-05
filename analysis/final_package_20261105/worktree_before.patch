@@ -1,0 +1,230 @@
+diff --git a/AP_bacteria_code_v4_paper_response/+model/phi_response.m b/AP_bacteria_code_v4_paper_response/+model/phi_response.m
+index 5206e31..a54d63e 100644
+--- a/AP_bacteria_code_v4_paper_response/+model/phi_response.m
++++ b/AP_bacteria_code_v4_paper_response/+model/phi_response.m
+@@ -2,9 +2,17 @@
+ switch lower(p.phi_type)
+     case 'sign'
+         y = -sign(z);
++    case 'exp_sign'
++        % Response alpha is independent of p.alpha (chemical degradation).
++        assert(isfield(p,'phi_alpha') && isscalar(p.phi_alpha) ...
++            && isfinite(p.phi_alpha) && p.phi_alpha>=0, ...
++            'exp_sign requires a finite nonnegative p.phi_alpha.');
++        y = -exp(-p.phi_alpha*abs(z)).*sign(z);
+     case 'linear'
+         y = -z;
+-    otherwise
++    case 'tanh'
+         y = -tanh(z/max(p.phi_delta, eps));
++    otherwise
++        error('Unknown response type: %s',p.phi_type);
+ end
+ end
+diff --git a/AP_bacteria_code_v4_paper_response/+model/positivity_limiter.m b/AP_bacteria_code_v4_paper_response/+model/positivity_limiter.m
+index 3a63744..6a2dea7 100644
+--- a/AP_bacteria_code_v4_paper_response/+model/positivity_limiter.m
++++ b/AP_bacteria_code_v4_paper_response/+model/positivity_limiter.m
+@@ -1,10 +1,27 @@
+-function [rho_new, g_edge_new] = positivity_limiter(rho, g_edge, grid, p)
++function [rho_new, g_edge_new, info] = positivity_limiter(rho, g_edge, grid, p)
+ %POSITIVITY_LIMITER Zhang--Shu style limiter for f = rho/|V| + eps*g.
+ V = grid.V; w = grid.w; epsv = p.eps;
+ Nx = grid.Nx;
++assert(isfinite(epsv) && epsv>0, 'Kinetic limiter requires epsilon>0.');
++reflection = model.reflection_indices(grid);
+ mass0 = sum(rho)*grid.dx;
++assert(isfinite(mass0) && mass0>0, 'Limiter requires positive total input mass.');
++info = struct('theta_cells',0,'theta_min',1,'negative_density_cells',0, ...
++    'eta_triggered',false,'eta_edges',0,'eta_min',1,'min_f_before_eta',NaN, ...
++    'early_return',false,'correction_applied',false,'mass_scale',1);
++assert(all(isfinite(rho(:))) && all(isfinite(g_edge(:))), ...
++    'Limiter input must be finite.');
+ gc = 0.5*(g_edge(:,1:end-1) + g_edge(:,2:end));
+ F = ones(grid.Nv,1)*(rho/V) + epsv*gc;
++assert(all(isfinite(F(:))), 'Reconstructed limiter input must be finite.');
++if all(rho(:)>=0) && all(F(:)>=0)
++    rho_new = rho;
++    g_edge_new = g_edge;
++    info.early_return = true;
++    info.min_f_before_eta = min(F,[],'all');
++    return;
++end
++info.correction_applied = true;
+ Fstar = F;
+ for j = 1:Nx
+     rhoj = utils.vint(F(:,j), w);
+@@ -12,22 +29,41 @@
+     mj = min(F(:,j));
+     if rhoj > 0 && mj < 0
+         theta = min(1, feq/(feq - mj));
++        info.theta_cells = info.theta_cells + (theta<1);
++        info.theta_min = min(info.theta_min,theta);
+         Fstar(:,j) = feq + theta*(F(:,j)-feq);
+         Fstar(:,j) = max(Fstar(:,j),0);
+     elseif rhoj <= 0
++        info.negative_density_cells = info.negative_density_cells + 1;
+         Fstar(:,j) = 0;
+     end
+ end
+ rho_star = utils.vint(Fstar, w);
+ mass_star = sum(rho_star)*grid.dx;
+-if mass_star > 0
+-    Fstar = (mass0/mass_star)*Fstar;
+-end
++assert(isfinite(mass_star) && mass_star>0, 'Positive mass correction failed.');
++info.mass_scale = mass0/mass_star;
++Fstar = info.mass_scale*Fstar;
+ rho_new = utils.vint(Fstar, w);
++assert(all(isfinite(rho_new)) && all(rho_new>=0), 'Density correction failed.');
+ gc_new = (Fstar - ones(grid.Nv,1)*(rho_new/V))/epsv;
+-gc_ex = [gc_new(:,1), gc_new, gc_new(:,end)];
++gc_ex = [gc_new(reflection,1), gc_new, gc_new(reflection,end)];
+ g_edge_new = 0.5*(gc_ex(:,1:end-1) + gc_ex(:,2:end));
+ % remove tiny residual velocity mean on interfaces
+ mean_g = utils.vint(g_edge_new, w)/V;
+ g_edge_new = g_edge_new - ones(grid.Nv,1)*mean_g;
++% Keep the old output exactly when its actual reconstructed f is nonnegative.
++F_return = ones(grid.Nv,1)*(rho_new/V) ...
++    + 0.5*epsv*(g_edge_new(:,1:end-1)+g_edge_new(:,2:end));
++info.min_f_before_eta = min(F_return,[],'all');
++if any(F_return(:)<0)
++    q_edge = min([rho_new(1),rho_new],[rho_new,rho_new(end)])/V;
++    min_g = min(g_edge_new,[],1);
++    eta_edge = ones(1,Nx+1);
++    negative = min_g<0;
++    eta_edge(negative) = min(1,q_edge(negative)./(-epsv*min_g(negative)));
++    g_edge_new = g_edge_new .* eta_edge;
++    info.eta_triggered = true;
++    info.eta_edges = sum(eta_edge<1);
++    info.eta_min = min(eta_edge);
++end
+ end
+diff --git a/AP_bacteria_code_v4_paper_response/+model/upwind_g_transport.m b/AP_bacteria_code_v4_paper_response/+model/upwind_g_transport.m
+index a875ba6..832493e 100644
+--- a/AP_bacteria_code_v4_paper_response/+model/upwind_g_transport.m
++++ b/AP_bacteria_code_v4_paper_response/+model/upwind_g_transport.m
+@@ -1,7 +1,8 @@
+ function Mres = upwind_g_transport(g, grid)
+ %UPWIND_G_TRANSPORT Compute (I-Pi_h)(v d_x g) on the g interface grid.
+ dx = grid.dx; v = grid.v;
+-gex = [g(:,2), g, g(:,end-1)];
++reflection = model.reflection_indices(grid);
++gex = [g(reflection,2), g, g(reflection,end-1)];
+ gL = gex(:,1:end-2);
+ gC = gex(:,2:end-1);
+ gR = gex(:,3:end);
+diff --git a/AP_bacteria_code_v4_paper_response/+src/step_kinetic_AP.m b/AP_bacteria_code_v4_paper_response/+src/step_kinetic_AP.m
+index 2fef529..cab819e 100644
+--- a/AP_bacteria_code_v4_paper_response/+src/step_kinetic_AP.m
++++ b/AP_bacteria_code_v4_paper_response/+src/step_kinetic_AP.m
+@@ -1,7 +1,9 @@
+-function Unew = step_kinetic_AP(U, grid, p)
++function [Unew, diagnostic] = step_kinetic_AP(U, grid, p)
+ %STEP_KINETIC_AP One step of the decoupled AP micro-macro scheme with exact decomposition of T=1+eps*psi.
+ rho = U.rho; S = U.S; N = U.N; g = U.g;
+ dt = p.dt; epsv = p.eps;
++reflection = model.reflection_indices(grid);
++g(:,[1,end]) = 0.5*(g(:,[1,end])+g(reflection,[1,end]));
+ 
+ R = model.compute_response(rho, S, N, grid, p);
+ Mres = model.upwind_g_transport(g, grid);
+@@ -10,6 +12,7 @@
+ lam = dt/(epsv^2 + dt);
+ 
+ gtilde = (epsv^2*g - epsv*dt*Mres + dt*Kold - epsv*dt*nonlin)/(epsv^2 + dt);
++gtilde(:,[1,end]) = 0.5*(gtilde(:,[1,end])+gtilde(reflection,[1,end]));
+ 
+ D = utils.vint(grid.v.^2, grid.w)/grid.V;
+ bS = R.BS/grid.V;
+@@ -21,7 +24,9 @@
+ 
+ A = model.build_rho_matrix(grid, dt, a, cS, cN, R.uS, R.uN);
+ % known RHS
+-v_dgtilde = utils.vint(grid.v .* ((gtilde(:,2:end)-gtilde(:,1:end-1))/grid.dx), grid.w);
++Jtilde_raw = utils.vint(grid.v.*gtilde,grid.w);
++Jtilde = Jtilde_raw; Jtilde([1,end]) = 0;
++v_dgtilde = diff(Jtilde)/grid.dx;
+ Fdiff_old = a * utils.grad_cell_to_edge(rho, grid.dx);
+ rhoS_old = model.upwind_rho_edges(rho, R.uS);
+ rhoN_old = model.upwind_rho_edges(rho, R.uN);
+@@ -34,9 +39,30 @@
+ rho_new = (A\rhs).';
+ Knew = model.K_equilibrium(rho_new, R, grid);
+ g_new = gtilde + lam*(Knew-Kold);
++% Close the provisional boundary before testing the reconstructed distribution.
++g_new(:,[1,end]) = 0.5*(g_new(:,[1,end])+g_new(reflection,[1,end]));
++mass_before_limiter = sum(rho_new)*grid.dx;
++rho_after_density = rho_new;
+ 
+ if p.use_limiter
+-    [rho_new, g_new] = model.positivity_limiter(rho_new, g_new, grid, p);
++    [rho_new, g_new, limiter_info] = model.positivity_limiter(rho_new, g_new, grid, p);
++else
++    limiter_info = struct('theta_cells',0,'theta_min',1,'negative_density_cells',0, ...
++        'eta_triggered',false,'eta_edges',0,'eta_min',1,'min_f_before_eta',NaN, ...
++        'early_return',false,'correction_applied',false,'mass_scale',1);
++end
++
++if nargout>1
++    % These are the fluxes used in THIS density solve, before post-processing.
++    Fnew = a*utils.grad_cell_to_edge(rho_after_density,grid.dx) ...
++        + cS.*model.upwind_rho_edges(rho_after_density,R.uS) ...
++        + cN.*model.upwind_rho_edges(rho_after_density,R.uN);
++    Jused = Jtilde-Fnew+Fdiff_old+FoldS+FoldN;
++    diagnostic = struct('mass_before',sum(rho)*grid.dx, ...
++        'mass_after_density',mass_before_limiter,'mass_after',sum(rho_new)*grid.dx, ...
++        'Jtilde_raw_boundary',Jtilde_raw([1,end]),'Jused_boundary',Jused([1,end]), ...
++        'mass_residual',mass_before_limiter-sum(rho)*grid.dx-dt*(Jused(1)-Jused(end)), ...
++        'limiter_mass_change',sum(rho_new)*grid.dx-mass_before_limiter,'limiter',limiter_info);
+ end
+ 
+ % Update chemicals. Use rho_new by default. This is slightly more stable for long runs.
+diff --git a/manuscript/.DS_Store b/manuscript/.DS_Store
+index 96793f87ecfffa6c9ee34097d3e369d25b47005d..e77d7e8d35e83e47a1606d973b1e63a7f7479308 100644
+GIT binary patch
+delta 3247
+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
+B&U63(
+
+delta 311
+zcmZpfz}Qlt!oa}5=v10w$iQF#WO4v8h!)@h5^W3&3Lu(cqKdYtHjripN-!`OF_;0>
+zm;h;`iG|9O4P01Q8G({4lWny$cvx83*g4oaxH)2jGd31Fvu|eSVBuht*qo~Mka_Z6
+z#ZqAd9R(v(!&)7MYC}UaLmdS(WAn+bO4gI5Ex0C&=nHKYwg_ULENmgNS=qpwd1FZ*
+z3!~6v9tC;Eos&;$6>3OUR~wp}1C21TgcxCB0y4s~ww9AaR9W9TC_XzUH!r_?a=f-Y
+zW6$Pi3K5)}^^6=CH<om<NV0<b0`wm@kZ?uz<Ho}G%#-<DbU8u(H~_>9lWlmUCnvbD
+Tb6S9SATT+dr+4!|6?SF-c|Jc!
+
