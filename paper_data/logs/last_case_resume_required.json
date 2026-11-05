@@ -1,6 +1,0 @@
-{
-  "case": "exp_a0p0001_kinetic_e0p01",
-  "checkpoint_n0": 25000,
-  "cause": "disk-full status write at about t29; numerical states remained valid",
-  "actual_solver_unchanged": true
-}
